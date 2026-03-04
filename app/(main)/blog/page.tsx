@@ -19,10 +19,9 @@ function formatDate(dateStr: string): string {
     .toUpperCase()
 }
 
-/* ── YouTube video IDs ── */
-/* Replace these with the actual video IDs from https://www.youtube.com/@globalapheresis */
-const EXPLAINER_VIDEO_ID = "REPLACE_EXPLAINER_ID"
-const TESTIMONIAL_VIDEO_ID = "REPLACE_TESTIMONIAL_ID"
+/* ── YouTube video IDs from @globalapheresis ── */
+const EXPLAINER_VIDEO_ID = "vUKDFCAfU4k"   // "What is Therapeutic Plasma Exchange? TPE Explained"
+const TESTIMONIAL_VIDEO_ID = "w5zTw6I-u3U" // "75 & Stronger Than Ever — 3 Patients Share Their TPE Transformations"
 
 export default function BlogPage() {
   const posts = getAllPosts()
