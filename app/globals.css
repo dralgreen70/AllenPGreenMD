@@ -472,6 +472,27 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .lon-findings-list li::before { content: ''; position: absolute; left: 0; top: 0.55rem; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
 .lon-results-grid { grid-template-columns: repeat(3, 1fr); }
 
+/* ===== AUTOIMMUNE PAGE ===== */
+.auto-category-label { display: flex; align-items: center; gap: 0.75rem; margin: 2.5rem 0 1.25rem; }
+.auto-category-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.1em; color: white; background: var(--accent); padding: 0.3rem 0.75rem; border-radius: 3px; }
+.auto-category-desc { font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 500; color: var(--text-secondary); }
+.auto-conditions-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+.auto-condition-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; transition: all 0.4s; }
+.auto-condition-card:hover { border-color: rgba(8,145,178,0.3); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.04); }
+.auto-condition-card h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.6rem; }
+.auto-condition-card p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7; }
+.auto-condition-category { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; font-weight: 500; letter-spacing: 0.04em; color: var(--accent); margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--border); }
+.auto-condition-note { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; margin-top: 0.5rem; font-style: italic; }
+
+/* ===== DETOX PAGE ===== */
+.detox-toxin-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
+.detox-toxin-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; transition: all 0.4s; }
+.detox-toxin-card:hover { border-color: rgba(8,145,178,0.3); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.04); }
+.detox-toxin-icon { width: 36px; height: 36px; color: var(--accent); margin-bottom: 1rem; }
+.detox-toxin-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--text); margin-bottom: 0.25rem; }
+.detox-toxin-aka { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; font-weight: 500; letter-spacing: 0.04em; color: var(--accent); margin-bottom: 0.75rem; }
+.detox-toxin-card p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7; }
+
 /* ===== TOUCH ===== */
 @media (hover: none) { .benefit-card:hover, .blog-card:hover, .pub-item:hover, .process-step:hover, .condition-card:hover, .credential-card:hover, .tpe-expect-card:hover { transform: none !important; box-shadow: none !important; } }
 
@@ -514,6 +535,8 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .alz-results-grid { grid-template-columns: repeat(2, 1fr); }
   .alz-protocol-grid { grid-template-columns: repeat(2, 1fr); }
   .lon-results-grid { grid-template-columns: repeat(3, 1fr); }
+  .auto-conditions-grid { grid-template-columns: repeat(2, 1fr); }
+  .detox-toxin-grid { grid-template-columns: repeat(2, 1fr); }
   .site-footer { padding: 3.5rem 2rem 0; }
   .footer-columns { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
   .footer-col-contact { grid-column: 1 / -1; }
@@ -623,6 +646,12 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .alz-protocol-card { padding: 1.5rem 1.25rem; }
   .alz-protocol-card:hover { transform: none; }
   .lon-results-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .auto-conditions-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .auto-condition-card { padding: 1.5rem 1.25rem; }
+  .auto-condition-card:hover { transform: none; box-shadow: none; }
+  .detox-toxin-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+  .detox-toxin-card { padding: 1.5rem 1.25rem; }
+  .detox-toxin-card:hover { transform: none; box-shadow: none; }
 }
 
 /* ===== BLOG POST PAGE ===== */
