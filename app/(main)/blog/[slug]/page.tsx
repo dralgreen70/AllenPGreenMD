@@ -55,28 +55,12 @@ export default async function BlogPostPage({
   const htmlContent = markdownToHtml(post.content)
   const relatedPosts = getRelatedPosts(slug, 3)
 
-  const shareUrl = `https://allenpgreenmd.com/journal/${slug}`
+  const shareUrl = `https://allenpgreenmd.com/blog/${slug}`
   const shareTitle = encodeURIComponent(post.frontmatter.title)
   const shareText = encodeURIComponent(post.frontmatter.excerpt)
 
   return (
     <main className="post-page">
-      {/* Navigation */}
-      <nav className="post-nav">
-        <div className="post-nav-inner">
-          <Link href="/" className="post-nav-brand">
-            <span className="post-nav-mark">AG</span>
-            Dr. Allen P. <span>Green</span>, MD
-          </Link>
-          <Link href="/#journal" className="post-nav-back">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M19 12H5" /><polyline points="12 19 5 12 12 5" />
-            </svg>
-            Back to Journal
-          </Link>
-        </div>
-      </nav>
-
       {/* Hero */}
       <header className="post-hero">
         <div className="post-hero-inner">
@@ -173,7 +157,7 @@ export default async function BlogPostPage({
               {relatedPosts.map((rp) => (
                 <Link
                   key={rp.slug}
-                  href={`/journal/${rp.slug}`}
+                  href={`/blog/${rp.slug}`}
                   className="post-related-card"
                 >
                   <span className="post-related-date">
@@ -191,9 +175,9 @@ export default async function BlogPostPage({
         </section>
       )}
 
-      {/* Back to top */}
+      {/* Back to all posts */}
       <div className="post-footer">
-        <Link href="/#journal" className="btn btn-outline">
+        <Link href="/blog" className="btn btn-outline">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M19 12H5" /><polyline points="12 19 5 12 12 5" />
           </svg>

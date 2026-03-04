@@ -1,10 +1,12 @@
 "use client"
 
 import { useState, useEffect, useCallback } from "react"
+import Link from "next/link"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -21,7 +23,15 @@ export function Navbar() {
 
   const closeNav = useCallback(() => {
     setMenuOpen(false)
+    setDropdownOpen(false)
     document.body.style.overflow = ""
+  }, [])
+
+  const toggleDropdown = useCallback((e: React.MouseEvent) => {
+    if (window.innerWidth <= 768) {
+      e.preventDefault()
+      setDropdownOpen((prev) => !prev)
+    }
   }, [])
 
   return (
@@ -32,40 +42,63 @@ export function Navbar() {
         style={{ display: "block" }}
       />
       <nav className={`site-nav${scrolled ? " scrolled" : ""}`}>
-        <a href="#" className="nav-brand">
+        <Link href="/" className="nav-brand" onClick={closeNav}>
           <span className="nav-mark">AG</span>
           <span className="nav-brand-text">
             Dr. Allen P. <span>Green</span>, MD
           </span>
-        </a>
+        </Link>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>
           <li>
-            <a href="#about" onClick={closeNav}>
-              About
-            </a>
+            <Link href="/about" onClick={closeNav}>
+              Dr. Green
+            </Link>
           </li>
           <li>
-            <a href="#plex" onClick={closeNav}>
+            <Link href="/tpe" onClick={closeNav}>
               What is TPE?
+            </Link>
+          </li>
+          <li className={`nav-dropdown${dropdownOpen ? " open" : ""}`}>
+            <a href="#" className="nav-dropdown-trigger" onClick={toggleDropdown}>
+              Applications
+              <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M1 1l4 4 4-4" />
+              </svg>
             </a>
+            <div className="nav-dropdown-menu">
+              <Link href="/tpe-alzheimers" onClick={closeNav}>
+                Alzheimer&apos;s &amp; Cognitive Decline
+              </Link>
+              <Link href="/tpe-longevity" onClick={closeNav}>
+                Longevity &amp; Biological Age
+              </Link>
+              <Link href="/tpe-autoimmune" onClick={closeNav}>
+                Autoimmune Conditions
+              </Link>
+              <Link href="/tpe-detox" onClick={closeNav}>
+                Detoxification &amp; Environmental Toxins
+              </Link>
+            </div>
           </li>
           <li>
-            <a href="#process" onClick={closeNav}>
-              The Process
-            </a>
-          </li>
-          <li>
-            <a href="#research" onClick={closeNav}>
+            <Link href="/research" onClick={closeNav}>
               Research
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#journal" onClick={closeNav}>
+            <Link href="/blog" onClick={closeNav}>
               Journal
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="nav-cta-btn" onClick={closeNav}>
+            <a
+              href="https://www.globalapheresis.com/free-consultation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-cta-btn"
+              onClick={closeNav}
+            >
               Discovery Call
             </a>
           </li>

@@ -33,7 +33,7 @@ export function BlogSection() {
               <span className="serif-italic accent-text">Insights</span>
             </h2>
           </div>
-          <a href="/journal" className="btn btn-outline reveal">
+          <a href="/blog" className="btn btn-outline reveal">
             View All Posts <span className="arrow">&rarr;</span>
           </a>
         </div>
@@ -42,7 +42,7 @@ export function BlogSection() {
             const isExternal = post.frontmatter.external
             const href = isExternal
               ? post.frontmatter.externalUrl
-              : `/journal/${post.slug}`
+              : `/blog/${post.slug}`
 
             return (
               <a

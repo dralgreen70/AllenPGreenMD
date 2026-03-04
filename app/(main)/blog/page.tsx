@@ -19,36 +19,11 @@ function formatDate(dateStr: string): string {
     .toUpperCase()
 }
 
-export default function JournalPage() {
+export default function BlogPage() {
   const posts = getAllPosts()
 
   return (
     <main className="journal-page">
-      <nav className="post-nav">
-        <div className="post-nav-inner">
-          <Link href="/" className="post-nav-brand">
-            <span className="post-nav-mark">AG</span>
-            Dr. Allen P. <span>Green</span>, MD
-          </Link>
-          <Link href="/" className="post-nav-back">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M19 12H5" />
-              <polyline points="12 19 5 12 12 5" />
-            </svg>
-            Home
-          </Link>
-        </div>
-      </nav>
-
       <header className="journal-header">
         <div className="journal-header-inner">
           <div className="section-label-line" style={{ justifyContent: "center" }}>
@@ -72,7 +47,7 @@ export default function JournalPage() {
               const isExternal = post.frontmatter.external
               const href = isExternal
                 ? post.frontmatter.externalUrl
-                : `/journal/${post.slug}`
+                : `/blog/${post.slug}`
 
               return (
                 <a
@@ -186,25 +161,6 @@ export default function JournalPage() {
           </div>
         </div>
       </section>
-
-      <div className="post-footer">
-        <Link href="/" className="btn btn-outline">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M19 12H5" />
-            <polyline points="12 19 5 12 12 5" />
-          </svg>
-          Back to Home
-        </Link>
-      </div>
     </main>
   )
 }
