@@ -70,6 +70,7 @@ export default async function BlogPostPage({
                 ? "Treatment room at Global Apheresis, Mill Valley, California — apheresis chair and machine with waterfront views of Marin."
                 : post.frontmatter.title
             }
+            style={post.frontmatter.imagePosition ? { objectPosition: post.frontmatter.imagePosition } : undefined}
           />
         </div>
       )}

@@ -7,6 +7,7 @@ export interface PostFrontmatter {
   author: string
   excerpt: string
   image: string
+  imagePosition?: string
   external?: boolean
   externalUrl?: string
 }
@@ -68,6 +69,7 @@ function parseFrontmatter(fileContent: string): {
       author: (frontmatter.author as string) || "Dr. Allen P. Green",
       excerpt: (frontmatter.excerpt as string) || "",
       image: (frontmatter.image as string) || "",
+      imagePosition: (frontmatter.imagePosition as string) || "",
       external: frontmatter.external === true,
       externalUrl: (frontmatter.externalUrl as string) || "",
     },

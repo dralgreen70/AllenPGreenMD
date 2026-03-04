@@ -100,7 +100,7 @@ export default function BlogPage() {
                             width: "100%",
                             height: "100%",
                             objectFit: "cover",
-                            objectPosition: "center 20%",
+                            objectPosition: post.frontmatter.imagePosition || "center 20%",
                             display: "block",
                           }}
                         />
