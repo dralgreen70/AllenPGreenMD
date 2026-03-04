@@ -61,8 +61,23 @@ export default async function BlogPostPage({
 
   return (
     <main className="post-page">
+      {/* Hero Image */}
+      {post.frontmatter.image && (
+        <div className="post-hero-image">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={post.frontmatter.image}
+            alt={
+              slug === "goop-plasma-exchange"
+                ? "Treatment room at Global Apheresis, Mill Valley, California — apheresis chair and machine with waterfront views of Marin."
+                : post.frontmatter.title
+            }
+          />
+        </div>
+      )}
+
       {/* Hero */}
-      <header className="post-hero">
+      <header className="post-hero" style={post.frontmatter.image ? { paddingTop: "3rem" } : undefined}>
         <div className="post-hero-inner">
           <div className="post-hero-meta">
             <span className="post-hero-date">{formatDate(post.frontmatter.date)}</span>
