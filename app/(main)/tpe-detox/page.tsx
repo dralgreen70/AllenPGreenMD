@@ -20,31 +20,26 @@ const toxinCategories = [
     name: "PFAS",
     aka: '"Forever Chemicals"',
     desc: "Per- and polyfluoroalkyl substances found in non-stick cookware, water-resistant clothing, food packaging, and contaminated drinking water. PFAS have half-lives of 3\u20138+ years in the human body and are found in the blood of nearly all Americans tested.",
-    icon: '<path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z" /><path d="M12.56 14.3c1.1 0 2-.92 2-2.02 0-.58-.29-1.13-.86-1.6S12.56 9.6 12.4 8.8c-.15.8-.58 1.47-1.15 1.88s-.86.99-.86 1.6c0 1.1.9 2.02 2 2.02z" /><path d="M17 18.7c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S17.29 9.15 17 7.7c-.29 1.45-1.14 2.84-2.29 3.76S13 13.5 13 14.65c0 2.22 1.8 4.05 4 4.05z" />',
   },
   {
     name: "Persistent Organic Pollutants (POPs)",
     aka: "PCBs, Dioxins, Pesticides",
     desc: "PCBs, dioxins, organochlorine pesticides, and flame retardants that persist in the environment and bioaccumulate through the food chain. Many are lipophilic \u2014 stored in fat tissue \u2014 but they also circulate in the blood bound to plasma proteins, which is how TPE can remove them.",
-    icon: '<path d="M2 20a2 2 0 002 2h16a2 2 0 002-2V8l-7 5V8l-7 5V4a2 2 0 00-2-2H4a2 2 0 00-2 2z" />',
   },
   {
     name: "Heavy Metals",
     aka: "Mercury, Lead, Cadmium, Arsenic",
     desc: "Mercury, lead, cadmium, and arsenic from dietary sources, dental materials, occupational exposure, and environmental contamination. These bind to plasma proteins and accumulate in tissues over time.",
-    icon: '<circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /><path d="M12 2v4" /><path d="M12 18v4" /><path d="M2 12h4" /><path d="M18 12h4" />',
   },
   {
     name: "Endocrine Disruptors",
     aka: "BPA, Phthalates, Parabens",
     desc: "BPA, phthalates, parabens, and other synthetic compounds that interfere with hormonal signaling. Found in plastics, personal care products, and food packaging.",
-    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M12 8v4" /><path d="M12 16h.01" />',
   },
   {
     name: "Inflammatory Byproducts",
     aka: "AGEs, Oxidized Lipids",
     desc: "Advanced glycation end products (AGEs), oxidized lipids, and other metabolic waste products that accumulate with age and contribute to chronic inflammation.",
-    icon: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />',
   },
 ]
 
@@ -190,17 +185,6 @@ export default function TpeDetoxPage() {
                   key={i}
                   className={`detox-toxin-card reveal reveal-d${Math.min(i + 1, 5)}`}
                 >
-                  <div className="detox-toxin-icon">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      dangerouslySetInnerHTML={{ __html: t.icon }}
-                    />
-                  </div>
                   <h3>{t.name}</h3>
                   <div className="detox-toxin-aka">{t.aka}</div>
                   <p>{t.desc}</p>
