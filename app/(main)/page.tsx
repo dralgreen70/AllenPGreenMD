@@ -2,10 +2,8 @@ import { HeroSection } from "@/components/hero-section"
 import { Ticker } from "@/components/ticker"
 import { PlexSection } from "@/components/plex-section"
 import { BenefitsSection } from "@/components/benefits-section"
-import { ProcessSection } from "@/components/process-section"
+import { ConditionsPreview } from "@/components/conditions-preview"
 import { AboutSection } from "@/components/about-section"
-import { TimelineSection } from "@/components/timeline-section"
-import { PublicationsSection } from "@/components/publications-section"
 import { BlogSection } from "@/components/blog-section"
 import { CTASection } from "@/components/cta-section"
 
@@ -16,10 +14,8 @@ export default function Home() {
       <Ticker />
       <PlexSection />
       <BenefitsSection />
-      <ProcessSection />
+      <ConditionsPreview />
       <AboutSection />
-      <TimelineSection />
-      <PublicationsSection />
       <BlogSection />
       <CTASection />
     </>

@@ -123,43 +123,22 @@ export function AboutSection() {
               }}
             >
               {
-                '"I envisioned becoming a \'super personal trainer\' who could optimize people\'s lives from every angle. This vision led me to medical school, and ultimately to therapeutic plasma exchange."'
+                "\u201CI\u2019ve performed over 500 therapeutic plasma exchange procedures. Every one has deepened my understanding of what this treatment can do.\u201D"
               }
             </div>
 
             <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7 }}>
-              {
-                "Dr. Green's path to medicine was unconventional. After serving in the Active Duty Air Force as a squadron physical training leader and working as a personal trainer, he realized he wanted to address health holistically. This led him to medical school and ultimately to specializing in clinical pathology and therapeutic plasma exchange."
-              }
-            </p>
-
-            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
-              His fascination with PLEX began during medical school when he
-              discovered its profound applications for longevity and{" "}
-              {"Alzheimer's"} disease treatment. He completed his residency at
-              UT Southwestern under Dr. Ravi Sarode, one of the {"world's"}{" "}
-              foremost experts in apheresis and transfusion medicine, and
-              established a professional relationship with pioneer Dr. Dobri
-              Kiprov.
-            </p>
-
-            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
-              With over 500 TPE procedures focused on biological age reversal
-              and prevention of age-related diseases, Dr. Green now serves as
-              Associate Medical Director at Global Apheresis, where he leads
-              clinical operations and research initiatives. He also serves as
-              medical director for Global Apheresis affiliate partnerships,
-              expanding access to evidence-based therapeutic apheresis nationwide
-              through clinical training, protocol development, and quality
-              oversight.
+              Board-certified in Clinical Pathology. Associate Medical Director
+              at Global Apheresis. Trained under Dr. Dobri Kiprov, one of the
+              physicians who established TPE as a clinical discipline.
             </p>
 
             <a
-              href="#timeline"
+              href="/about"
               className="btn btn-outline"
               style={{ marginTop: "2rem" }}
             >
-              View Full Journey <span className="arrow">&rarr;</span>
+              Read full bio <span className="arrow">&rarr;</span>
             </a>
           </div>
         </div>
