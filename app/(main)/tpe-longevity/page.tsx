@@ -284,10 +284,13 @@ export default function TpeLongevityPage() {
               </p>
               <p className="body-lg" style={{ marginTop: "1rem" }}>
                 42 healthy adults over age 50 were randomized to different TPE
-                regimens (bi-weekly TPE, bi-weekly TPE with intravenous
-                immunoglobulin, monthly TPE) or placebo. Treatments were
-                single-blinded. The study tracked changes across multiple
-                biological aging clocks and molecular systems.
+                regimens or placebo. The regimens included TPE alone and TPE
+                combined with intravenous immunoglobulin (IVIG), administered
+                in paired sessions &mdash; two treatments in a single week,
+                followed by a three-week break, repeated over three cycles for
+                a total of six procedures. A monthly TPE arm was also included.
+                Treatments were single-blinded. The study tracked changes
+                across multiple biological aging clocks and molecular systems.
               </p>
             </div>
 
@@ -318,8 +321,8 @@ export default function TpeLongevityPage() {
                 biological systems simultaneously. The study was conducted at
                 the Buck Institute, one of the world&apos;s leading aging
                 research institutions, lending significant credibility to the
-                findings. Bi-weekly TPE with IVIG showed the most robust
-                rejuvenation response.
+                findings. TPE with IVIG in the paired-session protocol showed the
+                most robust rejuvenation response.
               </p>
             </div>
 
