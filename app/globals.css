@@ -746,6 +746,19 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .post-author-bio-avatar { width: 56px; height: 56px; border-radius: 50%; background: var(--bg-dark); color: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; flex-shrink: 0; }
 .post-author-bio-text h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
 .post-author-bio-text p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+.post-author-bio-links { display: flex; gap: 1.5rem; margin-top: 0.75rem; }
+.post-author-bio-links a { font-size: 0.82rem; font-weight: 600; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s; }
+.post-author-bio-links a:hover { color: var(--accent-light); }
+
+/* References */
+.post-references-section { background: var(--bg); border-top: 1px solid var(--border); }
+.post-references-inner { max-width: 680px; margin: 0 auto; padding: 2.5rem 2rem; }
+.post-references-inner h2 { font-family: 'Instrument Serif', serif; font-size: 1.25rem; font-weight: 400; color: var(--text); margin-bottom: 1rem; }
+.post-references-inner ul { list-style: none; padding: 0; margin: 0; }
+.post-references-inner li { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; padding: 0.35rem 0; border-bottom: 1px solid var(--border-light, rgba(0,0,0,0.05)); }
+.post-references-inner li:last-child { border-bottom: none; }
+.post-references-inner a { color: var(--accent); text-decoration: none; }
+.post-references-inner a:hover { text-decoration: underline; }
 
 /* Related Posts */
 .post-related { background: var(--bg-alt); border-top: 1px solid var(--border); }
@@ -777,6 +790,8 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .post-content-wrapper { padding: 2.5rem 1.5rem; }
   .post-related-grid { grid-template-columns: 1fr; }
   .post-author-bio-inner { flex-direction: column; align-items: center; text-align: center; }
+  .post-author-bio-links { justify-content: center; }
+  .post-references-inner { padding: 2rem 1.5rem; }
   .post-share-inner { padding: 2rem 1.5rem; }
   .post-related-inner { padding: 3rem 1.5rem; }
   .journal-header { padding: 5rem 1.5rem 2.5rem; }

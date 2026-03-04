@@ -50,7 +50,13 @@ export default async function BlogPostPage({
     notFound()
   }
 
-  const htmlContent = markdownToHtml(post.content)
+  const fullHtml = markdownToHtml(post.content)
+
+  // Split references out of the post body so they can be rendered separately
+  const refSplit = fullHtml.split(/<h2>References<\/h2>/)
+  const htmlContent = refSplit[0]
+  const referencesHtml = refSplit.length > 1 ? refSplit[1] : ""
+
   const relatedPosts = getRelatedPosts(slug, 3)
 
   const shareUrl = `https://allenpgreenmd.com/blog/${slug}`
@@ -103,7 +109,49 @@ export default async function BlogPostPage({
         />
       </article>
 
-      {/* Share */}
+      {/* 1. CTA */}
+      <section className="post-cta-section">
+        <div className="post-cta-inner">
+          <h3 className="post-cta-heading">Have questions about TPE?</h3>
+          <p className="post-cta-text">
+            Schedule a complimentary discovery call to discuss your goals and
+            whether therapeutic plasma exchange may be appropriate for you.
+          </p>
+          <a
+            href="https://globalapheresis.com/free-consultation"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Schedule a Discovery Call
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      {/* 2. References (if present) */}
+      {referencesHtml && (
+        <section className="post-references-section">
+          <div className="post-references-inner">
+            <h2>References</h2>
+            <div dangerouslySetInnerHTML={{ __html: referencesHtml }} />
+          </div>
+        </section>
+      )}
+
+      {/* 3. Share */}
       <section className="post-share-section">
         <div className="post-share-inner">
           <h3 className="post-share-heading">Share this article</h3>
@@ -147,22 +195,35 @@ export default async function BlogPostPage({
         </div>
       </section>
 
-      {/* Author Bio */}
+      {/* 4. Author Bio */}
       <section className="post-author-bio">
         <div className="post-author-bio-inner">
           <div className="post-author-bio-avatar">AG</div>
           <div className="post-author-bio-text">
-            <h3>Dr. Allen P. Green, MD</h3>
+            <h3>About Dr. Allen P. Green</h3>
             <p>
-              Associate Medical Director at Global Apheresis. Board-Certified
-              Clinical Pathologist specializing in therapeutic apheresis for
-              longevity, health optimization, and preventative medicine.
+              Dr. Allen P. Green is a Board-Certified Clinical Pathologist
+              specializing in therapeutic plasma exchange for longevity,
+              Alzheimer&rsquo;s disease, autoimmune conditions, and environmental
+              detoxification. Trained at UT Southwestern Medical Center under
+              Dr. Ravi Sarode, Dr. Green has performed over 500 TPE procedures
+              and has published multiple peer-reviewed papers in apheresis and
+              transfusion medicine. He serves as Associate Medical Director at
+              Global Apheresis in Mill Valley, California.
             </p>
+            <div className="post-author-bio-links">
+              <Link href="/about">
+                Learn More About Dr. Green <span className="arrow">&rarr;</span>
+              </Link>
+              <Link href="/research">
+                View Research <span className="arrow">&rarr;</span>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Related Posts */}
+      {/* 5. Related Posts */}
       {relatedPosts.length > 0 && (
         <section className="post-related">
           <div className="post-related-inner">
@@ -189,39 +250,7 @@ export default async function BlogPostPage({
         </section>
       )}
 
-      {/* Post CTA */}
-      <section className="post-cta-section">
-        <div className="post-cta-inner">
-          <h3 className="post-cta-heading">Have questions about TPE?</h3>
-          <p className="post-cta-text">
-            Schedule a complimentary discovery call to discuss your goals and
-            whether therapeutic plasma exchange may be appropriate for you.
-          </p>
-          <a
-            href="https://globalapheresis.com/free-consultation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Schedule a Discovery Call
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
-            </svg>
-          </a>
-        </div>
-      </section>
-
-      {/* Back to Journal */}
+      {/* 6. Back to Journal */}
       <div className="post-footer">
         <Link href="/blog" className="btn btn-outline">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
