@@ -84,38 +84,12 @@ export default function BlogPage() {
                 gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
               }}
             >
-              {posts.map((post, i) => {
-                const isExternal = post.frontmatter.external
-                const href = isExternal
-                  ? post.frontmatter.externalUrl
-                  : `/blog/${post.slug}`
-
-                return (
+              {posts.map((post, i) => (
                   <a
                     key={post.slug}
-                    href={href}
+                    href={`/blog/${post.slug}`}
                     className={`blog-card reveal reveal-d${(i % 3) + 1}`}
-                    target={isExternal ? "_blank" : undefined}
-                    rel={isExternal ? "noopener noreferrer" : undefined}
                   >
-                    {isExternal && (
-                      <div className="blog-card-external-badge">
-                        <svg
-                          width="14"
-                          height="14"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                          <polyline points="15 3 21 3 21 9" />
-                          <line x1="10" y1="14" x2="21" y2="3" />
-                        </svg>
-                      </div>
-                    )}
                     <div className="blog-card-img">
                       {post.frontmatter.image ? (
                         // eslint-disable-next-line @next/next/no-img-element
@@ -171,34 +145,11 @@ export default function BlogPage() {
                       <h3>{post.frontmatter.title}</h3>
                       <p>{post.frontmatter.excerpt}</p>
                       <span className="blog-card-link">
-                        {isExternal ? (
-                          <>
-                            {"Read on DrPlexMD.com "}
-                            <svg
-                              width="12"
-                              height="12"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            >
-                              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                              <polyline points="15 3 21 3 21 9" />
-                              <line x1="10" y1="14" x2="21" y2="3" />
-                            </svg>
-                          </>
-                        ) : (
-                          <>
-                            Read More <span className="arrow">&rarr;</span>
-                          </>
-                        )}
+                        Read More <span className="arrow">&rarr;</span>
                       </span>
                     </div>
                   </a>
-                )
-              })}
+              ))}
             </div>
           )}
         </div>

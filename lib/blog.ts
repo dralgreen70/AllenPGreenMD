@@ -142,10 +142,15 @@ export function markdownToHtml(markdown: string): string {
   html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
   html = html.replace(/\*(.+?)\*/g, "<em>$1</em>")
 
-  // Links
+  // Links — internal links (starting with /) stay in same tab; external links open in new tab
   html = html.replace(
     /\[([^\]]+)\]\(([^)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+    (_match: string, text: string, url: string) => {
+      if (url.startsWith("/")) {
+        return `<a href="${url}">${text}</a>`
+      }
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
+    }
   )
 
   // Images

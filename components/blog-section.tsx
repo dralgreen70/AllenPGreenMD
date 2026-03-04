@@ -19,9 +19,7 @@ function formatDate(dateStr: string): string {
 
 export function BlogSection() {
   const allPosts = getAllPosts()
-  // Show only internal posts on homepage (not drplexmd.com external links)
-  const internalPosts = allPosts.filter((p) => !p.frontmatter.external && !p.frontmatter.externalUrl)
-  const posts = internalPosts.slice(0, 3)
+  const posts = allPosts.slice(0, 3)
 
   return (
     <section className="blog-section site-section" id="journal">

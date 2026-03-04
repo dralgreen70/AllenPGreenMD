@@ -5,9 +5,7 @@ import Link from "next/link"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
-  return posts
-    .filter((p) => !p.frontmatter.external)
-    .map((p) => ({ slug: p.slug }))
+  return posts.map((p) => ({ slug: p.slug }))
 }
 
 export async function generateMetadata({
@@ -48,7 +46,7 @@ export default async function BlogPostPage({
   const { slug } = await params
   const post = getPostBySlug(slug)
 
-  if (!post || post.frontmatter.external) {
+  if (!post) {
     notFound()
   }
 
