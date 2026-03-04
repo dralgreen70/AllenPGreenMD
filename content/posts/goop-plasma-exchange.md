@@ -32,6 +32,8 @@ A few things I want prospective patients to understand:
 
 **The procedure is well-tolerated, but it is a medical procedure.** Sessions typically run around two hours. Most patients tolerate TPE without significant discomfort. Side effects are generally mild and transient. But this is medicine, not a spa treatment — the right clinical environment matters.
 
+> For a deeper look at the science behind TPE and environmental toxin removal — including mechanisms, what a protocol looks like, and who is a candidate — see the full overview of [TPE for Detoxification & Environmental Toxins](/tpe-detox).
+
 ## Where I practice
 
 I serve as Associate Medical Director at Global Apheresis in Mill Valley, California, working alongside Dr. Dobri Kiprov — one of the physicians who established therapeutic plasma exchange in the United States and who has overseen more than 15,000 treatments over his career. If you're exploring TPE for environmental detoxification, longevity, Alzheimer's risk, or autoimmune conditions, I'd encourage you to start with a consultation and an honest clinical conversation.
