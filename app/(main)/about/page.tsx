@@ -122,7 +122,7 @@ export default function AboutPage() {
                 <span className="serif-italic accent-text">Green</span>
               </h1>
               <p className="about-hero-tagline reveal">
-                Board-Certified Physician.{" "}
+                Board-Certified Clinical Pathologist.{" "}
                 <span className="serif-italic">
                   Therapeutic Plasma Exchange Specialist.
                 </span>
