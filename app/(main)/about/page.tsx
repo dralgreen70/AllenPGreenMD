@@ -154,6 +154,21 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* ===== CREDENTIAL BADGE BAR ===== */}
+        <div className="about-badge-bar reveal">
+          <div className="site-container">
+            <div className="about-badge-row">
+              <span className="tpe-badge">Board-Certified Clinical Pathologist</span>
+              <span className="tpe-badge-divider">&middot;</span>
+              <span className="tpe-badge">UT Southwestern Trained</span>
+              <span className="tpe-badge-divider">&middot;</span>
+              <span className="tpe-badge">Air Force Veteran</span>
+              <span className="tpe-badge-divider">&middot;</span>
+              <span className="tpe-badge">500+ TPE Procedures</span>
+            </div>
+          </div>
+        </div>
+
         {/* ===== SECTION 2: PULL QUOTE + BIO ===== */}
         <section className="site-section" style={{ background: "var(--bg)" }}>
           <div className="site-container">
