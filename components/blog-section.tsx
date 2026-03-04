@@ -18,7 +18,10 @@ function formatDate(dateStr: string): string {
 }
 
 export function BlogSection() {
-  const posts = getAllPosts()
+  const allPosts = getAllPosts()
+  // Show only internal posts on homepage (not drplexmd.com external links)
+  const internalPosts = allPosts.filter((p) => !p.frontmatter.external && !p.frontmatter.externalUrl)
+  const posts = internalPosts.slice(0, 3)
 
   return (
     <section className="blog-section site-section" id="journal">
@@ -38,89 +41,58 @@ export function BlogSection() {
           </a>
         </div>
         <div className="blog-grid">
-          {posts.slice(0, 3).map((post, i) => {
-            const isExternal = post.frontmatter.external
-            const href = isExternal
-              ? post.frontmatter.externalUrl
-              : `/blog/${post.slug}`
-
-            return (
-              <a
-                key={post.slug}
-                href={href}
-                className={`blog-card reveal reveal-d${i + 1}`}
-                target={isExternal ? "_blank" : undefined}
-                rel={isExternal ? "noopener noreferrer" : undefined}
-              >
-                {isExternal && (
-                  <div className="blog-card-external-badge">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                      <polyline points="15 3 21 3 21 9" />
-                      <line x1="10" y1="14" x2="21" y2="3" />
-                    </svg>
+          {posts.map((post, i) => (
+            <a
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className={`blog-card reveal reveal-d${i + 1}`}
+            >
+              <div className="blog-card-img">
+                {post.frontmatter.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={post.frontmatter.image}
+                    alt={post.frontmatter.title}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      objectPosition: "center 20%",
+                      display: "block",
+                    }}
+                  />
+                ) : (
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "100%",
+                      height: "100%",
+                      color: "var(--accent-light)",
+                    }}
+                  >
+                    {iconMap.default}
                   </div>
                 )}
-                <div className="blog-card-img">
-                  {post.frontmatter.image ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={post.frontmatter.image}
-                      alt={post.frontmatter.title}
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        objectPosition: "center 20%",
-                        display: "block",
-                      }}
-                    />
-                  ) : (
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        width: "100%",
-                        height: "100%",
-                        color: "var(--accent-light)",
-                      }}
-                    >
-                      {iconMap.default}
-                    </div>
-                  )}
-                </div>
-                <div className="blog-card-body">
-                  <div className="blog-card-meta">
-                    <span className="blog-card-date">
-                      {formatDate(post.frontmatter.date)}
-                    </span>
-                    <span className="blog-card-readtime">
-                      {post.readTime} min read
-                    </span>
-                  </div>
-                  <h3>{post.frontmatter.title}</h3>
-                  <p>{post.frontmatter.excerpt}</p>
-                  <span className="blog-card-link">
-                    {isExternal ? (
-                      <>
-                        {"Read on DrPlexMD.com"}{" "}
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                          <polyline points="15 3 21 3 21 9" />
-                          <line x1="10" y1="14" x2="21" y2="3" />
-                        </svg>
-                      </>
-                    ) : (
-                      <>
-                        Read More <span className="arrow">&rarr;</span>
-                      </>
-                    )}
+              </div>
+              <div className="blog-card-body">
+                <div className="blog-card-meta">
+                  <span className="blog-card-date">
+                    {formatDate(post.frontmatter.date)}
+                  </span>
+                  <span className="blog-card-readtime">
+                    {post.readTime} min read
                   </span>
                 </div>
-              </a>
-            )
-          })}
+                <h3>{post.frontmatter.title}</h3>
+                <p>{post.frontmatter.excerpt}</p>
+                <span className="blog-card-link">
+                  Read More <span className="arrow">&rarr;</span>
+                </span>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
     </section>

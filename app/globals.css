@@ -510,6 +510,17 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .research-pub-link { font-size: 0.78rem; font-weight: 600; color: var(--accent); margin-top: 0.5rem; display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; transition: gap 0.3s; }
 .research-pub-link:hover { gap: 0.6rem; }
 
+/* ===== BLOG VIDEO GRID ===== */
+.blog-video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+.blog-video-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--border); background: var(--bg-dark); }
+.blog-video-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+/* ===== POST CTA ===== */
+.post-cta-section { background: var(--bg-alt); border-top: 1px solid var(--border); }
+.post-cta-inner { max-width: 680px; margin: 0 auto; padding: 3rem 2rem; text-align: center; }
+.post-cta-heading { font-family: 'Instrument Serif', serif; font-size: 1.5rem; font-weight: 400; color: var(--text); margin-bottom: 0.75rem; }
+.post-cta-text { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; max-width: 520px; margin-left: auto; margin-right: auto; }
+
 /* ===== TOUCH ===== */
 @media (hover: none) { .benefit-card:hover, .blog-card:hover, .pub-item:hover, .process-step:hover, .condition-card:hover, .credential-card:hover, .tpe-expect-card:hover { transform: none !important; box-shadow: none !important; } }
 
@@ -554,6 +565,7 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .lon-results-grid { grid-template-columns: repeat(3, 1fr); }
   .auto-conditions-grid { grid-template-columns: repeat(2, 1fr); }
   .detox-toxin-grid { grid-template-columns: repeat(2, 1fr); }
+  .blog-video-grid { grid-template-columns: repeat(2, 1fr); }
   .site-footer { padding: 3.5rem 2rem 0; }
   .footer-columns { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
   .footer-col-contact { grid-column: 1 / -1; }
@@ -669,6 +681,8 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .detox-toxin-grid { grid-template-columns: 1fr; gap: 0.75rem; }
   .detox-toxin-card { padding: 1.5rem 1.25rem; }
   .detox-toxin-card:hover { transform: none; box-shadow: none; }
+  .blog-video-grid { grid-template-columns: 1fr; }
+  .post-cta-inner { padding: 2.5rem 1.5rem; }
   .research-pub-item { grid-template-columns: 1fr; gap: 0.5rem; }
   .research-pub-year { padding-top: 0; }
 }
