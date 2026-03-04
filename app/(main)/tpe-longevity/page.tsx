@@ -150,29 +150,6 @@ export default function TpeLongevityPage() {
                 environment and replacing it with clean, protective albumin.
               </p>
             </div>
-            <div className="tpe-hero-badges reveal">
-              <span className="tpe-badge">
-                Board-Certified Clinical Pathologist
-              </span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">500+ TPE Procedures</span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">
-                Associate Medical Director,{" "}
-                <a
-                  href="https://www.globalapheresis.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "var(--accent)",
-                    textDecoration: "underline",
-                    textUnderlineOffset: "3px",
-                  }}
-                >
-                  Global Apheresis
-                </a>
-              </span>
-            </div>
           </div>
         </section>
 

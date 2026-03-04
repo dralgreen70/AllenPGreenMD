@@ -229,30 +229,6 @@ export default function TpePage() {
                 shift toward younger biological function.
               </p>
             </div>
-            <div className="tpe-hero-badges reveal">
-              <span className="tpe-badge">
-                Board-Certified Clinical Pathologist
-              </span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">500+ TPE Procedures</span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">
-                Performed at{" "}
-                <a
-                  href="https://globalapheresis.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "var(--accent)",
-                    textDecoration: "underline",
-                    textUnderlineOffset: "3px",
-                  }}
-                >
-                  Global Apheresis
-                </a>
-                , Mill Valley, CA
-              </span>
-            </div>
           </div>
         </section>
 
