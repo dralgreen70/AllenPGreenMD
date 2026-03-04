@@ -283,14 +283,16 @@ export default function TpeLongevityPage() {
                 to comprehensively measure the biological effects of TPE.
               </p>
               <p className="body-lg" style={{ marginTop: "1rem" }}>
-                42 healthy adults over age 50 were randomized to different TPE
-                regimens or placebo. The regimens included TPE alone and TPE
-                combined with intravenous immunoglobulin (IVIG), administered
-                in paired sessions &mdash; two treatments in a single week,
-                followed by a three-week break, repeated over three cycles for
-                a total of six procedures. A monthly TPE arm was also included.
-                Treatments were single-blinded. The study tracked changes
-                across multiple biological aging clocks and molecular systems.
+                42 healthy adults over age 50 were randomized to various TPE
+                regimens or a single-blinded placebo. The primary intensive
+                regimens consisted of TPE (with or without IVIG) administered
+                in three distinct cycles. Each cycle included two treatments in
+                a single week followed by a three-week break, for a total of
+                six procedures over approximately three months. A separate arm
+                received monthly TPE treatments for six months to compare
+                frequency effects. The study utilized multi-omics analysis to
+                track systemic shifts across dozens of biological aging clocks
+                and molecular systems.
               </p>
             </div>
 
