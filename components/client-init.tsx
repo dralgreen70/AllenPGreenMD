@@ -1,15 +1,15 @@
 "use client"
 
 import { useEffect } from "react"
-import { usePathname } from "next/navigation"
 
 export function ClientInit() {
-  const pathname = usePathname()
-
   // ===== SCROLL REVEAL =====
-  // Re-runs whenever the route changes so new .reveal elements get observed
+  // Uses MutationObserver to catch .reveal elements as Next.js streams them
+  // into the DOM during client-side navigation
   useEffect(() => {
-    const obs = new IntersectionObserver(
+    const observed = new WeakSet()
+
+    const intObs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) e.target.classList.add("visible")
@@ -17,10 +17,25 @@ export function ClientInit() {
       },
       { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
     )
-    document
-      .querySelectorAll(".reveal, .reveal-left, .reveal-right")
-      .forEach((el) => obs.observe(el))
+
+    function scanForRevealElements() {
+      document
+        .querySelectorAll(".reveal, .reveal-left, .reveal-right")
+        .forEach((el) => {
+          if (!observed.has(el)) {
+            observed.add(el)
+            intObs.observe(el)
+          }
+        })
+    }
+
+    // Observe elements already in the DOM
+    scanForRevealElements()
     document.body.classList.add("reveal-ready")
+
+    // Watch for new elements added by client-side navigation
+    const mutObs = new MutationObserver(scanForRevealElements)
+    mutObs.observe(document.body, { childList: true, subtree: true })
 
     // Smooth scroll for anchor links
     const handleClick = (e: Event) => {
@@ -39,12 +54,13 @@ export function ClientInit() {
     })
 
     return () => {
-      obs.disconnect()
+      intObs.disconnect()
+      mutObs.disconnect()
       document.querySelectorAll('a[href^="#"]').forEach((a) => {
         a.removeEventListener("click", handleClick)
       })
     }
-  }, [pathname])
+  }, [])
 
   // ===== HERO CANVAS =====
   // Only runs once — the canvas only exists on the homepage
