@@ -1,10 +1,14 @@
 "use client"
 
 import { useEffect } from "react"
+import { usePathname } from "next/navigation"
 
 export function ClientInit() {
+  const pathname = usePathname()
+
+  // ===== SCROLL REVEAL =====
+  // Re-runs whenever the route changes so new .reveal elements get observed
   useEffect(() => {
-    // ===== SCROLL REVEAL =====
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -16,10 +20,35 @@ export function ClientInit() {
     document
       .querySelectorAll(".reveal, .reveal-left, .reveal-right")
       .forEach((el) => obs.observe(el))
-    // Add reveal-ready class after observer is set up so content is visible before JS loads
     document.body.classList.add("reveal-ready")
 
-    // ===== HERO CANVAS =====
+    // Smooth scroll for anchor links
+    const handleClick = (e: Event) => {
+      const anchor = e.currentTarget as HTMLAnchorElement
+      const href = anchor.getAttribute("href")
+      if (!href || !href.startsWith("#")) return
+      e.preventDefault()
+      const t = document.querySelector(href)
+      if (t) {
+        const top = t.getBoundingClientRect().top + window.pageYOffset - 80
+        window.scrollTo({ top, behavior: "smooth" })
+      }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach((a) => {
+      a.addEventListener("click", handleClick)
+    })
+
+    return () => {
+      obs.disconnect()
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.removeEventListener("click", handleClick)
+      })
+    }
+  }, [pathname])
+
+  // ===== HERO CANVAS =====
+  // Only runs once — the canvas only exists on the homepage
+  useEffect(() => {
     const hc = document.getElementById("heroCanvas") as HTMLCanvasElement
     if (!hc) return
     const hctx = hc.getContext("2d")
@@ -92,29 +121,9 @@ export function ClientInit() {
     }
     animH()
 
-    // ===== SMOOTH SCROLL =====
-    const handleClick = (e: Event) => {
-      const anchor = e.currentTarget as HTMLAnchorElement
-      const href = anchor.getAttribute("href")
-      if (!href || !href.startsWith("#")) return
-      e.preventDefault()
-      const t = document.querySelector(href)
-      if (t) {
-        const top = t.getBoundingClientRect().top + window.pageYOffset - 80
-        window.scrollTo({ top, behavior: "smooth" })
-      }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach((a) => {
-      a.addEventListener("click", handleClick)
-    })
-
     return () => {
-      obs.disconnect()
       cancelAnimationFrame(heroFrame)
       window.removeEventListener("resize", resizeHC)
-      document.querySelectorAll('a[href^="#"]').forEach((a) => {
-        a.removeEventListener("click", handleClick)
-      })
     }
   }, [])
 
