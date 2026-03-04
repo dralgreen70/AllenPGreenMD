@@ -501,7 +501,7 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .research-pub-item--light .research-pub-year { background: transparent; color: var(--accent); }
 .research-pub-year { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; color: var(--accent); padding-top: 0.2rem; }
 .research-pub-body { display: flex; flex-direction: column; gap: 0.3rem; }
-.research-pub-type { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-light); background: rgba(8,145,178,0.1); padding: 0.2rem 0.55rem; border-radius: 3px; display: inline-block; width: fit-content; margin-bottom: 0.25rem; }
+.research-pub-type { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; background: var(--accent); padding: 0.2rem 0.55rem; border-radius: 3px; display: inline-block; width: fit-content; margin-bottom: 0.25rem; }
 .research-pub-title { font-family: 'Instrument Serif', serif; font-size: 1.1rem; font-weight: 400; color: var(--text); line-height: 1.35; }
 .research-pub-authors { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; }
 .research-pub-authors strong { color: var(--text); font-weight: 600; }
