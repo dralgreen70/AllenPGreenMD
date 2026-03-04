@@ -1,4 +1,4 @@
-const items = [
+const defaultItems = [
   { label: "EXPERIENCE", value: "500+ Procedures" },
   { label: "BOARD CERTIFIED", value: "Clinical Pathologist" },
   { label: "SPECIALTY", value: "Apheresis" },
@@ -6,7 +6,7 @@ const items = [
   { label: "RESEARCH", value: "6+ Published Papers" },
 ]
 
-function TickerItems() {
+function TickerItems({ items }: { items: { label: string; value: string }[] }) {
   return (
     <>
       {items.map((item, i) => (
@@ -22,12 +22,13 @@ function TickerItems() {
   )
 }
 
-export function Ticker() {
+export function Ticker({ items }: { items?: { label: string; value: string }[] }) {
+  const data = items ?? defaultItems
   return (
     <div className="ticker">
       <div className="ticker-track">
-        <TickerItems />
-        <TickerItems />
+        <TickerItems items={data} />
+        <TickerItems items={data} />
       </div>
     </div>
   )

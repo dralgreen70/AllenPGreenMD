@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { Ticker } from "@/components/ticker"
 
 export const metadata: Metadata = {
   title: "Dr. Allen P. Green, M.D. | Therapeutic Plasma Exchange Specialist",
@@ -154,20 +155,16 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* ===== CREDENTIAL BADGE BAR ===== */}
-        <div className="about-badge-bar reveal">
-          <div className="site-container">
-            <div className="about-badge-row">
-              <span className="tpe-badge">Board-Certified Clinical Pathologist</span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">UT Southwestern Trained</span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">Air Force Veteran</span>
-              <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">500+ TPE Procedures</span>
-            </div>
-          </div>
-        </div>
+        {/* ===== SCROLLING CREDENTIAL BAR ===== */}
+        <Ticker
+          items={[
+            { label: "CERTIFICATION", value: "Board-Certified Clinical Pathologist" },
+            { label: "TRAINING", value: "UT Southwestern" },
+            { label: "SERVICE", value: "Air Force Veteran" },
+            { label: "EXPERIENCE", value: "500+ TPE Procedures" },
+            { label: "ROLE", value: "Associate Medical Director, Global Apheresis" },
+          ]}
+        />
 
         {/* ===== SECTION 2: PULL QUOTE + BIO ===== */}
         <section className="site-section" style={{ background: "var(--bg)" }}>

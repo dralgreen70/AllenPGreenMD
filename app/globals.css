@@ -324,8 +324,6 @@
 .condition-card:hover .condition-card-link .arrow { transform: translateX(4px); }
 
 /* ===== ABOUT PAGE ===== */
-.about-badge-bar { background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
-.about-badge-row { display: flex; align-items: center; justify-content: center; gap: 0.6rem; flex-wrap: wrap; }
 .about-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 80vh; min-height: 80dvh; position: relative; z-index: 1; }
 .about-hero-inner { display: contents; }
 .about-hero-text { display: flex; flex-direction: column; justify-content: center; padding: 8rem 4rem 4rem 5rem; }
