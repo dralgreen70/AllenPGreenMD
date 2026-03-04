@@ -1,5 +1,5 @@
 ---
-title: "The Jersey PFAS Crisis: Why Government-Recommended \"Bloodletting\" Isn't Enough"
+title: 'The Jersey PFAS Crisis: Why Government-Recommended "Bloodletting" Isn't Enough'
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination---and an even more unlikely advocate for medieval medical practices."
