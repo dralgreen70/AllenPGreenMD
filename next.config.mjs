@@ -20,7 +20,7 @@ const nextConfig = {
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: blob: https:",
               "connect-src 'self' https://va.vercel-scripts.com https://vitals.vercel-insights.com",
-              "frame-src 'self'",
+              "frame-src 'self' https://www.youtube-nocookie.com",
             ].join("; "),
           },
         ],
