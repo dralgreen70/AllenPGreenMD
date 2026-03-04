@@ -750,15 +750,21 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .post-author-bio-links a { font-size: 0.82rem; font-weight: 600; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s; }
 .post-author-bio-links a:hover { color: var(--accent-light); }
 
-/* References */
+/* References (collapsible) */
 .post-references-section { background: var(--bg); border-top: 1px solid var(--border); }
-.post-references-inner { max-width: 680px; margin: 0 auto; padding: 2.5rem 2rem; }
-.post-references-inner h2 { font-family: 'Instrument Serif', serif; font-size: 1.25rem; font-weight: 400; color: var(--text); margin-bottom: 1rem; }
-.post-references-inner ul { list-style: none; padding: 0; margin: 0; }
-.post-references-inner li { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; padding: 0.35rem 0; border-bottom: 1px solid var(--border-light, rgba(0,0,0,0.05)); }
-.post-references-inner li:last-child { border-bottom: none; }
-.post-references-inner a { color: var(--accent); text-decoration: none; }
-.post-references-inner a:hover { text-decoration: underline; }
+.post-references-inner { max-width: 680px; margin: 0 auto; padding: 2rem 2rem; }
+.post-references-details { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.post-references-details summary { padding: 0.85rem 1.25rem; font-size: 0.88rem; font-weight: 600; color: var(--text-secondary); cursor: pointer; list-style: none; user-select: none; transition: color 0.2s; }
+.post-references-details summary::-webkit-details-marker { display: none; }
+.post-references-details summary::marker { display: none; content: ""; }
+.post-references-details summary:hover { color: var(--accent); }
+.post-references-details[open] summary { border-bottom: 1px solid var(--border); }
+.post-references-details > div { padding: 1rem 1.25rem; }
+.post-references-details ul { list-style: none; padding: 0; margin: 0; }
+.post-references-details li { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; padding: 0.35rem 0; border-bottom: 1px solid rgba(0,0,0,0.04); }
+.post-references-details li:last-child { border-bottom: none; }
+.post-references-details a { color: var(--accent); text-decoration: none; }
+.post-references-details a:hover { text-decoration: underline; }
 
 /* Related Posts */
 .post-related { background: var(--bg-alt); border-top: 1px solid var(--border); }

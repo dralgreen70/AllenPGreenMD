@@ -109,49 +109,19 @@ export default async function BlogPostPage({
         />
       </article>
 
-      {/* 1. CTA */}
-      <section className="post-cta-section">
-        <div className="post-cta-inner">
-          <h3 className="post-cta-heading">Have questions about TPE?</h3>
-          <p className="post-cta-text">
-            Schedule a complimentary discovery call to discuss your goals and
-            whether therapeutic plasma exchange may be appropriate for you.
-          </p>
-          <a
-            href="https://globalapheresis.com/free-consultation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Schedule a Discovery Call
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
-            </svg>
-          </a>
-        </div>
-      </section>
-
-      {/* 2. References (if present) */}
+      {/* 1. References (collapsible, if present) */}
       {referencesHtml && (
         <section className="post-references-section">
           <div className="post-references-inner">
-            <h2>References</h2>
-            <div dangerouslySetInnerHTML={{ __html: referencesHtml }} />
+            <details className="post-references-details">
+              <summary>References &#9662;</summary>
+              <div dangerouslySetInnerHTML={{ __html: referencesHtml }} />
+            </details>
           </div>
         </section>
       )}
 
-      {/* 3. Share */}
+      {/* 2. Share */}
       <section className="post-share-section">
         <div className="post-share-inner">
           <h3 className="post-share-heading">Share this article</h3>
@@ -192,6 +162,38 @@ export default async function BlogPostPage({
               Email
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* 3. CTA */}
+      <section className="post-cta-section">
+        <div className="post-cta-inner">
+          <h3 className="post-cta-heading">Have questions about TPE?</h3>
+          <p className="post-cta-text">
+            Schedule a complimentary discovery call to discuss your goals and
+            whether therapeutic plasma exchange may be appropriate for you.
+          </p>
+          <a
+            href="https://globalapheresis.com/free-consultation"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Schedule a Discovery Call
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
         </div>
       </section>
 
