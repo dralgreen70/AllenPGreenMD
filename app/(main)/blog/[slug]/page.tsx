@@ -74,6 +74,10 @@ export default async function BlogPostPage({
             alt={
               slug === "goop-plasma-exchange"
                 ? "Treatment room at Global Apheresis, Mill Valley, California — apheresis chair and machine with waterfront views of Marin."
+                : slug === "tpe-for-healthcare-providers"
+                ? "Spectra Optia apheresis machine and treatment chair at Global Apheresis in Mill Valley, California"
+                : slug === "tpe-revolutionizing-health-longevity"
+                ? "The Global Apheresis clinic in Mill Valley, California, where Dr. Allen P. Green performs therapeutic plasma exchange"
                 : post.frontmatter.title
             }
             style={post.frontmatter.imagePosition ? { objectPosition: post.frontmatter.imagePosition } : undefined}
@@ -168,32 +172,65 @@ export default async function BlogPostPage({
       {/* 3. CTA */}
       <section className="post-cta-section">
         <div className="post-cta-inner">
-          <h3 className="post-cta-heading">Have questions about TPE?</h3>
-          <p className="post-cta-text">
-            Schedule a complimentary discovery call to discuss your goals and
-            whether therapeutic plasma exchange may be appropriate for you.
-          </p>
-          <a
-            href="https://globalapheresis.com/free-consultation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Schedule a Discovery Call
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
-            </svg>
-          </a>
+          {slug === "tpe-for-healthcare-providers" ? (
+            <>
+              <h3 className="post-cta-heading">Considering TPE for your practice?</h3>
+              <p className="post-cta-text">
+                Connect with the Global Apheresis team to discuss the affiliate
+                partnership program and whether your practice is a good fit.
+              </p>
+              <a
+                href="https://www.globalapheresis.com/affiliate-partners"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Contact Global Apheresis
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </>
+          ) : (
+            <>
+              <h3 className="post-cta-heading">Have questions about TPE?</h3>
+              <p className="post-cta-text">
+                Schedule a complimentary discovery call to discuss your goals and
+                whether therapeutic plasma exchange may be appropriate for you.
+              </p>
+              <a
+                href="https://globalapheresis.com/free-consultation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Schedule a Discovery Call
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </>
+          )}
         </div>
       </section>
 
