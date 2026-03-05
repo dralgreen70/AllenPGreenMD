@@ -36,7 +36,7 @@ The process involves donating plasma at commercial plasma centers (available in 
 
 **The documented results:** A 2022 randomized clinical trial of Australian firefighters — a population with high forever chemical exposure — found that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, approximately 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Blood donation showed no significant effect on PFHxS at all, confirming that plasma removal is the key mechanism for PFAS elimination.
 
-> **"Donating plasma once every six weeks for one year reduced PFAS levels by 24–42%. The mechanism isn't complicated — you're physically removing the compounds that your body cannot eliminate on its own."**
+> **"The mechanism isn't complicated — you're physically removing the compounds that your body cannot eliminate on its own."**
 
 **Safety consideration:** When you donate through licensed commercial centers, your plasma undergoes processing to create life-saving medical products like IVIG and clotting factors. The pharmaceutical manufacturing process removes forever chemicals, ensuring you're not transferring toxins to recipients.
 
