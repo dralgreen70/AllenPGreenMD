@@ -163,11 +163,11 @@ export function markdownToHtml(markdown: string): string {
 
   // Unordered lists
   html = html.replace(
-    /^[\s]*[-*] (.+)$/gm,
+    /^[ \t]*[-*] (.+)$/gm,
     "<li>$1</li>"
   )
   html = html.replace(
-    /(<li>.*<\/li>\n?)+/g,
+    /(<li>.*<\/li>)(\n<li>.*<\/li>)*/g,
     (match) => `<ul>${match}</ul>`
   )
 
@@ -202,7 +202,9 @@ export function markdownToHtml(markdown: string): string {
         trimmed.startsWith("<blockquote") ||
         trimmed.startsWith("<pre") ||
         trimmed.startsWith("<hr") ||
-        trimmed.startsWith("<img")
+        trimmed.startsWith("<img") ||
+        trimmed.startsWith("<div") ||
+        trimmed.startsWith("<figure")
       ) {
         return trimmed
       }

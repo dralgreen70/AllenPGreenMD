@@ -724,13 +724,79 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .post-content a:hover { color: var(--text); }
 .post-content blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 1.5rem 0; background: var(--bg-alt); border-radius: 0 var(--radius) var(--radius) 0; }
 .post-content blockquote p { color: var(--text); font-style: italic; margin-bottom: 0; }
-.post-content ul, .post-content ol { margin: 1rem 0 1.5rem 1.5rem; }
+.post-content ul, .post-content ol { margin: 1rem 0 1.5rem 1.5rem; padding-left: 1rem; }
+.post-content ul { list-style-type: disc; }
+.post-content ol { list-style-type: decimal; }
 .post-content li { font-size: 1rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 0.35rem; }
 .post-content code { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; background: var(--bg-alt); padding: 0.15em 0.4em; border-radius: 4px; color: var(--accent); }
 .post-content pre { background: var(--bg-dark); border-radius: var(--radius); padding: 1.5rem; margin: 1.5rem 0; overflow-x: auto; }
 .post-content pre code { background: none; padding: 0; color: rgba(255,255,255,0.8); font-size: 0.85rem; }
 .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
 .post-content img { width: 100%; height: auto; border-radius: var(--radius); margin: 1.5rem 0; }
+
+/* Post Figures */
+.post-content figure.post-figure { margin: 2.5rem 0; }
+.post-content figure.post-figure img { border-radius: var(--radius); margin: 0; }
+.post-content figure.post-figure figcaption { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin-top: 0.75rem; font-style: italic; }
+
+/* Post Callout Box */
+.post-callout-data { background: var(--bg-dark); color: white; border-radius: var(--radius); padding: 2rem 2.5rem; margin: 2rem 0; position: relative; overflow: hidden; }
+.post-callout-data::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); }
+.post-callout-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-light); margin-bottom: 1.25rem; }
+.post-callout-stats { display: flex; flex-direction: column; gap: 0.6rem; }
+.post-callout-stat { font-size: 0.95rem; color: rgba(255,255,255,0.85); line-height: 1.5; }
+.post-callout-stat strong { color: white; font-weight: 700; font-size: 1.05rem; }
+.post-callout-stat span { color: rgba(255,255,255,0.45); font-size: 0.85rem; }
+.post-callout-note { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.85rem; color: rgba(255,255,255,0.55); line-height: 1.6; font-style: italic; }
+
+/* Light Callout Box */
+.post-callout-light { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem 2.5rem; margin: 2rem 0; position: relative; overflow: hidden; }
+.post-callout-light::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); }
+.post-callout-light-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+.post-callout-light-body { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem; }
+.post-callout-light-links { display: flex; flex-direction: column; gap: 0.5rem; }
+.post-content .post-callout-light-links a { font-size: 0.92rem; font-weight: 600; color: var(--accent); text-decoration: none !important; display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s; }
+.post-content .post-callout-light-links a::before { content: '\2192'; margin-right: 0.4rem; }
+.post-content .post-callout-light-links a:hover { color: var(--text); }
+
+/* Comparison Table */
+.post-comparison-wrap { margin: 2.5rem 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
+.post-comparison-header { background: var(--bg-dark); padding: 1.5rem 2rem; }
+.post-comparison-title { color: white; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.25rem; }
+.post-comparison-subtitle { color: rgba(255,255,255,0.55); font-size: 0.82rem; }
+.post-comparison-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.post-comparison-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.post-comparison-table thead th { padding: 0.75rem 0.65rem; text-align: left; font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); border-bottom: 2px solid var(--border); background: var(--bg-alt); }
+.post-comparison-table tbody td { padding: 0.75rem 0.65rem; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.post-comparison-table tbody td:first-child { font-weight: 500; color: var(--text); }
+.post-ct-withdrawn { opacity: 0.55; }
+.post-ct-withdrawn td:first-child { font-weight: 400; }
+.post-ct-ambar { background: var(--bg-dark); }
+.post-ct-ambar td { color: rgba(255,255,255,0.8); border-bottom-color: rgba(255,255,255,0.1); }
+.post-ct-ambar td:first-child { color: white; }
+.post-ct-ambar td strong { color: white; }
+.post-ct-effect-yellow { background: rgba(245, 158, 11, 0.1); }
+.post-ct-effect-green { background: rgba(20, 184, 166, 0.12); }
+.post-ct-ambar .post-ct-effect-green { background: rgba(20, 184, 166, 0.2); }
+.post-ct-ambar .post-ct-effect-green strong { color: var(--accent-light); font-size: 1.02rem; }
+.post-ct-aria-good { background: rgba(20, 184, 166, 0.12); }
+.post-ct-ambar .post-ct-aria-good { background: rgba(20, 184, 166, 0.2); }
+.post-ct-ambar .post-ct-aria-good strong { color: var(--accent-light); font-size: 1.02rem; }
+.post-ct-aria-risk { background: rgba(245, 158, 11, 0.08); }
+.post-comparison-legend { display: flex; gap: 1.5rem; padding: 0.75rem 2rem; border-top: 1px solid var(--border); background: var(--bg); }
+.post-comparison-legend-item { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; color: var(--text-muted); }
+.post-comparison-legend-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; }
+.post-comparison-legend-yellow { background: rgba(245, 158, 11, 0.3); border: 1px solid rgba(245, 158, 11, 0.5); }
+.post-comparison-legend-green { background: rgba(20, 184, 166, 0.3); border: 1px solid rgba(20, 184, 166, 0.5); }
+.post-comparison-caption { padding: 1rem 2rem; font-size: 0.75rem; color: var(--text-muted); line-height: 1.5; font-style: italic; border-top: 1px solid var(--border); background: var(--bg-alt); }
+
+/* Series Navigation Cards */
+.post-content .post-series-nav { display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0; }
+.post-content a.post-series-card { display: block; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none !important; color: inherit; transition: all 0.2s ease; position: relative; }
+.post-content a.post-series-card:hover { border-color: var(--accent); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); color: inherit; }
+.post-content a.post-series-card.post-series-current { border-left: 3px solid var(--accent); background: rgba(0, 0, 0, 0.02); }
+.post-series-part { display: block; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.25rem; }
+.post-series-title { display: block; font-size: 0.95rem; font-weight: 500; color: var(--text); line-height: 1.4; }
 
 /* Share Section */
 .post-share-section { border-top: 1px solid var(--border); background: var(--bg-alt); }
@@ -798,6 +864,12 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
   .post-author-bio-inner { flex-direction: column; align-items: center; text-align: center; }
   .post-author-bio-links { justify-content: center; }
   .post-references-inner { padding: 2rem 1.5rem; }
+  .post-callout-data { padding: 1.5rem 1.25rem; }
+  .post-callout-light { padding: 1.5rem 1.25rem; }
+  .post-comparison-header { padding: 1.25rem 1rem; }
+  .post-comparison-legend { padding: 0.75rem 1rem; }
+  .post-comparison-caption { padding: 0.75rem 1rem; font-size: 0.72rem; }
+  .post-ct-withdrawn { display: none; }
   .post-share-inner { padding: 2rem 1.5rem; }
   .post-related-inner { padding: 3rem 1.5rem; }
   .journal-header { padding: 5rem 1.5rem 2.5rem; }
