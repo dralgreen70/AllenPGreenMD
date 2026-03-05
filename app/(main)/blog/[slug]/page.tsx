@@ -2,6 +2,7 @@ import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml } from "@/lib/blog"
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -63,8 +64,40 @@ export default async function BlogPostPage({
   const shareTitle = encodeURIComponent(post.frontmatter.title)
   const shareText = encodeURIComponent(post.frontmatter.excerpt)
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.frontmatter.title,
+    description: post.frontmatter.excerpt,
+    datePublished: `${post.frontmatter.date}T00:00:00-08:00`,
+    dateModified: `${post.frontmatter.date}T00:00:00-08:00`,
+    url: `https://allenpgreenmd.com/blog/${slug}`,
+    ...(post.frontmatter.image && {
+      image: `https://allenpgreenmd.com${post.frontmatter.image}`,
+    }),
+    author: {
+      "@type": "Person",
+      name: "Allen P. Green, MD",
+      url: "https://allenpgreenmd.com/about",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Allen P. Green, MD",
+      url: "https://allenpgreenmd.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://allenpgreenmd.com/blog/${slug}`,
+    },
+  }
+
   return (
     <main className="post-page">
+      <Script
+        id={`schema-article-${slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {/* Hero Image */}
       {post.frontmatter.image && (
         <div className="post-hero-image">

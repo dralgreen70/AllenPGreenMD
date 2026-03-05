@@ -55,6 +55,18 @@ export default function RootLayout({
             gtag('config', 'G-M96CELHBYV');
           `}
         </Script>
+        <Script
+          id="schema-website"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Allen P. Green, MD",
+              url: "https://allenpgreenmd.com",
+            }),
+          }}
+        />
       </head>
       <body className={`${outfit.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
         {children}
