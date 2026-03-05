@@ -2,12 +2,12 @@
 title: 'The Jersey PFAS Crisis: Why Government-Recommended "Bloodletting" Isn't Enough'
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
-excerpt: "The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination---and an even more unlikely advocate for medieval medical practices."
+excerpt: "How a decades-long contamination cover-up in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
 image: "/images/blog/Jersey_Pfas.jpg"
 imagePosition: "center center"
 ---
 
-The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination---and an even more unlikely advocate for medieval medical practices. After decades of firefighting foam contamination at Jersey Airport, residents are being advised to undergo bloodletting to lower dangerous PFAS levels in their blood, with 70% of tested residents having levels of PFHxS above safe thresholds.
+The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination — and an even more unlikely advocate for medieval medical practices. After decades of firefighting foam contamination at Jersey Airport, residents are being advised to undergo bloodletting to lower dangerous PFAS levels in their blood, with 70% of tested residents having levels of PFHxS above safe thresholds.
 
 While the government's acknowledgment of the problem is commendable, their solution reveals a fundamental misunderstanding of how PFAS elimination actually works. Jersey's bloodletting recommendation represents 15th-century medicine applied to a 21st-century problem.
 
@@ -22,7 +22,11 @@ The contamination timeline reveals systematic governmental failure:
 - **2000**: 3M stopped making the product
 - **2006**: Residents in the affected "plume area" were finally moved to mains water supplies
 
-This means residents drank contaminated water for **over a decade** after the government knew about the problem. As resident Graeme Farmer asked, "Why did they allow us to keep drinking the well water all that time?"
+This means residents drank contaminated water for **over a decade** after the government knew about the problem.
+
+> **"Residents drank contaminated water for over a decade after the government knew about the problem. The contamination timeline isn't just a public health failure — it's a record of decisions made and warnings ignored."**
+
+As resident Graeme Farmer asked, "Why did they allow us to keep drinking the well water all that time?"
 
 ## The Human Cost
 
@@ -42,13 +46,13 @@ While bloodletting can reduce PFAS levels, it's an inefficient, costly, and inco
 
 ### Limited Volume and Safety Constraints
 
-Standard phlebotomy removes approximately 450-500mL of whole blood per session. Since PFAS concentrates in plasma (which comprises only about 55% of whole blood), each bloodletting session removes roughly 250mL of plasma---and with it, the PFAS-containing proteins.
+Standard phlebotomy removes approximately 450–500mL of whole blood per session. Since PFAS concentrates in plasma (which comprises only about 55% of whole blood), each bloodletting session removes roughly 250mL of plasma — and with it, the PFAS-containing proteins.
 
-However, the critical limitation is that phlebotomy removes entire blood, including red blood cells, white blood cells, and platelets. Regular blood removal inevitably reduces hemoglobin levels and platelet counts, risking anemia and thrombocytopenia. This safety constraint means treatments can only be repeated infrequently---typically no more than every 8 weeks for healthy adults.
+However, the critical limitation is that phlebotomy removes entire blood, including red blood cells, white blood cells, and platelets. Regular blood removal inevitably reduces hemoglobin levels and platelet counts, risking anemia and thrombocytopenia. This safety constraint means treatments can only be repeated infrequently — typically no more than every 8 weeks for healthy adults.
 
 ### Inefficient and Dangerous Timeline
 
-The Australian firefighter study demonstrated this limitation clearly. Blood donation reduced PFOS levels by only 1.1 ng/mL, while plasma donation achieved 2.9 ng/mL reduction---nearly **three times more effective**. But the safety constraints make the problem worse: with mandatory delays between sessions to prevent anemia, achieving meaningful PFAS reduction through bloodletting could take years rather than months.
+The Australian firefighter study demonstrated this limitation clearly. In the randomized trial, plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months — approximately 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Blood donation showed no significant effect on PFHxS at all. But the safety constraints make the problem worse: with mandatory delays between sessions to prevent anemia, achieving meaningful PFAS reduction through bloodletting could take years rather than months.
 
 ### Hidden Costs
 
@@ -56,24 +60,19 @@ Jersey's cost estimates likely undercount the true expense. Meeting minutes note
 
 ## The Superior Alternative: Therapeutic Plasma Exchange
 
-Therapeutic plasma exchange offers everything bloodletting attempts, but with superior efficacy and efficiency.
+[Therapeutic plasma exchange](/tpe) offers everything bloodletting attempts, but with superior efficacy and efficiency.
 
 ### Direct PFAS Targeting
 
-TPE removes 1-1.5 plasma volumes per session (approximately 3-4 liters), compared to bloodletting's 250mL. This represents **12-16 times more plasma removal** per session.
+TPE removes 1–1.5 plasma volumes per session (approximately 3–4 liters), compared to bloodletting's 250mL. This represents **12–16 times more plasma removal** per session.
 
 ### Demonstrated Results
 
-The research shows TPE achieving:
-
-- 71.5% median bisphenol A reduction
-- 68% average glyphosate reduction
-- 75.7% median phthalate reduction
-- Nearly 3x more PFAS reduction than blood donation
+Research demonstrates TPE's superiority across multiple toxin categories — 71.5% median bisphenol A reduction, 68% average glyphosate reduction, and 75.7% median phthalate reduction. For PFAS specifically, TPE achieves nearly three times more reduction per session than blood donation.
 
 ### Faster Resolution
 
-Instead of requiring dozens of bloodletting sessions over months or years, TPE protocols typically involve 3-5 sessions spaced 4 weeks apart.
+Instead of requiring dozens of bloodletting sessions over months or years, TPE protocols typically involve 3–5 sessions spaced 4 weeks apart.
 
 ### Better Safety Profile
 
@@ -83,7 +82,7 @@ TPE immediately replaces removed plasma with albumin, maintaining oncotic pressu
 
 Jersey's panel has considered alternatives, including cholestyramine drug therapy, with annual treatment costs ranging from £8,760 to £23,255, and even haemodialysis, a process typically used for kidney failure, with each session lasting between three and five hours.
 
-While cholestyramine shows promise for ongoing exposure reduction, it doesn't address the substantial PFAS burden already accumulated in residents' bodies. Hemodialysis is overkill---like using a sledgehammer to crack a nut.
+While cholestyramine shows promise for ongoing exposure reduction, it doesn't address the substantial PFAS burden already accumulated in residents' bodies. Hemodialysis is overkill — like using a sledgehammer to crack a nut.
 
 ## The Cover-Up Factor
 
@@ -93,7 +92,7 @@ As noted by lawyer Rob Bilott, who won major PFAS cases against chemical compani
 
 ## What Jersey Residents Should Know
 
-If you're a Jersey resident dealing with PFAS contamination, here's what you need to understand.
+If you're a Jersey resident dealing with [PFAS contamination](/tpe-detox), here's what you need to understand.
 
 ### Bloodletting Is Better Than Nothing
 
@@ -131,8 +130,20 @@ The decade-long delay between discovering contamination and switching residents 
 
 Jersey's PFAS crisis represents both a cautionary tale and an opportunity. While the government's bloodletting recommendation shows they're taking the problem seriously, residents deserve access to the most effective treatments available.
 
-The real tragedy isn't just that Jersey residents were exposed to PFAS for decades---it's that they're now being offered 15th-century solutions to a 21st-century problem. In an era where we have sophisticated plasma exchange technology that can remove these chemicals efficiently and safely, recommending bloodletting feels like medical malpractice.
+The real tragedy isn't just that Jersey residents were exposed to PFAS for decades — it's that they're now being offered 15th-century solutions to a 21st-century problem. In an era where we have sophisticated plasma exchange technology that can remove these chemicals efficiently and safely, recommending bloodletting falls short of the standard of care available today.
 
 Jersey residents have suffered enough from their government's failures. They deserve better than medieval medicine dressed up as modern treatment.
 
-*If you're dealing with PFAS contamination---whether in Jersey or elsewhere---understanding your treatment options is crucial. While bloodletting may be better than no treatment, therapeutic plasma exchange offers superior results with fewer sessions and better safety. The choice shouldn't be between bad options and worse options---it should be between good options and better options.*
+If you're dealing with PFAS contamination — whether in Jersey or elsewhere — understanding your treatment options is crucial. While bloodletting may be better than no treatment, therapeutic plasma exchange offers superior results with fewer sessions and better safety.
+
+> **"The choice shouldn't be between bad options and worse options — it should be between good options and better options."**
+
+## References
+
+1. Cousins IT, et al. Inside the science of PFAS. Swedish EPA. 2021.
+2. Genuis SJ, Birkholz D, Rodushkin I, Beesoon S. Blood, urine, and sweat (BUS) study: monitoring and elimination of bioaccumulated toxic elements. Arch Environ Contam Toxicol. 2011;61(2):344–357.
+3. Gasiorowski R, Forbes MK, Silver G, et al. Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial. JAMA Netw Open. 2022;5(4):e226257. doi:10.1001/jamanetworkopen.2022.6257
+4. Blake BE, Fenton SE. Early life exposure to per- and polyfluoroalkyl substances (PFAS) and latent health outcomes: A review including the placenta as a target tissue and possible driver of peri- and postnatal effects. Toxicology. 2020;443:152565.
+5. Phelps M, et al. Therapeutic Plasma Exchange as a Treatment for PFAS-Contaminated Individuals. Pilot data presented at ASFA Annual Meeting. 2023.
+6. States of Jersey Government. PFAS Scientific Advisory Panel Report. 2024.
+7. Bilott R. Exposure: Poisoned Water, Corporate Greed, and One Lawyer's Twenty-Year Battle Against DuPont. Atria Books. 2019.
