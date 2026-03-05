@@ -2,8 +2,8 @@
 title: "The AMBAR Study: Part 1 — Understanding Plasma Exchange and Key Results"
 date: "2025-12-22"
 author: "Dr. Allen P. Green"
-excerpt: "In 2020, a clinical trial published results that most of the Alzheimer's community overlooked—yet it showed some of the strongest treatment effects ever reported in the disease."
-image: "/images/blog/Ambar_study_1.webp"
+excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — and most neurologists have never heard of it. Here's what the data actually shows."
+image: "/images/blog/Ambar_part_1.jpg"
 ---
 
 ## Introduction
@@ -24,26 +24,11 @@ Think of your blood as having two main components: the cells (red blood cells, w
 
 **Plasma exchange (also called plasmapheresis or therapeutic plasma exchange/TPE)** is a medical procedure that removes your plasma and replaces it with fresh fluid. It's somewhat similar to dialysis, but instead of filtering waste products from blood, it removes and replaces the entire liquid component. It's essentially an "oil change" for the body.
 
-**Here's how it works:**
-
-- Blood is drawn from a vein (typically in your arm)
-- A machine separates the plasma from the blood cells
-- The blood cells are mixed with replacement fluid (in this case, albumin)
-- The reconstituted blood is returned to your body
-
-The procedure takes 2-3 hours and is performed on an outpatient basis.
+The procedure works by drawing blood from a vein, separating the plasma from the blood cells using a specialized machine, mixing the blood cells with fresh replacement fluid — in the case of AMBAR, albumin — and returning the reconstituted blood to the patient. Each session takes 2–3 hours and is performed on an outpatient basis.
 
 ### Why Albumin Replacement?
 
-Albumin is the most abundant protein in human plasma, making up about 60% of total plasma protein. It has multiple critical functions:
-
-- **Transport:** Carries hormones, vitamins, drugs, and other molecules throughout the body
-- **Antioxidant:** Protects against oxidative damage
-- **Detoxification:** Binds and helps remove toxins
-- **Anti-inflammatory:** Modulates immune responses
-- **Amyloid binding:** Can bind to amyloid-beta protein
-
-In Alzheimer's patients, albumin becomes highly oxidized and glycated (damaged by sugar molecules), losing much of its protective function. Replacing old, damaged plasma with fresh therapeutic albumin could theoretically restore antioxidant capacity, remove toxic proteins bound to albumin (including amyloid-beta), reduce inflammation, and improve vascular function.
+Albumin is the most abundant protein in human plasma — about 60% of total plasma protein — and it performs a remarkable range of functions. It transports hormones, vitamins, and drugs throughout the body. It acts as an antioxidant, protecting against oxidative damage. It binds and helps remove toxins. It modulates immune responses. And critically for Alzheimer's disease, it can bind amyloid-beta protein. In patients with Alzheimer's, albumin becomes highly oxidized and glycated — damaged by sugar molecules — losing much of its protective capacity. Replacing old, damaged plasma with fresh therapeutic albumin could theoretically restore antioxidant function, remove toxic proteins, reduce inflammation, and improve vascular health simultaneously.
 
 ### The Original Hypothesis: The Peripheral Sink
 
@@ -59,22 +44,9 @@ That was the theory. As we'll see, the actual mechanism appears to be more compl
 
 The AMBAR study used a specific treatment protocol with two distinct phases:
 
-**Intensive Phase (Weeks 1-6):**
+The intensive phase ran for the first six weeks, with weekly conventional plasma exchange sessions. Each session exchanged one plasma volume — calculated at 35–45 mL/kg based on patient characteristics — with replacement using 5% albumin solution, delivered via peripheral vein or central venous catheter.
 
-- 6 weekly sessions of conventional therapeutic plasma exchange
-- Each session exchanged one plasma volume (calculated as 35-45 mL/kg based on patient characteristics)
-- Replacement with 5% albumin solution
-- Access via peripheral vein (arm) or central venous catheter
-
-**Maintenance Phase (Months 2-14):**
-
-- Monthly sessions of low-volume plasma exchange
-- Replacement with 20% albumin solution or alternating with intravenous immunoglobulin (IVIG)
-- Primarily via peripheral venous access
-
-The total treatment duration was 14 months, with regular cognitive and functional assessments throughout.
-
-The 2025 Argentina real-world study used a similar protocol, achieving an average of 88.2% plasma volume exchange during the intensive phase and 49.8% during maintenance, with all procedures performed via peripheral access.
+The maintenance phase continued monthly for the remaining 12 months, using lower-volume plasma exchange with 20% albumin solution, alternating in some arms with intravenous immunoglobulin (IVIG) to counteract decreases in endogenous immunoglobulins from repeated plasma removal. The 2025 Argentina real-world study used a similar protocol, achieving an average of 88.2% plasma volume exchange during intensive sessions and 49.8% during maintenance — all via peripheral access, no central lines required.
 
 ## The Study Design: Why This Was Serious Science
 
@@ -96,6 +68,11 @@ The AMBAR trial was a phase 2b/3, multicenter, randomized, blinded, placebo-cont
 - **Randomized:** 347 patients enrolled
 - **Treated:** 322 patients actually received treatment (25 dropped out before starting)
 - **Completed:** 232 patients finished the full 14-month protocol
+
+<figure class="post-figure">
+<img src="/images/blog/AMBAR_Part1_CONSORT.png" alt="CONSORT patient flow diagram showing screening, randomization, treatment allocation, and completion across the four AMBAR study arms" />
+<figcaption>CONSORT Patient Flow Diagram. Patient screening, randomization, treatment allocation, and completion across the four study arms. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
+</figure>
 
 The completion rate ranged from 65-80% depending on treatment arm, which is typical for a 14-month study involving frequent medical procedures.
 
@@ -127,34 +104,23 @@ Notably, **the study did not require amyloid-positive biomarker status for enrol
 
 The study had two co-primary efficacy endpoints:
 
-**1. ADCS-ADL (Alzheimer's Disease Cooperative Study -- Activities of Daily Living)**
+**1. ADCS-ADL (Alzheimer's Disease Cooperative Study — Activities of Daily Living)**
 
-- A 23-item questionnaire assessing functional abilities
-- Scored 0-78, with higher scores indicating better function
-- Measures real-world abilities like using the telephone, preparing meals, managing finances
-- Completed by caregivers who know the patient well
+The ADCS-ADL is a 23-item questionnaire scored 0–78, with higher scores indicating better function. Completed by caregivers who know the patient well, it measures real-world abilities like using the telephone, preparing meals, and managing finances. It's the most direct measure of whether a patient can still function independently in daily life.
 
-**2. ADAS-Cog (Alzheimer's Disease Assessment Scale -- Cognitive Subscale)**
+**2. ADAS-Cog (Alzheimer's Disease Assessment Scale — Cognitive Subscale)**
 
-- An 11-item test directly administered to patients
-- Scored 0-70, with higher scores indicating worse cognition
-- Assesses memory, language, orientation, and praxis
-- The gold-standard cognitive test in Alzheimer's trials
+The ADAS-Cog is an 11-item test administered directly to patients, scored 0–70 with higher scores indicating worse cognition. It assesses memory, language, orientation, and praxis, and has been the gold-standard cognitive endpoint in Alzheimer's trials for decades.
 
 Secondary endpoints included:
 
-**3. CDR-Sum of Boxes (Clinical Dementia Rating -- Sum of Boxes)**
+**3. CDR-Sum of Boxes (Clinical Dementia Rating — Sum of Boxes)**
 
-- Evaluates six domains: memory, orientation, judgment/problem-solving, community affairs, home/hobbies, personal care
-- Each domain scored 0-3, total score 0-18
-- Higher scores indicate greater impairment
-- Captures overall functional impact of dementia
+The CDR-Sum of Boxes evaluates six domains: memory, orientation, judgment and problem-solving, community affairs, home and hobbies, and personal care. Each domain is scored 0–3, giving a total score of 0–18 where higher scores indicate greater impairment. Because it captures such a broad range of functioning, it's arguably the most comprehensive single measure of dementia severity used in the study.
 
 **4. ADCS-CGIC (Clinical Global Impression of Change)**
 
-- Clinician's overall assessment of change from baseline
-- Scale of 1 (marked improvement) to 7 (marked worsening)
-- Integrates all available information about the patient
+The ADCS-CGIC is the blinded clinician's overall assessment of whether the patient has improved, stayed the same, or worsened since baseline — scored on a 7-point scale from marked improvement (1) to marked worsening (7). It integrates all available information about the patient and represents the kind of judgment a physician would make in clinical practice.
 
 **5. CSF Biomarkers**
 
@@ -180,19 +146,20 @@ When all three treatment groups were pooled together (the "PE-treated" group, n=
 
 **ADCS-ADL (Activities of Daily Living):**
 
-- **Difference from placebo: 3.5 points (95% CI: 0.4, 6.6)**
-- **p-value: 0.03** (statistically significant)
-- **Effect size: 52% less decline**
+The treatment group showed a difference of 3.5 points from placebo (95% CI: 0.4–6.6), a statistically significant result (p=0.03) representing 52% less functional decline.
 
 What this means: Over 14 months, the placebo group declined by about 6.7 points on the ADCS-ADL scale. The treatment group declined by only 3.2 points. That's 52% less functional decline—meaning patients preserved their ability to perform daily activities like managing medications, using appliances, and keeping track of appointments.
 
 **ADAS-Cog (Cognitive Function):**
 
-- **Difference from placebo: -2.1 points (95% CI: -4.4, 0.2)**
-- **p-value: 0.06** (borderline significant)
-- **Effect size: 66% less decline**
+The treatment group showed a difference of -2.1 points from placebo (95% CI: -4.4–0.2), a borderline significant result (p=0.06) representing 66% less cognitive decline.
 
 What this means: The placebo group worsened by about 3.2 points on the ADAS-Cog over 14 months. The treatment group worsened by only 1.1 points. While this didn't quite reach the traditional p<0.05 threshold for statistical significance, it showed a strong trend toward benefit, with 66% less cognitive decline.
+
+<figure class="post-figure">
+<img src="/images/blog/AMBAR_Part1_ADCS_ADL.png" alt="Line graphs showing ADCS-ADL scores over 14 months for all patients, moderate AD, and mild AD subgroups, with plasma exchange (pink) diverging from placebo (blue) over time" />
+<figcaption>ADCS-ADL scores over 14 months showing gradual divergence between plasma exchange (pink) and placebo (blue). Panel A shows all patients (p=0.03), Panel B shows moderate AD patients with strongest effect (p=0.002), Panel C shows mild AD where ceiling effects limited measurement sensitivity. Note: Lower scores indicate worsening function. TPE = therapeutic plasma exchange intensive phase; LVPE = low-volume plasma exchange maintenance phase. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
+</figure>
 
 ### Understanding P-Values and Effect Sizes
 
@@ -204,14 +171,18 @@ The ADAS-Cog result (p=0.06) just barely missed this threshold. Some would dismi
 
 **Effect size:** This is arguably more important than the p-value. It tells you the magnitude of the benefit relative to natural disease progression. An effect size of 52% means the treatment group declined only about half as much as the placebo group.
 
-### Primary Outcomes at 14 Months
+> **"If we could slow Alzheimer's progression by 50%, we would effectively give patients twice as long at each stage of the disease. That's transformative."**
 
-- ADCS-ADL: 52% less functional decline (p=0.03)
-- ADAS-Cog: 66% less cognitive decline (p=0.06)
-- CDR-sb: 71% less overall decline (p=0.002)
-- ADCS-CGIC: Stabilization vs. decline (p<0.0001)
-
-If we could slow Alzheimer's progression by 50%, we would effectively give patients twice as long at each stage of the disease. That's transformative.
+<div class="post-callout-data">
+<div class="post-callout-label">AMBAR PRIMARY OUTCOMES — 14 MONTHS</div>
+<div class="post-callout-stats">
+<div class="post-callout-stat"><strong>52% less functional decline</strong> — ADCS-ADL (p=0.03)</div>
+<div class="post-callout-stat"><strong>66% less cognitive decline</strong> — ADAS-Cog (p=0.06)</div>
+<div class="post-callout-stat"><strong>71% less overall decline</strong> — CDR-Sum of Boxes (p=0.002)</div>
+<div class="post-callout-stat"><strong>Near stabilization</strong> — Clinical Global Impression (p<0.0001)</div>
+</div>
+<div class="post-callout-note">All three treatment arms pooled (n=242) vs. placebo (n=80). 14-month follow-up.</div>
+</div>
 
 ### When Did the Effects Appear?
 
@@ -235,11 +206,7 @@ While the co-primary endpoints showed significant or borderline-significant resu
 
 ### CDR-Sum of Boxes
 
-**All PE-treated patients:**
-
-- **Difference from placebo: -1.2 points (95% CI: -2.2, -0.2)**
-- **p-value: 0.002** (highly significant)
-- **Effect size: 71% less decline**
+Across all treated patients, the CDR-Sum of Boxes showed a difference of -1.2 points from placebo (95% CI: -2.2 to -0.2), a highly significant result (p=0.002) representing 71% less overall decline.
 
 The CDR-Sum of Boxes deserves special attention because it's arguably the most comprehensive measure used in the study. Unlike the ADAS-Cog which focuses primarily on cognition, or the ADCS-ADL which focuses on functional tasks, the CDR-sb evaluates six broad domains:
 
@@ -253,15 +220,18 @@ Each domain is rated 0-3, and the scores are summed (maximum 18 = severe impairm
 
 What makes the CDR-Sb so valuable is that it captures the **overall functional impact** of dementia on a person's daily life. It reflects how well someone can actually function in their real-world environment—can they manage their finances, maintain their home, care for themselves, and participate in their community?
 
-**The 71% effect size on CDR-Sb is remarkable.** It was statistically significant not only at month 14 but also at earlier time points. In fact, the treatment groups showed significantly less decline on CDR-Sb at months 2, 6, 9, 12, AND 14.
+**The 71% effect size on CDR-Sb is remarkable.** It was statistically significant at month 14 — and also at earlier time points, with significant separation emerging as early as month 2 (p=0.004) and maintained through the end of the study (p=0.002).
 
 This consistency across time points strengthens confidence that this is a real effect, not a statistical fluke.
 
+<figure class="post-figure">
+<img src="/images/blog/AMBAR_Part1_CDR_Sb.png" alt="Multi-panel line graphs showing CDR-Sum of Boxes scores over 14 months across all patient groups and individual treatment arms" />
+<figcaption>CDR-Sum of Boxes scores over 14 months. Panels A–C show pooled treatment vs. placebo for all patients, moderate AD, and mild AD subgroups. Panels D–F show individual treatment arms. Note: Lower scores indicate less impairment. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
+</figure>
+
 ### ADCS-CGIC (Clinical Global Impression of Change)
 
-- **Difference from placebo: -0.8 to -0.9 points (95% CI: -1.2, -0.4)**
-- **p-value: <0.0001** (extremely significant)
-- **Effect size: 100-113% (stabilization vs. decline)**
+The ADCS-CGIC showed a difference of -0.8 to -0.9 points from placebo (95% CI: -1.2 to -0.4), an extremely significant result (p<0.0001) representing effective stabilization versus decline in the placebo group — an effect size of 100–113%.
 
 The ADCS-CGIC is the clinician's overall judgment of whether the patient has improved, stayed the same, or worsened since baseline. It's scored on a 7-point scale:
 
@@ -272,6 +242,11 @@ The ADCS-CGIC is the clinician's overall judgment of whether the patient has imp
 In the placebo group, the average score was around 4.8, indicating patients had worsened. In the treatment groups, the average score was around 4.0, very close to "no change."
 
 An effect size of 100% means the treatment essentially **prevented decline rather than just slowing it.** This is what we see with the ADCS-CGIC—treated patients remained stable while placebo patients declined.
+
+<figure class="post-figure">
+<img src="/images/blog/AMBAR_Part1_ADCS_CGIC.png" alt="Multi-panel line graphs showing CDR-Sum of Boxes and ADCS-CGIC scores over 14 months across all patient groups and individual treatment arms" />
+<figcaption>ADCS-CGIC scores over 14 months. Panels G–I show pooled treatment vs. placebo for all patients, moderate AD, and mild AD subgroups. Panels J–L show individual treatment arms. Note: Lower scores indicate less impairment. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
+</figure>
 
 The fact that this global clinical assessment showed such strong effects (p<0.0001 is about as certain as you can get in a clinical trial) suggests that experienced clinicians, blinded to treatment assignment, could clearly see a difference between treated and placebo patients.
 
@@ -288,61 +263,13 @@ The results in these subgroups revealed dramatically different patterns.
 
 ### Moderate AD Patients: Clear Slowing of Decline
 
-In patients with moderate Alzheimer's (MMSE 18-21), the treatment showed its strongest and most consistent effects:
-
-**ADCS-ADL:**
-
-- **Difference: 8.6 points**
-- **p-value: 0.002**
-- **Effect size: 61% less decline**
-
-**ADAS-Cog:**
-
-- **Difference: -3.9 points**
-- **p-value: 0.05**
-
-**CDR-sb:**
-
-- **Difference: -1.5 to -1.8 points**
-- **p-value: 0.01 to 0.04**
-- **Effect size: 50-60% less decline**
-
-**ADCS-CGIC:**
-
-- **Difference: -0.8 to -1.0 points**
-- **p-value: 0.002 to 0.02**
-- **Effect size: 57-71% less decline**
-
-In the moderate AD group, all three individual treatment arms (low-albumin, low-albumin+IVIG, high-albumin+IVIG) showed statistically significant benefits on ADCS-ADL when analyzed separately. This consistency across different dosing regimens strengthens the finding.
-
-The pattern here is clear: **plasma exchange slowed progression** across cognitive, functional, and global measures in moderate AD patients.
+In patients with moderate Alzheimer's (MMSE 18–21), the effects were strongest and most consistent. The ADCS-ADL showed a difference of 8.6 points (p=0.002), representing 61% less functional decline. The ADAS-Cog showed a difference of -3.9 points (p=0.05). The CDR-Sum of Boxes showed a difference of -1.5 to -1.8 points (p=0.01 to 0.04), representing 50–60% less overall decline. And the ADCS-CGIC showed a difference of -0.8 to -1.0 points (p=0.002 to 0.02), representing 57–71% less decline on clinician global impression. All three individual treatment arms showed statistically significant benefits on the ADCS-ADL when analyzed separately — a consistency across dosing regimens that strengthens the finding. The pattern is clear: **plasma exchange slowed progression** across cognitive, functional, and global measures in moderate AD patients.
 
 ### Mild AD Patients: A Different Story
 
-In patients with mild Alzheimer's (MMSE 22-26), the results were strikingly different:
+In patients with mild Alzheimer's (MMSE 22–26), the results told a different story. Standard cognitive measures like the ADAS-Cog showed no significant changes in either direction — likely a ceiling effect, since these tests aren't sensitive enough to detect subtle changes in people with milder impairment. But the global functional measures revealed something unexpected. On the CDR-Sum of Boxes — where lower scores indicate less impairment, and higher scores indicate more — treated patients actually improved by 0.8 to 1.2 points from baseline while the placebo group worsened (p=0.02 to 0.04). The same pattern held on the ADCS-CGIC — where a score of 4 means no change and higher scores mean worsening — with treated patients scoring 0.8 points better than placebo (p=0.004 to 0.04). Effect sizes of 157–200% reflect the fact that the treatment group didn't just decline less than placebo — they moved in the opposite direction entirely. In a progressive neurodegenerative disease, that's not supposed to happen.
 
-**ADCS-ADL and ADAS-Cog:**
-
-- No significant changes in either direction
-- Both treatment and placebo groups remained relatively stable
-- This likely reflects a "ceiling effect"—these tests aren't sensitive enough to detect subtle changes in people with milder impairment
-
-**But here's where it gets interesting:**
-
-- **Difference: -0.8 to -1.2 points**
-- **p-value: 0.02 to 0.04**
-- **Effect size: 157-171% (improvement from baseline)**
-- **Difference: -0.8 points**
-- **p-value: 0.004 to 0.04**
-- **Effect size: 200% (improvement from baseline)**
-
-***Wait—effect sizes over 100%? What does that mean?***
-
-An effect size over 100% indicates that the treatment group didn't just decline less than placebo—they actually **improved from baseline** while the placebo group declined.
-
-Look at the graphs in the paper: In mild AD patients, the placebo group's CDR-sb score increased (worsened) over 14 months, as expected. But the treatment group's score actually *decreased* (improved) slightly from baseline.
-
-This is remarkable. In a progressive neurodegenerative disease, we don't expect to see improvement. Yet on global functional measures, mild AD patients who received plasma exchange showed slight improvement over 14 months.
+> **"In a progressive neurodegenerative disease, we don't expect to see improvement. Yet mild AD patients who received plasma exchange showed slight improvement over 14 months on global functional measures."**
 
 ### What This Tells Us
 
@@ -354,21 +281,29 @@ The different patterns in mild versus moderate AD are revealing.
 
 This suggests that plasma exchange may help restore or enhance certain aspects of functioning, not just slow their loss. This is more consistent with a treatment that addresses multiple pathological processes (inflammation, oxidative stress, vascular dysfunction) rather than one that simply removes a single toxic protein.
 
-## Coming Next: Part 2
+---
 
-The clinical results are clear—plasma exchange slowed Alzheimer's progression by 52-71% across multiple measures, with the strongest effects in moderate AD patients.
+**Read the Complete Series:**
 
-But here's where it gets interesting: the biomarker data doesn't fit the simple "amyloid removal" story. CSF amyloid levels didn't decrease as expected, yet tau markers showed unexpected patterns. What's really happening?
+<div class="post-series-nav">
+<a href="/blog/ambar-study-part-1" class="post-series-card post-series-current">
+<span class="post-series-part">PART 1 — You are here</span>
+<span class="post-series-title">Study Design and Clinical Results</span>
+</a>
+<a href="/blog/ambar-part-2-fda-comparison" class="post-series-card">
+<span class="post-series-part">PART 2</span>
+<span class="post-series-title">Independent Validation and FDA Comparison</span>
+</a>
+<a href="/blog/ambar-study-part-3" class="post-series-card">
+<span class="post-series-part">PART 3</span>
+<span class="post-series-title">The Amyloid-Negative Finding</span>
+</a>
+</div>
 
-**In [AMBAR Part 2](/blog/ambar-part-2-fda-comparison), we'll explore:**
+## References
 
-- The puzzling biomarker findings that suggest multiple mechanisms at play
-- Independent validation from the 2025 Argentina real-world study
-- How AMBAR stacks up against FDA-approved monoclonal antibodies
-- Why the safety profile is dramatically better
-
-## Primary Reference
-
-Boada M, Lopez OL, Olazaran J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's Dement. 2020;16:1412-1425.
-
-Complete references will be provided in Part 3 of this series.
+- Boada M, Lopez OL, Olazaran J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's & Dementia. 2020;16:1412–1425. [https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12137](https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12137)
+- Taragano F, Seinhart D, Epstein P, et al. A real-world study on the safety and efficacy of therapeutic plasma exchange in patients with Alzheimer's disease. Journal of Alzheimer's Disease. 2025;108(1):129–141. [https://pubmed.ncbi.nlm.nih.gov/40928812/](https://pubmed.ncbi.nlm.nih.gov/40928812/)
+- Costa M, Boada M. Letter to the Editor: AMBAR: A Therapeutical Approach for Alzheimer's Disease Patients Regardless of Amyloid Status. J Prev Alz Dis. 2023;1(10):148–149. [http://dx.doi.org/10.14283/jpad.2022.100](http://dx.doi.org/10.14283/jpad.2022.100)
+- van Dyck CH, Swanson CJ, Aisen P, et al. Lecanemab in Early Alzheimer's Disease. N Engl J Med. 2023;388:9–21.
+- Sims JR, Zimmer JA, Evans CD, et al. Donanemab in Early Symptomatic Alzheimer's Disease. JAMA. 2023;330(6):512–527.
