@@ -16,9 +16,8 @@ The answer isn't scientific. The evidence is there. The answer is structural —
 <div class="post-callout-stat"><strong>AMBAR effect size:</strong> 52–71% slowing of decline</div>
 <div class="post-callout-stat"><strong>Lecanemab / Donanemab effect size:</strong> 26–40% slowing of decline</div>
 <div class="post-callout-stat"><strong>ARIA risk with antibody drugs:</strong> 12–40%</div>
-<div class="post-callout-stat"><strong>ARIA risk with plasma exchange:</strong> 0.6%</div>
+<div class="post-callout-stat"><strong>ARIA risk with plasma exchange:</strong> 0%</div>
 </div>
-<div class="post-callout-note">Both plasma exchange and albumin are individually FDA-approved. Neither is approved specifically for Alzheimer's disease.</div>
 </div>
 
 ## The Industry Dynamics
