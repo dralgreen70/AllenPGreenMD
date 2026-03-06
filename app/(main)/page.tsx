@@ -27,6 +27,7 @@ export default function Home() {
             description:
               "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification.",
             url: "https://allenpgreenmd.com",
+            image: "https://allenpgreenmd.com/images/me-and-amicus.jpg",
             sameAs: ["https://www.linkedin.com/in/allen-green-md/"],
             worksFor: {
               "@type": "MedicalClinic",
