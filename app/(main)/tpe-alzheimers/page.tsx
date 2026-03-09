@@ -441,6 +441,21 @@ export default function TpeAlzheimersPage() {
               <em>Journal of Alzheimer&apos;s Disease.</em>{" "}
               2025;108(1):129&ndash;141.
             </div>
+
+            <div className="alz-subgroup-callout reveal" style={{ marginTop: "2.5rem" }}>
+              <p>
+                <strong>Read the complete analysis:</strong> The AMBAR
+                Series is a four-part deep dive into the trial results,
+                independent validation, drug comparisons, and the
+                systemic barriers to adoption.{" "}
+                <Link
+                  href="/ambar-series"
+                  style={{ color: "var(--accent)", fontWeight: 600 }}
+                >
+                  Explore the series &rarr;
+                </Link>
+              </p>
+            </div>
           </div>
         </section>
 

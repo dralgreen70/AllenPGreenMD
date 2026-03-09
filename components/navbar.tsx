@@ -7,6 +7,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [journalDropdownOpen, setJournalDropdownOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -24,6 +25,7 @@ export function Navbar() {
   const closeNav = useCallback(() => {
     setMenuOpen(false)
     setDropdownOpen(false)
+    setJournalDropdownOpen(false)
     document.body.style.overflow = ""
   }, [])
 
@@ -31,6 +33,13 @@ export function Navbar() {
     if (window.innerWidth <= 768) {
       e.preventDefault()
       setDropdownOpen((prev) => !prev)
+    }
+  }, [])
+
+  const toggleJournalDropdown = useCallback((e: React.MouseEvent) => {
+    if (window.innerWidth <= 768) {
+      e.preventDefault()
+      setJournalDropdownOpen((prev) => !prev)
     }
   }, [])
 
@@ -86,10 +95,21 @@ export function Navbar() {
               Research
             </Link>
           </li>
-          <li>
-            <Link href="/blog" onClick={closeNav}>
+          <li className={`nav-dropdown${journalDropdownOpen ? " open" : ""}`}>
+            <a href="#" className="nav-dropdown-trigger" onClick={toggleJournalDropdown}>
               Journal
-            </Link>
+              <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M1 1l4 4 4-4" />
+              </svg>
+            </a>
+            <div className="nav-dropdown-menu">
+              <Link href="/blog" onClick={closeNav}>
+                All Posts
+              </Link>
+              <Link href="/ambar-series" onClick={closeNav}>
+                The AMBAR Series
+              </Link>
+            </div>
           </li>
           <li>
             <a

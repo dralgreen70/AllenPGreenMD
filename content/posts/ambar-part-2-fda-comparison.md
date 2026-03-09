@@ -4,6 +4,7 @@ date: "2025-12-30"
 author: "Dr. Allen P. Green"
 excerpt: "In Part 1, we explored the AMBAR study design and clinical results. Now we examine the mechanistic evidence, independent validation from Argentina, and how plasma exchange compares to FDA-approved monoclonal antibodies."
 image: "/images/blog/AMBAR_Part2.jpg"
+tags: "ambar, alzheimers, research"
 ---
 
 ## Previously in Part 1

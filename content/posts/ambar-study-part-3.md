@@ -4,6 +4,7 @@ date: "2026-01-05"
 author: "Dr. Allen P. Green"
 excerpt: "The finding that changed how we think about what plasma exchange is actually doing — and why it matters for everyone, not just Alzheimer's patients."
 image: "/images/blog/AMBAR_Part_3.jpg"
+tags: "ambar, alzheimers, research"
 ---
 
 ## Previously in Parts 1 and 2

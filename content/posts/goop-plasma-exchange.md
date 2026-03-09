@@ -4,6 +4,7 @@ date: "2026-03-04"
 author: "Dr. Allen P. Green"
 excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a legitimate medical procedure in front of millions of readers. As a physician who has performed over 500 TPE procedures, here's the clinical context worth understanding before you book a session."
 image: "/images/blog/GA_clinic.jpg"
+tags: "tpe, longevity"
 ---
 
 When Gwyneth Paltrow writes about a medical procedure, search engines notice. So do patients. And in this case, that's not a bad thing.

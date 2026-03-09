@@ -10,6 +10,12 @@ export interface PostFrontmatter {
   imagePosition?: string
   external?: boolean
   externalUrl?: string
+  tags?: string
+}
+
+export function parseTags(tags?: string): string[] {
+  if (!tags) return []
+  return tags.split(",").map((t) => t.trim()).filter(Boolean)
 }
 
 export interface Post {
@@ -72,6 +78,7 @@ function parseFrontmatter(fileContent: string): {
       imagePosition: (frontmatter.imagePosition as string) || "",
       external: frontmatter.external === true,
       externalUrl: (frontmatter.externalUrl as string) || "",
+      tags: (frontmatter.tags as string) || "",
     },
     content,
   }

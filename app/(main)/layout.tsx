@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { SiteFooter } from "@/components/site-footer"
 import { ClientInit } from "@/components/client-init"
+import { NewsletterSitewide } from "@/components/newsletter-sitewide"
 
 export default function MainLayout({
   children,
@@ -12,6 +13,7 @@ export default function MainLayout({
       <ClientInit />
       <Navbar />
       {children}
+      <NewsletterSitewide />
       <SiteFooter />
     </>
   )

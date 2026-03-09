@@ -3,6 +3,7 @@ import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml } from "@/l
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
+import { NewsletterInline } from "@/components/newsletter-inline"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -266,6 +267,9 @@ export default async function BlogPostPage({
           )}
         </div>
       </section>
+
+      {/* 3.5. Newsletter */}
+      <NewsletterInline slug={slug} tags={post.frontmatter.tags} />
 
       {/* 4. Author Bio */}
       <section className="post-author-bio">

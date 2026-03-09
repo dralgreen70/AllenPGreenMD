@@ -4,6 +4,7 @@ date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "Why losing weight might temporarily increase your toxin exposure — and the therapeutic solution that can help"
 image: "/images/blog/weight_loss_pfas.jpg"
+tags: "pfas, detox, longevity"
 ---
 
 This article isn't meant to discourage weight loss — the benefits far outweigh the risks. Instead, it's about understanding what happens during fat loss and how therapeutic interventions can maximize benefits while minimizing potential downsides.

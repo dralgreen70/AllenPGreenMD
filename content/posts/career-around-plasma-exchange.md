@@ -4,6 +4,7 @@ date: "2026-02-22"
 author: "Dr. Allen P. Green"
 excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov and Global Apheresis—and why I chose to treat patients rather than wait for academia to catch up."
 image: "/images/dobri-and-i-ga.jpg"
+tags: "personal, tpe"
 ---
 
 # Why I Built My Career Around Therapeutic Plasma Exchange

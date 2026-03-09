@@ -4,6 +4,7 @@ date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "A physician's overview of what TPE is, what the evidence shows, and the four areas where it's changing medicine."
 image: "/images/blog/GA_clinic.jpg"
+tags: "longevity, tpe"
 ---
 
 [Therapeutic plasma exchange](/tpe) has been used in hospitals for decades to treat life-threatening conditions — removing pathological proteins, autoantibodies, and toxic substances from the blood when no other intervention could reach them. What's changed in recent years is our understanding of what else is circulating in plasma: pro-aging molecules, environmental toxins, inflammatory mediators, and proteins linked to neurodegenerative disease. That understanding has opened four distinct clinical applications that I work with every day.

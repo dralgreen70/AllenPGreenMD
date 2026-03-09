@@ -4,6 +4,7 @@ date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "What it actually takes to bring therapeutic plasma exchange into an outpatient practice — equipment, staffing, costs, and what experienced clinics have learned."
 image: "/images/blog/Optia_and_Chair.jpg"
+tags: "clinical, tpe"
 ---
 
 Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available — and one of the most operationally demanding. This guide covers what the decision actually involves.

@@ -5,6 +5,7 @@ author: "Dr. Allen P. Green"
 excerpt: "How a decades-long contamination cover-up in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
 image: "/images/blog/Jersey_Pfas.jpg"
 imagePosition: "center center"
+tags: "pfas, detox"
 ---
 
 The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination — and an even more unlikely advocate for medieval medical practices. After decades of firefighting foam contamination at Jersey Airport, residents are being advised to undergo bloodletting to lower dangerous PFAS levels in their blood, with 70% of tested residents having levels of PFHxS above safe thresholds.

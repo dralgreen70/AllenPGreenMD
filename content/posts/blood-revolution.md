@@ -4,6 +4,7 @@ date: "2025-12-14"
 author: "Dr. Allen P. Green"
 excerpt: "How two decades of parabiosis research led to a medical procedure that can reduce biological age — and what it means for the future of medicine."
 image: "/images/blog/blood_revolution.webp"
+tags: "research, longevity"
 ---
 
 In 2005, a team of scientists at Stanford performed an experiment that sounds like science fiction. They surgically connected a young mouse to an old mouse, allowing them to share the same bloodstream. What happened next would change everything we thought we knew about aging.
