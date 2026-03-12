@@ -58,23 +58,20 @@ const credentials = [
 ]
 
 export default function AboutPage() {
-  const personSchema = {
+  const physicianSchema = {
     "@context": "https://schema.org",
     "@type": "Physician",
-    name: "Allen P. Green",
+    "@id": "https://allenpgreenmd.com/#physician",
+    name: "Allen P. Green, M.D.",
     honorificPrefix: "Dr.",
     honorificSuffix: "M.D.",
     jobTitle: "Associate Medical Director",
+    image: "https://allenpgreenmd.com/images/me-and-amicus.jpg",
+    url: "https://allenpgreenmd.com",
+    sameAs: ["https://www.linkedin.com/in/allen-green-md/"],
     worksFor: {
       "@type": "MedicalClinic",
-      name: "Global Apheresis",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "655 Redwood Highway, Suite 370",
-        addressLocality: "Mill Valley",
-        addressRegion: "CA",
-        postalCode: "94941",
-      },
+      "@id": "https://allenpgreenmd.com/#clinic",
     },
     medicalSpecialty: "Clinical Pathology",
     description:
@@ -103,11 +100,38 @@ export default function AboutPage() {
     },
   }
 
+  const clinicSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "@id": "https://allenpgreenmd.com/#clinic",
+    name: "Global Apheresis",
+    url: "https://globalapheresis.com",
+    telephone: "+14159281352",
+    email: "info@globalapheresis.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "655 Redwood Highway, Suite 370",
+      addressLocality: "Mill Valley",
+      addressRegion: "CA",
+      postalCode: "94941",
+      addressCountry: "US",
+    },
+    medicalSpecialty: "Therapeutic Plasma Exchange",
+    physician: {
+      "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
+    },
+  }
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(clinicSchema) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

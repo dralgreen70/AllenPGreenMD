@@ -27,6 +27,9 @@ export async function generateMetadata({
       description: post.frontmatter.excerpt,
       type: "article",
       authors: [post.frontmatter.author],
+      ...(post.frontmatter.image && {
+        images: [`https://allenpgreenmd.com${post.frontmatter.image}`],
+      }),
     },
   }
 }

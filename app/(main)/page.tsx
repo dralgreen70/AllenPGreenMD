@@ -19,10 +19,12 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Physician",
-            name: "Allen P. Green, MD",
+            "@id": "https://allenpgreenmd.com/#physician",
+            name: "Allen P. Green, M.D.",
             givenName: "Allen",
             familyName: "Green",
-            honorificSuffix: "MD",
+            honorificPrefix: "Dr.",
+            honorificSuffix: "M.D.",
             jobTitle: "Associate Medical Director",
             description:
               "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification.",
@@ -31,8 +33,7 @@ export default function Home() {
             sameAs: ["https://www.linkedin.com/in/allen-green-md/"],
             worksFor: {
               "@type": "MedicalClinic",
-              name: "Global Apheresis",
-              url: "https://globalapheresis.com",
+              "@id": "https://allenpgreenmd.com/#clinic",
             },
             medicalSpecialty: "Clinical Pathology",
             alumniOf: [
@@ -55,9 +56,11 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "MedicalClinic",
+            "@id": "https://allenpgreenmd.com/#clinic",
             name: "Global Apheresis",
             url: "https://globalapheresis.com",
             telephone: "+14159281352",
+            email: "info@globalapheresis.com",
             address: {
               "@type": "PostalAddress",
               streetAddress: "655 Redwood Highway, Suite 370",
@@ -69,6 +72,10 @@ export default function Home() {
             medicalSpecialty: "Therapeutic Plasma Exchange",
             description:
               "Global Apheresis specializes in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification.",
+            physician: {
+              "@type": "Physician",
+              "@id": "https://allenpgreenmd.com/#physician",
+            },
           }),
         }}
       />
