@@ -106,8 +106,8 @@ export default function AboutPage() {
     "@id": "https://allenpgreenmd.com/#clinic",
     name: "Global Apheresis",
     url: "https://globalapheresis.com",
-    telephone: "+14159281352",
-    email: "info@globalapheresis.com",
+    telephone: "+14154486839",
+    email: "DrGreen@allenpgreenmd.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "655 Redwood Highway, Suite 370",

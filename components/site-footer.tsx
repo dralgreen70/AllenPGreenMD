@@ -82,11 +82,11 @@ export function SiteFooter() {
             <h4 className="footer-group-label">Contact</h4>
             <ul className="footer-links">
               <li>
-                <a href="tel:+14159281352">(415) 928-1352</a>
+                <a href="tel:+14154486839">(415) 448-6839</a>
               </li>
               <li>
-                <a href="mailto:info@globalapheresis.com">
-                  info@globalapheresis.com
+                <a href="mailto:DrGreen@allenpgreenmd.com">
+                  DrGreen@allenpgreenmd.com
                 </a>
               </li>
             </ul>
