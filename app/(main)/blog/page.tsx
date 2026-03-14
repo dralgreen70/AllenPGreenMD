@@ -35,7 +35,7 @@ export default function BlogPage() {
             className="section-label-line reveal"
             style={{ justifyContent: "center" }}
           >
-            <span className="label-text">The PLEX Journal</span>
+            <span className="label-text">The Apheresis Journal</span>
           </div>
           <h1
             className="h-display reveal"

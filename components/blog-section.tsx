@@ -27,7 +27,7 @@ export function BlogSection() {
         <div className="section-header">
           <div className="section-header-text">
             <div className="section-label-line reveal">
-              <span className="label-text">The PLEX Journal</span>
+              <span className="label-text">The Apheresis Journal</span>
             </div>
             <h2 className="h-lg reveal">
               Evidence-Based{" "}

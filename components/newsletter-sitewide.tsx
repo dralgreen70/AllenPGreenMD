@@ -11,7 +11,7 @@ export function NewsletterSitewide() {
       <div className="newsletter-sitewide-inner">
         <div className="newsletter-inline-label">Newsletter</div>
         <h2 className="newsletter-sitewide-heading">
-          The PLEX{" "}
+          The Apheresis{" "}
           <span style={{ fontStyle: "italic" }}>Journal</span>
         </h2>
         <p className="newsletter-sitewide-sub">

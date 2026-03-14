@@ -11,7 +11,7 @@ export function NewsletterBlogSection() {
       <div className="newsletter-blog-inner">
         <div className="newsletter-inline-label">Newsletter</div>
         <h2 className="newsletter-blog-heading">
-          The PLEX Journal{" "}
+          The Apheresis Journal{" "}
           <span style={{ fontStyle: "italic" }}>Newsletter</span>
         </h2>
         <p className="newsletter-blog-sub">
