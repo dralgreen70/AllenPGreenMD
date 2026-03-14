@@ -119,6 +119,8 @@
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
 .btn-light { background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.15); }
 .btn-light:hover { background: rgba(255,255,255,0.18); border-color: var(--accent-light); color: var(--accent-light); }
+.btn-white { background: white; color: var(--bg-dark); }
+.btn-white:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(255,255,255,0.15); }
 .btn .arrow { transition: transform 0.3s; display: inline-block; }
 .btn:hover .arrow { transform: translateX(4px); }
 

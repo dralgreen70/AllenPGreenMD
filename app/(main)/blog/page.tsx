@@ -260,7 +260,7 @@ export default function BlogPage() {
               href="https://globalapheresis.com/free-consultation"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary"
+              className="btn btn-white"
             >
               Book a Discovery Call
               <svg
@@ -277,7 +277,7 @@ export default function BlogPage() {
                 <path d="m12 5 7 7-7 7" />
               </svg>
             </a>
-            <Link href="/tpe" className="btn btn-outline">
+            <Link href="/tpe" className="btn btn-accent">
               Learn About TPE
             </Link>
           </div>
