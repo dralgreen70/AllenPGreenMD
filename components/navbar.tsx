@@ -52,7 +52,6 @@ export function Navbar() {
       />
       <nav className={`site-nav${scrolled ? " scrolled" : ""}`}>
         <Link href="/" className="nav-brand" onClick={closeNav}>
-          <span className="nav-mark">AG</span>
           <span className="nav-brand-text">
             Dr. Allen P. <span>Green</span>, MD
           </span>
