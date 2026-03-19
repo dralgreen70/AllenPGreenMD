@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "What is Therapeutic Plasma Exchange (TPE)? | Dr. Allen P. Green, M.D.",
+    "What is Therapeutic Plasma Exchange (TPE)? | Allen P. Green, MD",
   description:
     "Therapeutic plasma exchange (TPE) removes old plasma and replaces it with albumin solution, clearing inflammatory compounds linked to aging and disease. Learn how TPE works, what to expect, and its clinical applications.",
   openGraph: {

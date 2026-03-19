@@ -94,7 +94,7 @@ export default function AmbarSeriesPage() {
               letterSpacing: "0.03em",
             }}
           >
-            4 Articles &middot; by Dr. Allen P. Green, M.D.
+            4 Articles &middot; by Allen P. Green, MD
           </p>
         </div>
       </section>

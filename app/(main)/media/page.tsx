@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { PlaceholderPage } from "@/components/placeholder-page"
 
 export const metadata: Metadata = {
-  title: "Speaking & Press | Dr. Allen P. Green, MD",
+  title: "Speaking & Press | Allen P. Green, MD",
   description:
-    "Speaking engagements, media appearances, and press coverage of Dr. Allen P. Green, MD.",
+    "Speaking engagements, media appearances, and press coverage of Allen P. Green, MD.",
 }
 
 export default function MediaPage() {

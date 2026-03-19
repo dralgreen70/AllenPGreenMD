@@ -53,7 +53,7 @@ export function Navbar() {
       <nav className={`site-nav${scrolled ? " scrolled" : ""}`}>
         <Link href="/" className="nav-brand" onClick={closeNav}>
           <span className="nav-brand-text">
-            Dr. Allen P. <span>Green</span>, MD
+            Allen P. <span>Green</span>, MD
           </span>
         </Link>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>

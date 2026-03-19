@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Ticker } from "@/components/ticker"
 
 export const metadata: Metadata = {
-  title: "Dr. Allen P. Green, M.D. | Therapeutic Plasma Exchange Specialist",
+  title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
   description:
     "Board-certified in Clinical Pathology. Associate Medical Director at Global Apheresis. 500+ therapeutic plasma exchange procedures. Trained under Dr. Dobri Kiprov.",
 }

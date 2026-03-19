@@ -11,11 +11,11 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Dr. Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
+  title: "Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
   description:
     "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange, lipid apheresis, and cellular therapies for longevity and health optimization.",
   openGraph: {
-    title: "Dr. Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
+    title: "Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
     description:
       "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange, lipid apheresis, and cellular therapies for longevity and health optimization.",
     images: [{ url: "/images/og-image.jpg" }],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Allen P. Green, MD | Therapeutic Apheresis Specialist",
+    title: "Allen P. Green, MD | Therapeutic Apheresis Specialist",
     description:
       "Associate Medical Director at Global Apheresis. Specializing in TPE for longevity and health optimization.",
     images: ["/images/og-image.jpg"],

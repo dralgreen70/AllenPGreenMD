@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Therapeutic Plasma Exchange for Autoimmune Conditions | Dr. Allen P. Green, M.D.",
+    "Therapeutic Plasma Exchange for Autoimmune Conditions | Allen P. Green, MD",
   description:
     "TPE is an established first-line treatment for many autoimmune conditions, removing the pathogenic antibodies and immune complexes that drive disease. Learn about ASFA-recognized indications, how TPE works for autoimmune disease, and treatment at Global Apheresis.",
   openGraph: {

@@ -8,7 +8,7 @@ export function HeroSection() {
         </div>
         <h1 className="h-display">
           <span className="line">
-            Dr. Allen P. <span className="serif-italic accent-text">Green</span>, MD
+            Allen P. <span className="serif-italic accent-text">Green</span>, MD
           </span>
         </h1>
         <p className="hero-sub-role">
@@ -51,7 +51,7 @@ export function HeroSection() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
-          alt="Dr. Allen P. Green, MD with the Amicus Separator"
+          alt="Allen P. Green, MD with the Amicus Separator"
           style={{
             position: "absolute",
             inset: 0,
@@ -63,7 +63,7 @@ export function HeroSection() {
           }}
         />
         <div className="hero-visual" style={{ zIndex: 2 }}>
-          <div className="hero-visual-name">Dr. Allen P. Green, MD</div>
+          <div className="hero-visual-name">Allen P. Green, MD</div>
           <div className="hero-visual-title">
             {'Board-Certified Clinical Pathologist'}
           </div>

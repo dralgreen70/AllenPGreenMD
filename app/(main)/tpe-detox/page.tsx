@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Therapeutic Plasma Exchange for Detoxification & Environmental Toxins | Dr. Allen P. Green, M.D.",
+    "Therapeutic Plasma Exchange for Detoxification & Environmental Toxins | Allen P. Green, MD",
   description:
     "Environmental toxins like PFAS, heavy metals, and persistent organic pollutants accumulate in your blood over a lifetime. TPE physically removes the plasma that carries them. Learn how therapeutic plasma exchange approaches detoxification at Global Apheresis.",
   openGraph: {

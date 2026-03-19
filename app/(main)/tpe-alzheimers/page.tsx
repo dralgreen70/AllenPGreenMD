@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Therapeutic Plasma Exchange for Alzheimer's Disease | Dr. Allen P. Green, M.D.",
+    "Therapeutic Plasma Exchange for Alzheimer's Disease | Allen P. Green, MD",
   description:
     "TPE removes amyloid-β and inflammatory proteins linked to Alzheimer's. The AMBAR trial demonstrated plasma exchange slowed cognitive and functional decline in mild and moderate Alzheimer's disease. Learn about the evidence, the protocol, and how TPE compares to other treatments.",
   openGraph: {

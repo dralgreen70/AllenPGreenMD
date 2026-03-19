@@ -119,7 +119,7 @@ export function SiteFooter() {
 
       {/* Copyright Bar */}
       <div className="footer-bottom">
-        &copy; 2026 Dr. Allen P. Green, MD. All rights reserved.
+        &copy; 2026 Allen P. Green, MD. All rights reserved.
       </div>
     </footer>
   )

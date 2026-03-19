@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Therapeutic Plasma Exchange for Longevity & Biological Age Reversal | Dr. Allen P. Green, M.D.",
+    "Therapeutic Plasma Exchange for Longevity & Biological Age Reversal | Allen P. Green, MD",
   description:
     "Research has shown that therapeutic plasma exchange reduces biological age by up to 2.6 years, rejuvenates the proteome, and reverses aging biomarkers. Learn about the science of plasma dilution and how TPE is being applied for longevity at Global Apheresis.",
   openGraph: {
