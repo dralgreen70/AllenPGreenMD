@@ -8,6 +8,7 @@ export interface PostFrontmatter {
   excerpt: string
   image: string
   imagePosition?: string
+  imageAlt?: string
   external?: boolean
   externalUrl?: string
   tags?: string
@@ -76,6 +77,7 @@ function parseFrontmatter(fileContent: string): {
       excerpt: (frontmatter.excerpt as string) || "",
       image: (frontmatter.image as string) || "",
       imagePosition: (frontmatter.imagePosition as string) || "",
+      imageAlt: (frontmatter.imageAlt as string) || "",
       external: frontmatter.external === true,
       externalUrl: (frontmatter.externalUrl as string) || "",
       tags: (frontmatter.tags as string) || "",

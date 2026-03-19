@@ -109,7 +109,9 @@ export default async function BlogPostPage({
           <img
             src={post.frontmatter.image}
             alt={
-              slug === "goop-plasma-exchange"
+              post.frontmatter.imageAlt
+                ? post.frontmatter.imageAlt
+                : slug === "goop-plasma-exchange"
                 ? "Treatment room at Global Apheresis, Mill Valley, California — apheresis chair and machine with waterfront views of Marin."
                 : slug === "tpe-for-healthcare-providers"
                 ? "Spectra Optia apheresis machine and treatment chair at Global Apheresis in Mill Valley, California"
