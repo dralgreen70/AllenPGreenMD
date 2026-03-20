@@ -1066,6 +1066,7 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 
 @media (max-width: 768px) {
   .nav-dropdown-menu { position: static; transform: none; min-width: 0; box-shadow: none; border: none; border-radius: 0; background: transparent; padding: 0; max-height: 0; overflow: hidden; opacity: 1; visibility: visible; transition: max-height 0.35s ease; }
+  .nav-dropdown:hover .nav-dropdown-menu { transform: none; position: static; opacity: 1; visibility: visible; }
   .nav-dropdown.open .nav-dropdown-menu { max-height: 300px; }
   .nav-dropdown.open .nav-dropdown-arrow { transform: rotate(180deg); }
   .nav-dropdown-menu a { padding: 0.65rem 0 0.65rem 1.5rem; border-bottom: 1px solid var(--border); font-size: 0.85rem; color: var(--text-secondary) !important; }
