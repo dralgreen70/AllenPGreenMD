@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useRef } from "react"
 import Link from "next/link"
 
 export function Navbar() {
@@ -8,6 +8,7 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const [journalDropdownOpen, setJournalDropdownOpen] = useState(false)
+  const navLinksRef = useRef<HTMLUListElement>(null)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -29,19 +30,27 @@ export function Navbar() {
     document.body.style.overflow = ""
   }, [])
 
+  const forceRepaint = useCallback(() => {
+    if (navLinksRef.current) {
+      void navLinksRef.current.offsetHeight
+    }
+  }, [])
+
   const toggleDropdown = useCallback((e: React.MouseEvent) => {
     if (window.innerWidth <= 768) {
       e.preventDefault()
       setDropdownOpen((prev) => !prev)
+      requestAnimationFrame(forceRepaint)
     }
-  }, [])
+  }, [forceRepaint])
 
   const toggleJournalDropdown = useCallback((e: React.MouseEvent) => {
     if (window.innerWidth <= 768) {
       e.preventDefault()
       setJournalDropdownOpen((prev) => !prev)
+      requestAnimationFrame(forceRepaint)
     }
-  }, [])
+  }, [forceRepaint])
 
   return (
     <>
@@ -56,7 +65,7 @@ export function Navbar() {
             Allen P. <span>Green</span>, MD
           </span>
         </Link>
-        <ul className={`nav-links${menuOpen ? " open" : ""}`}>
+        <ul ref={navLinksRef} className={`nav-links${menuOpen ? " open" : ""}`}>
           <li>
             <Link href="/about" onClick={closeNav}>
               Dr. Green
