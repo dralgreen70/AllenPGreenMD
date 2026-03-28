@@ -19,12 +19,14 @@ export async function generateMetadata({
   const post = getPostBySlug(slug)
   if (!post) return { title: "Post Not Found" }
 
+  const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
+
   return {
     title: `${post.frontmatter.title} | Dr. Allen Green MD`,
-    description: post.frontmatter.excerpt,
+    description: metaDescription,
     openGraph: {
       title: post.frontmatter.title,
-      description: post.frontmatter.excerpt,
+      description: metaDescription,
       type: "article",
       authors: [post.frontmatter.author],
       ...(post.frontmatter.image && {
@@ -95,6 +97,53 @@ export default async function BlogPostPage({
     },
   }
 
+  const faqSchema = slug === "joe-rogan-plasmapheresis" ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Is plasmapheresis the same as dialysis?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No. Dialysis filters small waste molecules across a membrane because the kidneys can no longer do that job. Therapeutic plasma exchange separates blood into cells and plasma, discards the plasma, and replaces it with 5% human albumin. They target different molecules using different mechanisms.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Don't your liver and kidneys already filter your blood?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Your liver and kidneys handle specific categories of waste effectively, but they cannot clear autoantibodies, remove inflammatory cytokines that are part of normal signaling, eliminate albumin-bound synthetic chemicals like PFAS, or address the broader shift in plasma composition linked to biological aging. TPE removes and replaces the plasma itself.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is plasmapheresis the same as donating plasma?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The separation step is similar, but plasma donation collects a small volume of plasma for manufacturing and returns cells with saline. Therapeutic plasma exchange removes a full plasma volume and replaces it with 5% human albumin, which is one of the most potent antioxidants and anti-inflammatory compounds in the body.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is plasmapheresis safe?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, when performed by an experienced team in an appropriate clinical setting with physician oversight. TPE has been used in clinical medicine for decades with over 100 recognized indications from the American Society for Apheresis. Safety depends on proper vascular access, anticoagulation management, appropriate replacement fluids, and clinical judgment.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What does plasmapheresis cost?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "A single TPE procedure ranges from approximately $5,000 to $17,500 depending on where in the country you look. TPE for longevity, cognitive optimization, and detoxification is typically not covered by insurance. Most patients will need a series of treatments, so total cost depends on the protocol recommended for your situation.",
+        },
+      },
+    ],
+  } : null
+
   return (
     <main className="post-page">
       <Script
@@ -102,6 +151,13 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <Script
+          id={`schema-faq-${slug}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       {/* Hero Image */}
       {post.frontmatter.image && (
         <div className="post-hero-image">
