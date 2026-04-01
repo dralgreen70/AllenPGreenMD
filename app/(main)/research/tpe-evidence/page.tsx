@@ -37,6 +37,7 @@ const papers = [
     journal: "Nature",
     summary:
       "This foundational study demonstrated that exposing old mice to a young systemic environment through heterochronic parabiosis rejuvenated aged tissue stem cells. Key findings showed restored Notch signaling in aged muscle satellite cells, enhanced liver progenitor cell proliferation, and reversal of age-related molecular markers. Importantly, the effects were due to circulating factors, not cell migration (less than 0.1% of regenerated tissue came from the young partner), establishing that the systemic milieu modulates tissue regeneration.",
+    note: 'At this time, the prevailing hypothesis was that beneficial molecules in the young animal\u2019s plasma were responsible for rejuvenation, an interpretation that gave rise to "young blood" treatments and companies. What received less attention was the reciprocal finding: the young animals joined to old partners showed impaired tissue regeneration, suggesting old blood contained factors that were actively harmful. Later studies in this timeline would show that this second observation was the more important one.',
   },
   {
     number: 2,
@@ -58,7 +59,8 @@ const papers = [
     authors: "Villeda et al.",
     journal: "Nature Medicine",
     summary:
-      "This study confirmed that young blood reverses age-related cognitive impairments and improves synaptic plasticity in old mice. Young plasma infusions enhanced memory, learning, dendritic spine density, and long-term potentiation in the aged hippocampus, demonstrating that circulating factors in young plasma actively support cognitive function, and that these benefits extend beyond tissue regeneration to brain health.",
+      "This study confirmed that young blood reverses age-related cognitive impairments and improves synaptic plasticity in old mice. Young plasma infusions enhanced memory, learning, dendritic spine density, and long-term potentiation in the aged hippocampus, extending the established benefits of young blood beyond tissue regeneration to brain health.",
+    note: "These findings were initially interpreted as evidence that young plasma contains beneficial factors driving cognitive rejuvenation. However, later research (Papers 6 and 7) would demonstrate that the primary mechanism is likely dilution of pro-aging factors in old blood rather than addition of youthful components, reframing what these early plasma infusion studies were actually showing.",
   },
   {
     number: 4,
@@ -81,6 +83,7 @@ const papers = [
     journal: "Nature Medicine",
     summary:
       "This study identified VCAM1 (vascular cell adhesion molecule-1) on brain endothelial cells as a key mediator of brain aging. When aged plasma was infused into young mice, it induced VCAM1 expression at the blood-brain barrier, demonstrating that circulating factors in old blood are directly harmful. VCAM1 activation triggered microglial reactivity and inhibited neural precursor cell activity. Anti-VCAM1 antibody treatment in aged mice reduced microglial activation, enhanced hippocampal neurogenesis, and improved cognitive performance, mimicking effects of young blood exposure. This study established VCAM1 as both a biomarker and therapeutic target, revealing how systemic aging factors communicate with the brain through the cerebrovascular interface.",
+    note: "This was another critical piece of evidence that the problem is what\u2019s in old blood, not what\u2019s missing from it. A specific molecule in aged plasma was shown to directly damage brain function, and blocking it was enough to restore cognitive performance without any young blood at all.",
   },
   {
     number: 6,
@@ -91,7 +94,7 @@ const papers = [
     authors: "Mehdipour et al.",
     journal: "Aging",
     summary:
-      "This study showed that young blood is not necessary for rejuvenation. Replacing 50% of old plasma with saline plus 5% albumin (neutral blood exchange) rejuvenated muscle, liver, and hippocampus in old mice. The effects matched or exceeded heterochronic parabiosis, demonstrating that dilution of pro-aging factors, rather than addition of young factors, drives multi-tissue rejuvenation. Proteomic analysis revealed that many pro-regenerative proteins actually increased after dilution, suggesting that pro-aging factors had been suppressing the body\u2019s own repair mechanisms.",
+      "This study showed that young blood is not necessary for rejuvenation. Replacing 50% of old plasma with saline plus 5% albumin (a procedure the researchers called neutral blood exchange, and effectively the animal model of therapeutic plasma exchange) rejuvenated muscle, liver, and hippocampus in old mice. The effects matched or exceeded heterochronic parabiosis, demonstrating that dilution of pro-aging factors, rather than addition of young factors, drives multi-tissue rejuvenation. Critically, this was also the first study to analyze human plasma samples from TPE procedures, with proteomic analysis revealing a molecular resetting: pro-aging factors decreased while many pro-regenerative proteins actually increased, suggesting that accumulated pro-aging factors had been suppressing the body\u2019s own repair mechanisms.",
   },
   {
     number: 7,
@@ -276,6 +279,9 @@ export default function TpeEvidencePage() {
                     {paper.authors} · <em>{paper.journal}</em>
                   </p>
                   <p className="tpe-evidence-summary">{paper.summary}</p>
+                  {"note" in paper && paper.note && (
+                    <p className="tpe-evidence-note">{paper.note}</p>
+                  )}
                 </div>
               ))}
             </div>
