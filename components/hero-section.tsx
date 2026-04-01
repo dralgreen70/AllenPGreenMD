@@ -51,7 +51,7 @@ export function HeroSection() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
-          alt="Allen P. Green, MD with the Amicus Separator"
+          alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
           style={{
             position: "absolute",
             inset: 0,

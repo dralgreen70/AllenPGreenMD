@@ -181,7 +181,7 @@ export default function AboutPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
-                alt="Dr. Allen P. Green, MD with the Amicus Separator"
+                alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
                 loading="eager"
                 fetchPriority="high"
                 style={{
@@ -324,7 +324,7 @@ export default function AboutPage() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
-                    alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
+                    alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California"
                     loading="lazy"
                     style={{
                       width: "100%",
@@ -392,7 +392,7 @@ export default function AboutPage() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
-                    alt="Dr. Allen P. Green receiving a therapeutic plasma exchange procedure"
+                    alt="Dr. Allen Green receiving therapeutic plasma exchange -- firsthand clinical experience"
                     loading="lazy"
                     style={{
                       width: "100%",

@@ -7,7 +7,7 @@ export function PlexSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
-              alt="Dr. Allen P. Green receiving a therapeutic plasma exchange procedure with the Amicus Separator"
+              alt="Dr. Allen Green receiving therapeutic plasma exchange -- firsthand clinical experience"
               loading="eager"
               style={{
                 width: "100%",

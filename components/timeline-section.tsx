@@ -28,7 +28,7 @@ export function TimelineSection() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
-                alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
+                alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California"
                 loading="eager"
                 style={{
                   width: "100%",
