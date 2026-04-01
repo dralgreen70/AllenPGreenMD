@@ -223,7 +223,8 @@ export default function TpeEvidencePage() {
               <span className="label-text">The Science of TPE</span>
             </div>
             <h1 className="h-display reveal">
-              From Parabiosis to Plasma Exchange:{" "}
+              From Parabiosis to Plasma Exchange:
+              <br />
               <span className="serif-italic accent-text">The Research</span>
             </h1>
             <p className="tpe-hero-sub reveal">
