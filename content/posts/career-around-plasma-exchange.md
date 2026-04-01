@@ -9,8 +9,6 @@ image: "/images/dobri-and-i-ga.jpg"
 tags: "personal, tpe"
 ---
 
-# Why I Built My Career Around Therapeutic Plasma Exchange
-
 I have notebooks from medical school with the words "It's in the blood" written in them.
 
 Not as a metaphor. As a hypothesis.
