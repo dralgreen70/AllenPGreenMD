@@ -38,7 +38,7 @@ export function AboutSection() {
               }}
             >
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-15%20at%205.00.15%E2%80%AFPM-Nw0ijfDCdMrjQlLNRJWRc8Tm0Wy2Oa.png"
+                src="/images/drgreen_vest.webp"
                 alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
