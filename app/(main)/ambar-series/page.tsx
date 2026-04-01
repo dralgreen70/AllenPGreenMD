@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "Four-part analysis of the AMBAR trial: plasma exchange results, independent validation, drug comparisons, and why this treatment isn't standard of care yet.",
     url: "https://allenpgreenmd.com/ambar-series",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/ambar-series",
+  },
 }
 
 const readingPath = [
