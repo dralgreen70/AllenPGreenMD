@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "The AMBAR Series | Allen P. Green, M.D.",
     description:
       "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52-71%. A four-part series covering results, validation, and clinical implications.",
-    url: "https://www.allenpgreenmd.com/ambar-series",
+    url: "https://allenpgreenmd.com/ambar-series",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "The AMBAR Series | Allen P. Green, M.D.",
     description:
       "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52-71%. A four-part series covering results, validation, and clinical implications.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/ambar-series",
+    canonical: "https://allenpgreenmd.com/ambar-series",
   },
 }
 
@@ -77,7 +77,7 @@ export default function AmbarSeriesPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://www.allenpgreenmd.com/blog"},{"@type":"ListItem","position":3,"name":"The AMBAR Series","item":"https://www.allenpgreenmd.com/ambar-series"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://allenpgreenmd.com/blog"},{"@type":"ListItem","position":3,"name":"The AMBAR Series","item":"https://allenpgreenmd.com/ambar-series"}]}) }}
       />
       {/* ===== HERO ===== */}
       <section className="tpe-hero" id="intro">

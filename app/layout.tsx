@@ -11,7 +11,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.allenpgreenmd.com"),
+  metadataBase: new URL("https://allenpgreenmd.com"),
   title: "Dr. Allen Green | Therapeutic Plasma Exchange",
   description:
     "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     title: "Dr. Allen Green | Therapeutic Plasma Exchange",
     description:
       "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
-    url: "https://www.allenpgreenmd.com",
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    url: "https://allenpgreenmd.com",
     siteName: "Allen P. Green, MD",
     type: "website",
   },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Dr. Allen Green | Therapeutic Plasma Exchange",
     description:
       "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
 }
 

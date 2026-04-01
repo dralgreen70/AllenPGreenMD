@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
     description:
       "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
-    url: "https://www.allenpgreenmd.com/tpe-detox",
+    url: "https://allenpgreenmd.com/tpe-detox",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
     description:
       "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/tpe-detox",
+    canonical: "https://allenpgreenmd.com/tpe-detox",
   },
 }
 
@@ -121,7 +121,7 @@ export default function TpeDetoxPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Detoxification","item":"https://www.allenpgreenmd.com/tpe-detox"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Detoxification","item":"https://allenpgreenmd.com/tpe-detox"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

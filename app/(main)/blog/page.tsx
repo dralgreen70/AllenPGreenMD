@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
     description:
       "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
-    url: "https://www.allenpgreenmd.com/blog",
+    url: "https://allenpgreenmd.com/blog",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
     description:
       "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/blog",
+    canonical: "https://allenpgreenmd.com/blog",
   },
 }
 
@@ -51,7 +51,7 @@ export default function BlogPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://www.allenpgreenmd.com/blog"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://allenpgreenmd.com/blog"}]}) }}
       />
       {/* ── 1. HERO ── */}
       <header className="tpe-hero" style={{ textAlign: "center" }}>

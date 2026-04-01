@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "Research & Publications | Allen P. Green, M.D.",
     description:
       "Peer-reviewed publications and conference research by Allen P. Green, M.D. -- therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
-    url: "https://www.allenpgreenmd.com/research",
+    url: "https://allenpgreenmd.com/research",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "Research & Publications | Allen P. Green, M.D.",
     description:
       "Peer-reviewed publications and conference research by Allen P. Green, M.D. -- therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/research",
+    canonical: "https://allenpgreenmd.com/research",
   },
 }
 
@@ -201,7 +201,7 @@ export default function ResearchPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Research","item":"https://www.allenpgreenmd.com/research"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Research","item":"https://allenpgreenmd.com/research"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

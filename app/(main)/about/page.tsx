@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
     description:
       "Board-Certified Clinical Pathologist at Global Apheresis. Over 500 TPE procedures. Trained at UT Southwestern under Dr. Ravi Sarode.",
-    url: "https://www.allenpgreenmd.com/about",
+    url: "https://allenpgreenmd.com/about",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
     description:
       "Board-Certified Clinical Pathologist at Global Apheresis. Over 500 TPE procedures. Trained at UT Southwestern under Dr. Ravi Sarode.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/about",
+    canonical: "https://allenpgreenmd.com/about",
   },
 }
 
@@ -156,7 +156,7 @@ export default function AboutPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Dr. Green","item":"https://www.allenpgreenmd.com/about"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Dr. Green","item":"https://allenpgreenmd.com/about"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

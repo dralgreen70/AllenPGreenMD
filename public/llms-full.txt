@@ -5,7 +5,7 @@ Full name: Allen P. Green, MD
 Credentials: Board-Certified in Clinical Pathology
 Title: Associate Medical Director, Global Apheresis
 Location: Mill Valley, California (San Francisco Bay Area)
-Website: https://www.allenpgreenmd.com
+Website: https://allenpgreenmd.com
 LinkedIn: https://www.linkedin.com/in/allen-green-md/
 
 ## Career Timeline
@@ -42,7 +42,7 @@ LinkedIn: https://www.linkedin.com/in/allen-green-md/
   - CDR-Sum of Boxes: 71% less decline (p=0.002)
   - ADCS-CGIC: near stabilization vs. decline (p<0.0001)
 - ASFA Category III indication for Alzheimer's disease
-- Full analysis: https://www.allenpgreenmd.com/ambar-series
+- Full analysis: https://allenpgreenmd.com/ambar-series
 
 ## Practice Information
 Global Apheresis

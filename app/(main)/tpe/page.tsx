@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
     description:
       "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
-    url: "https://www.allenpgreenmd.com/tpe",
+    url: "https://allenpgreenmd.com/tpe",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
     description:
       "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/tpe",
+    canonical: "https://allenpgreenmd.com/tpe",
   },
 }
 
@@ -213,7 +213,7 @@ export default function TpePage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"What Is TPE?","item":"https://www.allenpgreenmd.com/tpe"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"What Is TPE?","item":"https://allenpgreenmd.com/tpe"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO / INTRO ===== */}

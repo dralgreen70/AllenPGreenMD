@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
     description:
       "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
-    url: "https://www.allenpgreenmd.com/tpe-longevity",
+    url: "https://allenpgreenmd.com/tpe-longevity",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
     description:
       "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/tpe-longevity",
+    canonical: "https://allenpgreenmd.com/tpe-longevity",
   },
 }
 
@@ -123,7 +123,7 @@ export default function TpeLongevityPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Longevity & Biological Age","item":"https://www.allenpgreenmd.com/tpe-longevity"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Longevity & Biological Age","item":"https://allenpgreenmd.com/tpe-longevity"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

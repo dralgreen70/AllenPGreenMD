@@ -19,12 +19,12 @@ export async function generateMetadata({
   const post = getPostBySlug(slug)
   if (!post) return { title: "Post Not Found" }
 
-  const defaultImage = "https://www.allenpgreenmd.com/images/me-and-amicus.jpg"
+  const defaultImage = "https://allenpgreenmd.com/images/me-and-amicus.jpg"
   const metaTitle = post.frontmatter.metaTitle || `${post.frontmatter.title} | Dr. Allen Green MD`
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
-  const pageUrl = `https://www.allenpgreenmd.com/blog/${slug}`
+  const pageUrl = `https://allenpgreenmd.com/blog/${slug}`
   const imageUrl = post.frontmatter.image
-    ? `https://www.allenpgreenmd.com${post.frontmatter.image}`
+    ? `https://allenpgreenmd.com${post.frontmatter.image}`
     : defaultImage
 
   return {
@@ -47,7 +47,7 @@ export async function generateMetadata({
       images: [imageUrl],
     },
     alternates: {
-      canonical: `https://www.allenpgreenmd.com/blog/${slug}`,
+      canonical: `https://allenpgreenmd.com/blog/${slug}`,
     },
   }
 }
@@ -125,9 +125,9 @@ export default async function BlogPostPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.allenpgreenmd.com" },
-      { "@type": "ListItem", position: 2, name: "Journal", item: "https://www.allenpgreenmd.com/blog" },
-      { "@type": "ListItem", position: 3, name: post.frontmatter.title, item: `https://www.allenpgreenmd.com/blog/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://allenpgreenmd.com" },
+      { "@type": "ListItem", position: 2, name: "Journal", item: "https://allenpgreenmd.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.frontmatter.title, item: `https://allenpgreenmd.com/blog/${slug}` },
     ],
   }
 

@@ -10,9 +10,9 @@ export const metadata: Metadata = {
     title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
     description:
       "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
-    url: "https://www.allenpgreenmd.com/tpe-alzheimers",
+    url: "https://allenpgreenmd.com/tpe-alzheimers",
     siteName: "Allen P. Green, MD",
-    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
     description:
       "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
-    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
-    canonical: "https://www.allenpgreenmd.com/tpe-alzheimers",
+    canonical: "https://allenpgreenmd.com/tpe-alzheimers",
   },
 }
 
@@ -170,7 +170,7 @@ export default function TpeAlzheimersPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Alzheimer's & Cognitive Decline","item":"https://www.allenpgreenmd.com/tpe-alzheimers"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Alzheimer's & Cognitive Decline","item":"https://allenpgreenmd.com/tpe-alzheimers"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}
