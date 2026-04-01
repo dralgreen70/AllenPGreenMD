@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function HeroSection() {
   return (
     <section className="hero" id="hero" style={{ padding: 0 }}>
@@ -48,15 +50,13 @@ export function HeroSection() {
       </div>
       <div className="hero-right">
         <canvas className="hero-canvas" id="heroCanvas" />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
           alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
+          fill
+          priority
+          sizes="50vw"
           style={{
-            position: "absolute",
-            inset: 0,
-            width: "100%",
-            height: "100%",
             objectFit: "cover",
             objectPosition: "center top",
             zIndex: 1,

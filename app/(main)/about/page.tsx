@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
 import { Ticker } from "@/components/ticker"
@@ -178,18 +179,15 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="about-hero-photo reveal-right">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
                 alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
-                loading="eager"
-                fetchPriority="high"
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{
-                  width: "100%",
-                  height: "100%",
                   objectFit: "cover",
                   objectPosition: "center top",
-                  display: "block",
                 }}
               />
               <div className="about-hero-photo-overlay">
@@ -321,11 +319,12 @@ export default function AboutPage() {
             <div className="mentorship-grid">
               <div className="mentorship-photo reveal-left">
                 <div className="mentorship-photo-frame">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
                     alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California"
-                    loading="lazy"
+                    width={800}
+                    height={600}
+                    sizes="(max-width: 768px) 100vw, 400px"
                     style={{
                       width: "100%",
                       height: "auto",
@@ -389,11 +388,12 @@ export default function AboutPage() {
                     background: "var(--card)",
                   }}
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
                     alt="Dr. Allen Green receiving therapeutic plasma exchange -- firsthand clinical experience"
-                    loading="lazy"
+                    width={800}
+                    height={600}
+                    sizes="(max-width: 768px) 100vw, 400px"
                     style={{
                       width: "100%",
                       height: "auto",

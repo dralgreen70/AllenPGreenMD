@@ -1,21 +1,19 @@
+import Image from "next/image"
+
 export function PlexSection() {
   return (
     <section className="plex-section site-section" id="plex">
       <div className="site-container">
         <div className="plex-grid">
           <div className="plex-visual reveal-left">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
               alt="Dr. Allen Green receiving therapeutic plasma exchange -- firsthand clinical experience"
-              loading="eager"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{
-                width: "100%",
-                height: "100%",
                 objectFit: "cover",
                 objectPosition: "center top",
-                display: "block",
-                position: "relative",
                 zIndex: 1,
               }}
             />

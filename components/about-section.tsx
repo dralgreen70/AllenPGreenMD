@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const tags = [
   "Board Certified",
   "UT Southwestern",
@@ -35,20 +37,14 @@ export function AboutSection() {
                 background: "#ddd",
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-15%20at%205.00.15%E2%80%AFPM-Nw0ijfDCdMrjQlLNRJWRc8Tm0Wy2Oa.png"
                 alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
-                width={600}
-                height={800}
-                loading="eager"
-                fetchPriority="high"
+                fill
+                sizes="(max-width: 768px) 100vw, 40vw"
                 style={{
-                  width: "100%",
-                  height: "100%",
                   objectFit: "cover",
                   objectPosition: "center top",
-                  display: "block",
                 }}
               />
             </div>

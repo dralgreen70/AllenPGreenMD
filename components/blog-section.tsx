@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { getAllPosts } from "@/lib/blog"
 
 const iconMap: Record<string, JSX.Element> = {
@@ -47,16 +48,14 @@ export function BlogSection() {
             >
               <div className="blog-card-img">
                 {post.frontmatter.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
+                  <Image
                     src={post.frontmatter.image}
                     alt={post.frontmatter.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     style={{
-                      width: "100%",
-                      height: "100%",
                       objectFit: "cover",
                       objectPosition: post.frontmatter.imagePosition || "center 20%",
-                      display: "block",
                     }}
                   />
                 ) : (

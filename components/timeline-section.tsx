@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const events = [
   { year: "2016", title: "Medical School", desc: "Discovered revolutionary aging research using Therapeutic Plasma Exchange for longevity and Alzheimer's Disease through independent study at The Medical University of South Carolina." },
   { year: "2020", title: "UT Southwestern Residency", desc: "Entered clinical pathology residency, gaining expertise in apheresis technologies under field leaders including Dr. Ravi Sarode. Supervised and performed hundreds of apheresis procedures." },
@@ -25,11 +27,12 @@ export function TimelineSection() {
               border: "1px solid var(--border)",
               background: "var(--card)",
             }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
                 alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California"
-                loading="eager"
+                width={800}
+                height={600}
+                sizes="(max-width: 768px) 100vw, 400px"
                 style={{
                   width: "100%",
                   height: "auto",

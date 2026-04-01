@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation"
+import Image from "next/image"
 import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml } from "@/lib/blog"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -200,14 +201,13 @@ export default async function BlogPostPage({
       {/* Hero Image */}
       {post.frontmatter.image && (
         <div className="post-hero-image">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src={post.frontmatter.image}
             alt={
               post.frontmatter.imageAlt
                 ? post.frontmatter.imageAlt
                 : slug === "goop-plasma-exchange"
-                ? "Treatment room at Global Apheresis, Mill Valley, California — apheresis chair and machine with waterfront views of Marin."
+                ? "Treatment room at Global Apheresis, Mill Valley, California -- apheresis chair and machine with waterfront views of Marin."
                 : slug === "tpe-for-healthcare-providers"
                 ? "Spectra Optia apheresis machine and treatment chair at Global Apheresis in Mill Valley, California"
                 : slug === "tpe-revolutionizing-health-longevity"
@@ -216,7 +216,16 @@ export default async function BlogPostPage({
                 ? "Treatment room at Global Apheresis clinic in Mill Valley, California, with apheresis equipment and patient chair"
                 : post.frontmatter.title
             }
-            style={post.frontmatter.imagePosition ? { objectPosition: post.frontmatter.imagePosition } : undefined}
+            width={1200}
+            height={630}
+            priority
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              ...(post.frontmatter.imagePosition ? { objectPosition: post.frontmatter.imagePosition } : {}),
+            }}
           />
         </div>
       )}
