@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "What is Therapeutic Plasma Exchange (TPE)? | Allen P. Green, MD",
+  title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
   description:
-    "Therapeutic plasma exchange (TPE) removes old plasma and replaces it with albumin solution, clearing inflammatory compounds linked to aging and disease. Learn how TPE works, what to expect, and its clinical applications.",
+    "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
   openGraph: {
-    title: "What is Therapeutic Plasma Exchange (TPE)?",
+    title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
     description:
-      "A comprehensive guide to therapeutic plasma exchange — how it works, what it treats, and why it matters for longevity and disease management.",
-    url: "https://allenpgreenmd.com/tpe",
+      "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
+    url: "https://www.allenpgreenmd.com/tpe",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
+    description:
+      "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/tpe",

@@ -3,6 +3,7 @@ title: "TPE for Detoxification: The Science-Based Solution for Forever Chemicals
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "How therapeutic plasma exchange directly removes PFAS, heavy metals, and synthetic chemicals that conventional detox approaches cannot reach."
+metaTitle: "Detox with TPE: PFAS & Forever Chemicals | Dr. Allen Green"
 image: "/images/blog/tpe_detox.jpg"
 tags: "pfas, detox"
 ---

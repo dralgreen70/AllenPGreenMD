@@ -4,12 +4,22 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Research & Publications | Allen P. Green, M.D.",
   description:
-    "Peer-reviewed publications, conference presentations, and clinical research by Allen P. Green, M.D. — covering therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
+    "Peer-reviewed publications and conference research by Allen P. Green, M.D. -- therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
   openGraph: {
-    title: "Research & Publications — Allen P. Green, M.D.",
+    title: "Research & Publications | Allen P. Green, M.D.",
     description:
-      "Published research and conference presentations in therapeutic apheresis, transfusion medicine, and clinical pathology.",
-    url: "https://allenpgreenmd.com/research",
+      "Peer-reviewed publications and conference research by Allen P. Green, M.D. -- therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
+    url: "https://www.allenpgreenmd.com/research",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Research & Publications | Allen P. Green, M.D.",
+    description:
+      "Peer-reviewed publications and conference research by Allen P. Green, M.D. -- therapeutic plasma exchange, transfusion medicine, apheresis, and hematology.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/research",

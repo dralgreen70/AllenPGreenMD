@@ -3,6 +3,7 @@ title: "The Hidden Risk of Weight Loss: How Forever Chemicals Get Released Durin
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "Why losing weight might temporarily increase your toxin exposure — and the therapeutic solution that can help"
+metaTitle: "PFAS and Weight Loss: The Hidden Risk | Dr. Allen Green"
 image: "/images/blog/weight_loss_pfas.jpg"
 tags: "pfas, detox, longevity"
 ---

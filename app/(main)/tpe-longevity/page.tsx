@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "Therapeutic Plasma Exchange for Longevity & Biological Age Reversal | Allen P. Green, MD",
+  title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
   description:
-    "Research has shown that therapeutic plasma exchange reduces biological age by up to 2.6 years, rejuvenates the proteome, and reverses aging biomarkers. Learn about the science of plasma dilution and how TPE is being applied for longevity at Global Apheresis.",
+    "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
   openGraph: {
-    title: "TPE for Longevity & Biological Age Reversal",
+    title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
     description:
-      "The science behind plasma exchange for aging \u2014 parabiosis research, the dilution hypothesis, and clinical studies showing measurable biological age reduction.",
-    url: "https://allenpgreenmd.com/tpe-longevity",
+      "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
+    url: "https://www.allenpgreenmd.com/tpe-longevity",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
+    description:
+      "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/tpe-longevity",

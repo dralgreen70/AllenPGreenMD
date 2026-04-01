@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "Therapeutic Plasma Exchange for Alzheimer's Disease | Allen P. Green, MD",
+  title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
   description:
-    "TPE removes amyloid-β and inflammatory proteins linked to Alzheimer's. The AMBAR trial demonstrated plasma exchange slowed cognitive and functional decline in mild and moderate Alzheimer's disease. Learn about the evidence, the protocol, and how TPE compares to other treatments.",
+    "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
   openGraph: {
-    title: "TPE for Alzheimer's Disease & Cognitive Decline",
+    title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
     description:
-      "Clinical evidence for therapeutic plasma exchange in Alzheimer's — AMBAR trial results, mechanism of action, treatment protocol, and comparison with anti-amyloid antibodies.",
-    url: "https://allenpgreenmd.com/tpe-alzheimers",
+      "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
+    url: "https://www.allenpgreenmd.com/tpe-alzheimers",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
+    description:
+      "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/tpe-alzheimers",

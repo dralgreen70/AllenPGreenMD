@@ -5,7 +5,23 @@ import { Ticker } from "@/components/ticker"
 export const metadata: Metadata = {
   title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
   description:
-    "Board-certified in Clinical Pathology. Associate Medical Director at Global Apheresis. 500+ therapeutic plasma exchange procedures. Trained under Dr. Dobri Kiprov.",
+    "Board-Certified Clinical Pathologist at Global Apheresis. Over 500 TPE procedures. Trained at UT Southwestern under Dr. Ravi Sarode.",
+  openGraph: {
+    title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
+    description:
+      "Board-Certified Clinical Pathologist at Global Apheresis. Over 500 TPE procedures. Trained at UT Southwestern under Dr. Ravi Sarode.",
+    url: "https://www.allenpgreenmd.com/about",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
+    description:
+      "Board-Certified Clinical Pathologist at Global Apheresis. Over 500 TPE procedures. Trained at UT Southwestern under Dr. Ravi Sarode.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+  },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/about",
   },

@@ -3,6 +3,7 @@ title: "The Blood Revolution: How Scientists Discovered That Aging Lives in Your
 date: "2025-12-14"
 author: "Dr. Allen P. Green"
 excerpt: "How two decades of parabiosis research led to a medical procedure that can reduce biological age — and what it means for the future of medicine."
+metaTitle: "The Blood Revolution: Aging in Your Blood | Dr. Allen Green"
 image: "/images/blog/blood_revolution.webp"
 tags: "research, longevity"
 ---

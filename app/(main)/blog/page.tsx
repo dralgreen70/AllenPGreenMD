@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
   description:
     "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
+  openGraph: {
+    title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
+    description:
+      "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
+    url: "https://www.allenpgreenmd.com/blog",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
+    description:
+      "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+  },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/blog",
   },

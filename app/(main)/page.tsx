@@ -2,6 +2,25 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
+  title: "Dr. Allen Green | Therapeutic Plasma Exchange",
+  description:
+    "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
+  openGraph: {
+    title: "Dr. Allen Green | Therapeutic Plasma Exchange",
+    description:
+      "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
+    url: "https://www.allenpgreenmd.com",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Allen Green | Therapeutic Plasma Exchange",
+    description:
+      "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
+  },
   alternates: {
     canonical: "https://www.allenpgreenmd.com",
   },

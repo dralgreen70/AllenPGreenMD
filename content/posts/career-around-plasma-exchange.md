@@ -3,6 +3,8 @@ title: "Why I Built My Career Around Therapeutic Plasma Exchange"
 date: "2026-02-22"
 author: "Dr. Allen P. Green"
 excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov and Global Apheresis—and why I chose to treat patients rather than wait for academia to catch up."
+description: "How following the science of aging in blood led me to Global Apheresis -- and why I chose to treat patients rather than wait for academia to catch up."
+metaTitle: "Why I Built My Career Around TPE | Dr. Allen Green, MD"
 image: "/images/dobri-and-i-ga.jpg"
 tags: "personal, tpe"
 ---

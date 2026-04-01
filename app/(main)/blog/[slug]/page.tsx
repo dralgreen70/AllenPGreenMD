@@ -19,28 +19,32 @@ export async function generateMetadata({
   const post = getPostBySlug(slug)
   if (!post) return { title: "Post Not Found" }
 
+  const defaultImage = "https://www.allenpgreenmd.com/images/me-and-amicus.jpg"
+  const metaTitle = post.frontmatter.metaTitle || `${post.frontmatter.title} | Dr. Allen Green MD`
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
-  const pageUrl = `https://allenpgreenmd.com/blog/${slug}`
+  const pageUrl = `https://www.allenpgreenmd.com/blog/${slug}`
   const imageUrl = post.frontmatter.image
-    ? `https://allenpgreenmd.com${post.frontmatter.image}`
-    : undefined
+    ? `https://www.allenpgreenmd.com${post.frontmatter.image}`
+    : defaultImage
 
   return {
-    title: `${post.frontmatter.title} | Dr. Allen Green MD`,
+    title: metaTitle,
     description: metaDescription,
     openGraph: {
-      title: post.frontmatter.title,
+      title: metaTitle,
       description: metaDescription,
       type: "article",
       url: pageUrl,
-      authors: [post.frontmatter.author],
-      ...(imageUrl && { images: [imageUrl] }),
+      siteName: "Allen P. Green, MD",
+      publishedTime: `${post.frontmatter.date}T00:00:00-08:00`,
+      authors: ["Allen P. Green, MD"],
+      images: [{ url: imageUrl, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.frontmatter.title,
+      title: metaTitle,
       description: metaDescription,
-      ...(imageUrl && { images: [imageUrl] }),
+      images: [imageUrl],
     },
     alternates: {
       canonical: `https://www.allenpgreenmd.com/blog/${slug}`,

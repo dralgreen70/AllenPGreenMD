@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "Therapeutic Plasma Exchange for Detoxification & Environmental Toxins | Allen P. Green, MD",
+  title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
   description:
-    "Environmental toxins like PFAS, heavy metals, and persistent organic pollutants accumulate in your blood over a lifetime. TPE physically removes the plasma that carries them. Learn how therapeutic plasma exchange approaches detoxification at Global Apheresis.",
+    "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
   openGraph: {
-    title: "TPE for Detoxification & Environmental Toxins",
+    title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
     description:
-      "How therapeutic plasma exchange removes environmental toxins, PFAS, persistent organic pollutants, and heavy metals from circulation.",
-    url: "https://allenpgreenmd.com/tpe-detox",
+      "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
+    url: "https://www.allenpgreenmd.com/tpe-detox",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
+    description:
+      "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/tpe-detox",

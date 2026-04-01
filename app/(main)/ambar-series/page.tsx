@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "The AMBAR Series | Allen P. Green, M.D.",
+  title: "The AMBAR Series | Allen P. Green, M.D.",
   description:
-    "A four-part analysis of the AMBAR trial — the landmark study showing plasma exchange slowed Alzheimer's decline by 52–71%. Trial results, independent validation, FDA drug comparisons, and clinical implications.",
+    "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52-71%. A four-part series covering results, validation, and clinical implications.",
   openGraph: {
-    title: "The AMBAR Series — Allen P. Green, M.D.",
+    title: "The AMBAR Series | Allen P. Green, M.D.",
     description:
-      "Four-part analysis of the AMBAR trial: plasma exchange results, independent validation, drug comparisons, and why this treatment isn't standard of care yet.",
-    url: "https://allenpgreenmd.com/ambar-series",
+      "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52-71%. A four-part series covering results, validation, and clinical implications.",
+    url: "https://www.allenpgreenmd.com/ambar-series",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The AMBAR Series | Allen P. Green, M.D.",
+    description:
+      "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52-71%. A four-part series covering results, validation, and clinical implications.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/ambar-series",

@@ -7,6 +7,7 @@ export interface PostFrontmatter {
   author: string
   excerpt: string
   description?: string
+  metaTitle?: string
   image: string
   imagePosition?: string
   imageAlt?: string
@@ -77,6 +78,7 @@ function parseFrontmatter(fileContent: string): {
       author: (frontmatter.author as string) || "Dr. Allen P. Green",
       excerpt: (frontmatter.excerpt as string) || "",
       description: (frontmatter.description as string) || "",
+      metaTitle: (frontmatter.metaTitle as string) || "",
       image: (frontmatter.image as string) || "",
       imagePosition: (frontmatter.imagePosition as string) || "",
       imageAlt: (frontmatter.imageAlt as string) || "",

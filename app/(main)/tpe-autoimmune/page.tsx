@@ -2,15 +2,24 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title:
-    "Therapeutic Plasma Exchange for Autoimmune Conditions | Allen P. Green, MD",
+  title: "TPE for Autoimmune Conditions | Allen P. Green, MD",
   description:
-    "TPE is an established first-line treatment for many autoimmune conditions, removing the pathogenic antibodies and immune complexes that drive disease. Learn about ASFA-recognized indications, how TPE works for autoimmune disease, and treatment at Global Apheresis.",
+    "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
   openGraph: {
-    title: "TPE for Autoimmune Conditions",
+    title: "TPE for Autoimmune Conditions | Allen P. Green, MD",
     description:
-      "Therapeutic plasma exchange for autoimmune disease — established indications, mechanism of action, conditions treated, and what to expect.",
-    url: "https://allenpgreenmd.com/tpe-autoimmune",
+      "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
+    url: "https://www.allenpgreenmd.com/tpe-autoimmune",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TPE for Autoimmune Conditions | Allen P. Green, MD",
+    description:
+      "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
+    images: ["https://www.allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
     canonical: "https://www.allenpgreenmd.com/tpe-autoimmune",
