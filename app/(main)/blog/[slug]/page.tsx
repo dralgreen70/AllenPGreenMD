@@ -20,6 +20,10 @@ export async function generateMetadata({
   if (!post) return { title: "Post Not Found" }
 
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
+  const pageUrl = `https://allenpgreenmd.com/blog/${slug}`
+  const imageUrl = post.frontmatter.image
+    ? `https://allenpgreenmd.com${post.frontmatter.image}`
+    : undefined
 
   return {
     title: `${post.frontmatter.title} | Dr. Allen Green MD`,
@@ -28,10 +32,15 @@ export async function generateMetadata({
       title: post.frontmatter.title,
       description: metaDescription,
       type: "article",
+      url: pageUrl,
       authors: [post.frontmatter.author],
-      ...(post.frontmatter.image && {
-        images: [`https://allenpgreenmd.com${post.frontmatter.image}`],
-      }),
+      ...(imageUrl && { images: [imageUrl] }),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.frontmatter.title,
+      description: metaDescription,
+      ...(imageUrl && { images: [imageUrl] }),
     },
   }
 }
@@ -83,18 +92,26 @@ export default async function BlogPostPage({
     }),
     author: {
       "@type": "Person",
-      name: "Allen P. Green, MD",
+      name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",
+      jobTitle: "Associate Medical Director",
+      worksFor: {
+        "@type": "MedicalClinic",
+        name: "Global Apheresis",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "655 Redwood Highway, Suite 370",
+          addressLocality: "Mill Valley",
+          addressRegion: "CA",
+          postalCode: "94941",
+        },
+      },
     },
     publisher: {
       "@type": "Person",
-      name: "Allen P. Green, MD",
-      url: "https://allenpgreenmd.com",
+      name: "Allen P. Green, M.D.",
     },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `https://allenpgreenmd.com/blog/${slug}`,
-    },
+    mainEntityOfPage: `https://allenpgreenmd.com/blog/${slug}`,
   }
 
   const faqSchema = slug === "joe-rogan-plasmapheresis" ? {
@@ -173,6 +190,8 @@ export default async function BlogPostPage({
                 ? "Spectra Optia apheresis machine and treatment chair at Global Apheresis in Mill Valley, California"
                 : slug === "tpe-revolutionizing-health-longevity"
                 ? "The Global Apheresis clinic in Mill Valley, California, where Dr. Allen P. Green performs therapeutic plasma exchange"
+                : slug === "how-much-does-plasmapheresis-cost"
+                ? "Treatment room at Global Apheresis clinic in Mill Valley, California, with apheresis equipment and patient chair"
                 : post.frontmatter.title
             }
             style={post.frontmatter.imagePosition ? { objectPosition: post.frontmatter.imagePosition } : undefined}
