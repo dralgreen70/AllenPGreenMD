@@ -512,6 +512,19 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .research-pub-link { font-size: 0.78rem; font-weight: 600; color: var(--accent); margin-top: 0.5rem; display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; transition: gap 0.3s; }
 .research-pub-link:hover { gap: 0.6rem; }
 
+/* ===== TPE EVIDENCE PAGE ===== */
+.tpe-evidence-papers { display: flex; flex-direction: column; gap: 0; }
+.tpe-evidence-entry { padding: 2.5rem 0; border-bottom: 1px solid var(--border); }
+.tpe-evidence-entry:first-child { padding-top: 0; }
+.tpe-evidence-entry:last-child { border-bottom: none; }
+.tpe-evidence-number { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+.tpe-evidence-title { font-family: 'Outfit', sans-serif; font-size: clamp(1.1rem, 1.8vw, 1.35rem); font-weight: 600; line-height: 1.4; margin-bottom: 0.5rem; }
+.tpe-evidence-title a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+.tpe-evidence-title a:hover { color: var(--accent); }
+.tpe-evidence-meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+.tpe-evidence-meta em { font-style: italic; }
+.tpe-evidence-summary { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; max-width: 52rem; }
+
 /* ===== BLOG VIDEO GRID ===== */
 .blog-video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
 .blog-video-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--border); background: var(--bg-dark); }

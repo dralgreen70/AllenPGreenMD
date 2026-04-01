@@ -7,6 +7,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [researchDropdownOpen, setResearchDropdownOpen] = useState(false)
   const [journalDropdownOpen, setJournalDropdownOpen] = useState(false)
   const navLinksRef = useRef<HTMLUListElement>(null)
 
@@ -26,6 +27,7 @@ export function Navbar() {
   const closeNav = useCallback(() => {
     setMenuOpen(false)
     setDropdownOpen(false)
+    setResearchDropdownOpen(false)
     setJournalDropdownOpen(false)
     document.body.style.overflow = ""
   }, [])
@@ -40,6 +42,14 @@ export function Navbar() {
     if (window.innerWidth <= 768) {
       e.preventDefault()
       setDropdownOpen((prev) => !prev)
+      requestAnimationFrame(forceRepaint)
+    }
+  }, [forceRepaint])
+
+  const toggleResearchDropdown = useCallback((e: React.MouseEvent) => {
+    if (window.innerWidth <= 768) {
+      e.preventDefault()
+      setResearchDropdownOpen((prev) => !prev)
       requestAnimationFrame(forceRepaint)
     }
   }, [forceRepaint])
@@ -98,10 +108,21 @@ export function Navbar() {
               </Link>
             </div>
           </li>
-          <li>
-            <Link href="/research" onClick={closeNav}>
+          <li className={`nav-dropdown${researchDropdownOpen ? " open" : ""}`}>
+            <a href="#" className="nav-dropdown-trigger" onClick={toggleResearchDropdown}>
               Research
-            </Link>
+              <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M1 1l4 4 4-4" />
+              </svg>
+            </a>
+            <div className="nav-dropdown-menu">
+              <Link href="/research" onClick={closeNav}>
+                My Publications
+              </Link>
+              <Link href="/research/tpe-evidence" onClick={closeNav}>
+                The Science of TPE
+              </Link>
+            </div>
           </li>
           <li className={`nav-dropdown${journalDropdownOpen ? " open" : ""}`}>
             <a href="#" className="nav-dropdown-trigger" onClick={toggleJournalDropdown}>
