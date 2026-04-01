@@ -4,13 +4,13 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "The Science of TPE: 12 Key Studies | Allen P. Green, M.D.",
   description:
-    "The peer-reviewed research behind therapeutic plasma exchange for longevity — from the 2005 parabiosis breakthrough to 2025 clinical trials showing biological age reduction. 12 studies summarized.",
+    "The peer-reviewed research behind therapeutic plasma exchange for longevity, from the 2005 parabiosis breakthrough to 2025 clinical trials showing biological age reduction. 12 studies summarized.",
   alternates: {
     canonical: "https://allenpgreenmd.com/research/tpe-evidence",
   },
   openGraph: {
     title:
-      "The Science of TPE — 12 Key Studies from Parabiosis to Clinical Application",
+      "The Science of TPE: 12 Key Studies from Parabiosis to Clinical Application",
     description:
       "A chronological summary of the peer-reviewed research that established therapeutic plasma exchange as a longevity intervention.",
     url: "https://allenpgreenmd.com/research/tpe-evidence",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Science of TPE — 12 Key Studies",
+    title: "The Science of TPE: 12 Key Studies",
     description:
       "A chronological summary of the peer-reviewed research that established therapeutic plasma exchange as a longevity intervention.",
   },
@@ -36,7 +36,7 @@ const papers = [
     authors: "Conboy et al.",
     journal: "Nature",
     summary:
-      "This foundational study demonstrated that exposing old mice to a young systemic environment through heterochronic parabiosis rejuvenated aged tissue stem cells. Key findings showed restored Notch signaling in aged muscle satellite cells, enhanced liver progenitor cell proliferation, and reversal of age-related molecular markers. Importantly, the effects were due to circulating factors, not cell migration — less than 0.1% of regenerated tissue came from the young partner — establishing that the systemic milieu modulates tissue regeneration.",
+      "This foundational study demonstrated that exposing old mice to a young systemic environment through heterochronic parabiosis rejuvenated aged tissue stem cells. Key findings showed restored Notch signaling in aged muscle satellite cells, enhanced liver progenitor cell proliferation, and reversal of age-related molecular markers. Importantly, the effects were due to circulating factors, not cell migration (less than 0.1% of regenerated tissue came from the young partner), establishing that the systemic milieu modulates tissue regeneration.",
   },
   {
     number: 2,
@@ -58,7 +58,7 @@ const papers = [
     authors: "Villeda et al.",
     journal: "Nature Medicine",
     summary:
-      "This study confirmed that young blood reverses age-related cognitive impairments and improves synaptic plasticity in old mice. Young plasma infusions enhanced memory, learning, dendritic spine density, and long-term potentiation in the aged hippocampus — demonstrating that circulating factors in young plasma actively support cognitive function, and that these benefits extend beyond tissue regeneration to brain health.",
+      "This study confirmed that young blood reverses age-related cognitive impairments and improves synaptic plasticity in old mice. Young plasma infusions enhanced memory, learning, dendritic spine density, and long-term potentiation in the aged hippocampus, demonstrating that circulating factors in young plasma actively support cognitive function, and that these benefits extend beyond tissue regeneration to brain health.",
   },
   {
     number: 4,
@@ -69,7 +69,7 @@ const papers = [
     authors: "Rebo et al.",
     journal: "Nature Communications",
     summary:
-      "Rebo et al. developed a blood exchange system that isolated the effects of blood from the confounding variables of parabiosis (shared organs, hormones, environment). They demonstrated that old blood rapidly inhibits multiple tissues within days. A single exchange of old blood into young mice decreased muscle regeneration, hepatogenesis, and neurogenesis. Critically, old blood\u2019s inhibitory effects were more pronounced than young blood\u2019s benefits, particularly for neurogenesis — revealing that dilution of pro-aging factors may be more important than addition of youthful ones.",
+      "Rebo et al. developed a blood exchange system that isolated the effects of blood from the confounding variables of parabiosis (shared organs, hormones, environment). They demonstrated that old blood rapidly inhibits multiple tissues within days. A single exchange of old blood into young mice decreased muscle regeneration, hepatogenesis, and neurogenesis. Critically, old blood\u2019s inhibitory effects were more pronounced than young blood\u2019s benefits, particularly for neurogenesis, revealing that dilution of pro-aging factors may be more important than addition of youthful ones.",
   },
   {
     number: 5,
@@ -80,7 +80,7 @@ const papers = [
     authors: "Yousef et al.",
     journal: "Nature Medicine",
     summary:
-      "This study identified VCAM1 (vascular cell adhesion molecule-1) on brain endothelial cells as a key mediator of brain aging. When aged plasma was infused into young mice, it induced VCAM1 expression at the blood-brain barrier, demonstrating that circulating factors in old blood are directly harmful. VCAM1 activation triggered microglial reactivity and inhibited neural precursor cell activity. Anti-VCAM1 antibody treatment in aged mice reduced microglial activation, enhanced hippocampal neurogenesis, and improved cognitive performance — mimicking effects of young blood exposure. This study established VCAM1 as both a biomarker and therapeutic target, revealing how systemic aging factors communicate with the brain through the cerebrovascular interface.",
+      "This study identified VCAM1 (vascular cell adhesion molecule-1) on brain endothelial cells as a key mediator of brain aging. When aged plasma was infused into young mice, it induced VCAM1 expression at the blood-brain barrier, demonstrating that circulating factors in old blood are directly harmful. VCAM1 activation triggered microglial reactivity and inhibited neural precursor cell activity. Anti-VCAM1 antibody treatment in aged mice reduced microglial activation, enhanced hippocampal neurogenesis, and improved cognitive performance, mimicking effects of young blood exposure. This study established VCAM1 as both a biomarker and therapeutic target, revealing how systemic aging factors communicate with the brain through the cerebrovascular interface.",
   },
   {
     number: 6,
@@ -91,7 +91,7 @@ const papers = [
     authors: "Mehdipour et al.",
     journal: "Aging",
     summary:
-      "This study showed that young blood is not necessary for rejuvenation. Replacing 50% of old plasma with saline plus 5% albumin (neutral blood exchange) rejuvenated muscle, liver, and hippocampus in old mice. The effects matched or exceeded heterochronic parabiosis, demonstrating that dilution of pro-aging factors — rather than addition of young factors — drives multi-tissue rejuvenation. Proteomic analysis revealed that many pro-regenerative proteins actually increased after dilution, suggesting that pro-aging factors had been suppressing the body\u2019s own repair mechanisms.",
+      "This study showed that young blood is not necessary for rejuvenation. Replacing 50% of old plasma with saline plus 5% albumin (neutral blood exchange) rejuvenated muscle, liver, and hippocampus in old mice. The effects matched or exceeded heterochronic parabiosis, demonstrating that dilution of pro-aging factors, rather than addition of young factors, drives multi-tissue rejuvenation. Proteomic analysis revealed that many pro-regenerative proteins actually increased after dilution, suggesting that pro-aging factors had been suppressing the body\u2019s own repair mechanisms.",
   },
   {
     number: 7,
@@ -102,7 +102,7 @@ const papers = [
     authors: "Mehdipour et al.",
     journal: "GeroScience",
     summary:
-      "This study expanded neutral blood exchange findings to cognitive function, showing that a single plasma dilution procedure rapidly improved memory and learning in old mice within one week. The procedure significantly reduced neuroinflammation — CD68+ activated microglia declined dramatically in the hippocampus, thalamus, and hypothalamus. Notably, plasma dilution was more effective than senolytic drugs (ABT 263) for brain rejuvenation, establishing it as a comprehensive intervention that targets multiple aging mechanisms simultaneously.",
+      "This study expanded neutral blood exchange findings to cognitive function, showing that a single plasma dilution procedure rapidly improved memory and learning in old mice within one week. The procedure significantly reduced neuroinflammation: CD68+ activated microglia declined dramatically in the hippocampus, thalamus, and hypothalamus. Notably, plasma dilution was more effective than senolytic drugs (ABT 263) for brain rejuvenation, establishing it as a comprehensive intervention that targets multiple aging mechanisms simultaneously.",
   },
   {
     number: 8,
@@ -113,7 +113,7 @@ const papers = [
     authors: "Mehdipour, Conboy, Kiprov et al.",
     journal: "Transfusion and Apheresis Science",
     summary:
-      "This review paper repositioned therapeutic plasma exchange (TPE) — an FDA-cleared clinical procedure used for decades in autoimmune disease — as a potential rejuvenation therapy. It discussed how TPE attenuates age-elevated blood factors and proposed that diluting the systemic milieu, which accumulates pro-geronic factors with age, could be translated to clinical anti-aging interventions in humans. This paper bridged the gap between animal research and clinical application.",
+      "This review paper repositioned therapeutic plasma exchange (TPE), an FDA-cleared clinical procedure used for decades in autoimmune disease, as a potential rejuvenation therapy. It discussed how TPE attenuates age-elevated blood factors and proposed that diluting the systemic milieu, which accumulates pro-geronic factors with age, could be translated to clinical anti-aging interventions in humans. This paper bridged the gap between animal research and clinical application.",
   },
   {
     number: 9,
@@ -124,7 +124,7 @@ const papers = [
     authors: "Jeon et al.",
     journal: "Nature Metabolism",
     summary:
-      "Jeon et al. demonstrated that a single heterochronic blood exchange from old to young mice systemically induces cellular senescence throughout young tissues within days. Young animals rapidly acquired aging phenotypes — increased senescence markers, DNA damage, and inflammatory signals. Treating old donors with senolytic drugs before blood exchange prevented senescence induction in young recipients, revealing that circulating senescence-associated factors in old blood actively propagate aging.",
+      "Jeon et al. demonstrated that a single heterochronic blood exchange from old to young mice systemically induces cellular senescence throughout young tissues within days. Young animals rapidly acquired aging phenotypes: increased senescence markers, DNA damage, and inflammatory signals. Treating old donors with senolytic drugs before blood exchange prevented senescence induction in young recipients, revealing that circulating senescence-associated factors in old blood actively propagate aging.",
   },
   {
     number: 10,
@@ -134,7 +134,7 @@ const papers = [
     authors: "Kim, Kiprov et al.",
     journal: "GeroScience",
     summary:
-      "The first clinical study demonstrating that TPE reduces human biological age. Repeated TPE treatments (5+ sessions) in older adults decreased biological age by 1\u20132 years as measured by epigenetic clocks and proteomic markers. The study defined \u201Cbiological noise\u201D — deregulation of key protein biomarkers — as a metric of aging. TPE restored youthful immune profiles, reduced cellular senescence and DNA damage markers, and normalized key signaling pathways (JAK-STAT, MAPK, TGF-beta, NF-\u03BAB), with TLR4 identified as a nodal point of molecular rejuvenation.",
+      "The first clinical study demonstrating that TPE reduces human biological age. Repeated TPE treatments (5+ sessions) in older adults decreased biological age by 1\u20132 years as measured by epigenetic clocks and proteomic markers. The study defined \u201Cbiological noise\u201D (deregulation of key protein biomarkers — as a metric of aging). TPE restored youthful immune profiles, reduced cellular senescence and DNA damage markers, and normalized key signaling pathways (JAK-STAT, MAPK, TGF-beta, NF-\u03BAB), with TLR4 identified as a nodal point of molecular rejuvenation.",
   },
   {
     number: 11,
@@ -145,7 +145,7 @@ const papers = [
     authors: "Fuentealba, Kiprov et al.",
     journal: "Aging Cell",
     summary:
-      "This comprehensive multi-omics clinical trial compared different TPE regimens across 30 participants. Biweekly TPE supplemented with IVIG produced the strongest biological age rejuvenation — decreasing biological age by 2.61 years after 3 sessions. The intervention reversed immune aging, reduced senescence-associated proteins, and improved multiple molecular profiles across epigenomics, proteomics, metabolomics, cytomics, and glycomics. Baseline health status predicted response magnitude, with individuals in poorer health showing the greatest benefit.",
+      "This comprehensive multi-omics clinical trial compared different TPE regimens across 30 participants. Biweekly TPE supplemented with IVIG produced the strongest biological age rejuvenation, decreasing biological age by 2.61 years after 3 sessions. The intervention reversed immune aging, reduced senescence-associated proteins, and improved multiple molecular profiles across epigenomics, proteomics, metabolomics, cytomics, and glycomics. Baseline health status predicted response magnitude, with individuals in poorer health showing the greatest benefit.",
   },
   {
     number: 12,
@@ -166,7 +166,7 @@ export default function TpeEvidencePage() {
     "@type": "WebPage",
     name: "The Science of TPE: 12 Key Studies from Parabiosis to Clinical Application",
     description:
-      "A chronological summary of twelve peer-reviewed studies that established therapeutic plasma exchange as a longevity intervention — from the 2005 parabiosis breakthrough to 2025 clinical trials showing measurable biological age reduction.",
+      "A chronological summary of twelve peer-reviewed studies that established therapeutic plasma exchange as a longevity intervention, from the 2005 parabiosis breakthrough to 2025 clinical trials showing measurable biological age reduction.",
     url: "https://allenpgreenmd.com/research/tpe-evidence",
     isPartOf: {
       "@type": "WebSite",
@@ -228,7 +228,7 @@ export default function TpeEvidencePage() {
             </h1>
             <p className="tpe-hero-sub reveal">
               Twelve peer-reviewed studies that established therapeutic plasma
-              exchange as a longevity intervention — summarized chronologically
+              exchange as a longevity intervention, summarized chronologically
               in plain language.
             </p>
             <div className="tpe-hero-anchor reveal">
@@ -238,7 +238,7 @@ export default function TpeEvidencePage() {
                 clinical procedures that measurably reduce biological age in
                 humans. The key insight: aging is driven not by what the body
                 lacks, but by what accumulates in blood plasma. Diluting those
-                factors — through therapeutic plasma exchange — rejuvenates
+                factors, through therapeutic plasma exchange, rejuvenates
                 tissues, resets the immune system, and reverses molecular markers
                 of aging across multiple organ systems.
               </p>
@@ -260,7 +260,7 @@ export default function TpeEvidencePage() {
                   className={`tpe-evidence-entry reveal reveal-d${Math.min((i % 3) + 1, 3)}`}
                 >
                   <div className="tpe-evidence-number">
-                    Paper {paper.number} — {paper.year}
+                    Paper {paper.number} | {paper.year}
                   </div>
                   <h2 className="tpe-evidence-title">
                     <a
@@ -297,8 +297,8 @@ export default function TpeEvidencePage() {
                   <p className="body-lg" style={{ marginBottom: "1.25rem" }}>
                     This body of work demonstrates that aging is substantially
                     driven by the accumulation of pro-aging factors in blood
-                    plasma. The critical insight — validated across two decades of
-                    increasingly rigorous research — is that dilution of these
+                    plasma. The critical insight, validated across two decades of
+                    increasingly rigorous research, is that dilution of these
                     factors through therapeutic plasma exchange, rather than
                     addition of young factors, can rejuvenate multiple organ
                     systems, reduce biological age, and improve healthspan.
@@ -308,7 +308,7 @@ export default function TpeEvidencePage() {
                     body of peer-reviewed evidence for longevity applications. The
                     research was conducted at institutions including UC Berkeley,
                     Stanford University, the Buck Institute for Research on Aging,
-                    and Global Apheresis in Mill Valley, California — where{" "}
+                    and Global Apheresis in Mill Valley, California, where{" "}
                     <Link
                       href="/about"
                       style={{
