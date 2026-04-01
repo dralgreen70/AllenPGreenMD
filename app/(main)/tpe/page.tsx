@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
@@ -208,6 +209,11 @@ export default function TpePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(medicalWebPageSchema),
         }}
+      />
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"What Is TPE?","item":"https://www.allenpgreenmd.com/tpe"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO / INTRO ===== */}

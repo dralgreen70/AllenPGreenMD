@@ -1,5 +1,6 @@
 import { getAllPosts } from "@/lib/blog"
 import Link from "next/link"
+import Script from "next/script"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -47,6 +48,11 @@ export default function BlogPage() {
 
   return (
     <main className="journal-page">
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://www.allenpgreenmd.com/blog"}]}) }}
+      />
       {/* ── 1. HERO ── */}
       <header className="tpe-hero" style={{ textAlign: "center" }}>
         <div className="tpe-hero-inner">

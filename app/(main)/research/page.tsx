@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "Research & Publications | Allen P. Green, M.D.",
@@ -196,6 +197,11 @@ export default function ResearchPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Research","item":"https://www.allenpgreenmd.com/research"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

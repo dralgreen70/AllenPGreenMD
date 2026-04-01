@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "The AMBAR Series | Allen P. Green, M.D.",
@@ -73,6 +74,11 @@ const stats = [
 export default function AmbarSeriesPage() {
   return (
     <main>
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://www.allenpgreenmd.com/blog"},{"@type":"ListItem","position":3,"name":"The AMBAR Series","item":"https://www.allenpgreenmd.com/ambar-series"}]}) }}
+      />
       {/* ===== HERO ===== */}
       <section className="tpe-hero" id="intro">
         <div className="tpe-hero-inner">

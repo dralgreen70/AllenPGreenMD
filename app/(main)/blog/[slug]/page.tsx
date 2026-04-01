@@ -121,6 +121,16 @@ export default async function BlogPostPage({
     mainEntityOfPage: `https://allenpgreenmd.com/blog/${slug}`,
   }
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.allenpgreenmd.com" },
+      { "@type": "ListItem", position: 2, name: "Journal", item: "https://www.allenpgreenmd.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.frontmatter.title, item: `https://www.allenpgreenmd.com/blog/${slug}` },
+    ],
+  }
+
   const faqSchema = slug === "joe-rogan-plasmapheresis" ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -174,6 +184,11 @@ export default async function BlogPostPage({
         id={`schema-article-${slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id={`schema-breadcrumb-${slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {faqSchema && (
         <Script

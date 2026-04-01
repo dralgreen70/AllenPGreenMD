@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
@@ -116,6 +117,11 @@ export default function TpeDetoxPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Detoxification","item":"https://www.allenpgreenmd.com/tpe-detox"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}

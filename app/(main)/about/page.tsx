@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Script from "next/script"
 import { Ticker } from "@/components/ticker"
 
 export const metadata: Metadata = {
@@ -151,6 +152,11 @@ export default function AboutPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(clinicSchema) }}
+      />
+      <Script
+        id="schema-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Dr. Green","item":"https://www.allenpgreenmd.com/about"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}
