@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
   description:
     "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/blog",
+  },
 }
 
 function formatDate(dateStr: string): string {

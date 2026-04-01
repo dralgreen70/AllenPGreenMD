@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
   description:
     "Board-certified in Clinical Pathology. Associate Medical Director at Global Apheresis. 500+ therapeutic plasma exchange procedures. Trained under Dr. Dobri Kiprov.",
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/about",
+  },
 }
 
 const timelineEvents = [

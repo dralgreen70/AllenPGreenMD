@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "A comprehensive guide to therapeutic plasma exchange — how it works, what it treats, and why it matters for longevity and disease management.",
     url: "https://allenpgreenmd.com/tpe",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/tpe",
+  },
 }
 
 const faqItems = [

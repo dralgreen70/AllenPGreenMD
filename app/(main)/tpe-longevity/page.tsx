@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "The science behind plasma exchange for aging \u2014 parabiosis research, the dilution hypothesis, and clinical studies showing measurable biological age reduction.",
     url: "https://allenpgreenmd.com/tpe-longevity",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/tpe-longevity",
+  },
 }
 
 const fuentealbaResults = [

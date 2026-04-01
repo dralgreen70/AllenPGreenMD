@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "Therapeutic plasma exchange for autoimmune disease — established indications, mechanism of action, conditions treated, and what to expect.",
     url: "https://allenpgreenmd.com/tpe-autoimmune",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/tpe-autoimmune",
+  },
 }
 
 /* ── Category I Conditions ── */

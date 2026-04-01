@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "Clinical evidence for therapeutic plasma exchange in Alzheimer's — AMBAR trial results, mechanism of action, treatment protocol, and comparison with anti-amyloid antibodies.",
     url: "https://allenpgreenmd.com/tpe-alzheimers",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/tpe-alzheimers",
+  },
 }
 
 const ambarResults = [

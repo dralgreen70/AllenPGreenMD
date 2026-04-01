@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import Script from "next/script"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com",
+  },
+}
 import { HeroSection } from "@/components/hero-section"
 import { Ticker } from "@/components/ticker"
 import { PlexSection } from "@/components/plex-section"

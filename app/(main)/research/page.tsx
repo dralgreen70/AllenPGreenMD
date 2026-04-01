@@ -11,6 +11,9 @@ export const metadata: Metadata = {
       "Published research and conference presentations in therapeutic apheresis, transfusion medicine, and clinical pathology.",
     url: "https://allenpgreenmd.com/research",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/research",
+  },
 }
 
 /* ── Peer-Reviewed Publications ── */

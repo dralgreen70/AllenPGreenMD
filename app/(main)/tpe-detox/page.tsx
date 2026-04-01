@@ -12,6 +12,9 @@ export const metadata: Metadata = {
       "How therapeutic plasma exchange removes environmental toxins, PFAS, persistent organic pollutants, and heavy metals from circulation.",
     url: "https://allenpgreenmd.com/tpe-detox",
   },
+  alternates: {
+    canonical: "https://www.allenpgreenmd.com/tpe-detox",
+  },
 }
 
 /* ── Toxin categories ── */

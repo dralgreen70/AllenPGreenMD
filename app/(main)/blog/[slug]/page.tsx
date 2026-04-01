@@ -42,6 +42,9 @@ export async function generateMetadata({
       description: metaDescription,
       ...(imageUrl && { images: [imageUrl] }),
     },
+    alternates: {
+      canonical: `https://www.allenpgreenmd.com/blog/${slug}`,
+    },
   }
 }
 
