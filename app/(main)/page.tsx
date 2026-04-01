@@ -58,7 +58,7 @@ export default function Home() {
             image: "https://www.allenpgreenmd.com/images/me-and-amicus.jpg",
             sameAs: [
               "https://www.linkedin.com/in/allen-green-md/",
-              "https://www.youtube.com/@allengreenmdftp",
+              "https://www.youtube.com/@allenpgreenmd",
             ],
             worksFor: {
               "@type": "MedicalClinic",
