@@ -47,16 +47,6 @@ const nextConfig = {
       },
     ]
   },
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "allenpgreenmd.com" }],
-        destination: "https://www.allenpgreenmd.com/:path*",
-        permanent: true,
-      },
-    ]
-  },
 }
 
 export default nextConfig
