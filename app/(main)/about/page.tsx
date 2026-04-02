@@ -94,7 +94,8 @@ export default function AboutPage() {
       "https://www.youtube.com/@allenpgreenmd",
     ],
     worksFor: {
-      "@type": "MedicalBusiness",
+      "@type": "MedicalClinic",
+      "@id": "https://allenpgreenmd.com/#clinic",
       name: "Global Apheresis",
       url: "https://www.globalapheresis.com",
     },
