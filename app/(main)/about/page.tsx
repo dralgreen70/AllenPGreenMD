@@ -33,7 +33,7 @@ const timelineEvents = [
   {
     year: "2016",
     title: "Medical University of South Carolina, M.D.",
-    desc: "Discovered revolutionary aging research using therapeutic plasma exchange for longevity and Alzheimer\u2019s disease through independent study.",
+    desc: "Encountered the emerging science of therapeutic plasma exchange for longevity and Alzheimer\u2019s disease through independent study.",
   },
   {
     year: "2020\u20132024",
