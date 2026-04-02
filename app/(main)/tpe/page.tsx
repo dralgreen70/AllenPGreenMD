@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
+  title: "What is Therapeutic Plasma Exchange? | Dr. Green",
   description:
     "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
   openGraph: {
@@ -175,20 +175,9 @@ export default function TpePage() {
     url: "https://allenpgreenmd.com/tpe",
     author: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
-      medicalSpecialty: "Clinical Pathology",
+      url: "https://allenpgreenmd.com/about",
     },
     about: {
       "@type": "MedicalProcedure",

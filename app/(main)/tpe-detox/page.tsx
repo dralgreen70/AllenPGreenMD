@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
+  title: "TPE for Detox & Environmental Toxins | Dr. Green",
   description:
     "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
   openGraph: {
@@ -96,19 +96,9 @@ export default function TpeDetoxPage() {
     },
     author: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
+      url: "https://allenpgreenmd.com/about",
     },
   }
 

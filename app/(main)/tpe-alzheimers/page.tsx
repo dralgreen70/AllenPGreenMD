@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
+  title: "Plasma Exchange for Alzheimer's | Allen P. Green, MD",
   description:
     "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
   openGraph: {
@@ -142,21 +142,10 @@ export default function TpeAlzheimersPage() {
     },
     author: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
+      url: "https://allenpgreenmd.com/about",
     },
-    specialty: "Clinical Pathology",
   }
 
   return (

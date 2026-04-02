@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "TPE for Autoimmune Conditions | Allen P. Green, MD",
+  title: "Plasma Exchange for Autoimmune Conditions | Dr. Green",
   description:
     "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
   openGraph: {
@@ -104,19 +104,9 @@ export default function TpeAutoimmunePage() {
     },
     author: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
+      url: "https://allenpgreenmd.com/about",
     },
   }
 

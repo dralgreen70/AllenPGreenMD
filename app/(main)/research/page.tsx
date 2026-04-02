@@ -166,28 +166,14 @@ export default function ResearchPage() {
     "@type": "ProfilePage",
     mainEntity: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
+      url: "https://allenpgreenmd.com/about",
       medicalSpecialty: "Clinical Pathology",
       hasCredential: {
         "@type": "EducationalOccupationalCredential",
         credentialCategory: "Board Certification",
         name: "Board-Certified in Clinical Pathology",
-      },
-      alumniOf: {
-        "@type": "EducationalOrganization",
-        name: "UT Southwestern Medical Center",
       },
     },
   }

@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
+  title: "Plasma Exchange for Longevity | Allen P. Green, MD",
   description:
     "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
   openGraph: {
@@ -96,19 +96,9 @@ export default function TpeLongevityPage() {
     },
     author: {
       "@type": "Physician",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
+      url: "https://allenpgreenmd.com/about",
     },
   }
 

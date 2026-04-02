@@ -5,7 +5,7 @@ author: "Dr. Allen P. Green"
 excerpt: "The honest pricing breakdown most clinics won't give you. What TPE actually costs, what you're paying for, and why the range is so wide."
 image: "/images/blog/GA_clinic.jpg"
 description: "Therapeutic plasma exchange costs $6,000-$15,000+ per session. What drives the price, why insurance rarely covers it, and what to ask before you book."
-metaTitle: "How Much Does Plasma Exchange Cost? | Dr. Allen Green"
+metaTitle: "How Much Does Plasma Exchange Cost? | Dr. Green"
 tags: "tpe, longevity"
 ---
 

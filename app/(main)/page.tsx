@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Dr. Allen Green | Therapeutic Plasma Exchange",
+  title: "Allen P. Green, MD | Plasma Exchange Specialist",
   description:
     "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
   openGraph: {

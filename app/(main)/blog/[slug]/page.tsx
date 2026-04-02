@@ -21,7 +21,8 @@ export async function generateMetadata({
   if (!post) return { title: "Post Not Found" }
 
   const defaultImage = "https://allenpgreenmd.com/images/me-and-amicus.jpg"
-  const metaTitle = post.frontmatter.metaTitle || `${post.frontmatter.title} | Dr. Allen Green MD`
+  const pageTitle = post.frontmatter.metaTitle || `${post.frontmatter.title} | Dr. Allen Green`
+  const ogTitle = `${post.frontmatter.title} | Dr. Allen Green MD`
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
   const pageUrl = `https://allenpgreenmd.com/blog/${slug}`
   const imageUrl = post.frontmatter.image
@@ -29,10 +30,10 @@ export async function generateMetadata({
     : defaultImage
 
   return {
-    title: metaTitle,
+    title: pageTitle,
     description: metaDescription,
     openGraph: {
-      title: metaTitle,
+      title: ogTitle,
       description: metaDescription,
       type: "article",
       url: pageUrl,
@@ -43,7 +44,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: metaTitle,
+      title: ogTitle,
       description: metaDescription,
       images: [imageUrl],
     },
@@ -100,20 +101,9 @@ export default async function BlogPostPage({
     }),
     author: {
       "@type": "Person",
+      "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",
-      jobTitle: "Associate Medical Director",
-      worksFor: {
-        "@type": "MedicalClinic",
-        name: "Global Apheresis",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "655 Redwood Highway, Suite 370",
-          addressLocality: "Mill Valley",
-          addressRegion: "CA",
-          postalCode: "94941",
-        },
-      },
     },
     publisher: {
       "@type": "Person",
