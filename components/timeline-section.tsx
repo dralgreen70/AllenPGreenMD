@@ -28,7 +28,7 @@ export function TimelineSection() {
               background: "var(--card)",
             }}>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
+                src="/images/dobri-and-i-ga.jpg"
                 alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California"
                 width={800}
                 height={600}

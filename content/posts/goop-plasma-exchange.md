@@ -1,10 +1,9 @@
 ---
-title: "What the Goop Article Gets Right About Plasma Exchange — And What to Know Before You Call"
+title: "The Goop Plasma Exchange Article: What to Know Before You Call"
 date: "2026-03-04"
 author: "Dr. Allen P. Green"
 excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a legitimate medical procedure in front of millions of readers. As a physician who has performed over 500 TPE procedures, here's the clinical context worth understanding before you book a session."
 description: "The Goop feature on TPE reached millions of readers. A physician who has performed 500+ procedures provides the clinical context you need before you book."
-metaTitle: "Goop and Plasma Exchange | Dr. Allen Green"
 image: "/images/blog/GA_clinic.jpg"
 tags: "tpe, longevity"
 ---
@@ -19,7 +18,7 @@ I perform this procedure. I've done it over 500 times. And I want to give you th
 
 The core premise holds up. Therapeutic plasma exchange removes plasma from your bloodstream — the liquid component of blood — and replaces it with a clean substitute, typically pharmaceutical-grade albumin. The plasma you shed carries with it whatever has accumulated there: autoantibodies, inflammatory proteins, environmental toxins, pro-aging molecules. The replacement fluid doesn't.
 
-The environmental toxin angle the article focuses on is clinically sound. Compounds like phthalates, mycotoxins, pesticide residues, and microplastics do circulate in plasma. And there are patients whose detoxification pathways — partly genetic, partly related to accumulated burden — are genuinely compromised in ways that standard interventions don't address. TPE is one of the few tools that works at that level directly.
+The environmental toxin angle the article focuses on is clinically sound. Compounds like phthalates, mycotoxins, pesticide residues, and microplastics do circulate in plasma — and [forever chemicals can spike during weight loss](/blog/hidden-risk-weight-loss-forever-chemicals) as stored toxins are released from fat tissue. There are patients whose detoxification pathways — partly genetic, partly related to accumulated burden — are genuinely compromised in ways that standard interventions don't address. TPE is one of the few tools that works at that level directly.
 
 The coverage of the Fuentealba et al. study published in Aging Cell in 2025 is also accurate. That trial — involving researchers and physicians in the longevity medicine space — offered some of the first human data suggesting that plasma exchange shifts epigenetic markers of biological age. It's early. It's meaningful. And it's part of why this field is moving quickly.
 

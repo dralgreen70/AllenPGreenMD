@@ -4,7 +4,6 @@ date: "2025-12-22"
 author: "Dr. Allen P. Green"
 excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — and most neurologists have never heard of it. Here's what the data actually shows."
 description: "The AMBAR trial showed 52-71% slowing of Alzheimer's progression -- and most neurologists have never heard of it. Here's what the data actually shows."
-metaTitle: "AMBAR Part 1: Key Results | Dr. Allen Green"
 image: "/images/blog/Ambar_part_1.jpg"
 tags: "ambar, alzheimers, research"
 ---
@@ -41,7 +40,7 @@ Think of it like opening a window in a smoky room—the smoke (amyloid-beta) wil
 
 By repeatedly removing plasma containing amyloid-beta and replacing it with fresh albumin that can bind even more amyloid-beta, you might be able to gradually reduce brain amyloid burden.
 
-That was the theory. As we'll see, the actual mechanism appears to be more complex and potentially more interesting.
+That was the theory. As we'll see — and as [the broader blood revolution research](/blog/blood-revolution) has since confirmed — the actual mechanism appears to be more complex and potentially more interesting.
 
 ### The AMBAR Protocol: Two Phases
 

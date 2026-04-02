@@ -51,7 +51,7 @@ export function HeroSection() {
       <div className="hero-right">
         <canvas className="hero-canvas" id="heroCanvas" />
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
+          src="/images/me-and-amicus.jpg"
           alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
           fill
           priority

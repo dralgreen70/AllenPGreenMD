@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Plasma Exchange for Alzheimer's | Allen P. Green, MD",
+  title: "Plasma Exchange for Alzheimer's Disease | Dr. Allen Green",
   description:
     "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
   openGraph: {

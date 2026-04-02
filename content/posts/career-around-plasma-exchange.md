@@ -4,7 +4,6 @@ date: "2026-02-22"
 author: "Dr. Allen P. Green"
 excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov and Global Apheresis—and why I chose to treat patients rather than wait for academia to catch up."
 description: "How following the science of aging in blood led me to Global Apheresis -- and why I chose to treat patients rather than wait for academia to catch up."
-metaTitle: "Why I Built My Career Around TPE | Dr. Allen Green"
 image: "/images/dobri-and-i-ga.jpg"
 tags: "personal, tpe"
 ---
@@ -50,7 +49,7 @@ When the opportunity came to join him at [Global Apheresis](https://www.globalap
 <img src="/images/dobri-and-i-ga.jpg" alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis, Mill Valley, California" style="width: 100%; max-width: 800px; height: auto; margin: 2rem 0;" />
 <p style="text-align: center; font-style: italic; margin-top: -1rem; color: #666;">Working alongside Dr. Dobri Kiprov at Global Apheresis</p>
 
-I'm a board-certified clinical pathologist who specialized in [therapeutic apheresis](/#plex) specifically because I believed the science pointed here. I've spent years training for exactly this. And now I work alongside the person whose work convinced me this was worth spending a career on.
+I'm a board-certified clinical pathologist who specialized in [therapeutic apheresis](/#plex) specifically because I believed the science pointed here — and because I saw how much [providers need a practical roadmap for implementing TPE](/blog/tpe-for-healthcare-providers) in their own practice. I've spent years training for exactly this. And now I work alongside the person whose work convinced me this was worth spending a career on.
 
 What we offer at Global Apheresis is grounded in [published, peer-reviewed research](https://www.dobrikiprov.com/publications) — and that research is no longer a single study. It has been replicated.
 
@@ -58,7 +57,7 @@ What we offer at Global Apheresis is grounded in [published, peer-reviewed resea
 
 **For biological age reversal:** the [GeroScience study](https://pubmed.ncbi.nlm.nih.gov/35999337/) showed measurable reduction in biological age following therapeutic plasma exchange. In 2025, a [randomized placebo-controlled multi-omics trial](https://pubmed.ncbi.nlm.nih.gov/40424097/) published in Aging Cell — conducted with the Buck Institute for Research on Aging, with Dr. Kiprov as co-author — confirmed and extended those findings. Fifteen separate epigenetic clocks showed significant rejuvenation compared to placebo. The age reduction was not a fluke. It was reproducible, measurable, and mechanistically explained across the epigenome, proteome, metabolome, and immune system.
 
-The science exists. The replications exist. The outcomes are documented.
+The science exists. The replications exist. The outcomes are documented. Across [the full range of TPE applications](/blog/tpe-revolutionizing-health-longevity) — from Alzheimer's to longevity to autoimmune disease to detoxification — the evidence base continues to grow.
 
 What has been missing is access — and someone willing to say clearly: *we already know enough to help you. Come in.*
 

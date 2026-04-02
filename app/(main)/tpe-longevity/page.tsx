@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Plasma Exchange for Longevity | Allen P. Green, MD",
+  title: "Plasma Exchange for Longevity & Biological Age | Dr. Allen Green",
   description:
     "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
   openGraph: {
@@ -186,7 +186,9 @@ export default function TpeLongevityPage() {
                     Parabiosis &mdash; Where It Started
                   </h3>
                   <p className="body-lg">
-                    The foundational insight came from parabiosis research
+                    The foundational insight came from{" "}
+                    <Link href="/blog/blood-revolution">parabiosis research
+                    exploring how aging lives in blood</Link>
                     &mdash; experiments in which the circulatory systems of old
                     and young mice were surgically connected. Researchers at UC
                     Berkeley found something remarkable: old mice sharing blood

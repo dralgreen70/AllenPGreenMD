@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "TPE for Detox & Environmental Toxins | Dr. Green",
+  title: "Plasma Exchange for Detox & Environmental Toxins | Dr. Allen Green",
   description:
     "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
   openGraph: {
@@ -205,7 +205,11 @@ export default function TpeDetoxPage() {
                 <div className="tpe-science-text reveal">
                   <p className="body-lg">
                     This cumulative toxic burden doesn&apos;t announce itself
-                    with acute symptoms. Instead, it contributes to chronic
+                    with acute symptoms. Instead, as explored in our{" "}
+                    <Link href="/blog/tpe-detoxification-forever-chemicals"
+                      style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                      deep dive on TPE for forever chemicals
+                    </Link>, it contributes to chronic
                     low-grade inflammation, oxidative stress, immune
                     dysregulation, hormonal disruption, and accelerated
                     biological aging. Research has linked persistent organic
@@ -271,7 +275,13 @@ export default function TpeDetoxPage() {
                     body&apos;s primary transport protein, and it has inherent
                     antioxidant and anti-inflammatory properties. Fresh albumin
                     provides new binding capacity for toxins that may mobilize
-                    from tissue stores after the exchange, supporting ongoing
+                    from tissue stores after the exchange — a process that
+                    accelerates during{" "}
+                    <Link href="/blog/hidden-risk-weight-loss-forever-chemicals"
+                      style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                      weight loss, when stored forever chemicals are released
+                    </Link>
+                    {" "}&mdash; supporting ongoing
                     clearance in the days following each procedure.
                   </p>
 
@@ -281,7 +291,12 @@ export default function TpeDetoxPage() {
                   <p className="body-lg">
                     TPE removes what is circulating in your plasma at the time of
                     the procedure. Many environmental toxins &mdash; particularly
-                    lipophilic compounds like POPs and PFAS &mdash; are also
+                    lipophilic compounds like POPs and PFAS, as seen in{" "}
+                    <Link href="/blog/jersey-pfas-crisis"
+                      style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                      the New Jersey PFAS crisis
+                    </Link>
+                    {" "}&mdash; are also
                     stored in adipose tissue and other organs. These
                     tissue-stored toxins can gradually re-enter circulation after
                     TPE, which is why a series of treatments is often more

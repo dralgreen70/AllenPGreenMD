@@ -4,7 +4,6 @@ date: "2026-03-05"
 author: "Dr. Allen P. Green"
 excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — larger than any FDA-approved drug, with a fraction of the side effects. So why haven't you heard about it from your neurologist?"
 description: "Seven structural reasons why plasma exchange isn't standard of care -- despite AMBAR showing 52-71% slowing of Alzheimer's progression."
-metaTitle: "Why Isn't TPE Standard of Care? | Dr. Allen Green"
 image: "/images/blog/why-tpe-not-standard.jpg"
 tags: "ambar, alzheimers"
 ---
@@ -39,7 +38,7 @@ Plasma exchange with albumin replacement is an off-label use of two products tha
 
 ## The Logistics Problem
 
-Prescribing lecanemab is straightforward — write a prescription, the patient goes to an infusion center every two weeks for a 30–60 minute infusion. Plasma exchange is more complex. It requires specialized apheresis equipment and trained staff, takes 2–3 hours per session, needs appropriate venous access, and requires coordination between neurology and apheresis services. Many medical centers don't have apheresis capabilities at all. It is simply easier, institutionally, to prescribe a drug than to implement a procedural intervention — regardless of which produces better outcomes.
+Prescribing lecanemab is straightforward — write a prescription, the patient goes to an infusion center every two weeks for a 30–60 minute infusion. Plasma exchange is more complex. It requires specialized apheresis equipment and trained staff, takes 2–3 hours per session, needs appropriate venous access, and requires coordination between neurology and apheresis services. Many medical centers don't have apheresis capabilities at all — though our [clinical implementation guide for providers](/blog/tpe-for-healthcare-providers) demonstrates that these barriers are surmountable. It is simply easier, institutionally, to prescribe a drug than to implement a procedural intervention — regardless of which produces better outcomes.
 
 ## Medical Culture and Paradigm
 

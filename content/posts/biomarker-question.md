@@ -4,7 +4,6 @@ date: "2026-02-11"
 author: "Dr. Allen P. Green"
 excerpt: "Beyond biological clocks and blood panels — a physician's guide to tracking what therapeutic plasma exchange actually changes, and why your lived experience may be the most important biomarker of all."
 description: "Beyond biological clocks and blood panels -- a physician's guide to tracking what plasma exchange actually changes in your body."
-metaTitle: "The Biomarker Question | Dr. Allen Green"
 image: "/images/blog/The_biomarker_question.webp"
 tags: "research, biomarkers"
 ---

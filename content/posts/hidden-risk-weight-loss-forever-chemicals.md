@@ -3,7 +3,6 @@ title: "The Hidden Risk of Weight Loss: How Forever Chemicals Get Released Durin
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "Why losing weight might temporarily increase your toxin exposure — and the therapeutic solution that can help"
-metaTitle: "Weight Loss and Forever Chemicals | Dr. Allen Green"
 image: "/images/blog/weight_loss_pfas.jpg"
 tags: "pfas, detox, longevity"
 ---
@@ -46,7 +45,7 @@ The process involves donating plasma at commercial plasma centers (available in 
 
 For individuals seeking maximum efficiency and additional health optimization benefits, therapeutic plasma exchange offers significant advantages over standard plasma donation.
 
-**Superior toxin removal capacity:** A single TPE session removes **4-6 times more plasma** than standard donation. Two therapeutic plasma exchange treatments equal the entire plasma volume removed in the firefighter study. Medical-grade albumin replacement may help sequester remaining toxins and support detoxification.
+**Superior toxin removal capacity:** A single TPE session removes **4-6 times more plasma** than standard donation. Two therapeutic plasma exchange treatments equal the entire plasma volume removed in the firefighter study. Medical-grade albumin replacement may help sequester remaining toxins and support [ongoing environmental detoxification](/blog/tpe-detoxification-forever-chemicals).
 
 Beyond toxin removal, TPE offers a range of additional health benefits that make it particularly well-suited to a comprehensive longevity strategy. These include improved cardiovascular risk markers and lipid profiles, enhanced immune function and inflammatory balance, reduced oxidative stress, optimized metabolic function, and the demonstrated biological age reversal effects documented in recent clinical studies.
 
@@ -62,7 +61,7 @@ Understanding common sources of forever chemicals can help minimize ongoing expo
 
 ### Primary PFAS and POP Sources
 
-The most significant sources include non-stick cookware and food packaging materials, contaminated drinking water, processed and packaged foods, stain-resistant textiles and carpeting, personal care products, and industrial or agricultural environmental contamination. Geographic proximity to manufacturing sites, military bases, or agricultural operations meaningfully increases exposure risk.
+The most significant sources include non-stick cookware and food packaging materials, contaminated drinking water, processed and packaged foods, stain-resistant textiles and carpeting, personal care products, and industrial or agricultural environmental contamination. Geographic proximity to manufacturing sites, military bases, or agricultural operations meaningfully increases exposure risk — as [the Jersey PFAS crisis](/blog/jersey-pfas-crisis) demonstrates at scale.
 
 ### Minimizing Exposure During Weight Loss
 

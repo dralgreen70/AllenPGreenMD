@@ -7,7 +7,7 @@ export function PlexSection() {
         <div className="plex-grid">
           <div className="plex-visual reveal-left">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
+              src="/images/dr-green-receiving-plasma-exchange.jpg"
               alt="Dr. Allen Green receiving therapeutic plasma exchange -- firsthand clinical experience"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

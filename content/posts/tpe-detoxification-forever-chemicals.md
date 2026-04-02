@@ -1,9 +1,8 @@
 ---
-title: "TPE for Detoxification: The Science-Based Solution for Forever Chemicals and Environmental Toxins"
+title: "TPE for Detoxification: Forever Chemicals and Environmental Toxins"
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "How therapeutic plasma exchange directly removes PFAS, heavy metals, and synthetic chemicals that conventional detox approaches cannot reach."
-metaTitle: "TPE for Forever Chemicals & Toxins | Dr. Allen Green"
 image: "/images/blog/tpe_detox.jpg"
 tags: "pfas, detox"
 ---
@@ -20,7 +19,7 @@ The concerning reality is that traditional detox approaches — from expensive s
 
 Per- and polyfluoroalkyl substances (PFAS) earned the nickname "forever chemicals" for good reason. These synthetic compounds, found in everything from non-stick cookware to food packaging, resist natural breakdown in both the environment and human body. They accumulate over decades. Documented health associations include increased cancer risk and immune system suppression, thyroid dysfunction and metabolic disorders, cardiovascular disease and liver problems, and developmental and fertility issues.
 
-The alarming truth: **PFAS contamination is now ubiquitous.** Studies detect these chemicals in 97% of Americans, with concentrations continuing to rise despite growing awareness.
+The alarming truth: **PFAS contamination is now ubiquitous.** Studies detect these chemicals in 97% of Americans, with concentrations continuing to rise despite growing awareness — a reality underscored by [what happened in New Jersey](/blog/jersey-pfas-crisis), where government-recommended blood donation proved woefully inadequate.
 
 ### The Heavy Metal Reality
 
@@ -34,7 +33,7 @@ Recent research reveals microplastic particles in human blood, lungs, and even p
 
 Most environmental toxins don't behave like the substances our ancestors faced. They don't simply flush out with increased water intake or get processed by liver enzymes designed for natural compounds.
 
-**The fundamental problem:** PFAS, heavy metals, and many synthetic chemicals bind tightly to blood proteins. They circulate in plasma rather than being stored in tissues where traditional detoxification might access them. This protein binding makes them essentially "invisible" to conventional detox approaches.
+**The fundamental problem:** PFAS, heavy metals, and many synthetic chemicals bind tightly to blood proteins. They circulate in plasma rather than being stored in tissues where traditional detoxification might access them — and when stored toxins *are* mobilized, such as during [weight loss that releases stored forever chemicals](/blog/hidden-risk-weight-loss-forever-chemicals), they re-enter plasma and compound the problem. This protein binding makes them essentially "invisible" to conventional detox approaches.
 
 > **"Most environmental toxins don't behave like substances our ancestors faced — they bind to blood proteins and resist every conventional elimination pathway."**
 

@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!post) return { title: "Post Not Found" }
 
   const defaultImage = "https://allenpgreenmd.com/images/me-and-amicus.jpg"
-  const pageTitle = post.frontmatter.metaTitle || `${post.frontmatter.title} | Dr. Allen Green`
+  const pageTitle = post.frontmatter.metaTitle || post.frontmatter.title
   const ogTitle = `${post.frontmatter.title} | Dr. Allen Green MD`
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
   const pageUrl = `https://allenpgreenmd.com/blog/${slug}`

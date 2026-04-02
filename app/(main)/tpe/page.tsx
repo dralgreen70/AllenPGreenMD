@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "What is Therapeutic Plasma Exchange? | Dr. Green",
+  title: "What is Therapeutic Plasma Exchange (TPE)? | Dr. Allen Green",
   description:
     "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
   openGraph: {
@@ -350,7 +350,11 @@ export default function TpePage() {
                     Dr. Green
                   </Link>{" "}
                   in a comfortable clinical setting with advanced apheresis
-                  equipment.
+                  equipment.{" "}
+                  <Link href="/blog/tpe-for-healthcare-providers"
+                    style={{ color: "var(--accent-light)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                    Healthcare providers considering TPE
+                  </Link>{" "}can learn more about the clinical implementation process.
                 </p>
               </div>
             </div>
@@ -412,7 +416,11 @@ export default function TpePage() {
               TPE is not a single-purpose procedure. Its mechanism &mdash;
               clearing harmful plasma contents and replacing them with
               protective albumin &mdash; has demonstrated clinical relevance
-              across multiple areas of medicine. At{" "}
+              across{" "}
+              <Link href="/blog/tpe-revolutionizing-health-longevity"
+                style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                multiple areas of health and longevity
+              </Link>. At{" "}
               <a
                 href="https://globalapheresis.com"
                 target="_blank"

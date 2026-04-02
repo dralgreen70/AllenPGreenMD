@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Plasma Exchange for Autoimmune Conditions | Dr. Green",
+  title: "Plasma Exchange for Autoimmune Conditions | Dr. Allen Green",
   description:
     "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
   openGraph: {

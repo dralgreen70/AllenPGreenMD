@@ -4,7 +4,6 @@ date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "How a decades-long contamination cover-up in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
 description: "How contamination in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
-metaTitle: "The Jersey PFAS Crisis | Dr. Allen Green"
 image: "/images/blog/Jersey_Pfas.jpg"
 imagePosition: "center center"
 tags: "pfas, detox"
@@ -71,7 +70,7 @@ TPE removes 1–1.5 plasma volumes per session (approximately 3–4 liters), com
 
 ### Demonstrated Results
 
-Research demonstrates TPE's superiority across multiple toxin categories — 71.5% median bisphenol A reduction, 68% average glyphosate reduction, and 75.7% median phthalate reduction. For PFAS specifically, TPE achieves nearly three times more reduction per session than blood donation.
+Research demonstrates [TPE's superiority across multiple toxin categories](/blog/tpe-detoxification-forever-chemicals) — 71.5% median bisphenol A reduction, 68% average glyphosate reduction, and 75.7% median phthalate reduction. For PFAS specifically, TPE achieves nearly three times more reduction per session than blood donation.
 
 ### Faster Resolution
 

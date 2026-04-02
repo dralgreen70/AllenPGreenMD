@@ -237,8 +237,9 @@ export default function TpeEvidencePage() {
             </p>
             <div className="tpe-hero-anchor reveal">
               <p className="body-lg">
-                Over two decades, researchers have traced a direct line from
-                animal experiments connecting young and old mice to FDA-cleared
+                Over two decades, researchers have traced{" "}
+                <Link href="/blog/blood-revolution">a direct line from
+                animal experiments connecting young and old mice</Link> to FDA-cleared
                 clinical procedures that measurably reduce biological age in
                 humans. The key insight: aging is driven not by what the body
                 lacks, but by what accumulates in blood plasma. Diluting those
