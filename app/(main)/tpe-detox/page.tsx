@@ -95,7 +95,7 @@ export default function TpeDetoxPage() {
         "Application of therapeutic plasma exchange to remove environmental toxins, persistent organic pollutants, heavy metals, and endocrine disruptors from circulation",
     },
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

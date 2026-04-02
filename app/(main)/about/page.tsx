@@ -79,9 +79,9 @@ const credentials = [
 ]
 
 export default function AboutPage() {
-  const physicianSchema = {
+  const personSchema = {
     "@context": "https://schema.org",
-    "@type": "Physician",
+    "@type": "Person",
     "@id": "https://allenpgreenmd.com/#physician",
     name: "Allen P. Green, M.D.",
     honorificPrefix: "Dr.",
@@ -89,12 +89,15 @@ export default function AboutPage() {
     jobTitle: "Associate Medical Director",
     image: "https://allenpgreenmd.com/images/me-and-amicus.jpg",
     url: "https://allenpgreenmd.com",
-    sameAs: ["https://www.linkedin.com/in/allen-green-md/"],
+    sameAs: [
+      "https://www.linkedin.com/in/allen-green-md/",
+      "https://www.youtube.com/@allenpgreenmd",
+    ],
     worksFor: {
-      "@type": "MedicalClinic",
-      "@id": "https://allenpgreenmd.com/#clinic",
+      "@type": "MedicalBusiness",
+      name: "Global Apheresis",
+      url: "https://www.globalapheresis.com",
     },
-    medicalSpecialty: "Clinical Pathology",
     description:
       "Board-certified physician specializing in therapeutic plasma exchange. Over 500 TPE procedures performed.",
     knowsAbout: [
@@ -139,7 +142,7 @@ export default function AboutPage() {
     },
     medicalSpecialty: "Therapeutic Plasma Exchange",
     physician: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
     },
   }
@@ -148,7 +151,7 @@ export default function AboutPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
       <script
         type="application/ld+json"

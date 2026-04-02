@@ -174,7 +174,7 @@ export default function TpePage() {
       "Comprehensive guide to therapeutic plasma exchange — mechanism, process, benefits, clinical applications, and frequently asked questions.",
     url: "https://allenpgreenmd.com/tpe",
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

@@ -141,7 +141,7 @@ export default function TpeAlzheimersPage() {
       alternateName: ["AD", "Alzheimer Disease"],
     },
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

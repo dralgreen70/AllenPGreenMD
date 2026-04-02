@@ -44,7 +44,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Physician",
+            "@type": "Person",
             "@id": "https://allenpgreenmd.com/#physician",
             name: "Allen P. Green, M.D.",
             givenName: "Allen",
@@ -61,10 +61,10 @@ export default function Home() {
               "https://www.youtube.com/@allenpgreenmd",
             ],
             worksFor: {
-              "@type": "MedicalClinic",
-              "@id": "https://allenpgreenmd.com/#clinic",
+              "@type": "MedicalBusiness",
+              name: "Global Apheresis",
+              url: "https://www.globalapheresis.com",
             },
-            medicalSpecialty: "Clinical Pathology",
             alumniOf: {
               "@type": "EducationalOrganization",
               name: "Medical University of South Carolina",
@@ -110,7 +110,7 @@ export default function Home() {
             description:
               "Global Apheresis specializes in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification.",
             physician: {
-              "@type": "Physician",
+              "@type": "Person",
               "@id": "https://allenpgreenmd.com/#physician",
             },
           }),

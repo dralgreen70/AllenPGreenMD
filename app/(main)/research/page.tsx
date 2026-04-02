@@ -165,7 +165,7 @@ export default function ResearchPage() {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     mainEntity: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

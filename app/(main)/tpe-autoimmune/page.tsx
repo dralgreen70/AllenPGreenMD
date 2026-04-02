@@ -103,7 +103,7 @@ export default function TpeAutoimmunePage() {
         "Application of therapeutic plasma exchange to remove pathogenic autoantibodies and immune complexes in autoimmune conditions",
     },
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

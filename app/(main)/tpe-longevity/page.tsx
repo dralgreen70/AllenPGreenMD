@@ -95,7 +95,7 @@ export default function TpeLongevityPage() {
         "Application of therapeutic plasma exchange to reduce biological age and address systemic molecular drivers of aging",
     },
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",

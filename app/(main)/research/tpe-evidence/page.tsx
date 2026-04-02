@@ -177,7 +177,7 @@ export default function TpeEvidencePage() {
       url: "https://allenpgreenmd.com",
     },
     author: {
-      "@type": "Physician",
+      "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
     },
     about: {
