@@ -57,7 +57,7 @@ The measurement challenge is practical, not scientific. Comprehensive proteomics
 > **"Aging is not a single process. No single biomarker can capture the full scope of what TPE addresses -- and that's not a limitation of the treatment. It's a limitation of our current measurement tools."**
 
 <figure class="post-figure">
-<img src="/images/blog/biomarker-question-2.jpg" alt="Scientific laboratory equipment representing biomarker testing for therapeutic plasma exchange outcomes" />
+<img src="/images/blog/biomarker-question-2.jpg" alt="Scientific laboratory equipment representing biomarker testing for therapeutic plasma exchange outcomes" width="1600" height="1067" />
 <figcaption>Mapping biological complexity: understanding what TPE changes requires tools most clinical labs don't yet have.</figcaption>
 </figure>
 

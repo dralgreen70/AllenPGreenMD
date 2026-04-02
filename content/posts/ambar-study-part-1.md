@@ -72,7 +72,7 @@ The AMBAR trial was a phase 2b/3, multicenter, randomized, blinded, placebo-cont
 - **Completed:** 232 patients finished the full 14-month protocol
 
 <figure class="post-figure">
-<img src="/images/blog/AMBAR_Part1_CONSORT.png" alt="AMBAR trial CONSORT diagram showing patient enrollment and randomization" />
+<img src="/images/blog/AMBAR_Part1_CONSORT.jpg" alt="AMBAR trial CONSORT diagram showing patient enrollment and randomization" width="2114" height="1404" />
 <figcaption>CONSORT Patient Flow Diagram. Patient screening, randomization, treatment allocation, and completion across the four study arms. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ The treatment group showed a difference of -2.1 points from placebo (95% CI: -4.
 What this means: The placebo group worsened by about 3.2 points on the ADAS-Cog over 14 months. The treatment group worsened by only 1.1 points. While this didn't quite reach the traditional p<0.05 threshold for statistical significance, it showed a strong trend toward benefit, with 66% less cognitive decline.
 
 <figure class="post-figure">
-<img src="/images/blog/AMBAR_Part1_ADCS_ADL.png" alt="AMBAR trial ADCS-ADL outcomes -- plasma exchange vs placebo over 14 months" />
+<img src="/images/blog/AMBAR_Part1_ADCS_ADL.jpg" alt="AMBAR trial ADCS-ADL outcomes -- plasma exchange vs placebo over 14 months" width="911" height="527" />
 <figcaption>ADCS-ADL scores over 14 months showing gradual divergence between plasma exchange (pink) and placebo (blue). Panel A shows all patients (p=0.03), Panel B shows moderate AD patients with strongest effect (p=0.002), Panel C shows mild AD where ceiling effects limited measurement sensitivity. Note: Lower scores indicate worsening function. TPE = therapeutic plasma exchange intensive phase; LVPE = low-volume plasma exchange maintenance phase. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
 </figure>
 
@@ -227,7 +227,7 @@ What makes the CDR-Sb so valuable is that it captures the **overall functional i
 This consistency across time points strengthens confidence that this is a real effect, not a statistical fluke.
 
 <figure class="post-figure">
-<img src="/images/blog/AMBAR_Part1_CDR_Sb.png" alt="AMBAR trial CDR-Sum of Boxes outcomes -- plasma exchange vs placebo over 14 months" />
+<img src="/images/blog/AMBAR_Part1_CDR_Sb.jpg" alt="AMBAR trial CDR-Sum of Boxes outcomes -- plasma exchange vs placebo over 14 months" width="2070" height="1174" />
 <figcaption>CDR-Sum of Boxes scores over 14 months. Panels A–C show pooled treatment vs. placebo for all patients, moderate AD, and mild AD subgroups. Panels D–F show individual treatment arms. Note: Lower scores indicate less impairment. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
 </figure>
 
@@ -246,7 +246,7 @@ In the placebo group, the average score was around 4.8, indicating patients had 
 An effect size of 100% means the treatment essentially **prevented decline rather than just slowing it.** This is what we see with the ADCS-CGIC—treated patients remained stable while placebo patients declined.
 
 <figure class="post-figure">
-<img src="/images/blog/AMBAR_Part1_ADCS_CGIC.png" alt="AMBAR trial ADCS-CGIC global impression -- plasma exchange vs placebo over 14 months" />
+<img src="/images/blog/AMBAR_Part1_ADCS_CGIC.jpg" alt="AMBAR trial ADCS-CGIC global impression -- plasma exchange vs placebo over 14 months" width="2084" height="1178" />
 <figcaption>ADCS-CGIC scores over 14 months. Panels G–I show pooled treatment vs. placebo for all patients, moderate AD, and mild AD subgroups. Panels J–L show individual treatment arms. Note: Lower scores indicate less impairment. Source: Boada et al., Alzheimer's & Dementia. 2020.</figcaption>
 </figure>
 

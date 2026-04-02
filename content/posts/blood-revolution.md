@@ -32,7 +32,7 @@ This flipped the entire premise on its head. Everyone had been thinking about yo
 > **"Old blood wasn't just lacking youth factors — it contained something actively harmful. The real problem wasn't the absence of youth. It was the presence of poison."**
 
 <figure class="post-figure">
-<img src="/images/blog/blood_revolution_mouse.jpg" alt="Scientific imagery representing the discovery of aging factors in blood -- parabiosis research" />
+<img src="/images/blog/blood_revolution_mouse.jpg" alt="Scientific imagery representing the discovery of aging factors in blood -- parabiosis research" width="2400" height="1600" />
 <figcaption>The Stanford parabiosis experiments used laboratory mice to demonstrate that aging factors circulate in blood — a finding that would transform the science of longevity.</figcaption>
 </figure>
 
