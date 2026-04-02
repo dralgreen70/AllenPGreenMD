@@ -183,10 +183,11 @@ export default function AboutPage() {
             </div>
             <div className="about-hero-photo reveal-right">
               <Image
-                src="/images/me-and-amicus.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
                 alt="Dr. Allen P. Green, Board-Certified Clinical Pathologist and therapeutic plasma exchange specialist"
                 fill
                 priority
+                quality={90}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 style={{
                   objectFit: "cover",
