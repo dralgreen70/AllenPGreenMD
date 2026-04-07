@@ -5,6 +5,25 @@ export const metadata: Metadata = {
   title: "Speaking & Press | Allen P. Green, MD",
   description:
     "Speaking engagements, media appearances, and press coverage of Allen P. Green, MD.",
+  openGraph: {
+    title: "Speaking & Press | Allen P. Green, MD",
+    description:
+      "Speaking engagements, media appearances, and press coverage of Allen P. Green, MD.",
+    url: "https://allenpgreenmd.com/media",
+    siteName: "Allen P. Green, MD",
+    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Speaking & Press | Allen P. Green, MD",
+    description:
+      "Speaking engagements, media appearances, and press coverage of Allen P. Green, MD.",
+    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
+  },
+  alternates: {
+    canonical: "https://allenpgreenmd.com/media",
+  },
 }
 
 export default function MediaPage() {
