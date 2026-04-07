@@ -5,11 +5,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "What is Therapeutic Plasma Exchange (TPE)? | Dr. Allen Green",
   description:
-    "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
+    "TPE removes old plasma and replaces it with albumin, clearing inflammatory compounds linked to aging and disease. How it works and what to expect.",
   openGraph: {
     title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
     description:
-      "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
+      "TPE removes old plasma and replaces it with albumin, clearing inflammatory compounds linked to aging and disease. How it works and what to expect.",
     url: "https://allenpgreenmd.com/tpe",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],

@@ -5,11 +5,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "Plasma Exchange for Detox & Environmental Toxins | Dr. Allen Green",
   description:
-    "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
+    "PFAS, heavy metals, and persistent organic pollutants accumulate in blood for years. TPE physically removes the plasma carrying them. Here's how.",
   openGraph: {
     title: "TPE for Detoxification & Toxins | Allen P. Green, MD",
     description:
-      "PFAS and environmental toxins accumulate in blood over a lifetime. TPE physically removes the plasma carrying them. Learn about TPE for detoxification.",
+      "PFAS, heavy metals, and persistent organic pollutants accumulate in blood for years. TPE physically removes the plasma carrying them. Here's how.",
     url: "https://allenpgreenmd.com/tpe-detox",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],

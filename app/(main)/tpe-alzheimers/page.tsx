@@ -5,11 +5,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "Plasma Exchange for Alzheimer's Disease | Dr. Allen Green",
   description:
-    "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
+    "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52–71% with minimal side effects. Evidence, protocol details, and how to start.",
   openGraph: {
     title: "TPE for Alzheimer's Disease | Allen P. Green, MD",
     description:
-      "TPE for Alzheimer's: AMBAR trial showed 52-71% slowing of decline. ASFA Category III. Learn about the protocol and how it compares to FDA-approved drugs.",
+      "The AMBAR trial showed plasma exchange slowed Alzheimer's decline by 52–71% with minimal side effects. Evidence, protocol details, and how to start.",
     url: "https://allenpgreenmd.com/tpe-alzheimers",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],

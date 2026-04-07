@@ -5,11 +5,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "Plasma Exchange for Longevity & Biological Age | Dr. Allen Green",
   description:
-    "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
+    "Peer-reviewed research shows TPE can reduce biological age by up to 2.6 years. The science behind plasma dilution and how it's applied clinically.",
   openGraph: {
     title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
     description:
-      "TPE has been shown to reduce biological age by 2.6 years and rejuvenate aging biomarkers. Learn the science behind plasma dilution for longevity.",
+      "Peer-reviewed research shows TPE can reduce biological age by up to 2.6 years. The science behind plasma dilution and how it's applied clinically.",
     url: "https://allenpgreenmd.com/tpe-longevity",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],

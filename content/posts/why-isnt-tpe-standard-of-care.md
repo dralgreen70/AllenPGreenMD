@@ -3,7 +3,7 @@ title: "If Plasma Exchange Works, Why Isn't Your Doctor Recommending It?"
 date: "2026-03-05"
 author: "Dr. Allen P. Green"
 excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — larger than any FDA-approved drug, with a fraction of the side effects. So why haven't you heard about it from your neurologist?"
-description: "Seven structural reasons why plasma exchange isn't standard of care -- despite AMBAR showing 52-71% slowing of Alzheimer's progression."
+description: "52–71% effect sizes, a fraction of the side effects of FDA-approved drugs, and most neurologists have never heard of it. Seven reasons TPE isn't mainstream."
 image: "/images/blog/why-tpe-not-standard.jpg"
 tags: "ambar, alzheimers"
 ---

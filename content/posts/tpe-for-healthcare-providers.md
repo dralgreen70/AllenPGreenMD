@@ -3,7 +3,7 @@ title: "Therapeutic Plasma Exchange for Healthcare Providers: A Clinical Impleme
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "What it actually takes to bring therapeutic plasma exchange into an outpatient practice — equipment, staffing, costs, and what experienced clinics have learned."
-description: "What it takes to bring therapeutic plasma exchange into an outpatient practice -- equipment, staffing, costs, and what experienced clinics have learned."
+description: "A clinical guide to offering TPE in your practice: equipment requirements, staffing, reimbursement, and lessons from clinics already running the procedure."
 image: "/images/blog/GA_clinic.jpg"
 tags: "clinical, tpe"
 ---

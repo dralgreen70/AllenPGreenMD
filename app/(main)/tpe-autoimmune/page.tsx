@@ -5,11 +5,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "Plasma Exchange for Autoimmune Conditions | Dr. Allen Green",
   description:
-    "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
+    "TPE is a first-line treatment for many autoimmune conditions, removing pathogenic antibodies that drive disease. ASFA indications and how to start.",
   openGraph: {
     title: "TPE for Autoimmune Conditions | Allen P. Green, MD",
     description:
-      "TPE removes pathogenic antibodies driving autoimmune disease. ASFA-recognized indications include myasthenia gravis, lupus, and ANCA vasculitis.",
+      "TPE is a first-line treatment for many autoimmune conditions, removing pathogenic antibodies that drive disease. ASFA indications and how to start.",
     url: "https://allenpgreenmd.com/tpe-autoimmune",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],

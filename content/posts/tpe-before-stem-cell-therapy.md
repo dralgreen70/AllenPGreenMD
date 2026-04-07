@@ -3,7 +3,7 @@ title: "Why Plasma Exchange Should Come Before Stem Cell, Exosome, or PRP Therap
 date: "2026-03-19"
 author: "Allen P. Green, M.D."
 excerpt: "If you're investing in stem cell therapy, exosomes, or PRP, the environment those therapies enter matters as much as the therapies themselves. Here's the clinical case for sequencing TPE first."
-description: "The environment stem cell therapies enter matters as much as the therapy itself. Here's the clinical case for doing TPE before stem cells, exosomes, or PRP."
+description: "Stem cells, exosomes, and PRP work better in clean plasma. Here's the clinical case for doing therapeutic plasma exchange before regenerative therapy."
 image: "/images/blog/fibroblast.jpg"
 imageAlt: "Fluorescence microscopy image showing cellular structure and activity in human tissue"
 tags: "longevity, stem cell therapy, exosomes, PRP, plasma exchange, regenerative medicine"

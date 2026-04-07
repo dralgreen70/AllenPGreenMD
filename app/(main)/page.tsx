@@ -4,11 +4,11 @@ import Script from "next/script"
 export const metadata: Metadata = {
   title: "Therapeutic Plasma Exchange Specialist | Dr. Allen Green",
   description:
-    "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
+    "Board-certified Clinical Pathologist specializing in therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detoxification.",
   openGraph: {
     title: "Dr. Allen Green | Therapeutic Plasma Exchange",
     description:
-      "Board-Certified Clinical Pathologist at Global Apheresis. Therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detox.",
+      "Board-certified Clinical Pathologist specializing in therapeutic plasma exchange for longevity, Alzheimer's, autoimmune conditions, and detoxification.",
     url: "https://allenpgreenmd.com",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
