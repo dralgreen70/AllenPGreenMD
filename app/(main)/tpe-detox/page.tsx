@@ -111,7 +111,7 @@ export default function TpeDetoxPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications"},{"@type":"ListItem","position":3,"name":"Detoxification","item":"https://allenpgreenmd.com/tpe-detox"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Applications","item":"https://allenpgreenmd.com/tpe"},{"@type":"ListItem","position":3,"name":"Detoxification","item":"https://allenpgreenmd.com/tpe-detox"}]}) }}
       />
       <main>
         {/* ===== SECTION 1: HERO ===== */}
