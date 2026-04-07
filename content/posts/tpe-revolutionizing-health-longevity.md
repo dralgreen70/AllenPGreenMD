@@ -1,5 +1,5 @@
 ---
-title: "Therapeutic Plasma Exchange: Transforming Health and Longevity"
+title: "TPE for Health and Longevity"
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "A physician's overview of what TPE is, what the evidence shows, and the four areas where it's changing medicine."

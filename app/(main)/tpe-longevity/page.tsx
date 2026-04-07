@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Plasma Exchange for Longevity & Biological Age | Dr. Allen Green",
+  title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
   description:
     "Peer-reviewed research shows TPE can reduce biological age by up to 2.6 years. The science behind plasma dilution and how it's applied clinically.",
   openGraph: {

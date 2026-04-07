@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Plasma Exchange for Detox & Environmental Toxins | Dr. Allen Green",
+  title: "TPE for Detoxification & Toxin Removal | Allen P. Green, MD",
   description:
     "PFAS, heavy metals, and persistent organic pollutants accumulate in blood for years. TPE physically removes the plasma carrying them. Here's how.",
   openGraph: {

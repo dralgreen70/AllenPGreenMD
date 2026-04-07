@@ -1,5 +1,5 @@
 ---
-title: "AMBAR Part 3: Plasma Exchange Slows Alzheimer's Decline Regardless of Amyloid Status"
+title: "AMBAR Part 3: Beyond Amyloid"
 date: "2026-01-05"
 author: "Dr. Allen P. Green"
 excerpt: "The finding that changed how we think about what plasma exchange is actually doing — and why it matters for everyone, not just Alzheimer's patients."

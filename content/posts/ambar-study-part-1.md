@@ -1,5 +1,5 @@
 ---
-title: "The AMBAR Study: Part 1 — Understanding Plasma Exchange and Key Results"
+title: "AMBAR Part 1: Trial Results"
 date: "2025-12-22"
 author: "Dr. Allen P. Green"
 excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — and most neurologists have never heard of it. Here's what the data actually shows."
