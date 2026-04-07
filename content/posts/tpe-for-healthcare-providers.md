@@ -1,5 +1,6 @@
 ---
-title: "TPE for Healthcare Providers"
+title: "Therapeutic Plasma Exchange for Healthcare Providers: A Clinical Implementation Guide"
+metaTitle: "TPE for Healthcare Providers"
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
 excerpt: "What it actually takes to bring therapeutic plasma exchange into an outpatient practice — equipment, staffing, costs, and what experienced clinics have learned."

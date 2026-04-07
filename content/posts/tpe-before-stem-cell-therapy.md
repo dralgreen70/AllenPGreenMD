@@ -1,5 +1,6 @@
 ---
-title: "TPE Before Stem Cell Therapy"
+title: "Why Plasma Exchange Should Come Before Stem Cell, Exosome, or PRP Therapy"
+metaTitle: "TPE Before Stem Cell Therapy"
 date: "2026-03-19"
 author: "Allen P. Green, M.D."
 excerpt: "If you're investing in stem cell therapy, exosomes, or PRP, the environment those therapies enter matters as much as the therapies themselves. Here's the clinical case for sequencing TPE first."

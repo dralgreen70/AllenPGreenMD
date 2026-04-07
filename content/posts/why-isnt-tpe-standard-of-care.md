@@ -1,5 +1,6 @@
 ---
-title: "Why Isn't Your Doctor Recommending TPE?"
+title: "If Plasma Exchange Works, Why Isn't Your Doctor Recommending It?"
+metaTitle: "Why Isn't Your Doctor Recommending TPE?"
 date: "2026-03-05"
 author: "Dr. Allen P. Green"
 excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's progression — larger than any FDA-approved drug, with a fraction of the side effects. So why haven't you heard about it from your neurologist?"
