@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     url: "https://allenpgreenmd.com/research/tpe-evidence",
     type: "website",
     siteName: "Allen P. Green, M.D.",
-    images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://allenpgreenmd.com/images/tpe-evidence-og.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Science of TPE: 12 Key Studies",
     description:
       "A chronological summary of the peer-reviewed research that established therapeutic plasma exchange as a longevity intervention.",
-    images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
+    images: ["https://allenpgreenmd.com/images/tpe-evidence-og.jpg"],
   },
 }
 
