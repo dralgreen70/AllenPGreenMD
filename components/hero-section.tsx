@@ -23,10 +23,10 @@ export function HeroSection() {
         </p>
         <div className="hero-actions">
           <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            Book Discovery Call <span className="arrow">&rarr;</span>
+            Book a Discovery Call <span className="arrow">&rarr;</span>
           </a>
-          <a href="#plex" className="btn btn-outline">
-            Learn About PLEX
+          <a href="/tpe" className="btn btn-outline">
+            Learn About TPE
           </a>
         </div>
         <div className="hero-trust">

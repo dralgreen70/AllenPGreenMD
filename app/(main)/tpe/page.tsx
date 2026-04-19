@@ -3,13 +3,13 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "What is Therapeutic Plasma Exchange (TPE)? | Dr. Allen Green",
+  title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
   description:
-    "TPE removes old plasma and replaces it with albumin, clearing inflammatory compounds linked to aging and disease. How it works and what to expect.",
+    "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
   openGraph: {
-    title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
+    title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
     description:
-      "TPE removes old plasma and replaces it with albumin, clearing inflammatory compounds linked to aging and disease. How it works and what to expect.",
+      "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
     url: "https://allenpgreenmd.com/tpe",
     siteName: "Allen P. Green, MD",
     images: [{ url: "https://allenpgreenmd.com/images/me-and-amicus.jpg", width: 1200, height: 630 }],
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What Is Therapeutic Plasma Exchange? | Dr. Allen Green",
+    title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
     description:
-      "Therapeutic plasma exchange removes old plasma and replaces it with albumin, clearing aging-linked compounds. Learn how TPE works and what to expect.",
+      "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
     images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
   },
   alternates: {
@@ -213,24 +213,24 @@ export default function TpePage() {
             </div>
             <h1 className="h-display reveal">
               What is Therapeutic Plasma{" "}
-              <span className="serif-italic accent-text">Exchange?</span>
+              <span className="serif-italic accent-text">Exchange (TPE)?</span>
             </h1>
             <p
               className="tpe-hero-sub reveal"
               style={{ marginTop: "1.5rem" }}
             >
-              A clinically validated procedure that removes aged plasma and
-              replaces it with fresh albumin solution &mdash; clearing the
-              inflammatory compounds, oxidized proteins, and senescent factors
-              that drive aging and disease.
+              Therapeutic Plasma Exchange &mdash; also known as TPE, PLEX, or
+              plasmapheresis &mdash; is a medical procedure that filters and
+              replaces blood plasma to remove harmful circulating factors,
+              including inflammatory compounds, oxidized proteins, and
+              senescent signaling molecules.
             </p>
             <div className="tpe-hero-anchor reveal">
               <p className="body-lg">
-                Therapeutic plasma exchange (TPE), also called plasmapheresis
-                or PLEX, is the most direct way to address what accumulates in
-                your blood over time. By removing old plasma and replacing it
-                with 5% albumin &mdash; a powerful antioxidant and
-                anti-inflammatory protein &mdash; TPE resets the biochemical
+                TPE is the most direct way to address what accumulates in your
+                blood over time. By removing old plasma and replacing it with
+                5% albumin &mdash; a powerful antioxidant and anti-inflammatory
+                protein &mdash; the procedure resets the biochemical
                 environment your cells operate in. The result is reduced
                 inflammation, improved cellular signaling, and a measurable
                 shift toward younger biological function.

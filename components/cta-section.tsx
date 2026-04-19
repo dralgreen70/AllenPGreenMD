@@ -26,7 +26,7 @@ export function CTASection() {
         </p>
         <div className="cta-actions reveal">
           <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-            Schedule Discovery Call <span className="arrow">&rarr;</span>
+            Book a Discovery Call <span className="arrow">&rarr;</span>
           </a>
         </div>
       </div>

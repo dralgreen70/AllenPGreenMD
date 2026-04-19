@@ -54,13 +54,15 @@ export function AboutSection() {
                 <span
                   key={t}
                   style={{
-                    padding: "0.4rem 1rem",
-                    background: "var(--accent-glow)",
-                    border: "1px solid rgba(8, 145, 178, 0.15)",
-                    fontSize: "0.7rem",
+                    padding: "6px 12px",
+                    background: "#EEF4F7",
+                    border: "none",
+                    borderRadius: "999px",
+                    fontSize: "13px",
                     fontWeight: 500,
-                    color: "var(--accent-dark)",
-                    letterSpacing: "0.03em",
+                    color: "#1a3a5c",
+                    letterSpacing: "0.01em",
+                    lineHeight: 1.3,
                   }}
                 >
                   {t}

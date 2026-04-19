@@ -92,21 +92,8 @@ export function ResearchPreview() {
           ))}
         </div>
         <div className="reveal" style={{ textAlign: "center", marginTop: "2.5rem" }}>
-          <Link href="/research" className="tpe-cta-btn">
-            View All Publications
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
-            </svg>
+          <Link href="/research" className="view-all-link">
+            View All Publications&nbsp;<span className="arrow">&rarr;</span>
           </Link>
         </div>
       </div>
