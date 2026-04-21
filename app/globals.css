@@ -952,8 +952,8 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 
 .pfas-reading-path { max-width: 860px; }
 .pfas-series-card { background: var(--card); }
-.pfas-card-thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 0.75rem 0 1rem; border-radius: var(--radius); overflow: hidden; background: var(--bg-alt); }
-.pfas-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.series-card-thumb, .pfas-card-thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 0.75rem 0 1rem; border-radius: var(--radius); overflow: hidden; background: var(--bg-alt); }
+.series-card-thumb img, .pfas-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pfas-card-subtitle { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 1.02rem !important; color: var(--text) !important; margin-bottom: 0.75rem !important; }
 
 .ambar-reading-card.coming-soon { background: var(--bg-alt); opacity: 0.78; cursor: default; pointer-events: none; }

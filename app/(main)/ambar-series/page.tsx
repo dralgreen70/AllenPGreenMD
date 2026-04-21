@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import Script from "next/script"
 
 export const metadata: Metadata = {
@@ -33,8 +34,9 @@ const readingPath = [
     label: "Part 1",
     title: "Understanding Plasma Exchange and Key Results",
     excerpt:
-      "The AMBAR trial showed effect sizes of 52\u201371% in slowing Alzheimer\u2019s progression \u2014 and most neurologists have never heard of it. Here\u2019s what the data actually shows.",
+      "The AMBAR trial showed effect sizes of 52\u201371% in slowing Alzheimer\u2019s progression. Most neurologists have never heard of it. Here\u2019s what the data actually shows.",
     href: "/blog/ambar-study-part-1",
+    thumbnail: "/images/blog/Ambar_part_1.jpg",
   },
   {
     num: 2,
@@ -43,6 +45,7 @@ const readingPath = [
     excerpt:
       "The mechanistic evidence, independent validation from a 2025 Argentina cohort study, and how plasma exchange compares to FDA-approved monoclonal antibodies like lecanemab and donanemab.",
     href: "/blog/ambar-part-2-fda-comparison",
+    thumbnail: "/images/blog/AMBAR_Part2.jpg",
   },
   {
     num: 3,
@@ -50,8 +53,9 @@ const readingPath = [
     title:
       "Plasma Exchange Slows Decline Regardless of Amyloid Status",
     excerpt:
-      "The finding that changed how we think about what plasma exchange is actually doing \u2014 and why it matters for everyone, not just Alzheimer\u2019s patients.",
+      "The finding that changed how we think about what plasma exchange is actually doing, and why it matters for everyone, not just Alzheimer\u2019s patients.",
     href: "/blog/ambar-study-part-3",
+    thumbnail: "/images/blog/AMBAR_Part_3.jpg",
   },
   {
     num: 4,
@@ -61,6 +65,7 @@ const readingPath = [
     excerpt:
       "The AMBAR trial demonstrated effect sizes larger than any FDA-approved drug, with a fraction of the side effects. So why haven\u2019t you heard about it from your neurologist?",
     href: "/blog/why-isnt-tpe-standard-of-care",
+    thumbnail: "/images/blog/why-tpe-not-standard.jpg",
   },
 ]
 
@@ -95,7 +100,7 @@ export default function AmbarSeriesPage() {
             className="tpe-hero-sub reveal"
             style={{ marginTop: "1.5rem" }}
           >
-            A four-part analysis of the landmark AMBAR trial &mdash; the
+            A four-part analysis of the landmark AMBAR trial, the
             largest and most rigorous study of plasma exchange for
             Alzheimer&apos;s disease. From the raw clinical data to the
             systemic barriers preventing adoption, this series covers
@@ -140,7 +145,7 @@ export default function AmbarSeriesPage() {
           <div className="alz-evidence-intro reveal" style={{ maxWidth: 820 }}>
             <p className="body-lg">
               In 2020, researchers published results from the AMBAR trial
-              (<em>Alzheimer Management By Albumin Replacement</em>) &mdash;
+              (<em>Alzheimer Management By Albumin Replacement</em>),
               a multicenter, randomized, double-blind, placebo-controlled
               study across 41 sites in the United States and Spain. It
               remains the largest and most rigorous clinical trial ever
@@ -186,6 +191,17 @@ export default function AmbarSeriesPage() {
               >
                 <span className="ambar-reading-num">{card.num}</span>
                 <span className="ambar-reading-label">{card.label}</span>
+                {card.thumbnail && (
+                  <div className="series-card-thumb">
+                    <Image
+                      src={card.thumbnail}
+                      alt={card.title}
+                      width={480}
+                      height={270}
+                      sizes="(max-width: 768px) 100vw, 480px"
+                    />
+                  </div>
+                )}
                 <h3>{card.title}</h3>
                 <p>{card.excerpt}</p>
                 <span className="ambar-reading-link">
@@ -194,6 +210,44 @@ export default function AmbarSeriesPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ===== RESEARCH CROSS-LINK ===== */}
+      <section
+        className="site-section"
+        style={{
+          textAlign: "center",
+          paddingTop: "2.75rem",
+          paddingBottom: "2.75rem",
+        }}
+      >
+        <div className="site-container">
+          <p
+            style={{
+              fontSize: "0.95rem",
+              color: "var(--text-secondary)",
+              maxWidth: 680,
+              margin: "0 auto 0.5rem",
+              lineHeight: 1.6,
+            }}
+          >
+            Looking for the broader evidence picture? The Science of TPE
+            research page covers the full longevity literature including
+            AMBAR, parabiosis studies, and the mechanistic case for
+            plasma exchange as a longevity intervention.
+          </p>
+          <Link
+            href="/research/tpe-evidence"
+            style={{
+              fontSize: "0.95rem",
+              fontWeight: 600,
+              color: "var(--accent)",
+              textDecoration: "none",
+            }}
+          >
+            Read the research overview &rarr;
+          </Link>
         </div>
       </section>
 
