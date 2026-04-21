@@ -55,7 +55,7 @@ However, the critical limitation is that phlebotomy removes entire blood, includ
 
 ### Inefficient and Dangerous Timeline
 
-The Australian firefighter study demonstrated this limitation clearly. In the randomized trial, plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months — approximately 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Blood donation showed no significant effect on PFHxS at all. But the safety constraints make the problem worse: with mandatory delays between sessions to prevent anemia, achieving meaningful PFAS reduction through bloodletting could take years rather than months.
+The Australian firefighter study demonstrated this limitation clearly. In the randomized trial, plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, which lead author Gasiorowski characterized as approximately a 30% decrease, roughly 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Whole blood donation showed no significant effect on PFHxS at all. But the safety constraints make the problem worse: with mandatory delays between sessions to prevent anemia, achieving meaningful PFAS reduction through bloodletting could take years rather than months.
 
 ### Hidden Costs
 
@@ -71,7 +71,7 @@ TPE removes a clinically substantial volume of plasma per session, well beyond w
 
 ### Demonstrated Results
 
-Research demonstrates [TPE's superiority across multiple toxin categories](/blog/tpe-detoxification-forever-chemicals) — 71.5% median bisphenol A reduction, 68% average glyphosate reduction, and 75.7% median phthalate reduction. For PFAS specifically, TPE achieves nearly three times more reduction per session than blood donation.
+Research demonstrates [TPE's superiority across multiple toxin categories](/blog/tpe-detoxification-forever-chemicals) — 71.5% median bisphenol A reduction, 68% average glyphosate reduction, and 75.7% median phthalate reduction. For PFAS specifically, the Gasiorowski trial showed plasma donation about 2.6 times more effective than whole blood donation at reducing PFOS. TPE moves substantially more plasma per session than either approach, though TPE itself has not been directly studied in a PFAS RCT.
 
 ### Faster Resolution
 

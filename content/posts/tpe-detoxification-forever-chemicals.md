@@ -47,9 +47,9 @@ A rigorous randomized controlled trial published in *JAMA Network Open* studied 
 
 Plasma donation results showed meaningful reductions across all measured PFAS compounds:
 
-Plasma donation reduced PFOS levels by 2.9 ng/mL, PFHxS by 1.1 ng/mL, and PFOA by 0.5 ng/mL — significant decreases across all measured PFAS compounds.
+Plasma donation reduced PFOS levels by 2.9 ng/mL, which lead author Gasiorowski characterized as approximately a 30% decrease, along with PFHxS reductions of 1.1 ng/mL and PFOA reductions of 0.5 ng/mL. All three were significant decreases.
 
-By contrast, blood donation results were less impressive: PFOS reduced by 1.1 ng/mL (significant but less than plasma), no significant change in PFHxS levels, and no significant reduction in PFOA.
+By contrast, whole blood donation is not a meaningful intervention for PFAS reduction. The same trial showed a marginal PFOS reduction of 1.1 ng/mL, no significant change in PFHxS levels, and no significant reduction in PFOA.
 
 The study clearly demonstrated that **plasma removal is superior to whole blood removal** for eliminating PFAS chemicals, likely because these compounds concentrate in plasma rather than blood cells.
 

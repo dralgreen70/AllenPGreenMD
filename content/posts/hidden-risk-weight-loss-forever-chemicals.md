@@ -36,7 +36,7 @@ Despite being labeled "forever chemicals," POPs don't have to be permanent resid
 
 The process involves donating plasma at commercial plasma centers (available in most major cities), removing approximately 500mL of plasma per session, and donating up to twice weekly following FDA guidelines. An additional benefit is that donors receive compensation for each donation.
 
-**The documented results:** A 2022 randomized clinical trial of Australian firefighters — a population with high forever chemical exposure — found that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, approximately 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Blood donation showed no significant effect on PFHxS at all, confirming that plasma removal is the key mechanism for PFAS elimination.
+**The documented results:** A 2022 randomized clinical trial of Australian firefighters — a population with high forever chemical exposure — found that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, which lead author Gasiorowski characterized as approximately a 30% decrease, roughly 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Whole blood donation had a marginal effect on PFOS and no significant effect on PFHxS, confirming that plasma removal is the key mechanism for PFAS elimination.
 
 > **"The mechanism isn't complicated — you're physically removing the compounds that your body cannot eliminate on its own."**
 
@@ -125,5 +125,5 @@ Plasma removal, whether through donation or therapeutic exchange, gives the body
 ## References
 
 1. Jansen A, Lyche JL, Polder A, Aaseth J, Skaug MA. Increased blood levels of persistent organic pollutants (POP) in obese individuals after weight loss — A review. J Toxicol Environ Health Part B. 2017;20(1):22–37. doi:10.1080/10937404.2016.1246391
-2. Cohen NJ, Yao M, Midya V, et al. Exposure to perfluoroalkyl substances and women's fertility outcomes in a Singaporean population-based preconception cohort. Environ Int. 2023.
+2. Cohen NJ, Yao M, Midya V, et al. Exposure to perfluoroalkyl substances and women's fertility outcomes in a Singaporean population-based preconception cohort. Sci Total Environ. 2023;873:162267. doi:10.1016/j.scitotenv.2023.162267
 3. Gasiorowski R, Forbes MK, Silver G, et al. Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial. JAMA Netw Open. 2022;5(4):e226257. doi:10.1001/jamanetworkopen.2022.6257
