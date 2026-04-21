@@ -63,6 +63,13 @@ function formatDate(dateStr: string): string {
   })
 }
 
+function formatUpdatedLabel(dateStr: string): string {
+  const d = new Date(dateStr + "T00:00:00")
+  const month = d.toLocaleDateString("en-US", { month: "long" })
+  const year = d.getFullYear()
+  return `Updated ${month} ${year}`
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -94,7 +101,7 @@ export default async function BlogPostPage({
     headline: post.frontmatter.title,
     description: post.frontmatter.excerpt,
     datePublished: `${post.frontmatter.date}T00:00:00-08:00`,
-    dateModified: `${post.frontmatter.date}T00:00:00-08:00`,
+    dateModified: `${post.frontmatter.updated || post.frontmatter.date}T00:00:00-08:00`,
     url: `https://allenpgreenmd.com/blog/${slug}`,
     ...(post.frontmatter.image && {
       image: `https://allenpgreenmd.com${post.frontmatter.image}`,
@@ -227,6 +234,12 @@ export default async function BlogPostPage({
             <span className="post-hero-date">{formatDate(post.frontmatter.date)}</span>
             <span className="post-hero-divider">|</span>
             <span className="post-hero-readtime">{post.readTime} min read</span>
+            {post.frontmatter.updated && (
+              <>
+                <span className="post-hero-divider">|</span>
+                <span className="post-hero-updated">{formatUpdatedLabel(post.frontmatter.updated)}</span>
+              </>
+            )}
           </div>
           <h1 className="post-hero-title">{post.frontmatter.title}</h1>
           <p className="post-hero-excerpt">{post.frontmatter.excerpt}</p>

@@ -138,6 +138,9 @@ export function Navbar() {
               <Link href="/ambar-series" onClick={closeNav}>
                 The AMBAR Series
               </Link>
+              <Link href="/pfas-series" onClick={closeNav}>
+                The PFAS Series
+              </Link>
             </div>
           </li>
           <li>

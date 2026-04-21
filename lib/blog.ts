@@ -4,6 +4,7 @@ import path from "path"
 export interface PostFrontmatter {
   title: string
   date: string
+  updated?: string
   author: string
   excerpt: string
   description?: string
@@ -75,6 +76,7 @@ function parseFrontmatter(fileContent: string): {
     frontmatter: {
       title: (frontmatter.title as string) || "",
       date: (frontmatter.date as string) || "",
+      updated: (frontmatter.updated as string) || "",
       author: (frontmatter.author as string) || "Dr. Allen P. Green",
       excerpt: (frontmatter.excerpt as string) || "",
       description: (frontmatter.description as string) || "",

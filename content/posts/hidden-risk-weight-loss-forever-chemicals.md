@@ -1,6 +1,7 @@
 ---
 title: "The Hidden Risk of Weight Loss: How Forever Chemicals Get Released During Fat Loss"
 date: "2025-10-21"
+updated: "2026-04-20"
 author: "Dr. Allen P. Green"
 excerpt: "Why losing weight might temporarily increase your toxin exposure — and the therapeutic solution that can help"
 image: "/images/blog/weight_loss_pfas.jpg"
@@ -45,7 +46,7 @@ The process involves donating plasma at commercial plasma centers (available in 
 
 For individuals seeking maximum efficiency and additional health optimization benefits, therapeutic plasma exchange offers significant advantages over standard plasma donation.
 
-**Superior toxin removal capacity:** A single TPE session removes **4-6 times more plasma** than standard donation. Two therapeutic plasma exchange treatments equal the entire plasma volume removed in the firefighter study. Medical-grade albumin replacement may help sequester remaining toxins and support [ongoing environmental detoxification](/blog/tpe-detoxification-forever-chemicals).
+**Superior toxin removal capacity:** A single TPE session moves substantially more plasma than a standard donation, in a clinical setting rather than a donor center. Medical-grade albumin replacement may help sequester remaining toxins and support [ongoing environmental detoxification](/blog/tpe-detoxification-forever-chemicals).
 
 Beyond toxin removal, TPE offers a range of additional health benefits that make it particularly well-suited to a comprehensive longevity strategy. These include improved cardiovascular risk markers and lipid profiles, enhanced immune function and inflammatory balance, reduced oxidative stress, optimized metabolic function, and the demonstrated biological age reversal effects documented in recent clinical studies.
 
@@ -88,6 +89,38 @@ Weight loss is one of the most powerful tools available for improving health, ca
 The 1% per pound finding shouldn't be buried in research literature. It should be part of every weight loss conversation. Patients who understand what's happening in their blood during fat loss can make informed decisions about detoxification — rather than unknowingly cycling through the metabolic disruption that elevated POP levels create.
 
 Plasma removal, whether through donation or therapeutic exchange, gives the body a mechanism it otherwise lacks: a way to clear compounds that don't clear on their own. Used alongside a structured weight loss program, it represents the difference between losing weight and optimizing the process from the inside out.
+
+**The PFAS Series:**
+
+<div class="post-series-nav">
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 1 · Coming Soon</span>
+<span class="post-series-title">The PFAS Problem</span>
+<span class="post-series-desc">What forever chemicals are, why they persist, and what we can actually do about them.</span>
+</span>
+<a href="/blog/tpe-detoxification-forever-chemicals" class="post-series-card">
+<span class="post-series-part">Part 2</span>
+<span class="post-series-title">TPE for Detoxification</span>
+<span class="post-series-desc">The broader environmental medicine frame. Where plasma compartment removal fits.</span>
+</a>
+<a href="/blog/jersey-pfas-crisis" class="post-series-card">
+<span class="post-series-part">Part 3</span>
+<span class="post-series-title">The Jersey PFAS Crisis</span>
+<span class="post-series-desc">Geography as exposure. The anti-bloodletting argument for why targeting plasma matters.</span>
+</a>
+<a href="/blog/hidden-risk-weight-loss-forever-chemicals" class="post-series-card post-series-current">
+<span class="post-series-part">Part 4 · You are here</span>
+<span class="post-series-title">The Hidden Risk of Weight Loss</span>
+<span class="post-series-desc">Fat loss mobilizes stored persistent pollutants. What to do about it.</span>
+</a>
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 5 · Coming Soon</span>
+<span class="post-series-title">Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB</span>
+<span class="post-series-desc">Two research groups, one PFAS compound. The human stakes.</span>
+</span>
+</div>
+
+<p class="post-series-nav-footer"><a href="/pfas-series">View the full PFAS Series &rarr;</a></p>
 
 ## References
 

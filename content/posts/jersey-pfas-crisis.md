@@ -1,6 +1,7 @@
 ---
 title: 'The Jersey PFAS Crisis: Why Government-Recommended "Bloodletting" Isn't Enough'
 date: "2025-10-21"
+updated: "2026-04-20"
 author: "Dr. Allen P. Green"
 excerpt: "How a decades-long contamination cover-up in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
 description: "How contamination in the English Channel became a case study in the gap between government health recommendations and the best available medicine."
@@ -66,7 +67,7 @@ Jersey's cost estimates likely undercount the true expense. Meeting minutes note
 
 ### Direct PFAS Targeting
 
-TPE removes 1–1.5 plasma volumes per session (approximately 3–4 liters), compared to bloodletting's 250mL. This represents **12–16 times more plasma removal** per session.
+TPE removes a clinically substantial volume of plasma per session, well beyond what a phlebotomy draw accomplishes. Because PFAS concentrates in plasma rather than in blood cells, targeting the plasma compartment directly is far more efficient than removing whole blood.
 
 ### Demonstrated Results
 
@@ -139,6 +140,38 @@ Jersey residents have suffered enough from their government's failures. They des
 If you're dealing with PFAS contamination — whether in Jersey or elsewhere — understanding your treatment options is crucial. While bloodletting may be better than no treatment, therapeutic plasma exchange offers superior results with fewer sessions and better safety.
 
 > **"The choice shouldn't be between bad options and worse options — it should be between good options and better options."**
+
+**The PFAS Series:**
+
+<div class="post-series-nav">
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 1 · Coming Soon</span>
+<span class="post-series-title">The PFAS Problem</span>
+<span class="post-series-desc">What forever chemicals are, why they persist, and what we can actually do about them.</span>
+</span>
+<a href="/blog/tpe-detoxification-forever-chemicals" class="post-series-card">
+<span class="post-series-part">Part 2</span>
+<span class="post-series-title">TPE for Detoxification</span>
+<span class="post-series-desc">The broader environmental medicine frame. Where plasma compartment removal fits.</span>
+</a>
+<a href="/blog/jersey-pfas-crisis" class="post-series-card post-series-current">
+<span class="post-series-part">Part 3 · You are here</span>
+<span class="post-series-title">The Jersey PFAS Crisis</span>
+<span class="post-series-desc">Geography as exposure. The anti-bloodletting argument for why targeting plasma matters.</span>
+</a>
+<a href="/blog/hidden-risk-weight-loss-forever-chemicals" class="post-series-card">
+<span class="post-series-part">Part 4</span>
+<span class="post-series-title">The Hidden Risk of Weight Loss</span>
+<span class="post-series-desc">Fat loss mobilizes stored persistent pollutants. What to do about it.</span>
+</a>
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 5 · Coming Soon</span>
+<span class="post-series-title">Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB</span>
+<span class="post-series-desc">Two research groups, one PFAS compound. The human stakes.</span>
+</span>
+</div>
+
+<p class="post-series-nav-footer"><a href="/pfas-series">View the full PFAS Series &rarr;</a></p>
 
 ## References
 

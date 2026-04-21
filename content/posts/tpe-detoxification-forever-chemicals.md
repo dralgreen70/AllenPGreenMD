@@ -2,6 +2,7 @@
 title: "TPE for Detoxification: The Science-Based Solution for Forever Chemicals and Environmental Toxins"
 metaTitle: "TPE for Forever Chemicals"
 date: "2025-10-21"
+updated: "2026-04-20"
 author: "Dr. Allen P. Green"
 excerpt: "How therapeutic plasma exchange directly removes PFAS, heavy metals, and synthetic chemicals that conventional detox approaches cannot reach."
 image: "/images/blog/tpe_detox.jpg"
@@ -76,7 +77,7 @@ Unlike supplement-based approaches, TPE provides direct removal of circulating t
 
 ### How It Works
 
-Therapeutic plasma exchange removes approximately 1–1.5 plasma volumes per session. Since most environmental toxins bind to plasma proteins, this directly eliminates the compounds from your circulatory system.
+Therapeutic plasma exchange removes a substantial volume of plasma per session, in a clinical setting under physician supervision. Since most environmental toxins bind to plasma proteins, this directly eliminates the compounds from your circulatory system.
 
 Blood is drawn continuously and processed through apheresis equipment. The plasma — carrying the protein-bound toxins — is separated and removed, while clean replacement fluid, typically albumin, is returned to the body along with blood cells. Sessions typically last 2–3 hours in an outpatient setting.
 
@@ -125,6 +126,38 @@ Environmental toxin accumulation represents one of the most significant health c
 TPE offers a direct, evidence-based approach to environmental toxin elimination. The evidence is compelling: direct plasma removal addresses what other approaches cannot reach.
 
 If you're dealing with unexplained health issues, high environmental exposures, or seeking proactive health optimization, TPE detoxification deserves serious consideration. The question isn't whether environmental toxins are affecting your health — it's whether you're ready to do something measurably effective about it.
+
+**The PFAS Series:**
+
+<div class="post-series-nav">
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 1 · Coming Soon</span>
+<span class="post-series-title">The PFAS Problem</span>
+<span class="post-series-desc">What forever chemicals are, why they persist, and what we can actually do about them.</span>
+</span>
+<a href="/blog/tpe-detoxification-forever-chemicals" class="post-series-card post-series-current">
+<span class="post-series-part">Part 2 · You are here</span>
+<span class="post-series-title">TPE for Detoxification</span>
+<span class="post-series-desc">The broader environmental medicine frame. Where plasma compartment removal fits.</span>
+</a>
+<a href="/blog/jersey-pfas-crisis" class="post-series-card">
+<span class="post-series-part">Part 3</span>
+<span class="post-series-title">The Jersey PFAS Crisis</span>
+<span class="post-series-desc">Geography as exposure. The anti-bloodletting argument for why targeting plasma matters.</span>
+</a>
+<a href="/blog/hidden-risk-weight-loss-forever-chemicals" class="post-series-card">
+<span class="post-series-part">Part 4</span>
+<span class="post-series-title">The Hidden Risk of Weight Loss</span>
+<span class="post-series-desc">Fat loss mobilizes stored persistent pollutants. What to do about it.</span>
+</a>
+<span class="post-series-card coming-soon">
+<span class="post-series-part">Part 5 · Coming Soon</span>
+<span class="post-series-title">Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB</span>
+<span class="post-series-desc">Two research groups, one PFAS compound. The human stakes.</span>
+</span>
+</div>
+
+<p class="post-series-nav-footer"><a href="/pfas-series">View the full PFAS Series &rarr;</a></p>
 
 ## References
 
