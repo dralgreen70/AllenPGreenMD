@@ -38,7 +38,7 @@ const timelineEvents = [
   {
     year: "2020\u20132024",
     title: "UT Southwestern Medical Center",
-    desc: "Clinical Pathology residency. Trained in therapeutic apheresis under Dr. Ravi Sarode. Supervised and performed hundreds of apheresis procedures.",
+    desc: "Clinical Pathology residency. Trained in therapeutic apheresis under Dr. Ravi Sarode. Supervised hundreds of apheresis procedures.",
   },
   {
     year: "2025",
@@ -100,7 +100,7 @@ export default function AboutPage() {
       url: "https://www.globalapheresis.com",
     },
     description:
-      "Board-certified physician specializing in therapeutic plasma exchange. Over 500 TPE procedures performed.",
+      "Board-certified physician specializing in therapeutic plasma exchange. Over 500 TPE procedures supervised.",
     knowsAbout: [
       "Therapeutic Plasma Exchange",
       "Plasmapheresis",

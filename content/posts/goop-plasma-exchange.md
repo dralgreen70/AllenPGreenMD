@@ -2,8 +2,8 @@
 title: "The Goop Plasma Exchange Article: What to Know Before You Call"
 date: "2026-03-04"
 author: "Dr. Allen P. Green"
-excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a legitimate medical procedure in front of millions of readers. As a physician who has performed over 500 TPE procedures, here's the clinical context worth understanding before you book a session."
-description: "The Goop feature on TPE reached millions of readers. A physician who has performed 500+ procedures provides the clinical context you need before you book."
+excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a legitimate medical procedure in front of millions of readers. As a physician who has supervised over 500 TPE procedures, here's the clinical context worth understanding before you book a session."
+description: "The Goop feature on TPE reached millions of readers. A physician who has supervised 500+ procedures provides the clinical context you need before you book."
 image: "/images/blog/GA_clinic.jpg"
 tags: "tpe, longevity"
 ---

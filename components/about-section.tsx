@@ -121,7 +121,7 @@ export function AboutSection() {
               }}
             >
               {
-                "\u201CI\u2019ve performed over 500 therapeutic plasma exchange procedures. Every one has deepened my understanding of what this treatment can do.\u201D"
+                "\u201CI\u2019ve supervised over 500 therapeutic plasma exchange procedures. Every one has deepened my understanding of what this treatment can do.\u201D"
               }
             </div>
 

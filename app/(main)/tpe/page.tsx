@@ -555,7 +555,7 @@ export default function TpePage() {
                     transfusion medicine, with decades of clinical use across
                     thousands of hospitals worldwide. When performed by a
                     trained specialist, serious complications are rare. Dr.
-                    Green has personally performed over 500 TPE procedures.
+                    Green has personally supervised over 500 TPE procedures.
                   </p>
                 </div>
               </div>

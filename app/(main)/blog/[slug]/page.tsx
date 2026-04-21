@@ -383,7 +383,7 @@ export default async function BlogPostPage({
               specializing in therapeutic plasma exchange for longevity,
               Alzheimer&rsquo;s disease, autoimmune conditions, and environmental
               detoxification. Trained at UT Southwestern Medical Center under
-              Dr. Ravi Sarode, Dr. Green has performed over 500 TPE procedures
+              Dr. Ravi Sarode, Dr. Green has supervised over 500 TPE procedures
               and has published multiple peer-reviewed papers in apheresis and
               transfusion medicine. He serves as Associate Medical Director at
               Global Apheresis in Mill Valley, California.
