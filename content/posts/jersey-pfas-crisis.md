@@ -144,11 +144,11 @@ If you're dealing with PFAS contamination — whether in Jersey or elsewhere —
 **The PFAS Series:**
 
 <div class="post-series-nav">
-<span class="post-series-card coming-soon">
-<span class="post-series-part">Part 1 · Coming Soon</span>
+<a href="/blog/pfas-problem-forever-chemicals-overview" class="post-series-card">
+<span class="post-series-part">Part 1</span>
 <span class="post-series-title">The PFAS Problem</span>
 <span class="post-series-desc">What forever chemicals are, why they persist, and what we can actually do about them.</span>
-</span>
+</a>
 <a href="/blog/tpe-detoxification-forever-chemicals" class="post-series-card">
 <span class="post-series-part">Part 2</span>
 <span class="post-series-title">TPE for Detoxification</span>

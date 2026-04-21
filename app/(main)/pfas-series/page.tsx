@@ -46,8 +46,10 @@ const seriesCards: SeriesCard[] = [
   {
     num: 1,
     label: "Part 1",
-    status: "coming-soon",
+    status: "live",
     title: "The PFAS Problem",
+    href: "/blog/pfas-problem-forever-chemicals-overview",
+    thumbnail: "/images/blog/pfas_part1.jpg",
     subtitle:
       "What forever chemicals are, why they persist, and what we can actually do about them",
     summary:
@@ -226,10 +228,11 @@ export default function PfasSeriesPage() {
             <p className="body-lg" style={{ marginTop: "1rem" }}>
               This series organizes what the science now supports, what it
               doesn&rsquo;t yet support, and where the conversation should
-              land for patients trying to make informed decisions. Parts
+              land for patients trying to make informed decisions. Part 1
+              is the new entry point for readers new to the topic. Parts
               2, 3, and 4 were originally published as standalone posts in
-              October 2025 and have been updated for the series. Parts 1
-              and 5 are new and arrive over the next two weeks.
+              October 2025 and have been updated for the series. Part 5
+              arrives in the coming weeks.
             </p>
           </div>
         </div>
