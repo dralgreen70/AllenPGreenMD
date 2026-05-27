@@ -71,15 +71,28 @@ This is a point I find myself making often in consultations. Patients hear "you 
 
 ## Practical Comparison
 
-|  | TPE | Inuspheresis (DFPP) |
-|---|---|---|
-| Mechanism | Broad plasma removal and replacement | Selective filtration by molecular size |
-| Replacement fluid | Yes, therapeutic albumin | Generally not required |
-| Albumin returned | Fresh, functional | Patient's own (potentially modified) |
-| Unknown pathogens removed | Yes | Not reliably |
-| US availability | Yes, FDA-cleared | Not currently available |
-| Research base | Extensive, decades of published data | Limited, primarily European |
-| Aging/longevity evidence | *Aging* 2020, *GeroScience* 2022, *Aging Cell* 2025 | Not established |
+<div class="post-comparison-wrap">
+<div class="post-comparison-header">
+<div class="post-comparison-title">TPE vs. Inuspheresis</div>
+<div class="post-comparison-subtitle">At-a-glance comparison of mechanism, availability, and evidence base</div>
+</div>
+<div class="post-comparison-scroll">
+<table class="post-comparison-table">
+<thead>
+<tr><th></th><th>TPE</th><th>Inuspheresis (DFPP)</th></tr>
+</thead>
+<tbody>
+<tr><td>Mechanism</td><td>Broad plasma removal and replacement</td><td>Selective filtration by molecular size</td></tr>
+<tr><td>Replacement fluid</td><td>Yes, therapeutic albumin</td><td>Generally not required</td></tr>
+<tr><td>Albumin returned</td><td>Fresh, functional</td><td>Patient's own (potentially modified)</td></tr>
+<tr><td>Unknown pathogens removed</td><td>Yes</td><td>Not reliably</td></tr>
+<tr><td>US availability</td><td>Yes, FDA-cleared</td><td>Not currently available</td></tr>
+<tr><td>Research base</td><td>Extensive, decades of published data</td><td>Limited, primarily European</td></tr>
+<tr><td>Aging/longevity evidence</td><td><em>Aging</em> 2020, <em>GeroScience</em> 2022, <em>Aging Cell</em> 2025</td><td>Not established</td></tr>
+</tbody>
+</table>
+</div>
+</div>
 
 ## What I Tell Patients
 
