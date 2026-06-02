@@ -13,7 +13,7 @@ tags: "tpe, microplastics, detox, environmental toxins, plasmapheresis"
 
 For years, one of the most frustrating things about microplastics has been that we could measure them but couldn't do anything about them. They turn up in blood, in placentas, in arterial plaque — and the standard advice has been some version of "try to be exposed to less." For something already circulating in your body, there was no intervention. No off-ramp.
 
-A new study in the *Journal of Clinical Apheresis* changes that conversation. For the first time, researchers have shown that [therapeutic plasma exchange](/tpe) (TPE) can lower the microplastic burden in human blood. This is the first demonstration that we can purposefully remove these particles from a person — and as someone who has built a career around plasma exchange, I think it's a genuinely important moment.
+A new study in the [*Journal of Clinical Apheresis*](https://doi.org/10.1002/jca.70135) changes that conversation. For the first time, researchers have shown that [therapeutic plasma exchange](/tpe) (TPE) can lower the microplastic burden in human blood. This is the first demonstration that we can purposefully remove these particles from a person — and as someone who has built a career around plasma exchange, I think it's a genuinely important moment.
 
 Let me walk through what the study found, why it matters, and what I'm changing in my own practice as a result.
 
