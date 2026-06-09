@@ -11,6 +11,24 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      // --- Legacy /journal → /blog (added 2026-06-08) ---
+
+      // 1. Renamed slugs: explicit mappings, must precede the wildcard
+      {
+        source: "/journal/ambar-study-part-2",
+        destination: "/blog/ambar-part-2-fda-comparison",
+        permanent: true,
+      },
+
+      // 2. The index page
+      { source: "/journal", destination: "/blog", permanent: true },
+
+      // 3. Wildcard fallback: every /journal/<slug> where the slug stayed the same → /blog/<slug>
+      { source: "/journal/:slug*", destination: "/blog/:slug*", permanent: true },
+    ]
+  },
   async headers() {
     return [
       {
