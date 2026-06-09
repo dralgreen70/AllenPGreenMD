@@ -9,6 +9,7 @@ export interface PostFrontmatter {
   excerpt: string
   description?: string
   metaTitle?: string
+  ogTitle?: string
   image: string
   imagePosition?: string
   imageAlt?: string
@@ -81,6 +82,7 @@ function parseFrontmatter(fileContent: string): {
       excerpt: (frontmatter.excerpt as string) || "",
       description: (frontmatter.description as string) || "",
       metaTitle: (frontmatter.metaTitle as string) || "",
+      ogTitle: (frontmatter.ogTitle as string) || "",
       image: (frontmatter.image as string) || "",
       imagePosition: (frontmatter.imagePosition as string) || "",
       imageAlt: (frontmatter.imageAlt as string) || "",

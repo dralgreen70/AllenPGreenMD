@@ -1,5 +1,7 @@
 ---
 title: "The Hidden Risk of Weight Loss: How Forever Chemicals Get Released During Fat Loss"
+metaTitle: "Weight Loss's Hidden Risk: Forever Chemicals"
+ogTitle: "Weight Loss's Hidden Risk: Forever Chemicals | Dr. Green"
 date: "2025-10-21"
 updated: "2026-04-20"
 author: "Dr. Allen P. Green"

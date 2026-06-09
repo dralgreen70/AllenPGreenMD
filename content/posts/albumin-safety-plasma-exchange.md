@@ -1,5 +1,7 @@
 ---
 title: "Is the Albumin Used in Plasma Exchange Safe? A Physician Explains How It's Made"
+metaTitle: "Is the Albumin Used in Plasma Exchange Safe?"
+ogTitle: "Is the Albumin Used in Plasma Exchange Safe? | Dr. Green"
 date: "2026-03-14"
 excerpt: "One of the most common questions I receive from patients concerns the 5% albumin we use as replacement fluid during therapeutic plasma exchange. Being a human-derived product raises several questions. Here is what you need to know."
 description: "Patients often ask about the 5% albumin used in plasma exchange. A physician explains how it's manufactured, screened, and why it's safe."

@@ -3,11 +3,11 @@ import Link from "next/link"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
+  title: "What Is Therapeutic Plasma Exchange? | Allen P. Green, MD",
   description:
     "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
   openGraph: {
-    title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
+    title: "What Is Therapeutic Plasma Exchange? | Allen P. Green, MD",
     description:
       "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
     url: "https://allenpgreenmd.com/tpe",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What is Therapeutic Plasma Exchange (TPE / PLEX)? | Allen P. Green, MD",
+    title: "What Is Therapeutic Plasma Exchange? | Allen P. Green, MD",
     description:
       "Therapeutic Plasma Exchange (TPE), also called PLEX or plasmapheresis, filters blood to remove harmful circulating factors. Learn how it works.",
     images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],

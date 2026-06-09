@@ -1,5 +1,7 @@
 ---
 title: "The Blood Revolution: How Aging Lives in Your Blood — And How to Reverse It"
+metaTitle: "The Blood Revolution: Aging Lives in Your Blood"
+ogTitle: "The Blood Revolution: Aging Lives in Your Blood | Dr. Green"
 date: "2025-12-14"
 author: "Dr. Allen P. Green"
 excerpt: "How two decades of parabiosis research led to a medical procedure that can reduce biological age — and what it means for the future of medicine."

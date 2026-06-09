@@ -1,5 +1,7 @@
 ---
 title: "The Goop Plasma Exchange Article: What to Know Before You Call"
+metaTitle: "Goop Plasma Exchange: What to Know First"
+ogTitle: "Goop Plasma Exchange: What to Know First | Dr. Green"
 date: "2026-03-04"
 author: "Dr. Allen P. Green"
 excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a legitimate medical procedure in front of millions of readers. As a physician who has supervised over 500 TPE procedures, here's the clinical context worth understanding before you book a session."

@@ -1,5 +1,7 @@
 ---
 title: 'The Jersey PFAS Crisis: Why Government-Recommended "Bloodletting" Isn't Enough'
+metaTitle: "Jersey PFAS Crisis: Bloodletting Isn't Enough"
+ogTitle: "Jersey PFAS Crisis: Bloodletting Isn't Enough | Dr. Green"
 date: "2025-10-21"
 updated: "2026-04-20"
 author: "Dr. Allen P. Green"

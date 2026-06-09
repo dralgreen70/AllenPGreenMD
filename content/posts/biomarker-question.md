@@ -1,5 +1,7 @@
 ---
 title: "The Biomarker Question: How Do We Measure Success with Therapeutic Plasma Exchange?"
+metaTitle: "Measuring TPE Success: The Biomarker Question"
+ogTitle: "Measuring TPE Success: The Biomarker Question | Dr. Green"
 date: "2026-02-11"
 author: "Dr. Allen P. Green"
 excerpt: "Beyond biological clocks and blood panels — a physician's guide to tracking what therapeutic plasma exchange actually changes, and why your lived experience may be the most important biomarker of all."

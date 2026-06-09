@@ -1,5 +1,7 @@
 ---
 title: 'What Is Inuspheresis, and How Does It Compare to Therapeutic Plasma Exchange?'
+metaTitle: "Inuspheresis vs. Therapeutic Plasma Exchange"
+ogTitle: "Inuspheresis vs. Therapeutic Plasma Exchange | Dr. Green"
 date: "2026-05-27"
 author: "Dr. Allen P. Green"
 excerpt: 'Inuspheresis is not available in the US. Here is how it compares to therapeutic plasma exchange and why broad removal may be the stronger approach.'

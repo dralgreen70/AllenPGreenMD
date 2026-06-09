@@ -22,7 +22,7 @@ export async function generateMetadata({
 
   const defaultImage = "https://allenpgreenmd.com/images/me-and-amicus.jpg"
   const pageTitle = `${post.frontmatter.metaTitle || post.frontmatter.title} | Dr. Green`
-  const ogTitle = `${post.frontmatter.title} | Dr. Allen Green MD`
+  const ogTitle = post.frontmatter.ogTitle || `${post.frontmatter.title} | Dr. Allen Green MD`
   const metaDescription = post.frontmatter.description || post.frontmatter.excerpt
   const pageUrl = `https://allenpgreenmd.com/blog/${slug}`
   const imageUrl = post.frontmatter.image

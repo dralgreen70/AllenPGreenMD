@@ -1,5 +1,7 @@
 ---
 title: "Why I Built My Career Around Therapeutic Plasma Exchange"
+metaTitle: "Why I Built My Career Around Plasma Exchange"
+ogTitle: "Why I Built My Career Around Plasma Exchange | Dr. Green"
 date: "2026-02-22"
 author: "Dr. Allen P. Green"
 excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov and Global Apheresis—and why I chose to treat patients rather than wait for academia to catch up."

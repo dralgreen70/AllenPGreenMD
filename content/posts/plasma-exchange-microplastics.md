@@ -1,6 +1,7 @@
 ---
 title: "Pulling Plastic From the Bloodstream: What a New Study Means for Plasma Exchange"
-metaTitle: "Can Plasma Exchange Remove Microplastics From Blood?"
+metaTitle: "Can Plasma Exchange Remove Microplastics?"
+ogTitle: "Can Plasma Exchange Remove Microplastics? | Dr. Green"
 date: "2026-06-02"
 author: "Allen P. Green, M.D."
 excerpt: "The first evidence that we can deliberately remove microplastics from the human body — what the study found, the contamination wrinkle, and the practice changes I'm making."
