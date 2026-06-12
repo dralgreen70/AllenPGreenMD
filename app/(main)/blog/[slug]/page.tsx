@@ -174,6 +174,51 @@ export default async function BlogPostPage({
         },
       },
     ],
+  } : slug === "does-insurance-cover-plasma-exchange" ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Is TPE covered by insurance?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Often yes for established (Category I and II) medical indications when documented as medically necessary, case by case for Category III, and generally no for elective or longevity use.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How many sessions will insurance cover?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "That depends on your diagnosis, your physician's documentation, and your specific plan. Coverage is tied to medical necessity rather than a fixed number.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What if my center does not take insurance?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Most outpatient centers are cash-pay. You pay up front, receive a superbill, and submit it to your insurer for possible reimbursement.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Does insurance cover plasma exchange for longevity or anti-aging?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No. Elective and wellness use is not considered medically necessary and is paid out of pocket.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can a denial be appealed?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, and it often should be. First denials are common, and a documented appeal with a medical necessity letter frequently succeeds or results in partial payment.",
+        },
+      },
+    ],
   } : null
 
   return (
