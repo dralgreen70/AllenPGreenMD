@@ -1,0 +1,71 @@
+<svg viewBox="0 0 880 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t2 d2" style="width:100%;height:auto;max-width:880px;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <title id="t2">What crosses the EBOO membrane and what is held back</title>
+  <desc id="d2">A logarithmic size scale. The membrane cutoff is around 3 nanometers. Only gas, water and small solutes under about 1 nanometer cross to waste. Everything from albumin (3.5 nm) upward, including antibodies, LDL, microplastics and red blood cells, is held back and returns to the patient.</desc>
+
+  <rect x="1" y="1" width="878" height="478" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="40" y="40" font-size="20" font-weight="700" fill="#14233a">What the membrane lets through, and what it keeps</text>
+  <text x="40" y="63" font-size="13.5" fill="#5b6b7d">Sizes on a logarithmic scale. The dialyzer membrane is fine enough to hold back albumin.</text>
+
+  <!-- retained shaded region -->
+  <rect x="292" y="96" width="546" height="224" fill="#f6dada"/>
+  <line x1="292" y1="96" x2="292" y2="320" stroke="#d64545" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="300" y="116" font-size="13" font-weight="700" fill="#b03a3a">Membrane cutoff (~3 nm)</text>
+  <text x="300" y="133" font-size="12" fill="#b03a3a">holds back albumin and everything larger</text>
+  <text x="595" y="116" font-size="13.5" font-weight="700" fill="#b03a3a" text-anchor="middle">RETAINED → returns to the patient</text>
+
+  <!-- crosses label (left) -->
+  <text x="175" y="116" font-size="13.5" font-weight="700" fill="#1f5e5f" text-anchor="middle">CROSSES → waste</text>
+  <text x="175" y="133" font-size="12" fill="#2c7a7b" text-anchor="middle">(plus gas exchange)</text>
+
+  <!-- axis -->
+  <line x1="60" y1="320" x2="838" y2="320" stroke="#9aa7b5" stroke-width="2"/>
+  <g fill="#5b6b7d" font-size="11.5" text-anchor="middle">
+    <line x1="70"  y1="316" x2="70"  y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="70"  y="342">0.1 nm</text>
+    <line x1="220" y1="316" x2="220" y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="220" y="342">1 nm</text>
+    <line x1="370" y1="316" x2="370" y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="370" y="342">10 nm</text>
+    <line x1="520" y1="316" x2="520" y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="520" y="342">100 nm</text>
+    <line x1="670" y1="316" x2="670" y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="670" y="342">1,000 nm</text>
+    <line x1="820" y1="316" x2="820" y2="326" stroke="#9aa7b5" stroke-width="2"/><text x="820" y="342">10,000 nm</text>
+  </g>
+
+  <!-- crosses cluster: gas/water/solutes < ~1 nm -->
+  <g fill="#2c7a7b"><circle cx="150" cy="320" r="4"/><circle cx="165" cy="320" r="4"/><circle cx="185" cy="320" r="4"/><circle cx="205" cy="320" r="4.5"/></g>
+  <path d="M138 250 q0 -9 9 -9 h26 q9 0 9 -9 q0 9 9 9 h26 q9 0 9 9" fill="none" stroke="#2c7a7b" stroke-width="1.8"/>
+  <text x="183" y="232" font-size="12.5" font-weight="700" fill="#1f5e5f" text-anchor="middle">gas, water, salts,</text>
+  <text x="183" y="213" font-size="12.5" font-weight="700" fill="#1f5e5f" text-anchor="middle">urea, uric acid, glucose</text>
+  <text x="183" y="271" font-size="11.5" fill="#2c7a7b" text-anchor="middle">(under ~1 nm)</text>
+
+  <!-- retained items -->
+  <!-- albumin 302 -->
+  <circle cx="302" cy="320" r="5" fill="#b85c8a"/>
+  <line x1="302" y1="300" x2="302" y2="314" stroke="#b85c8a" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="302" y="293" font-size="11.5" fill="#8a3f63" text-anchor="middle">albumin</text>
+  <text x="302" y="280" font-size="10.5" fill="#a06" text-anchor="middle" fill-opacity="0.7">3.5 nm</text>
+  <!-- IgG 370 -->
+  <circle cx="370" cy="320" r="6" fill="#c0392b"/>
+  <line x1="370" y1="220" x2="370" y2="314" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="370" y="212" font-size="11.5" fill="#a82f2f" text-anchor="middle">IgG antibody (10 nm)</text>
+  <!-- LDL 430 -->
+  <circle cx="430" cy="320" r="6.5" fill="#cf7a1f"/>
+  <line x1="430" y1="248" x2="430" y2="314" stroke="#cf7a1f" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="430" y="240" font-size="11.5" fill="#a8631a" text-anchor="middle">LDL (25 nm)</text>
+  <!-- IgM 442 -->
+  <circle cx="448" cy="320" r="7" fill="#a83f8a"/>
+  <line x1="448" y1="186" x2="448" y2="314" stroke="#a83f8a" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="455" y="178" font-size="11.5" fill="#8a3573" text-anchor="middle">IgM (30 nm)</text>
+  <!-- microplastic 520 -->
+  <circle cx="520" cy="320" r="8" fill="#5a4ba3"/>
+  <line x1="520" y1="216" x2="520" y2="312" stroke="#5a4ba3" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="520" y="208" font-size="11.5" fill="#473b86" text-anchor="middle">microplastic (~100 nm)</text>
+  <!-- RBC 801 -->
+  <circle cx="801" cy="320" r="16" fill="#d64545" stroke="#a82f2f" stroke-width="2"/>
+  <line x1="801" y1="262" x2="801" y2="300" stroke="#a82f2f" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <text x="801" y="254" font-size="12" font-weight="700" fill="#a82f2f" text-anchor="middle">red blood cell</text>
+  <text x="801" y="240" font-size="11" fill="#a82f2f" text-anchor="middle">7,500 nm</text>
+
+  <!-- punchline -->
+  <line x1="40" y1="384" x2="838" y2="384" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="40" y="412" font-size="15.5" font-weight="700" fill="#14233a">The same fine pores that hold back your red cells hold back the antibodies, LDL, protein-bound</text>
+  <text x="40" y="433" font-size="15.5" font-weight="700" fill="#14233a">toxins, and microplastics too. Only gas and a little salty water cross.</text>
+  <text x="40" y="456" font-size="13" fill="#5b6b7d">A real detox filter removes the toxins and keeps the useful molecules. This keeps the toxins and discards a trickle of the useful ones.</text>
+</svg>
