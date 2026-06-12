@@ -3,9 +3,12 @@ title: "Is EBOO Blood Filtration?"
 metaTitle: "Is EBOO Blood Filtration?"
 ogTitle: "Is EBOO Blood Filtration? | Dr. Green"
 description: "EBOO is marketed as blood filtration and detox. A physician explains what the device actually does, why it removes almost nothing, and how it compares to TPE."
-date: "2026-06-11"
+date: "2026-06-12"
 author: "Dr. Allen P. Green"
 excerpt: "EBOO is marketed as blood filtration and detox. A physician explains what the device actually does, why it removes almost nothing, and how it compares to TPE."
+image: "/images/blog/eboo-vs-dialyzer-plumbing.svg"
+imageAlt: "Schematic comparing a hemodialysis circuit with an EBOO circuit, a dialyzer run backwards with no dialysate"
+imagePosition: "center"
 tags: "tpe, eboo, detox"
 ---
 
