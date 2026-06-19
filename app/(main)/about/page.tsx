@@ -280,6 +280,38 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* ===== SECTION 2.5: THE TRAINING BEHIND THE TREATMENT ===== */}
+        <section className="site-section" style={{ background: "var(--bg-alt)" }}>
+          <div className="site-container">
+            <div className="section-label-line reveal">
+              <span className="label-text">The Difference</span>
+            </div>
+            <h2 className="h-lg reveal" style={{ marginBottom: "2rem" }}>
+              The Training Behind the{" "}
+              <span className="serif-italic accent-text">Treatment</span>
+            </h2>
+            <div className="research-summary reveal">
+              <p className="body-lg">
+                Therapeutic plasma exchange has moved quickly from hospital
+                transfusion services into longevity and wellness clinics. Most
+                physicians now offering it arrived from other specialties
+                &mdash; emergency medicine, radiology, family practice, or
+                functional medicine. Dr. Green came to it the other way: through
+                formal residency training in clinical pathology and transfusion
+                medicine, the disciplines where apheresis originates.
+              </p>
+              <p className="body-lg" style={{ marginTop: "1.25rem" }}>
+                He is a Board-Certified Clinical Pathologist who trained in
+                therapeutic apheresis at UT Southwestern Medical Center under Dr.
+                Ravi Sarode, has performed over 500 TPE procedures, and has
+                published peer-reviewed research in apheresis and transfusion
+                medicine. Few physicians offering plasma exchange today trained
+                in the discipline that created it. Dr. Green is one of them.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ===== SECTION 3: TRAINING & CREDENTIALS ===== */}
         <section
           className="site-section"
