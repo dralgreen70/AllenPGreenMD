@@ -292,13 +292,16 @@ export default function AboutPage() {
             </h2>
             <div className="research-summary reveal">
               <p className="body-lg">
-                Therapeutic plasma exchange has moved quickly from hospital
-                transfusion services into longevity and wellness clinics. Most
-                physicians now offering it arrived from other specialties
-                &mdash; emergency medicine, radiology, family practice, or
-                functional medicine. Dr. Green came to it the other way: through
-                formal residency training in clinical pathology and transfusion
-                medicine, the disciplines where apheresis originates.
+                Therapeutic plasma exchange isn&apos;t a wellness innovation
+                &mdash; it&apos;s an established procedure within transfusion
+                medicine, the branch of clinical pathology concerned with blood
+                and its components. In a hospital, apheresis is run out of the
+                transfusion service by physicians specifically trained to manage
+                it. Only recently has it moved into longevity and wellness
+                clinics, where most physicians now offering it arrived from other
+                fields &mdash; emergency medicine, radiology, family practice, or
+                functional medicine. Dr. Green came to it from inside the
+                discipline.
               </p>
               <p className="body-lg" style={{ marginTop: "1.25rem" }}>
                 He is a Board-Certified Clinical Pathologist who trained in
