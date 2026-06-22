@@ -29,6 +29,9 @@ export function HeroSection() {
             Learn About TPE
           </a>
         </div>
+        <p className="hero-call">
+          or call <a href="tel:+14154486839">(415) 448-6839</a>
+        </p>
         <div className="hero-trust">
           <div className="hero-trust-item">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
@@ -56,7 +59,7 @@ export function HeroSection() {
           fill
           priority
           quality={90}
-          sizes="50vw"
+          sizes="(max-width: 768px) 100vw, 50vw"
           style={{
             objectFit: "cover",
             objectPosition: "center top",

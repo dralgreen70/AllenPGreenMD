@@ -38,6 +38,9 @@ export function SiteFooter() {
               <li>
                 <Link href="/blog">Journal</Link>
               </li>
+              <li>
+                <Link href="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
           <div className="footer-link-group">

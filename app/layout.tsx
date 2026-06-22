@@ -69,6 +69,31 @@ export default function RootLayout({
             }),
           }}
         />
+        <Script
+          id="schema-organization"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Allen P. Green, MD",
+              url: "https://allenpgreenmd.com",
+              logo: "https://allenpgreenmd.com/images/me-and-amicus.jpg",
+              sameAs: [
+                "https://www.linkedin.com/in/allen-green-md/",
+                "https://www.youtube.com/@allenpgreenmd",
+              ],
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+1-415-448-6839",
+                email: "DrGreen@allenpgreenmd.com",
+                contactType: "customer service",
+                areaServed: "US",
+                availableLanguage: "English",
+              },
+            }),
+          }}
+        />
       </head>
       <body className={`${outfit.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
         {children}

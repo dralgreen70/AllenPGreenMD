@@ -69,6 +69,7 @@ export function ClientInit() {
     if (!hc) return
     const hctx = hc.getContext("2d")
     if (!hctx) return
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return
     const isMobile = window.innerWidth < 768
     let hParts: HParticle[] = []
 
