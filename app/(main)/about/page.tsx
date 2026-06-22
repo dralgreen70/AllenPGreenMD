@@ -71,7 +71,7 @@ const credentials = [
   {
     label: "Military Service",
     items: [
-      "United States Air Force — Active Duty",
+      "United States Air Force Veteran — Active Duty",
       "United States Army Reserve",
     ],
   },
@@ -215,7 +215,7 @@ export default function AboutPage() {
           items={[
             { label: "CERTIFICATION", value: "Board-Certified Clinical Pathologist" },
             { label: "TRAINING", value: "UT Southwestern" },
-            { label: "SERVICE", value: "Air Force & Army Reserve" },
+            { label: "SERVICE", value: "Air Force & Army Veteran" },
             { label: "EXPERIENCE", value: "500+ TPE Procedures" },
             { label: "ROLE", value: "Associate Medical Director, Global Apheresis" },
           ]}
