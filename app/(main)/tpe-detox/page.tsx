@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
+import { TrainingCallout } from "@/components/training-callout"
 
 export const metadata: Metadata = {
   title: "TPE for Detoxification & Toxin Removal | Allen P. Green, MD",
@@ -538,6 +539,9 @@ export default function TpeDetoxPage() {
             </div>
           </div>
         </section>
+
+        {/* ===== SECTION: WHY THE TRAINING MATTERS ===== */}
+        <TrainingCallout />
 
         {/* ===== SECTION 6: CTA ===== */}
         <section className="cta-section" id="contact">

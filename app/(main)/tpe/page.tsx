@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
+import { TrainingCallout } from "@/components/training-callout"
 
 export const metadata: Metadata = {
   title: "What Is Therapeutic Plasma Exchange? | Allen P. Green, MD",
@@ -606,6 +607,9 @@ export default function TpePage() {
             </div>
           </div>
         </section>
+
+        {/* ===== SECTION: WHY THE TRAINING MATTERS ===== */}
+        <TrainingCallout />
 
         {/* ===== SECTION 8: CTA ===== */}
         <section className="cta-section" id="contact">

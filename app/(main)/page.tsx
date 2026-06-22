@@ -31,6 +31,7 @@ import { PlexSection } from "@/components/plex-section"
 import { BenefitsSection } from "@/components/benefits-section"
 import { ConditionsPreview } from "@/components/conditions-preview"
 import { AboutSection } from "@/components/about-section"
+import { TrainingDifference } from "@/components/training-difference"
 import { ResearchPreview } from "@/components/research-preview"
 import { BlogSection } from "@/components/blog-section"
 import { CTASection } from "@/components/cta-section"
@@ -123,6 +124,7 @@ export default function Home() {
       <BenefitsSection />
       <ConditionsPreview />
       <AboutSection />
+      <TrainingDifference />
       <ResearchPreview />
       <BlogSection />
       <CTASection />
