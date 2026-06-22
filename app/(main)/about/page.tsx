@@ -69,9 +69,9 @@ const credentials = [
     ],
   },
   {
-    label: "Military Service",
+    label: "Military Service — Veteran",
     items: [
-      "United States Air Force Veteran — Active Duty",
+      "United States Air Force — Active Duty",
       "United States Army Reserve",
     ],
   },
