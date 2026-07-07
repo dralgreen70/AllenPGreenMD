@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
-import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml } from "@/lib/blog"
+import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml, parseTags } from "@/lib/blog"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
@@ -95,6 +95,32 @@ export default async function BlogPostPage({
   const shareTitle = encodeURIComponent(post.frontmatter.title)
   const shareText = encodeURIComponent(post.frontmatter.excerpt)
 
+  // Build the schema image value: the hero plus any additional figures listed in
+  // frontmatter.schemaImages (comma-separated). Single image collapses to a string.
+  const toAbsolute = (p: string) =>
+    p.startsWith("http") ? p : `https://allenpgreenmd.com${p.trim()}`
+  const extraSchemaImages = (post.frontmatter.schemaImages || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map(toAbsolute)
+  const schemaImages = post.frontmatter.image
+    ? [toAbsolute(post.frontmatter.image), ...extraSchemaImages]
+    : extraSchemaImages
+  const keywordList = parseTags(post.frontmatter.keywords)
+  const citation = post.frontmatter.citationName
+    ? {
+        "@type": "ScholarlyArticle",
+        name: post.frontmatter.citationName,
+        ...(post.frontmatter.citationAuthors && { author: post.frontmatter.citationAuthors }),
+        ...(post.frontmatter.citationJournal && {
+          isPartOf: { "@type": "Periodical", name: post.frontmatter.citationJournal },
+        }),
+        ...(post.frontmatter.citationYear && { datePublished: post.frontmatter.citationYear }),
+        ...(post.frontmatter.citationUrl && { sameAs: post.frontmatter.citationUrl }),
+      }
+    : null
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -103,9 +129,11 @@ export default async function BlogPostPage({
     datePublished: `${post.frontmatter.date}T00:00:00-08:00`,
     dateModified: `${post.frontmatter.updated || post.frontmatter.date}T00:00:00-08:00`,
     url: `https://allenpgreenmd.com/blog/${slug}`,
-    ...(post.frontmatter.image && {
-      image: `https://allenpgreenmd.com${post.frontmatter.image}`,
+    ...(schemaImages.length > 0 && {
+      image: schemaImages.length === 1 ? schemaImages[0] : schemaImages,
     }),
+    ...(keywordList.length > 0 && { keywords: keywordList }),
+    ...(citation && { citation }),
     author: {
       "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",

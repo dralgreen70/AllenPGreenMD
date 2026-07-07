@@ -16,6 +16,13 @@ export interface PostFrontmatter {
   external?: boolean
   externalUrl?: string
   tags?: string
+  keywords?: string
+  schemaImages?: string
+  citationName?: string
+  citationAuthors?: string
+  citationJournal?: string
+  citationYear?: string
+  citationUrl?: string
 }
 
 export function parseTags(tags?: string): string[] {
@@ -89,6 +96,13 @@ function parseFrontmatter(fileContent: string): {
       external: frontmatter.external === true,
       externalUrl: (frontmatter.externalUrl as string) || "",
       tags: (frontmatter.tags as string) || "",
+      keywords: (frontmatter.keywords as string) || "",
+      schemaImages: (frontmatter.schemaImages as string) || "",
+      citationName: (frontmatter.citationName as string) || "",
+      citationAuthors: (frontmatter.citationAuthors as string) || "",
+      citationJournal: (frontmatter.citationJournal as string) || "",
+      citationYear: (frontmatter.citationYear as string) || "",
+      citationUrl: (frontmatter.citationUrl as string) || "",
     },
     content,
   }
