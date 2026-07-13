@@ -134,7 +134,7 @@ export default function TpeAlzheimersPage() {
     "@type": "MedicalWebPage",
     name: "Therapeutic Plasma Exchange for Alzheimer's Disease",
     description:
-      "Evidence-based guide to TPE for Alzheimer's \u2014 AMBAR trial results, mechanism, treatment protocol, and comparison with lecanemab, donanemab, and other treatments.",
+      "Evidence-based guide to TPE for Alzheimer's: AMBAR trial results, mechanism, treatment protocol, and comparison with lecanemab, donanemab, and other treatments.",
     url: "https://allenpgreenmd.com/tpe-alzheimers",
     about: {
       "@type": "MedicalCondition",
@@ -183,7 +183,7 @@ export default function TpeAlzheimersPage() {
             >
               The AMBAR trial demonstrated that plasma exchange with albumin
               replacement slowed cognitive and functional decline in mild and
-              moderate Alzheimer&apos;s disease &mdash; with some mild-stage
+              moderate Alzheimer&apos;s disease, with some mild-stage
               patients showing improvement from baseline.
             </p>
             <div className="tpe-hero-anchor reveal">
@@ -201,7 +201,7 @@ export default function TpeAlzheimersPage() {
                 >
                   Therapeutic plasma exchange
                 </Link>{" "}
-                addresses this directly &mdash; removing amyloid-&beta;,
+                addresses this directly: removing amyloid-&beta;,
                 inflammatory cytokines, and other neurotoxic factors from
                 circulation, and replacing them with protective albumin. This
                 approach has been validated in the largest randomized controlled
@@ -237,7 +237,7 @@ export default function TpeAlzheimersPage() {
                     accumulation of two abnormal proteins in the brain:
                     amyloid-&beta; plaques and neurofibrillary tangles made of
                     tau protein. These deposits damage neurons, disrupt synaptic
-                    communication, and trigger chronic neuroinflammation &mdash;
+                    communication, and trigger chronic neuroinflammation:
                     a sustained immune response that compounds the injury over
                     time.
                   </p>
@@ -250,7 +250,7 @@ export default function TpeAlzheimersPage() {
                     blood-brain barrier. When plasma concentrations of
                     amyloid-&beta; are high, the brain has a harder time
                     clearing its own toxic load. This is the insight behind the
-                    &ldquo;peripheral sink hypothesis&rdquo; &mdash; by reducing
+                    &ldquo;peripheral sink hypothesis&rdquo;: by reducing
                     amyloid-&beta; levels in the blood, you create a
                     concentration gradient that helps pull amyloid out of the
                     brain.
@@ -269,8 +269,8 @@ export default function TpeAlzheimersPage() {
                   <p className="body-lg" style={{ marginTop: "1.25rem" }}>
                     Therapeutic plasma exchange removes the full spectrum of
                     these harmful circulating factors in a single procedure
-                    &mdash; amyloid-&beta;, inflammatory cytokines, oxidized
-                    proteins, autoantibodies, complement &mdash; and replaces
+                    (amyloid-&beta;, inflammatory cytokines, oxidized
+                    proteins, autoantibodies, complement) and replaces
                     them with 5% albumin, which itself binds and neutralizes
                     amyloid-&beta; and has potent anti-inflammatory and
                     antioxidant properties. No other intervention addresses the
@@ -333,7 +333,7 @@ export default function TpeAlzheimersPage() {
                 Mild Alzheimer&apos;s (MMSE 22&ndash;26)
               </div>
               <p>
-                <strong>Stabilization observed</strong> &mdash; no significant
+                <strong>Stabilization observed</strong>: no significant
                 decline from baseline during the treatment period, with some
                 patients showing improvement.
               </p>
@@ -353,8 +353,8 @@ export default function TpeAlzheimersPage() {
                 <path d="M12 8h.01" />
               </svg>
               <p>
-                The AMBAR trial&apos;s author list includes Dr. Dobri Kiprov
-                &mdash; one of the founders of modern therapeutic apheresis and{" "}
+                The AMBAR trial&apos;s author list includes Dr. Dobri Kiprov,
+                one of the founders of modern therapeutic apheresis and{" "}
                 <Link
                   href="/about"
                   style={{
@@ -556,12 +556,12 @@ export default function TpeAlzheimersPage() {
                 TPE and the anti-amyloid antibodies (lecanemab, donanemab) take
                 fundamentally different approaches to the same problem. The
                 antibodies target amyloid-&beta; specifically with high
-                precision but carry the risk of ARIA &mdash; brain swelling and
+                precision but carry the risk of ARIA: brain swelling and
                 microbleeds that require regular MRI monitoring and can be
                 serious, especially in ApoE4 carriers. TPE takes a broader
                 approach, removing not just amyloid-&beta; but the full
                 inflammatory environment that sustains neurodegeneration. The
-                two approaches are not mutually exclusive &mdash; some
+                two approaches are not mutually exclusive. Some
                 clinicians are exploring combination protocols. The
                 cholinesterase inhibitors and memantine remain appropriate for
                 symptom management but do not address underlying disease
@@ -612,13 +612,13 @@ export default function TpeAlzheimersPage() {
                 <p>
                   Based on the AMBAR trial design, the initial phase consists of
                   weekly TPE sessions over approximately 6 weeks. Each session
-                  involves a full plasma volume exchange &mdash; your plasma is
+                  involves a full plasma volume exchange: your plasma is
                   removed and replaced with 5% albumin solution. This intensive
                   phase achieves a rapid reduction in circulating
                   amyloid-&beta;, inflammatory cytokines, and other neurotoxic
                   factors. For patients traveling to our Mill Valley clinic, we
                   can arrange compressed or flexible scheduling to accommodate
-                  logistics &mdash; the specific timing is tailored during your
+                  logistics. The specific timing is tailored during your
                   consultation.
                 </p>
               </div>

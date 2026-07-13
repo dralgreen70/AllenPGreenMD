@@ -65,7 +65,7 @@ const credentials = [
     label: "Board Certification",
     items: [
       "Board-Certified in Clinical Pathology (American Board of Pathology)",
-      "Clinical Pathology is the laboratory medicine and transfusion medicine specialty that directly encompasses apheresis \u2014 the medical specialty most relevant to TPE",
+      "Clinical Pathology is the laboratory medicine and transfusion medicine specialty that directly encompasses apheresis: the medical specialty most relevant to TPE",
     ],
   },
   {
@@ -231,7 +231,7 @@ export default function AboutPage() {
                   style={{ fontSize: "1.45rem", margin: "0 0 2.5rem" }}
                 >
                   {
-                    "\u201CWhen I learned that aging and disease travel through our own blood, everything clicked. Therapeutic plasma exchange doesn\u2019t just treat symptoms \u2014 it goes to the source.\u201D"
+                    "\u201CWhen I learned that aging and disease travel through our own blood, everything clicked. Therapeutic plasma exchange doesn\u2019t just treat symptoms: it goes to the source.\u201D"
                   }
                 </div>
 
@@ -244,7 +244,7 @@ export default function AboutPage() {
                     </Link>{" "}
                     (TPE) and an Associate Medical Director at Global Apheresis in
                     Mill Valley, California. He has personally supervised over 500
-                    TPE procedures &mdash; one of the highest individual case
+                    TPE procedures, one of the highest individual case
                     volumes among private practice apheresis physicians in the
                     United States.
                   </p>
@@ -267,7 +267,7 @@ export default function AboutPage() {
                       environmental toxin reduction
                     </Link>
                     . His approach combines rigorous evidence-based medicine with a
-                    commitment to treating each patient as a whole person &mdash;
+                    commitment to treating each patient as a whole person,
                     not a diagnosis.
                   </p>
                   <p className="body-lg" style={{ marginTop: "1.25rem" }}>
@@ -295,14 +295,14 @@ export default function AboutPage() {
             </h2>
             <div className="research-summary reveal">
               <p className="body-lg">
-                Therapeutic plasma exchange isn&apos;t a wellness innovation
-                &mdash; it&apos;s an established procedure within transfusion
+                Therapeutic plasma exchange isn&apos;t a wellness innovation:
+                it&apos;s an established procedure within transfusion
                 medicine, the branch of clinical pathology concerned with blood
                 and its components. In a hospital, apheresis is run out of the
                 transfusion service by physicians specifically trained to manage
                 it. Only recently has it moved into longevity and wellness
                 clinics, where most physicians now offering it arrived from other
-                fields &mdash; emergency medicine, radiology, family practice, or
+                fields: emergency medicine, radiology, family practice, or
                 functional medicine. Dr. Green came to it from inside the
                 discipline.
               </p>
@@ -379,14 +379,14 @@ export default function AboutPage() {
                   <span style={{ fontWeight: 600, color: "var(--text)" }}>
                     With Dr. Dobri Kiprov
                   </span>{" "}
-                  at Global Apheresis &mdash; a pioneer in therapeutic plasma
+                  at Global Apheresis, a pioneer in therapeutic plasma
                   exchange and key mentor in Dr. Green&apos;s career.
                 </p>
               </div>
               <div className="mentorship-text reveal-right">
                 <p className="body-lg">
                   Dr. Green trained under and now works alongside Dr. Dobri
-                  Kiprov, M.D. &mdash; one of the physicians who established
+                  Kiprov, M.D., one of the physicians who established
                   therapeutic plasma exchange as a clinical discipline. Dr.
                   Kiprov was the first U.S. physician to pass the Hemapheresis
                   Practitioner Exam, a founding member of the American Society
@@ -398,8 +398,8 @@ export default function AboutPage() {
                   As Associate Medical Director at Global Apheresis, Dr. Green
                   brings a next-generation perspective to a practice with an
                   unmatched depth of clinical experience. The combination
-                  &mdash; Dr. Kiprov&apos;s pioneering legacy and Dr.
-                  Green&apos;s hands-on procedural volume &mdash; makes Global
+                  (Dr. Kiprov&apos;s pioneering legacy and Dr.
+                  Green&apos;s hands-on procedural volume) makes Global
                   Apheresis one of the most experienced therapeutic apheresis
                   practices in the country.
                 </p>
@@ -455,8 +455,8 @@ export default function AboutPage() {
                       style={{ fontWeight: 600, color: "var(--text)" }}
                     >
                       Dr. Green receiving TPE
-                    </span>{" "}
-                    &mdash; he believes in the treatment enough to undergo it
+                    </span>
+                    . He believes in the treatment enough to undergo it
                     personally.
                   </div>
                 </div>
@@ -493,7 +493,7 @@ export default function AboutPage() {
               <div className="philosophy-text reveal">
                 <p className="body-lg">
                   Every patient who comes to me has usually been through the
-                  conventional system already &mdash; and it hasn&apos;t been
+                  conventional system already, and it hasn&apos;t been
                   enough. They&apos;re looking for a physician who will listen,
                   who will look at the full picture, and who has a tool that can
                   actually move the needle.
@@ -501,7 +501,7 @@ export default function AboutPage() {
                 <p className="body-lg" style={{ marginTop: "1.25rem" }}>
                   Therapeutic plasma exchange isn&apos;t a magic bullet. But for
                   the right patient, at the right time, with the right clinical
-                  reasoning behind it &mdash; it&apos;s one of the most powerful
+                  reasoning behind it, it&apos;s one of the most powerful
                   interventions in medicine. My job is figuring out when
                   it&apos;s the right tool, being honest when it&apos;s not, and
                   walking beside my patients through the process either way.
@@ -535,9 +535,9 @@ export default function AboutPage() {
                 </Link>{" "}
                 technique, coagulation disorders, and apheresis clinical
                 practice. He has presented original research at the American
-                Society for Apheresis (ASFA) annual conference &mdash; including
-                an oral presentation on anticoagulation management during TPE
-                &mdash; and delivered an invited lecture on TPE mechanisms at UT
+                Society for Apheresis (ASFA) annual conference, including
+                an oral presentation on anticoagulation management during TPE,
+                and delivered a presentation on TPE mechanisms at UT
                 Southwestern.
               </p>
               <Link

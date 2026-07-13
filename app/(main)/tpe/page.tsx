@@ -35,11 +35,11 @@ const faqItems = [
   },
   {
     q: "Is TPE FDA-approved?",
-    a: "TPE is an FDA-cleared medical procedure with established indications recognized by the American Society for Apheresis (ASFA). ASFA publishes evidence-based guidelines categorizing TPE indications by strength of evidence \u2014 from Category I (first-line treatment) through Category IV. The specific indication determines the category; for example, many autoimmune conditions are Category I, while Alzheimer\u2019s disease is currently Category III (optimum role not established, decision-making should be individualized).",
+    a: "TPE is an FDA-cleared medical procedure with established indications recognized by the American Society for Apheresis (ASFA). ASFA publishes evidence-based guidelines categorizing TPE indications by strength of evidence: from Category I (first-line treatment) through Category IV. The specific indication determines the category; for example, many autoimmune conditions are Category I, while Alzheimer\u2019s disease is currently Category III (optimum role not established, decision-making should be individualized).",
   },
   {
     q: "How many sessions will I need?",
-    a: "This depends entirely on your goals and clinical situation. Autoimmune flares may require a focused series of 5\u20137 sessions. Alzheimer\u2019s protocols (based on the AMBAR trial design) involve structured series over weeks to months. Longevity and optimization patients may do periodic maintenance sessions \u2014 for example, quarterly or twice yearly. Dr. Green develops a personalized protocol during your consultation.",
+    a: "This depends entirely on your goals and clinical situation. Autoimmune flares may require a focused series of 5\u20137 sessions. Alzheimer\u2019s protocols (based on the AMBAR trial design) involve structured series over weeks to months. Longevity and optimization patients may do periodic maintenance sessions, for example quarterly or twice yearly. Dr. Green develops a personalized protocol during your consultation.",
   },
   {
     q: "Does insurance cover TPE?",
@@ -47,11 +47,11 @@ const faqItems = [
   },
   {
     q: "What are the risks or side effects?",
-    a: "TPE is considered very safe when performed by a trained specialist. The most common side effects are mild and temporary: tingling or numbness around the lips or fingers (from citrate anticoagulant, easily managed with calcium supplementation), mild fatigue, light-headedness, or coolness during the procedure. Serious complications \u2014 including allergic reactions, infection at the IV site, or significant drops in blood pressure \u2014 are rare. Dr. Green monitors patients throughout every procedure.",
+    a: "TPE is considered very safe when performed by a trained specialist. The most common side effects are mild and temporary: tingling or numbness around the lips or fingers (from citrate anticoagulant, easily managed with calcium supplementation), mild fatigue, light-headedness, or coolness during the procedure. Serious complications, including allergic reactions, infection at the IV site, or significant drops in blood pressure, are rare. Dr. Green monitors patients throughout every procedure.",
   },
   {
     q: "How is TPE different from IV therapy, ozone therapy, or other blood treatments?",
-    a: "TPE is fundamentally different from IV infusions, ozone therapy, or chelation. Those treatments add substances to your blood. TPE removes your entire plasma volume and replaces it \u2014 it is a full exchange, not a supplement. This makes it the most comprehensive blood-based intervention available, addressing the full spectrum of accumulated harmful compounds rather than targeting one substance at a time.",
+    a: "TPE is fundamentally different from IV infusions, ozone therapy, or chelation. Those treatments add substances to your blood. TPE removes your entire plasma volume and replaces it: it is a full exchange, not a supplement. This makes it the most comprehensive blood-based intervention available, addressing the full spectrum of accumulated harmful compounds rather than targeting one substance at a time.",
   },
   {
     q: "Where is the procedure performed?",
@@ -62,7 +62,7 @@ const faqItems = [
 const applicationCards = [
   {
     title: "Alzheimer\u2019s Disease & Cognitive Decline",
-    desc: "TPE removes amyloid-\u03B2 and inflammatory proteins linked to neurodegeneration. The landmark AMBAR trial (322 patients) demonstrated that plasma exchange with albumin replacement slowed cognitive and functional decline in mild and moderate Alzheimer\u2019s disease \u2014 with some mild-stage patients showing improvement from baseline.",
+    desc: "TPE removes amyloid-\u03B2 and inflammatory proteins linked to neurodegeneration. The landmark AMBAR trial (322 patients) demonstrated that plasma exchange with albumin replacement slowed cognitive and functional decline in mild and moderate Alzheimer\u2019s disease, with some mild-stage patients showing improvement from baseline.",
     href: "/tpe-alzheimers",
     delay: "reveal-d1",
   },
@@ -74,7 +74,7 @@ const applicationCards = [
   },
   {
     title: "Autoimmune Conditions",
-    desc: "TPE removes pathogenic autoantibodies, immune complexes, and inflammatory mediators driving autoimmune disease. It is an established treatment for conditions including myasthenia gravis, Guillain-Barr\u00e9 syndrome, multiple sclerosis, CIDP, and many others \u2014 with multiple ASFA Category I and II indications.",
+    desc: "TPE removes pathogenic autoantibodies, immune complexes, and inflammatory mediators driving autoimmune disease. It is an established treatment for conditions including myasthenia gravis, Guillain-Barr\u00e9 syndrome, multiple sclerosis, CIDP, and many others, with multiple ASFA Category I and II indications.",
     href: "/tpe-autoimmune",
     delay: "reveal-d3",
   },
@@ -90,22 +90,22 @@ const steps = [
   {
     num: "STEP 01",
     title: "Consultation & Evaluation",
-    desc: "Before any procedure, Dr. Green conducts a comprehensive evaluation. This includes medical history review, current medications, lab work (CBC, CMP, coagulation panel, inflammatory markers), and a discussion of goals \u2014 whether longevity optimization, cognitive support, autoimmune management, or detoxification. A personalized treatment plan is developed based on your specific needs.",
+    desc: "Before any procedure, Dr. Green conducts a comprehensive evaluation. This includes medical history review, current medications, lab work (CBC, CMP, coagulation panel, inflammatory markers), and a discussion of goals: whether longevity optimization, cognitive support, autoimmune management, or detoxification. A personalized treatment plan is developed based on your specific needs.",
   },
   {
     num: "STEP 02",
     title: "Vascular Access",
-    desc: "Two peripheral IV lines are placed, one in each arm \u2014 similar to a routine blood draw. The procedure is performed in a comfortable clinical setting at Global Apheresis in Mill Valley, CA.",
+    desc: "Two peripheral IV lines are placed, one in each arm, similar to a routine blood draw. The procedure is performed in a comfortable clinical setting at Global Apheresis in Mill Valley, CA.",
   },
   {
     num: "STEP 03",
     title: "Plasma Separation & Exchange",
-    desc: "Blood flows through an advanced apheresis device that uses centrifugal technology to gently separate plasma from blood cells. The old plasma \u2014 containing accumulated inflammatory compounds, toxins, and senescent factors \u2014 is removed and discarded. It is replaced in real time with fresh 5% albumin solution.",
+    desc: "Blood flows through an advanced apheresis device that uses centrifugal technology to gently separate plasma from blood cells. The old plasma, containing accumulated inflammatory compounds, toxins, and senescent factors, is removed and discarded. It is replaced in real time with fresh 5% albumin solution.",
   },
   {
     num: "STEP 04",
     title: "Return & Recovery",
-    desc: "Your blood cells, now suspended in clean albumin solution, are returned to your body through the second IV line. The entire procedure typically takes 2\u20134 hours. Most patients find it comfortable and well-tolerated \u2014 many read, work on their laptops, or rest during the session. There is minimal downtime; most patients resume normal activities the same day.",
+    desc: "Your blood cells, now suspended in clean albumin solution, are returned to your body through the second IV line. The entire procedure typically takes 2\u20134 hours. Most patients find it comfortable and well-tolerated. Many read, work on their laptops, or rest during the session. There is minimal downtime; most patients resume normal activities the same day.",
   },
   {
     num: "STEP 05",
@@ -124,7 +124,7 @@ const benefits = [
   {
     icon: '<path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M22.1 11.5A10 10 0 0 0 3.5 4.3l-1 1.2"/><path d="M1.9 12.5a10 10 0 0 0 18.6 7.2l1-1.2"/>',
     title: "Resets Cellular Signaling",
-    desc: "Aged plasma carries signaling molecules that tell your tissues to behave old. By replacing this environment with clean albumin, TPE restores youthful intercellular communication \u2014 organ systems begin functioning as they did at a younger biological age.",
+    desc: "Aged plasma carries signaling molecules that tell your tissues to behave old. By replacing this environment with clean albumin, TPE restores youthful intercellular communication: organ systems begin functioning as they did at a younger biological age.",
     delay: "reveal-d2",
   },
   {
@@ -172,7 +172,7 @@ export default function TpePage() {
     "@type": "MedicalWebPage",
     name: "What is Therapeutic Plasma Exchange (TPE)?",
     description:
-      "Comprehensive guide to therapeutic plasma exchange — mechanism, process, benefits, clinical applications, and frequently asked questions.",
+      "Comprehensive guide to therapeutic plasma exchange: mechanism, process, benefits, clinical applications, and frequently asked questions.",
     url: "https://allenpgreenmd.com/tpe",
     author: {
       "@type": "Person",
@@ -220,8 +220,8 @@ export default function TpePage() {
               className="tpe-hero-sub reveal"
               style={{ marginTop: "1.5rem" }}
             >
-              Therapeutic Plasma Exchange &mdash; also known as TPE, PLEX, or
-              plasmapheresis &mdash; is a medical procedure that filters and
+              Therapeutic Plasma Exchange, also known as TPE, PLEX, or
+              plasmapheresis, is a medical procedure that filters and
               replaces blood plasma to remove harmful circulating factors,
               including inflammatory compounds, oxidized proteins, and
               senescent signaling molecules.
@@ -230,8 +230,8 @@ export default function TpePage() {
               <p className="body-lg">
                 TPE is the most direct way to address what accumulates in your
                 blood over time. By removing old plasma and replacing it with
-                5% albumin &mdash; a powerful antioxidant and anti-inflammatory
-                protein &mdash; the procedure resets the biochemical
+                5% albumin, a powerful antioxidant and anti-inflammatory
+                protein, the procedure resets the biochemical
                 environment your cells operate in. The result is reduced
                 inflammation, improved cellular signaling, and a measurable
                 shift toward younger biological function.
@@ -263,7 +263,7 @@ export default function TpePage() {
                     roughly 55% of total blood volume. It carries proteins,
                     hormones, nutrients, antibodies, and waste products. Every
                     cell in your body is influenced by what&apos;s circulating
-                    in plasma &mdash; it is the medium through which your
+                    in plasma: it is the medium through which your
                     organs communicate, your immune system operates, and your
                     tissues receive the signals that determine how they
                     function.
@@ -274,7 +274,7 @@ export default function TpePage() {
                     has gone wrong. Inflammatory cytokines (IL-6, TNF-&alpha;,
                     and others) accumulate. Oxidized LDL builds up. Senescent
                     cells secrete a cocktail of damaging molecules known as
-                    the SASP &mdash; the senescence-associated secretory
+                    the SASP: the senescence-associated secretory
                     phenotype. Autoantibodies, environmental toxins, and
                     misfolded proteins (including amyloid-&beta; and
                     tau-related fragments linked to{" "}
@@ -295,8 +295,8 @@ export default function TpePage() {
 
                   <p className="body-lg" style={{ marginTop: "1.25rem" }}>
                     This is where the dilution hypothesis becomes critical.
-                    Research has demonstrated that simply diluting old plasma
-                    &mdash; replacing it with saline and albumin &mdash;
+                    Research has demonstrated that simply diluting old plasma,
+                    replacing it with saline and albumin,
                     rejuvenates tissues, activates stem cells, and reverses
                     markers of aging in multiple organ systems. This insight
                     emerged from parabiosis research and has been validated in
@@ -312,7 +312,7 @@ export default function TpePage() {
                     plasma, a potent antioxidant that binds and neutralizes
                     toxins, and has well-documented anti-inflammatory
                     properties. Replacing plasma with albumin solution
-                    provides active therapeutic benefit &mdash; not just
+                    provides active therapeutic benefit, not just
                     dilution, but a biochemical reset.
                   </p>
                 </div>
@@ -414,9 +414,9 @@ export default function TpePage() {
                 marginTop: "-2rem",
               }}
             >
-              TPE is not a single-purpose procedure. Its mechanism &mdash;
+              TPE is not a single-purpose procedure. Its mechanism,
               clearing harmful plasma contents and replacing them with
-              protective albumin &mdash; has demonstrated clinical relevance
+              protective albumin, has demonstrated clinical relevance
               across{" "}
               <Link href="/blog/tpe-revolutionizing-health-longevity"
                 style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
@@ -527,8 +527,8 @@ export default function TpePage() {
                   <p className="body-md">
                     The session takes 2&ndash;4 hours. You&apos;ll be seated
                     in a comfortable reclining chair with two IVs placed, one
-                    in each arm. Mild tingling or coolness is normal &mdash;
-                    this is from the citrate anticoagulant and is easily
+                    in each arm. Mild tingling or coolness is normal: this
+                    is from the citrate anticoagulant and is easily
                     managed. Most patients describe the experience as no more
                     uncomfortable than giving blood. Many read, work, or rest
                     throughout.
@@ -542,8 +542,8 @@ export default function TpePage() {
                   <p className="body-md">
                     Mild fatigue is common for a few hours. Most patients
                     resume normal activities the same day. Some report feeling
-                    noticeably better within 24&ndash;48 hours &mdash;
-                    improved energy, mental clarity, and reduced joint
+                    noticeably better within 24&ndash;48 hours: improved
+                    energy, mental clarity, and reduced joint
                     stiffness. Dr. Green follows up with post-procedure labs
                     and clinical assessment.
                   </p>

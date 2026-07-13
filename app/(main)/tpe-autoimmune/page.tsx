@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const categoryI = [
   {
     name: "Myasthenia Gravis (MG)",
-    desc: "An autoimmune condition in which antibodies attack acetylcholine receptors at the neuromuscular junction, causing muscle weakness and fatigue. TPE removes anti-AChR antibodies from circulation, providing rapid improvement — particularly critical during myasthenic crisis, where respiratory muscles are affected.",
+    desc: "An autoimmune condition in which antibodies attack acetylcholine receptors at the neuromuscular junction, causing muscle weakness and fatigue. TPE removes anti-AChR antibodies from circulation, providing rapid improvement, particularly critical during myasthenic crisis, where respiratory muscles are affected.",
     category: "ASFA Category I for moderate-to-severe MG and myasthenic crisis",
   },
   {
@@ -42,7 +42,7 @@ const categoryI = [
   },
   {
     name: "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
-    desc: "The chronic counterpart to GBS — an ongoing autoimmune attack on peripheral nerve myelin causing progressive weakness and sensory changes. TPE removes circulating autoantibodies and inflammatory mediators that sustain the demyelination.",
+    desc: "The chronic counterpart to GBS: an ongoing autoimmune attack on peripheral nerve myelin causing progressive weakness and sensory changes. TPE removes circulating autoantibodies and inflammatory mediators that sustain the demyelination.",
     category: "ASFA Category I",
   },
   {
@@ -57,9 +57,9 @@ const categoryI = [
   },
   {
     name: "Thrombotic Thrombocytopenic Purpura (TTP)",
-    desc: "A life-threatening condition in which autoantibodies against ADAMTS13 cause widespread blood clotting in small vessels. TPE is the definitive treatment — removing the autoantibodies and replacing ADAMTS13.",
+    desc: "A life-threatening condition in which autoantibodies against ADAMTS13 cause widespread blood clotting in small vessels. TPE is the definitive treatment: removing the autoantibodies and replacing ADAMTS13.",
     category: "ASFA Category I",
-    note: "Dr. Green has published research on optimizing treatment in TTP — Yates et al., Blood Vessels, Thrombosis & Hemostasis, 2024.",
+    note: "Dr. Green has published research on optimizing treatment in TTP: Yates et al., Blood Vessels, Thrombosis & Hemostasis, 2024.",
   },
 ]
 
@@ -72,13 +72,13 @@ const categoryII = [
   },
   {
     name: "Systemic Lupus Erythematosus (SLE)",
-    desc: "In severe lupus — particularly with renal involvement (lupus nephritis) or catastrophic presentations — TPE removes autoantibodies (including anti-dsDNA), immune complexes, and complement-activating factors.",
+    desc: "In severe lupus, particularly with renal involvement (lupus nephritis) or catastrophic presentations, TPE removes autoantibodies (including anti-dsDNA), immune complexes, and complement-activating factors.",
     category: "ASFA Category II for severe manifestations",
   },
   {
     name: "Systemic Sclerosis (Scleroderma)",
     desc: "An autoimmune condition causing fibrosis of the skin and internal organs. TPE removes circulating autoantibodies and inflammatory mediators that drive the fibrotic process.",
-    note: "Dr. Green presented research on TPE response in systemic sclerosis at the ASFA 2023 Annual Meeting — a poster examining outcomes in two patients.",
+    note: "Dr. Green presented research on TPE response in systemic sclerosis at the ASFA 2023 Annual Meeting, a poster examining outcomes in two patients.",
   },
 ]
 
@@ -95,7 +95,7 @@ export default function TpeAutoimmunePage() {
     "@type": "MedicalWebPage",
     name: "Therapeutic Plasma Exchange for Autoimmune Conditions",
     description:
-      "Guide to TPE for autoimmune disease — ASFA-recognized indications, mechanism of action, conditions treated, clinical experience, and treatment protocols.",
+      "Guide to TPE for autoimmune disease: ASFA-recognized indications, mechanism of action, conditions treated, clinical experience, and treatment protocols.",
     url: "https://allenpgreenmd.com/tpe-autoimmune",
     about: {
       "@type": "MedicalTherapy",
@@ -134,8 +134,8 @@ export default function TpeAutoimmunePage() {
               <span className="serif-italic accent-text">Disease</span>
             </h1>
             <p className="tpe-hero-sub reveal">
-              TPE is one of the most established treatments in apheresis medicine
-              &mdash; recognized as first-line therapy for multiple autoimmune
+              TPE is one of the most established treatments in apheresis medicine:
+              recognized as first-line therapy for multiple autoimmune
               conditions by the American Society for Apheresis.
             </p>
             <div className="tpe-hero-anchor reveal">
@@ -143,7 +143,7 @@ export default function TpeAutoimmunePage() {
                 Autoimmune diseases occur when the immune system produces
                 antibodies that attack the body&apos;s own tissues. These
                 pathogenic autoantibodies, along with inflammatory immune
-                complexes and cytokines, circulate in the blood &mdash; and
+                complexes and cytokines, circulate in the blood, and
                 that&apos;s exactly where{" "}
                 <Link
                   href="/tpe"
@@ -188,7 +188,7 @@ export default function TpeAutoimmunePage() {
                   <p className="body-lg">
                     In autoimmune disease, the immune system generates antibodies
                     (autoantibodies) that mistakenly target the body&apos;s own
-                    tissues &mdash; nerve cells, muscle receptors, blood vessel
+                    tissues: nerve cells, muscle receptors, blood vessel
                     walls, or organs depending on the condition. These
                     autoantibodies circulate in the blood, continuously reaching
                     their targets and sustaining the attack. Alongside them,
@@ -207,15 +207,15 @@ export default function TpeAutoimmunePage() {
                     of circulating autoantibodies, immune complexes, complement
                     factors, and inflammatory cytokines. By rapidly reducing the
                     concentration of disease-driving molecules, TPE can halt or
-                    slow the immune attack, giving the body &mdash; and
-                    concurrent immunosuppressive therapies &mdash; room to work.
+                    slow the immune attack, giving the body, and
+                    concurrent immunosuppressive therapies, room to work.
                   </p>
 
                   <h3 className="lon-narrative-heading">
                     The Albumin Advantage
                   </h3>
                   <p className="body-lg">
-                    The replacement fluid &mdash; 5% albumin solution &mdash; is
+                    The replacement fluid, 5% albumin solution, is
                     immunologically neutral. It does not contain the
                     autoantibodies or inflammatory mediators that were removed. It
                     does provide physiologic oncotic support and carries inherent
@@ -232,8 +232,8 @@ export default function TpeAutoimmunePage() {
                     approach. It works alongside immunosuppressive medications,
                     corticosteroids, and targeted biologic therapies. While these
                     medications take days to weeks to reach full effect, TPE
-                    provides immediate reduction in disease-driving factors
-                    &mdash; making it particularly valuable during acute flares,
+                    provides immediate reduction in disease-driving factors,
+                    making it particularly valuable during acute flares,
                     rapid deterioration, or as a bridge to longer-term
                     immunotherapy.
                   </p>
@@ -261,8 +261,8 @@ export default function TpeAutoimmunePage() {
                 strength of clinical evidence. Category I indicates TPE is a
                 standard first-line therapy. Category II indicates TPE is
                 well-established as second-line or supportive treatment. Many
-                autoimmune conditions carry Category I or II designations
-                &mdash; reflecting decades of clinical evidence and thousands of
+                autoimmune conditions carry Category I or II designations,
+                reflecting decades of clinical evidence and thousands of
                 patients treated.
               </p>
             </div>
@@ -273,8 +273,8 @@ export default function TpeAutoimmunePage() {
                 Important Clinical Context
               </div>
               <p>
-                Many Category I conditions &mdash; such as myasthenic crisis,
-                acute GBS, and TTP &mdash; present as medical emergencies that
+                Many Category I conditions, such as myasthenic crisis,
+                acute GBS, and TTP, present as medical emergencies that
                 are treated in hospital-based apheresis units. At{" "}
                 <a
                   href="https://www.globalapheresis.com"
@@ -473,9 +473,9 @@ export default function TpeAutoimmunePage() {
                 <div className="process-step-num">ACUTE CARE</div>
                 <h3>Acute Flares</h3>
                 <p>
-                  When autoimmune disease flares &mdash; increased weakness in
+                  When autoimmune disease flares (increased weakness in
                   myasthenia gravis, worsening symptoms in CIDP, or a lupus
-                  flare &mdash; a focused series of 5&ndash;7 TPE sessions over
+                  flare), a focused series of 5&ndash;7 TPE sessions over
                   1&ndash;2 weeks can rapidly reduce circulating autoantibodies
                   and bring disease activity under control. These sessions are
                   coordinated with your neurologist or rheumatologist and are
@@ -487,7 +487,7 @@ export default function TpeAutoimmunePage() {
                 <h3>Chronic Management</h3>
                 <p>
                   For chronic conditions like CIDP or refractory autoimmune
-                  disease, TPE may be used as ongoing maintenance &mdash;
+                  disease, TPE may be used as ongoing maintenance:
                   periodic sessions to keep autoantibody levels suppressed and
                   disease activity controlled. Frequency is tailored to your
                   clinical response.
@@ -499,8 +499,8 @@ export default function TpeAutoimmunePage() {
                 <p>
                   TPE for autoimmune conditions is most effective as part of a
                   coordinated treatment plan. Dr. Green works alongside your
-                  existing specialists &mdash; neurologists, rheumatologists,
-                  hematologists &mdash; to integrate TPE into your overall
+                  existing specialists (neurologists, rheumatologists,
+                  hematologists) to integrate TPE into your overall
                   management. He does not replace your primary specialist; he
                   adds the apheresis expertise.
                 </p>

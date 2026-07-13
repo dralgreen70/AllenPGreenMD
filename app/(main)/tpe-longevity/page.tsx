@@ -50,34 +50,34 @@ const mechanismCards = [
   {
     icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>',
     title: "Clears the Senescent Secretome",
-    desc: "As you age, senescent (damaged, non-dividing) cells accumulate throughout your body. These cells release a cocktail of inflammatory molecules known as the SASP \u2014 the senescence-associated secretory phenotype. These factors circulate in your plasma and drive inflammation, tissue damage, and further senescence in neighboring cells. TPE physically removes these circulating SASP factors.",
+    desc: "As you age, senescent (damaged, non-dividing) cells accumulate throughout your body. These cells release a cocktail of inflammatory molecules known as the SASP: the senescence-associated secretory phenotype. These factors circulate in your plasma and drive inflammation, tissue damage, and further senescence in neighboring cells. TPE physically removes these circulating SASP factors.",
   },
   {
     icon: '<polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/>',
     title: "Reduces Chronic Inflammation",
-    desc: "Age-related chronic low-grade inflammation \u2014 \u201Cinflammaging\u201D \u2014 is driven by elevated plasma levels of cytokines like IL-6, TNF-\u03B1, and IL-1\u03B2. This sustained inflammatory state damages tissues, impairs immune function, and accelerates every hallmark of aging. TPE removes these inflammatory mediators and replaces them with albumin, which has direct anti-inflammatory properties.",
+    desc: "Age-related chronic low-grade inflammation, \u201Cinflammaging,\u201D is driven by elevated plasma levels of cytokines like IL-6, TNF-\u03B1, and IL-1\u03B2. This sustained inflammatory state damages tissues, impairs immune function, and accelerates every hallmark of aging. TPE removes these inflammatory mediators and replaces them with albumin, which has direct anti-inflammatory properties.",
   },
   {
     icon: '<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
     title: "Restores Regenerative Signaling",
-    desc: "Aged plasma carries signaling molecules that actively suppress tissue regeneration \u2014 telling your stem cells to stay dormant and your repair mechanisms to slow down. Research has shown that removing these inhibitory signals and providing a clean signaling environment reawakens regenerative pathways. The Kim et al. study demonstrated restoration of pro-regenerative regulators to youthful levels after TPE.",
+    desc: "Aged plasma carries signaling molecules that actively suppress tissue regeneration: telling your stem cells to stay dormant and your repair mechanisms to slow down. Research has shown that removing these inhibitory signals and providing a clean signaling environment reawakens regenerative pathways. The Kim et al. study demonstrated restoration of pro-regenerative regulators to youthful levels after TPE.",
   },
   {
     icon: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
     title: "Rebalances the Proteome",
-    desc: "Your blood plasma contains thousands of proteins that regulate cellular function across every organ system. With age, this proteome becomes dysregulated \u2014 certain proteins become overexpressed while protective proteins decline. TPE resets the plasma protein environment, producing what researchers describe as a \u201Cglobal shift to a younger systemic proteome.\u201D",
+    desc: "Your blood plasma contains thousands of proteins that regulate cellular function across every organ system. With age, this proteome becomes dysregulated: certain proteins become overexpressed while protective proteins decline. TPE resets the plasma protein environment, producing what researchers describe as a \u201Cglobal shift to a younger systemic proteome.\u201D",
   },
   {
     icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
     title: "Removes Accumulated Toxins",
-    desc: "Over a lifetime, environmental toxins (persistent organic pollutants, heavy metals, endocrine disruptors) accumulate in your plasma. These compounds contribute to oxidative stress, DNA damage, and accelerated aging. TPE physically removes these toxins \u2014 an application explored in more detail on the Detoxification page.",
+    desc: "Over a lifetime, environmental toxins (persistent organic pollutants, heavy metals, endocrine disruptors) accumulate in your plasma. These compounds contribute to oxidative stress, DNA damage, and accelerated aging. TPE physically removes these toxins, an application explored in more detail on the Detoxification page.",
     link: "/tpe-detox",
     linkText: "Detoxification page",
   },
   {
     icon: '<path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M22.1 11.5A10 10 0 0 0 3.5 4.3l-1 1.2"/><path d="M1.9 12.5a10 10 0 0 0 18.6 7.2l1-1.2"/>',
     title: "Epigenetic Rejuvenation",
-    desc: "The Fuentealba et al. study showed that TPE produces measurable changes in the epigenome \u2014 the chemical modifications that control which genes are turned on or off. These epigenetic changes are reflected in biological age clocks, the most validated tools for measuring how fast your body is truly aging. TPE shifted these clocks younger by up to 2.6 years.",
+    desc: "The Fuentealba et al. study showed that TPE produces measurable changes in the epigenome, the chemical modifications that control which genes are turned on or off. These epigenetic changes are reflected in biological age clocks, the most validated tools for measuring how fast your body is truly aging. TPE shifted these clocks younger by up to 2.6 years.",
   },
 ]
 
@@ -87,7 +87,7 @@ export default function TpeLongevityPage() {
     "@type": "MedicalWebPage",
     name: "Therapeutic Plasma Exchange for Longevity & Biological Age Reversal",
     description:
-      "Evidence-based guide to TPE for longevity \u2014 parabiosis research, the plasma dilution hypothesis, and clinical studies demonstrating measurable biological age reduction.",
+      "Evidence-based guide to TPE for longevity: parabiosis research, the plasma dilution hypothesis, and clinical studies demonstrating measurable biological age reduction.",
     url: "https://allenpgreenmd.com/tpe-longevity",
     about: {
       "@type": "MedicalTherapy",
@@ -135,12 +135,12 @@ export default function TpeLongevityPage() {
             >
               Research has demonstrated that replacing aged plasma with albumin
               solution rejuvenates tissues, activates stem cells, and measurably
-              reduces biological age &mdash; by up to 2.6 years in a randomized
+              reduces biological age, by up to 2.6 years in a randomized
               controlled trial.
             </p>
             <div className="tpe-hero-anchor reveal">
               <p className="body-lg">
-                Aging is not just about time &mdash; it&apos;s about what
+                Aging is not just about time: it&apos;s about what
                 accumulates in your blood. Decades of research, from parabiosis
                 experiments in mice to human clinical trials, have shown that
                 the molecular composition of your plasma directly drives how
@@ -190,14 +190,14 @@ export default function TpeLongevityPage() {
                     The foundational insight came from{" "}
                     <Link href="/blog/blood-revolution">parabiosis research
                     exploring how aging lives in blood</Link>
-                    &mdash; experiments in which the circulatory systems of old
+                    , experiments in which the circulatory systems of old
                     and young mice were surgically connected. Researchers at UC
                     Berkeley found something remarkable: old mice sharing blood
                     with young mice showed reversal of age-related decline
-                    across multiple organ systems &mdash; muscle, liver, brain,
+                    across multiple organ systems: muscle, liver, brain,
                     and bone. But here was the critical surprise: the young mice
                     aged. This demonstrated that aging isn&apos;t just about
-                    losing youthful factors &mdash; it&apos;s driven by the
+                    losing youthful factors: it&apos;s driven by the
                     accumulation of harmful factors in old blood.
                   </p>
 
@@ -208,8 +208,8 @@ export default function TpeLongevityPage() {
                     The next question was whether you even needed young blood. In
                     2020, the same UC Berkeley team (led by Irina and Michael
                     Conboy) demonstrated that you didn&apos;t. Simply diluting
-                    old blood plasma &mdash; replacing it with saline and
-                    albumin, with no young blood components at all &mdash;
+                    old blood plasma (replacing it with saline and
+                    albumin, with no young blood components at all)
                     produced the same rejuvenating effects in mice. Muscle repair
                     improved, liver fibrosis decreased, neuroinflammation
                     declined, and neurogenesis increased. The implication was
@@ -329,8 +329,8 @@ export default function TpeLongevityPage() {
               <p>
                 This is the first randomized, placebo-controlled trial to
                 demonstrate biological age reduction from TPE using multi-omics
-                measurement. It doesn&apos;t just show that blood markers change
-                &mdash; it shows coordinated rejuvenation across multiple
+                measurement. It doesn&apos;t just show that blood markers change.
+                It shows coordinated rejuvenation across multiple
                 biological systems simultaneously. The study was conducted at
                 the Buck Institute, one of the world&apos;s leading aging
                 research institutions, lending significant credibility to the
@@ -355,7 +355,7 @@ export default function TpeLongevityPage() {
               <p>
                 Both the Kim et al. and Fuentealba et al. studies feature Dr.
                 Dobri Kiprov as a co-author. The TPE procedures in these studies
-                were performed at Global Apheresis &mdash; the same facility
+                were performed at Global Apheresis, the same facility
                 where{" "}
                 <Link
                   href="/about"
@@ -469,8 +469,8 @@ export default function TpeLongevityPage() {
                 <p>
                   TPE for longevity is typically sought by proactive,
                   health-conscious individuals who are already investing in their
-                  long-term health &mdash; through nutrition, exercise, and other
-                  optimization strategies &mdash; and want to address the
+                  long-term health (through nutrition, exercise, and other
+                  optimization strategies) and want to address the
                   molecular environment that underlies aging at its source. There
                   is no minimum age, but the published research has focused on
                   adults over 50.
@@ -486,7 +486,7 @@ export default function TpeLongevityPage() {
                   biomarkers. Common approaches include an initial intensive
                   series (multiple sessions over a compressed period) to achieve
                   a significant plasma reset, followed by periodic maintenance
-                  sessions &mdash; quarterly, bi-annually, or as determined by
+                  sessions: quarterly, bi-annually, or as determined by
                   your response. For patients traveling to Mill Valley, flexible
                   scheduling can be arranged.
                 </p>
@@ -498,7 +498,7 @@ export default function TpeLongevityPage() {
                   Biological age and relevant biomarkers are tracked at baseline
                   and over time. This objective measurement allows Dr. Green to
                   assess your response to treatment and adjust your protocol
-                  accordingly. The goal is not guesswork &mdash; it is
+                  accordingly. The goal is not guesswork: it is
                   measurable, data-driven optimization.
                 </p>
               </div>
@@ -506,7 +506,7 @@ export default function TpeLongevityPage() {
                 <div className="process-step-num">COMPLEMENTARY</div>
                 <h3>Part of a Broader Strategy</h3>
                 <p>
-                  TPE works alongside &mdash; not instead of &mdash; other
+                  TPE works alongside, not instead of, other
                   longevity strategies. Exercise, nutrition, sleep optimization,
                   and targeted supplementation all complement the systemic reset
                   that TPE provides. Dr. Green can discuss how TPE fits into

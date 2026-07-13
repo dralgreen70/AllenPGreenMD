@@ -38,7 +38,7 @@ const toxinCategories = [
   {
     name: "Persistent Organic Pollutants (POPs)",
     aka: "PCBs, Dioxins, Pesticides",
-    desc: "PCBs, dioxins, organochlorine pesticides, and flame retardants that persist in the environment and bioaccumulate through the food chain. Many are lipophilic \u2014 stored in fat tissue \u2014 but they also circulate in the blood bound to plasma proteins, which is how TPE can remove them.",
+    desc: "PCBs, dioxins, organochlorine pesticides, and flame retardants that persist in the environment and bioaccumulate through the food chain. Many are lipophilic, stored in fat tissue, but they also circulate in the blood bound to plasma proteins, which is how TPE can remove them.",
   },
   {
     name: "Heavy Metals",
@@ -62,17 +62,17 @@ const patientProfiles = [
   {
     label: "DOCUMENTED EXPOSURE",
     title: "Elevated Toxin Levels",
-    desc: "Individuals with documented elevated toxin levels \u2014 through environmental toxin panels, heavy metal testing, or PFAS testing \u2014 who want active intervention beyond exposure reduction alone.",
+    desc: "Individuals with documented elevated toxin levels, through environmental toxin panels, heavy metal testing, or PFAS testing, who want active intervention beyond exposure reduction alone.",
   },
   {
     label: "OCCUPATIONAL / GEOGRAPHIC",
     title: "Exposure History",
-    desc: "People with occupational or geographic exposure histories \u2014 living near industrial sites, agricultural areas, or military bases with known PFAS contamination.",
+    desc: "People with occupational or geographic exposure histories: living near industrial sites, agricultural areas, or military bases with known PFAS contamination.",
   },
   {
     label: "CHRONIC SYMPTOMS",
     title: "Suspected Toxic Burden",
-    desc: "Patients with chronic symptoms \u2014 fatigue, brain fog, hormonal disruption, inflammatory conditions \u2014 where environmental toxic burden is a suspected contributing factor.",
+    desc: "Patients with chronic symptoms, fatigue, brain fog, hormonal disruption, inflammatory conditions, where environmental toxic burden is a suspected contributing factor.",
   },
   {
     label: "PROACTIVE",
@@ -87,7 +87,7 @@ export default function TpeDetoxPage() {
     "@type": "MedicalWebPage",
     name: "Therapeutic Plasma Exchange for Detoxification & Environmental Toxins",
     description:
-      "Guide to TPE for environmental detoxification — mechanism of toxin removal, types of toxins addressed, emerging research, and treatment at Global Apheresis.",
+      "Guide to TPE for environmental detoxification: mechanism of toxin removal, types of toxins addressed, emerging research, and treatment at Global Apheresis.",
     url: "https://allenpgreenmd.com/tpe-detox",
     about: {
       "@type": "MedicalTherapy",
@@ -128,7 +128,7 @@ export default function TpeDetoxPage() {
               <span className="serif-italic accent-text">Detoxification</span>
             </h1>
             <p className="tpe-hero-sub reveal">
-              Your body accumulates environmental toxins over a lifetime &mdash;
+              Your body accumulates environmental toxins over a lifetime:
               persistent organic pollutants, PFAS, heavy metals, and
               inflammatory byproducts that your liver and kidneys were never
               designed to fully clear. TPE removes the plasma that carries them.
@@ -148,7 +148,7 @@ export default function TpeDetoxPage() {
                 >
                   Therapeutic plasma exchange
                 </Link>{" "}
-                is different &mdash; it is a medical procedure that physically
+                is different. It is a medical procedure that physically
                 separates and removes your plasma, along with the protein-bound
                 toxins it carries, and replaces it with clean albumin solution.
                 The mechanism is direct, measurable, and performed under
@@ -175,15 +175,15 @@ export default function TpeDetoxPage() {
 
             <div className="alz-evidence-intro reveal">
               <p className="body-lg">
-                Your liver and kidneys are remarkable filtration systems &mdash;
-                but they have limits. They evolved to handle naturally occurring
+                Your liver and kidneys are remarkable filtration systems, but
+                they have limits. They evolved to handle naturally occurring
                 metabolic waste, not the synthetic chemical landscape of the 21st
                 century. Persistent organic pollutants, PFAS compounds, heavy
                 metals, endocrine disruptors, and microplastic-associated
                 chemicals enter your body through food, water, air, and consumer
                 products. Many of these substances resist natural metabolism.
-                They bind to plasma proteins &mdash; particularly albumin &mdash;
-                and circulate in your blood for months, years, or indefinitely.
+                They bind to plasma proteins, particularly albumin, and
+                circulate in your blood for months, years, or indefinitely.
               </p>
             </div>
 
@@ -241,15 +241,15 @@ export default function TpeDetoxPage() {
                 <div className="tpe-science-text reveal">
                   <h3 className="lon-narrative-heading">The Mechanism</h3>
                   <p className="body-lg">
-                    Therapeutic plasma exchange removes your plasma &mdash; the
+                    Therapeutic plasma exchange removes your plasma: the
                     liquid portion of your blood that carries proteins, hormones,
                     nutrients, antibodies, and, critically, toxins. In a single
                     TPE procedure, approximately 60&ndash;70% of your plasma
                     volume is removed and replaced with 5% albumin solution. Any
                     toxin that is circulating in your plasma at the time of the
-                    exchange &mdash; whether bound to albumin, associated with
-                    other plasma proteins, or dissolved in the plasma itself
-                    &mdash; is physically removed from your body.
+                    exchange, whether bound to albumin, associated with
+                    other plasma proteins, or dissolved in the plasma itself,
+                    is physically removed from your body.
                   </p>
 
                   <h3 className="lon-narrative-heading">
@@ -262,7 +262,7 @@ export default function TpeDetoxPage() {
                     does not rely on your body&apos;s processing capacity. It
                     bypasses the liver and kidneys entirely by physically
                     removing the plasma that contains the toxins. The distinction
-                    is mechanical, not pharmacological &mdash; and that
+                    is mechanical, not pharmacological. And that
                     directness is what separates TPE from supplement-based
                     detoxification.
                   </p>
@@ -271,18 +271,17 @@ export default function TpeDetoxPage() {
                     The Albumin Replacement
                   </h3>
                   <p className="body-lg">
-                    The replacement fluid &mdash; clean, purified 5% albumin
-                    &mdash; is not just a placeholder. Albumin is the
+                    The replacement fluid, clean, purified 5% albumin,
+                    is not just a placeholder. Albumin is the
                     body&apos;s primary transport protein, and it has inherent
                     antioxidant and anti-inflammatory properties. Fresh albumin
                     provides new binding capacity for toxins that may mobilize
-                    from tissue stores after the exchange — a process that
+                    from tissue stores after the exchange, a process that
                     accelerates during{" "}
                     <Link href="/blog/hidden-risk-weight-loss-forever-chemicals"
                       style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                       weight loss, when stored forever chemicals are released
-                    </Link>
-                    {" "}&mdash; supporting ongoing
+                    </Link>, supporting ongoing
                     clearance in the days following each procedure.
                   </p>
 
@@ -291,13 +290,12 @@ export default function TpeDetoxPage() {
                   </h3>
                   <p className="body-lg">
                     TPE removes what is circulating in your plasma at the time of
-                    the procedure. Many environmental toxins &mdash; particularly
+                    the procedure. Many environmental toxins, particularly
                     lipophilic compounds like POPs and PFAS, as seen in{" "}
                     <Link href="/blog/jersey-pfas-crisis"
                       style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                       the New Jersey PFAS crisis
-                    </Link>
-                    {" "}&mdash; are also
+                    </Link>, are also
                     stored in adipose tissue and other organs. These
                     tissue-stored toxins can gradually re-enter circulation after
                     TPE, which is why a series of treatments is often more
@@ -365,7 +363,7 @@ export default function TpeDetoxPage() {
                     470 mL for whole blood).
                   </p>
                   <p className="body-lg" style={{ marginTop: "1rem" }}>
-                    Critically, this study used standard plasma donation &mdash;
+                    Critically, this study used standard plasma donation,
                     not therapeutic plasma exchange. TPE removes substantially
                     more plasma per session and replaces it with albumin, which
                     provides fresh binding capacity for toxins mobilizing from
@@ -373,8 +371,8 @@ export default function TpeDetoxPage() {
                     measured PFAS reduction from TPE specifically, the
                     mechanistic logic is clear: if removing 800 mL of plasma
                     significantly lowers PFAS levels, removing several times that
-                    volume in a single TPE session &mdash; and doing so
-                    repeatedly &mdash; would be expected to produce a
+                    volume in a single TPE session, and doing so
+                    repeatedly, would be expected to produce a
                     substantially greater reduction.
                   </p>
                 </div>
@@ -400,7 +398,7 @@ export default function TpeDetoxPage() {
                     A 2025 study published in <em>Medical Hypotheses</em>{" "}
                     evaluated whether serial TPE sessions could reduce levels of
                     synthetic chemicals in healthy adults. Researchers tested 91
-                    adults for 38 synthetic chemicals &mdash; including
+                    adults for 38 synthetic chemicals, including
                     pesticides, herbicides, phenols, volatile organics, parabens,
                     acrylamides, and phthalates. Participants who underwent
                     3&ndash;5 TPE sessions combined with nutritional
@@ -434,7 +432,7 @@ export default function TpeDetoxPage() {
                     >
                       Alzheimer&apos;s applications
                     </Link>{" "}
-                    of TPE &mdash; the removal of circulating neurotoxic
+                    of TPE: the removal of circulating neurotoxic
                     pollutants may be one of the mechanisms by which TPE provides
                     cognitive benefit beyond amyloid-&beta; reduction.
                   </p>
@@ -447,7 +445,7 @@ export default function TpeDetoxPage() {
               <div className="alz-subgroup-label">Honest Framing</div>
               <p>
                 This is an active area of research, not a settled science. The
-                mechanistic rationale is strong &mdash; TPE removes plasma,
+                mechanistic rationale is strong: TPE removes plasma,
                 plasma carries toxins, therefore TPE removes circulating toxins.
                 But large-scale clinical trials specifically measuring health
                 outcomes from toxin-focused TPE have not yet been completed.{" "}
@@ -516,8 +514,8 @@ export default function TpeDetoxPage() {
                     >
                       Global Apheresis
                     </a>{" "}
-                    typically involves a series of sessions &mdash; often
-                    3&ndash;5 over a condensed period &mdash; to achieve
+                    typically involves a series of sessions, often
+                    3&ndash;5 over a condensed period, to achieve
                     meaningful reduction in circulating toxin levels. For
                     patients with documented high toxin burdens, additional
                     sessions or periodic maintenance may be recommended. Dr.
