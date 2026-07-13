@@ -70,7 +70,7 @@ The AMBAR trial was a phase 2b/3, multicenter, randomized, blinded, placebo-cont
 
 - **Screened:** 496 patients evaluated for eligibility
 - **Randomized:** 347 patients enrolled
-- **Treated:** 322 patients actually received treatment (25 dropped out before starting)
+- **Evaluated:** 322 patients in the analysis population, of whom 242 received plasma exchange and 80 received sham placebo (the other 25 randomized patients were not evaluated)
 - **Completed:** 232 patients finished the full 14-month protocol
 
 <figure class="post-figure">

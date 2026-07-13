@@ -86,10 +86,10 @@ None of this is unique to TPE. The same limitations apply to every longevity int
 
 ## The AMBAR Precedent: When Biomarkers Don't Tell the Whole Story
 
-The Alzheimer's disease field offers a crucial lesson about the distinction between biomarkers and clinical outcomes. The AMBAR study, published in 2020, tested TPE in 322 patients. The results were striking:
+The Alzheimer's disease field offers a crucial lesson about the distinction between biomarkers and clinical outcomes. The AMBAR study, published in 2020, tested TPE in a 322-patient trial. The results were striking:
 
 <div class="post-callout-data">
-<div class="post-callout-label">AMBAR Study Results: 322 patients treated</div>
+<div class="post-callout-label">AMBAR Study Results: 322 patients evaluated</div>
 <div class="post-callout-stats">
 <div class="post-callout-stat"><strong>52%</strong> less functional decline <span>(p=0.03)</span></div>
 <div class="post-callout-stat"><strong>66%</strong> less cognitive decline <span>(p=0.06)</span></div>

@@ -59,7 +59,7 @@ For decades, hospitals have used TPE to treat [autoimmune diseases](/tpe-autoimm
 
 But nobody had seriously considered using it for aging. That changed when the mouse studies showed dilution works.
 
-In 2020, a major clinical trial called [AMBAR](/blog/ambar-study-part-1) tested TPE in 322 Alzheimer's patients. The results were striking. After weekly treatments followed by monthly maintenance, moderately affected patients showed 61% less cognitive and functional decline at 14 months. Memory, language, and daily functioning all improved, with effect sizes that **substantially exceeded** newly approved Alzheimer's drugs, but without the dangerous brain swelling those drugs can cause. This was the first age-related disease to show significant improvement with TPE.
+In 2020, a major clinical trial called [AMBAR](/blog/ambar-study-part-1) tested TPE in a 322-patient Alzheimer's trial. The results were striking. After weekly treatments followed by monthly maintenance, moderately affected patients showed 61% less cognitive and functional decline at 14 months. Memory, language, and daily functioning all improved, with effect sizes that **substantially exceeded** newly approved Alzheimer's drugs, but without the dangerous brain swelling those drugs can cause. This was the first age-related disease to show significant improvement with TPE.
 
 Then in 2022, the first study on biological age reversal was published. Eight adults received rounds of TPE, and a panel of protein biomarkers showed a measurably reduced biological age. Their immune systems looked younger. Cellular damage decreased. Inflammatory pathways normalized.
 

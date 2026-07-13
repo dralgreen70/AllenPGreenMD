@@ -48,7 +48,7 @@ Neurologists are trained to think in terms of pharmaceutical interventions. Plas
 
 ## Study Size and Replication Lag
 
-AMBAR enrolled 322 patients: well-designed and adequately powered for its endpoints, but smaller than the pivotal monoclonal antibody trials (1,795 for lecanemab, 1,182 for donanemab). Medicine generally wants to see large-scale replication before shifting widespread practice. The 2025 Argentina real-world study provides meaningful validation, but it enrolled 32 patients and used historical controls. A large multicenter randomized trial comparing plasma exchange directly to standard of care would likely be required to move the needle on prescribing behavior, and no pharmaceutical company has the financial incentive to fund it.
+AMBAR randomized 347 patients: well-designed and adequately powered for its endpoints, but smaller than the pivotal monoclonal antibody trials (1,795 for lecanemab, 1,182 for donanemab). Medicine generally wants to see large-scale replication before shifting widespread practice. The 2025 Argentina real-world study provides meaningful validation, but it enrolled 32 patients and used historical controls. A large multicenter randomized trial comparing plasma exchange directly to standard of care would likely be required to move the needle on prescribing behavior, and no pharmaceutical company has the financial incentive to fund it.
 
 ## The Narrative Problem
 

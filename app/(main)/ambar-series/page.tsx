@@ -70,7 +70,7 @@ const readingPath = [
 ]
 
 const stats = [
-  { value: "322", label: "Patients Treated" },
+  { value: "322", label: "Patients Evaluated" },
   { value: "Phase IIb/III", label: "Randomized Controlled Trial" },
   { value: "14 Months", label: "Follow-up Period" },
   { value: "2020", label: "Published in Alzheimer\u2019s & Dementia" },

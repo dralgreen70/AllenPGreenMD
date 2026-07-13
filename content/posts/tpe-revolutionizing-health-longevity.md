@@ -21,7 +21,7 @@ The American Society for Apheresis recognizes more than 80 therapeutic indicatio
 
 ### Alzheimer's Disease and Cognitive Decline
 
-The AMBAR trial, a 322-patient randomized controlled trial, demonstrated 52–71% less disease progression in treated patients compared to placebo, with a safety profile far superior to FDA-approved Alzheimer's biologics. TPE is currently an ASFA Category III indication for Alzheimer's disease, meaning the evidence supports its use in appropriate clinical settings. For patients and families looking for options beyond the current standard of care, this data deserves serious attention.
+The AMBAR trial, a 347-patient randomized controlled trial, demonstrated 52–71% less disease progression in treated patients compared to placebo, with a safety profile far superior to FDA-approved Alzheimer's biologics. TPE is currently an ASFA Category III indication for Alzheimer's disease, meaning the evidence supports its use in appropriate clinical settings. For patients and families looking for options beyond the current standard of care, this data deserves serious attention.
 
 [Read the full AMBAR evidence →](/tpe-alzheimers)
 

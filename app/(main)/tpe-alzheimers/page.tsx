@@ -303,7 +303,7 @@ export default function TpeAlzheimersPage() {
                 exchange for Alzheimer&apos;s disease.
               </p>
               <p className="body-lg" style={{ marginTop: "1rem" }}>
-                322 patients with mild-to-moderate Alzheimer&apos;s disease were
+                347 patients with mild-to-moderate Alzheimer&apos;s disease were
                 enrolled. Patients were randomized into three active treatment
                 arms (plasma exchange with different doses of albumin, with or
                 without intravenous immunoglobulin) and one placebo arm (sham
