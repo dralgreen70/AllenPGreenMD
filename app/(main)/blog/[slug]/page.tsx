@@ -152,7 +152,7 @@ export default async function BlogPostPage({
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://allenpgreenmd.com" },
-      { "@type": "ListItem", position: 2, name: "Journal", item: "https://allenpgreenmd.com/blog" },
+      { "@type": "ListItem", position: 2, name: "Report", item: "https://allenpgreenmd.com/blog" },
       { "@type": "ListItem", position: 3, name: post.frontmatter.title, item: `https://allenpgreenmd.com/blog/${slug}` },
     ],
   }
@@ -490,7 +490,7 @@ export default async function BlogPostPage({
       {relatedPosts.length > 0 && (
         <section className="post-related">
           <div className="post-related-inner">
-            <h3 className="post-related-heading">More from the Journal</h3>
+            <h3 className="post-related-heading">More from the Report</h3>
             <div className="post-related-grid">
               {relatedPosts.map((rp) => (
                 <Link
@@ -513,13 +513,13 @@ export default async function BlogPostPage({
         </section>
       )}
 
-      {/* 6. Back to Journal */}
+      {/* 6. Back to Report */}
       <div className="post-footer">
         <Link href="/blog" className="btn btn-outline">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M19 12H5" /><polyline points="12 19 5 12 12 5" />
           </svg>
-          Back to Journal
+          Back to Report
         </Link>
       </div>
     </main>

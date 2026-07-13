@@ -10,7 +10,7 @@ export function FooterNewsletter() {
     return (
       <p className="footer-newsletter-success">
         {status === "success"
-          ? "You’re subscribed to the Apheresis Journal."
+          ? "You’re subscribed to the Apheresis Report."
           : "You’re already subscribed!"}
       </p>
     )

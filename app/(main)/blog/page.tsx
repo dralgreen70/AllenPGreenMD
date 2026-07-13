@@ -5,11 +5,11 @@ import Script from "next/script"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
+  title: "The Apheresis Report | Dr. Allen Green MD – Clinical Perspectives on TPE",
   description:
     "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
   openGraph: {
-    title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
+    title: "The Apheresis Report | Dr. Allen Green MD – Clinical Perspectives on TPE",
     description:
       "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
     url: "https://allenpgreenmd.com/blog",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Journal | Dr. Allen Green MD – Clinical Perspectives on TPE",
+    title: "The Apheresis Report | Dr. Allen Green MD – Clinical Perspectives on TPE",
     description:
       "Clinical perspectives on therapeutic plasma exchange, longevity medicine, and the science of healthy aging from Allen P. Green, MD.",
     images: ["https://allenpgreenmd.com/images/me-and-amicus.jpg"],
@@ -52,7 +52,7 @@ export default function BlogPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://allenpgreenmd.com/blog"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Report","item":"https://allenpgreenmd.com/blog"}]}) }}
       />
       {/* ── 1. HERO ── */}
       <header className="tpe-hero" style={{ textAlign: "center" }}>
@@ -61,13 +61,13 @@ export default function BlogPage() {
             className="section-label-line reveal"
             style={{ justifyContent: "center" }}
           >
-            <span className="label-text">The Apheresis Journal</span>
+            <span className="label-text">The Apheresis Report</span>
           </div>
           <h1
             className="h-display reveal"
             style={{ textAlign: "center", maxWidth: "900px", margin: "0 auto" }}
           >
-            <span className="serif-italic accent-text">Journal</span>
+            <span className="serif-italic accent-text">Report</span>
           </h1>
           <p
             className="tpe-hero-sub reveal"

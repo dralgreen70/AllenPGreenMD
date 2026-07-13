@@ -82,13 +82,13 @@ export default function AmbarSeriesPage() {
       <Script
         id="schema-breadcrumb"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://allenpgreenmd.com/blog"},{"@type":"ListItem","position":3,"name":"The AMBAR Series","item":"https://allenpgreenmd.com/ambar-series"}]}) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://allenpgreenmd.com"},{"@type":"ListItem","position":2,"name":"Report","item":"https://allenpgreenmd.com/blog"},{"@type":"ListItem","position":3,"name":"The AMBAR Series","item":"https://allenpgreenmd.com/ambar-series"}]}) }}
       />
       {/* ===== HERO ===== */}
       <section className="tpe-hero" id="intro">
         <div className="tpe-hero-inner">
           <nav className="ambar-breadcrumb reveal">
-            <Link href="/blog">Journal</Link>
+            <Link href="/blog">Report</Link>
             <span>/</span>
             <span>The AMBAR Series</span>
           </nav>
@@ -310,7 +310,7 @@ export default function AmbarSeriesPage() {
           <div className="tpe-cta-links reveal">
             <div className="tpe-cta-link-row">
               <Link href="/blog" className="tpe-cta-pillar-link">
-                &larr; Back to Journal
+                &larr; Back to Report
               </Link>
             </div>
             <span

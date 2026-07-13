@@ -14,8 +14,8 @@ export function NewsletterBlogSection() {
       <div className="newsletter-blog-inner">
         <div className="newsletter-inline-label">Newsletter</div>
         <h2 className="newsletter-blog-heading">
-          The Apheresis Journal{" "}
-          <span style={{ fontStyle: "italic" }}>Newsletter</span>
+          The Apheresis{" "}
+          <span style={{ fontStyle: "italic" }}>Report</span>
         </h2>
         <p className="newsletter-blog-sub">
           Evidence-based insights on plasma exchange, longevity medicine, and
@@ -26,7 +26,7 @@ export function NewsletterBlogSection() {
         {status === "success" ? (
           <p className="newsletter-message newsletter-message--success">
             Your guide is downloading. You&rsquo;re now subscribed to the
-            Apheresis Journal.
+            Apheresis Report.
           </p>
         ) : status === "already-subscribed" ? (
           <p className="newsletter-message newsletter-message--already">

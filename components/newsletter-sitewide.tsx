@@ -15,7 +15,7 @@ export function NewsletterSitewide() {
         <div className="newsletter-inline-label">Newsletter</div>
         <h2 className="newsletter-sitewide-heading">
           The Apheresis{" "}
-          <span style={{ fontStyle: "italic" }}>Journal</span>
+          <span style={{ fontStyle: "italic" }}>Report</span>
         </h2>
         <p className="newsletter-sitewide-sub">
           Evidence-based insights on plasma exchange, longevity medicine, and
@@ -26,7 +26,7 @@ export function NewsletterSitewide() {
         {status === "success" ? (
           <p className="newsletter-message newsletter-message--success">
             Your guide is downloading. You&rsquo;re now subscribed to the
-            Apheresis Journal.
+            Apheresis Report.
           </p>
         ) : status === "already-subscribed" ? (
           <p className="newsletter-message newsletter-message--already">

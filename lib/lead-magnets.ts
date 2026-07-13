@@ -19,7 +19,7 @@ const AMBAR: LeadMagnet = {
 const PFAS: LeadMagnet = {
   path: null,
   headline: "Forever Chemicals and Your Blood",
-  sub: "What the PFAS research actually shows, and where plasma exchange fits, delivered with the monthly Apheresis Journal.",
+  sub: "What the PFAS research actually shows, and where plasma exchange fits, delivered with the monthly Apheresis Report.",
   button: "Subscribe",
 }
 

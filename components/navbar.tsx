@@ -126,7 +126,7 @@ export function Navbar() {
           </li>
           <li className={`nav-dropdown${journalDropdownOpen ? " open" : ""}`}>
             <a href="#" className="nav-dropdown-trigger" onClick={toggleJournalDropdown}>
-              Journal
+              Report
               <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M1 1l4 4 4-4" />
               </svg>

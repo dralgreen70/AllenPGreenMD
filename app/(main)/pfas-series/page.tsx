@@ -110,7 +110,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://allenpgreenmd.com" },
-    { "@type": "ListItem", position: 2, name: "Journal", item: "https://allenpgreenmd.com/blog" },
+    { "@type": "ListItem", position: 2, name: "Report", item: "https://allenpgreenmd.com/blog" },
     { "@type": "ListItem", position: 3, name: "The PFAS Series", item: SERIES_URL },
   ],
 }
@@ -159,7 +159,7 @@ export default function PfasSeriesPage() {
       <section className="tpe-hero" id="intro">
         <div className="tpe-hero-inner">
           <nav className="ambar-breadcrumb reveal">
-            <Link href="/blog">Journal</Link>
+            <Link href="/blog">Report</Link>
             <span>/</span>
             <span>The PFAS Series</span>
           </nav>
@@ -495,7 +495,7 @@ export default function PfasSeriesPage() {
               textDecoration: "none",
             }}
           >
-            &larr; Back to Journal
+            &larr; Back to Report
           </Link>
         </div>
       </section>
