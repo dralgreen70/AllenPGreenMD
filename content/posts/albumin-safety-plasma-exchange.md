@@ -82,6 +82,6 @@ If you have specific questions about the albumin used in your treatment, includi
 
 2. Farrugia A. Albumin usage in clinical medicine: tradition or therapeutic? *Transfus Med Rev.* 2010;24(1):53–63.
 
-3. Burnouf T, et al. An overview of viral inactivation methods for plasma-derived proteins. *Transfusion.* 2003;43(10):1349–1359.
+3. Burnouf T. Modern plasma fractionation. *Transfus Med Rev.* 2007;21(2):101–117. doi:10.1016/j.tmrv.2006.11.001
 
 4. U.S. Food and Drug Administration. Guidance for Industry: Revised Preventive Measures to Reduce the Possible Risk of Transmission of Creutzfeldt-Jakob Disease and Variant Creutzfeldt-Jakob Disease by Blood and Blood Products. FDA; 2010.
