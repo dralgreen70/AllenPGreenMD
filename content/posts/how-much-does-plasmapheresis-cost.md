@@ -63,7 +63,7 @@ At Global Apheresis in Mill Valley, California, a single TPE session is **$8,000
 
 That includes the procedure itself and physician supervision by a team that has collectively overseen more than 15,000 TPE treatments. Lab work is billed separately so patients only pay for the panels that are clinically relevant to their situation.
 
-Every patient starts with a discovery call. Not a sales pitch, but a clinical conversation about your health history, your goals, and whether TPE is appropriate for you. If it is, we build a personalized protocol and walk through the pricing before anything is scheduled. No surprises.
+Every patient starts with [a discovery call](/contact). Not a sales pitch, but a clinical conversation about your health history, your goals, and whether TPE is appropriate for you. If it is, we build a personalized protocol and walk through the pricing before anything is scheduled. No surprises.
 
 **[Schedule a Discovery Call](https://globalapheresis.com/free-consultation)**
 

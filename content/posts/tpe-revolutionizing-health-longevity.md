@@ -8,25 +8,25 @@ image: "/images/blog/GA_clinic.jpg"
 tags: "longevity, tpe"
 ---
 
-[Therapeutic plasma exchange](/tpe) has been used in hospitals for decades to treat life-threatening conditions — removing pathological proteins, autoantibodies, and toxic substances from the blood when no other intervention could reach them. What's changed in recent years is our understanding of what else is circulating in plasma: pro-aging molecules, environmental toxins, inflammatory mediators, and proteins linked to neurodegenerative disease. That understanding has opened four distinct clinical applications that I work with every day.
+[Therapeutic plasma exchange](/tpe) has been used in hospitals for decades to treat life-threatening conditions, removing pathological proteins, autoantibodies, and toxic substances from the blood when no other intervention could reach them. What's changed in recent years is our understanding of what else is circulating in plasma: pro-aging molecules, environmental toxins, inflammatory mediators, and proteins linked to neurodegenerative disease. That understanding has opened four distinct clinical applications that I work with every day.
 
 ## What Is Therapeutic Plasma Exchange?
 
-TPE is a procedure that removes blood plasma — the liquid portion of blood — replaces it with medical-grade albumin or other fluids, and returns the purified blood to the body. It works through apheresis equipment that separates plasma from blood cells continuously, typically over a 2–3 hour outpatient session.
+TPE is a procedure that removes blood plasma, the liquid portion of blood, replaces it with medical-grade albumin or other fluids, and returns the purified blood to the body. It works through apheresis equipment that separates plasma from blood cells continuously, typically over a 2–3 hour outpatient session.
 
-The American Society for Apheresis recognizes more than 80 therapeutic indications for TPE across dozens of medical conditions. It is not experimental. It is not new. What is new is its application to longevity, Alzheimer's disease, and environmental detoxification — areas where the evidence has grown substantially in the last decade.
+The American Society for Apheresis recognizes more than 80 therapeutic indications for TPE across dozens of medical conditions. It is not experimental. It is not new. What is new is its application to longevity, Alzheimer's disease, and environmental detoxification: areas where the evidence has grown substantially in the last decade.
 
 ## The Four Applications
 
 ### Alzheimer's Disease and Cognitive Decline
 
-The AMBAR trial — a 322-patient randomized controlled trial — demonstrated 52–71% less disease progression in treated patients compared to placebo, with a safety profile far superior to FDA-approved Alzheimer's biologics. TPE is currently an ASFA Category III indication for Alzheimer's disease, meaning the evidence supports its use in appropriate clinical settings. For patients and families looking for options beyond the current standard of care, this data deserves serious attention.
+The AMBAR trial, a 322-patient randomized controlled trial, demonstrated 52–71% less disease progression in treated patients compared to placebo, with a safety profile far superior to FDA-approved Alzheimer's biologics. TPE is currently an ASFA Category III indication for Alzheimer's disease, meaning the evidence supports its use in appropriate clinical settings. For patients and families looking for options beyond the current standard of care, this data deserves serious attention.
 
 [Read the full AMBAR evidence →](/tpe-alzheimers)
 
 ### Longevity and Biological Age
 
-Parabiosis research established that pro-aging factors circulate in older blood and actively suppress regenerative function. TPE addresses this directly — removing those factors and replacing plasma with albumin, which itself has antioxidant and anti-inflammatory properties. A clinical study of 42 participants over 50 found that TPE combined with intravenous immunoglobulin reduced biological age by an average of 2.6 years. Research by Dr. Dobri Kiprov and colleagues, including the Fuentealba et al. and Kim et al. studies, has advanced this field substantially.
+Parabiosis research established that pro-aging factors circulate in older blood and actively suppress regenerative function. TPE addresses this directly, removing those factors and replacing plasma with albumin, which itself has antioxidant and anti-inflammatory properties. A clinical study of 42 participants over 50 found that TPE combined with intravenous immunoglobulin reduced biological age by an average of 2.6 years. Research by Dr. Dobri Kiprov and colleagues, including the Fuentealba et al. and Kim et al. studies, has advanced this field substantially.
 
 [Read the longevity evidence →](/tpe-longevity)
 
@@ -38,7 +38,7 @@ TPE has the longest established track record in autoimmune disease, where it rem
 
 ### Environmental Detoxification
 
-PFAS, heavy metals, persistent organic pollutants, and other synthetic chemicals bind to plasma proteins — which is why conventional detox approaches can't reach them. A 2022 randomized controlled trial published in *JAMA Network Open* demonstrated that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, approximately 2.6 times more effective than whole blood donation. TPE removes significantly more plasma per session than donation, with clinical protocols tailored to specific toxin burdens.
+PFAS, heavy metals, persistent organic pollutants, and other synthetic chemicals bind to plasma proteins, which is why conventional detox approaches can't reach them. A 2022 randomized controlled trial published in *JAMA Network Open* demonstrated that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, approximately 2.6 times more effective than whole blood donation. TPE removes significantly more plasma per session than donation, with clinical protocols tailored to specific toxin burdens.
 
 [Read the detoxification evidence →](/tpe-detox)
 
@@ -50,7 +50,7 @@ TPE is not a procedure that can be safely or effectively delivered by every clin
 
 ## Getting Started
 
-If you're new to therapeutic plasma exchange, the pages linked above are the best place to start. Each one covers the clinical evidence in depth — the trials, the mechanisms, the patient selection criteria, and what the data actually shows. If you have questions after reading, a discovery call is the right next step.
+If you're new to therapeutic plasma exchange, the pages linked above are the best place to start. Each one covers the clinical evidence in depth: the trials, the mechanisms, the patient selection criteria, and what the data actually shows. If you have questions after reading, [a discovery call](/contact) is the right next step.
 
 ## References
 

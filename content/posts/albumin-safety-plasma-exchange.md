@@ -69,7 +69,7 @@ If you have specific questions about the albumin used in your treatment, includi
 
 ---
 
-*If you are considering therapeutic plasma exchange and have questions about the procedure, the replacement fluids, or whether you may be a candidate, the best next step is a consultation.*
+*If you are considering therapeutic plasma exchange and have questions about the procedure, the replacement fluids, or whether you may be a candidate, the best next step is [a consultation](/contact).*
 
 **[Schedule a Discovery Call →](https://globalapheresis.com/free-consultation)**
 

@@ -9,7 +9,7 @@ image: "/images/blog/GA_clinic.jpg"
 tags: "clinical, tpe"
 ---
 
-Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available — and one of the most operationally demanding. This guide covers what the decision actually involves.
+Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available, and one of the most operationally demanding. This guide covers what the decision actually involves.
 
 ## Clinical Landscape
 
@@ -27,7 +27,7 @@ While I don't have exact figures I will provide a rough estimate of the costs. F
 
 If you're an already established clinic, you're already paying the overhead costs like rent and you can lower overall cost further by obtaining training for your own nurses to run the procedure. If you're looking to launch a clinic solely to offer PLEX, you'll need to consider all the additional costs.
 
-> **"The upfront costs are substantial and the learning curve is steep — but for practices that get the implementation right, TPE represents a clinical capability very few outpatient programs can offer."**
+> **"The upfront costs are substantial and the learning curve is steep, but for practices that get the implementation right, TPE represents a clinical capability very few outpatient programs can offer."**
 
 ## Staffing Requirements
 
@@ -37,11 +37,11 @@ It is important to obtain sufficient training for all staff. While the procedure
 
 There are several options for training clinical staff, including those offered by established practices or machine manufacturers that provide training on their specific machines. I've personally been very happy with the training and customer service provided by Fresenius Kabi.
 
-> **"The nurse is typically the technical expert. The physician's role is clinical judgment — patient selection, protocol design, and managing the unexpected."**
+> **"The nurse is typically the technical expert. The physician's role is clinical judgment: patient selection, protocol design, and managing the unexpected."**
 
 ## Safety Considerations
 
-Patient safety protocols are crucial. You'll need comprehensive pre-procedure screening protocols, emergency response procedures, and detailed documentation systems. Understanding contraindications is essential — conditions like severe cardiovascular disease, active bleeding, or inadequate vascular access can pose significant risks.
+Patient safety protocols are crucial. You'll need comprehensive pre-procedure screening protocols, emergency response procedures, and detailed documentation systems. Understanding contraindications is essential: conditions like severe cardiovascular disease, active bleeding, or inadequate vascular access can pose significant risks.
 
 ## Patient Selection and Protocols
 

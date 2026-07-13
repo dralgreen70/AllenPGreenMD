@@ -30,7 +30,7 @@ The important distinction is this: aged plasma isn't simply missing the good stu
 
 A 2020 study in *Aging* by Mehdipour and colleagues, co-authored by Dr. Dobri Kiprov, demonstrated this directly. Researchers exposed mouse muscle stem cells to plasma collected from aged human subjects, before and after a single session of therapeutic plasma exchange. Pre-TPE plasma kept the cells dormant. Post-TPE plasma, where those inhibitors had been substantially diluted, produced immediate activation and proliferation.
 
-Same cells. Same conditions. The only variable was the plasma — and its effect was powerful enough to suppress regenerative activity across species lines.
+Same cells. Same conditions. The only variable was the plasma, and its effect was powerful enough to suppress regenerative activity across species lines.
 
 <div class="post-callout-data">
 <div class="post-callout-label">What the Research Showed</div>
@@ -61,7 +61,7 @@ This is where the sequencing argument becomes particularly direct for PRP patien
 
 ---
 
-## Not Just Reducing the Noise — Improving the Signal
+## Not Just Reducing the Noise: Improving the Signal
 
 > **"The question isn't just whether your regenerative therapy is high quality. It's whether the environment it's entering is capable of responding to it."**
 
