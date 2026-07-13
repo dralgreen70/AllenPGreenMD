@@ -103,5 +103,5 @@ Twenty years ago, those Stanford scientists connected two mice and changed our u
 2. Villeda SA, Plambeck KE, Bhakta S, et al. Young blood reverses age-related impairments in cognitive function and synaptic plasticity in mice. Nat Med. 2014;20(6):659–663.
 3. Mehdipour M, Skinner C, Wong N, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. Aging (Albany NY). 2020;12(10):8790–8819.
 4. Boada M, Lopez OL, Olazaran J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's & Dementia. 2020;16:1412–1425.
-5. Kiprov DD, Ergul Y, Navarro M, et al. The use of therapeutic plasma exchange as a potential modality for biological age reversal: A review and case report. Aging. 2022;14(14):5860–5873.
-6. Fuentealba RA, Liu Q, Castillo E, et al. Multi-omics analysis of serial therapeutic plasma exchange in healthy aging adults. Aging Cell. 2025. https://doi.org/10.1111/acel.14388
+5. Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. GeroScience. 2022;44(6):2701–2720. https://doi.org/10.1007/s11357-022-00645-w
+6. Fuentealba M, Kiprov D, Schneider K, et al. Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation in Response to Single-Blinded Randomized Placebo-Controlled Therapeutic Plasma Exchange. Aging Cell. 2025;24(8):e70103. https://doi.org/10.1111/acel.70103

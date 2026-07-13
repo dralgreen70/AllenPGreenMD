@@ -29,16 +29,16 @@ As we age, plasma accumulates proteins that actively suppress the body's ability
 
 The important distinction is this: aged plasma isn't simply missing the good stuff. It is actively carrying molecules that work against regeneration. These aren't the same problem, and they don't have the same solution.
 
-A 2020 study in *Aging* by Mehdipour and colleagues, co-authored by Dr. Dobri Kiprov, demonstrated this directly. Researchers exposed mouse muscle stem cells to plasma collected from aged human subjects, before and after a single session of therapeutic plasma exchange. Pre-TPE plasma kept the cells dormant. Post-TPE plasma, where those inhibitors had been substantially diluted, produced immediate activation and proliferation.
+A 2020 study in *Aging* by Mehdipour and colleagues, co-authored by Dr. Dobri Kiprov, demonstrated this directly. Researchers exposed mouse muscle progenitor cells to serum collected from aged human subjects, before and after a single session of therapeutic plasma exchange. Pre-TPE serum kept the cells dormant. Post-TPE serum, where those inhibitors had been substantially diluted, produced immediate activation and proliferation.
 
 Same cells. Same conditions. The only variable was the plasma, and its effect was powerful enough to suppress regenerative activity across species lines.
 
 <div class="post-callout-data">
 <div class="post-callout-label">What the Research Showed</div>
 <div class="post-callout-stats">
-<div class="post-callout-stat">A 2020 study exposed mouse muscle stem cells to aged human plasma before and after a single session of therapeutic plasma exchange.</div>
-<div class="post-callout-stat"><strong>Pre-TPE plasma:</strong> Cells remained dormant. Inhibitory proteins suppressed regenerative activity across species lines.</div>
-<div class="post-callout-stat"><strong>Post-TPE plasma:</strong> The same cells activated immediately and began to proliferate. Same cells. Same conditions. The only variable was the plasma.</div>
+<div class="post-callout-stat">A 2020 study exposed mouse muscle progenitor cells to aged human serum before and after a single session of therapeutic plasma exchange.</div>
+<div class="post-callout-stat"><strong>Pre-TPE serum:</strong> Cells remained dormant. Inhibitory proteins suppressed regenerative activity across species lines.</div>
+<div class="post-callout-stat"><strong>Post-TPE serum:</strong> The same cells activated immediately and began to proliferate. Same cells. Same conditions. The only variable was the serum.</div>
 </div>
 </div>
 
@@ -74,7 +74,7 @@ A 2022 clinical study in *GeroScience* by Kiprov and colleagues measured this di
 
 > **"TPE doesn't replace regenerative therapy. It creates the conditions under which regenerative therapy has a better chance of working."**
 
-A 2025 review in *Ageing Research Reviews* by Akgun and Kiprov built on this further, describing TPE as a systemic strategy for reducing the accumulated inflammatory signals that make the regenerative environment hostile, and by extension, for creating conditions where regenerative therapies have a better chance of working.
+A 2025 review in *Ageing Research Reviews* by Akgun built on this further, describing TPE as a systemic strategy for reducing the accumulated inflammatory signals that make the regenerative environment hostile, and by extension, for creating conditions where regenerative therapies have a better chance of working.
 
 ---
 
@@ -96,8 +96,8 @@ What we don't yet have is large-scale randomized trial data evaluating TPE speci
 
 ## References
 
-1. Mehdipour M, Etienne J, Chen CC, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. *Aging (Albany NY)*. 2020;12(12):12252–12289. doi:10.18632/aging.103418
+1. Mehdipour M, Skinner C, Wong N, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. *Aging (Albany NY)*. 2020;12(10):8790–8819. doi:10.18632/aging.103418
 
-2. Kiprov D, Herskowitz A, Kim D, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience*. 2022;44(6):2741–2767. doi:10.1007/s11357-022-00645-2
+2. Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience*. 2022;44(6):2701–2720. doi:10.1007/s11357-022-00645-w
 
-3. Akgun Y, Kiprov D. Therapeutic plasma exchange as a strategy to target the senescence-associated secretory phenotype (SASP) and rejuvenate the systemic environment. *Ageing Research Reviews*. 2025;103:102450. doi:10.1016/j.arr.2024.102450
+3. Akgun Y. Apheresis for senescence: Targeting the senescence-associated secretory phenotype to delay aging and age-related diseases. *Ageing Research Reviews*. 2025;111:102832. doi:10.1016/j.arr.2025.102832

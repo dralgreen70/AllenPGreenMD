@@ -94,6 +94,6 @@ If you're evaluating whether TPE is viable for your practice, the affiliate prog
 
 ## References
 
-1. Schwartz J, et al. Guidelines on the use of therapeutic apheresis in clinical practice. J Clin Apher. 2023;38(3):77–278.
-2. Kiprov DD, et al. The use of therapeutic plasma exchange as a modality for the treatment of long COVID. J Clin Apher. 2023.
-3. Boada M, et al. A new mechanism to treat Alzheimer's disease: AMBAR, an albumin replacement therapy. Ann N Y Acad Sci. 2016.
+1. Connelly-Smith L, Alquist CR, Aqui NA, et al. Guidelines on the Use of Therapeutic Apheresis in Clinical Practice - Evidence-Based Approach from the Writing Committee of the American Society for Apheresis: The Ninth Special Issue. J Clin Apher. 2023;38(2):77–278.
+2. Kiprov DD, Herskowitz A, Kim D, et al. Case Report: Therapeutic and immunomodulatory effects of plasmapheresis in long-haul COVID. F1000Res. 2021;10:1189. doi:10.12688/f1000research.74534.2
+3. Boada M, López OL, Olazarán J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's & Dementia. 2020;16(10):1412–1425. doi:10.1002/alz.12137

@@ -90,6 +90,6 @@ Therapeutic plasma exchange is a legitimate medical procedure with a growing evi
 
 2. Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience.* 2022;44(6):2701-2720.
 
-3. Fuentealba M, Fabian DK, Engel J, et al. Plasma exchange with albumin replacement reduces human biological age in a clinical intervention study. *Aging Cell.* 2025.
+3. Fuentealba M, Kiprov D, Schneider K, et al. Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation in Response to Single-Blinded Randomized Placebo-Controlled Therapeutic Plasma Exchange. *Aging Cell.* 2025;24(8):e70103.
 
-4. Taragano FE, Allegri RF, Serrano CM, et al. Therapeutic plasma exchange in Alzheimer's disease: Argentine experience with the AMBAR protocol. *J Alzheimers Dis.* 2025.
+4. Taragano F, Seinhart D, Epstein P, et al. A real-world study on the safety and efficacy of therapeutic plasma exchange in patients with Alzheimer's disease. *J Alzheimers Dis.* 2025;108(1):129-141.

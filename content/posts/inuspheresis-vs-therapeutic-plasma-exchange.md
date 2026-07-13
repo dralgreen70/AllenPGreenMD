@@ -111,5 +111,5 @@ If you are exploring whether TPE might be appropriate for your situation, I am h
 
 1. Conboy IM, et al. Rejuvenation of aged progenitor cells by exposure to a young systemic environment. *Nature*. 2005;433(7027):760-764.
 2. Mehdipour M, et al. Rejuvenation of three germ layer tissues by exchanging old blood plasma with saline-albumin. *Aging*. 2020;12(10):8790-8819.
-3. Kim Y, et al. Therapeutic plasma exchange with albumin replacement in aging. *GeroScience*. 2022.
-4. Fuentealba M, et al. Epigenetic clock analysis following TPE and IVIG administration. *Aging Cell*. 2025.
+3. Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience*. 2022;44(6):2701-2720.
+4. Fuentealba M, Kiprov D, Schneider K, et al. Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation in Response to Single-Blinded Randomized Placebo-Controlled Therapeutic Plasma Exchange. *Aging Cell*. 2025;24(8):e70103.

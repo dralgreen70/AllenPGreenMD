@@ -55,7 +55,7 @@ If you're new to therapeutic plasma exchange, the pages linked above are the bes
 
 ## References
 
-1. Boada M, et al. A new mechanism to treat Alzheimer's disease: AMBAR, an albumin replacement therapy. Ann N Y Acad Sci. 2016.
-2. Mehdipour M, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. Aging (Albany NY). 2020;12(8):8790–8819.
+1. Boada M, López OL, Olazarán J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's & Dementia. 2020;16(10):1412–1425. doi:10.1002/alz.12137
+2. Mehdipour M, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. Aging (Albany NY). 2020;12(10):8790–8819.
 3. Gasiorowski R, Forbes MK, Silver G, et al. Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial. JAMA Netw Open. 2022;5(4):e226257.
-4. Kiprov DD, et al. The use of therapeutic plasma exchange as a modality for the treatment of long COVID. J Clin Apher. 2023.
+4. Kiprov DD, Herskowitz A, Kim D, et al. Case Report: Therapeutic and immunomodulatory effects of plasmapheresis in long-haul COVID. F1000Res. 2021;10:1189. doi:10.12688/f1000research.74534.2

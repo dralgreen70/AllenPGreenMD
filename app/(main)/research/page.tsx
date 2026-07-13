@@ -79,7 +79,7 @@ const publications = [
     journal: "Transfusion and Apheresis Science",
     journalYear: "2023",
     desc: "Reports a novel case highlighting the intersection of hyperhemolysis syndrome in sickle cell disease complicated by concurrent SARS-CoV-2 infection.",
-    link: "https://pubmed.ncbi.nlm.nih.gov/36344377/",
+    link: "https://pubmed.ncbi.nlm.nih.gov/37149492/",
   },
   {
     year: "2022",
@@ -101,11 +101,11 @@ const publications = [
     greenName: "Green A,",
     authorsTail: "et al.",
     title:
-      "Screening of antiviral compounds against SARS-CoV-2 and their subsequent in vitro cytotoxicity evaluation.",
+      "Identification of potential antiviral compounds against SARS-CoV-2 structural and non-structural protein targets: A pharmacoinformatics study of the CAS COVID-19 dataset.",
     journal: "Computers in Biology and Medicine",
     journalYear: "2021",
-    desc: "Computational and in vitro evaluation of antiviral compounds against SARS-CoV-2, contributing to pandemic-era drug screening efforts.",
-    link: undefined,
+    desc: "Machine-learning and molecular-docking pharmacoinformatics screen of the CAS COVID-19 compound dataset to identify candidate SARS-CoV-2 antivirals.",
+    link: "https://pubmed.ncbi.nlm.nih.gov/33895457/",
   },
   {
     year: "2021",
@@ -113,11 +113,11 @@ const publications = [
     greenName: "Green A,",
     authorsTail: "et al.",
     title:
-      "Clinical evaluation of the Abbott Alinity SARS-CoV-2 IgG and IgM assays.",
+      "Clinical evaluation of the Abbott Alinity SARS-CoV-2 spike-specific quantitative IgG and IgM assays among infected, recovered, and vaccinated groups.",
     journal: "Journal of Clinical Microbiology",
     journalYear: "2021",
     desc: "Clinical validation of COVID-19 antibody assays, supporting diagnostic accuracy during the pandemic.",
-    link: undefined,
+    link: "https://pubmed.ncbi.nlm.nih.gov/33827901/",
   },
   {
     year: "2021",
@@ -126,7 +126,7 @@ const publications = [
     authorsTail:
       "Gonzalez A, Alperin J, et al.",
     title:
-      "Therapeutic plasma exchange in hyperviscosity syndrome associated with juvenile rheumatoid arthritis.",
+      "The utility of therapeutic plasma exchange in hyperviscosity syndrome associated with juvenile rheumatoid arthritis: A case report.",
     journal: "Journal of Clinical Apheresis",
     journalYear: "2021",
     desc: "Demonstrates the application of TPE for hyperviscosity syndrome in the context of juvenile rheumatoid arthritis \u2014 directly relevant to the autoimmune applications of apheresis.",
