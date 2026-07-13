@@ -88,9 +88,11 @@ const seriesCards: SeriesCard[] = [
   {
     num: 5,
     label: "Part 5",
-    status: "coming-soon",
+    status: "live",
     title:
       "Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB",
+    href: "/blog/pfas-fertility-fetal-development",
+    thumbnail: "/images/blog/pfas_part5_pfda.jpg",
     summary:
       "The human stakes. Mount Sinai's 2023 preconception cohort and the University of Colorado Anschutz 2026 craniofacial mechanism paper converge on a single PFAS compound as the likely worst actor. What the research says, what it doesn't say, and how to think about it before trying to conceive.",
   },
@@ -232,7 +234,7 @@ export default function PfasSeriesPage() {
               is the new entry point for readers new to the topic. Parts
               2, 3, and 4 were originally published as standalone posts in
               October 2025 and have been updated for the series. Part 5
-              arrives in the coming weeks.
+              completes the series.
             </p>
           </div>
         </div>

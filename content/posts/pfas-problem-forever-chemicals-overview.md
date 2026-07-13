@@ -71,7 +71,7 @@ The four posts that follow go deeper on specific questions that readers with PFA
 
 [**Part 4: The Hidden Risk of Weight Loss**](/blog/hidden-risk-weight-loss-forever-chemicals) covers a clinical scenario that catches many patients by surprise. Persistent organic pollutants stored in fat are mobilized into circulation during weight loss. Fat loss itself is healthy. The pollutants coming out of fat are not, and the intervention window for managing circulating levels is narrow.
 
-**Part 5: Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB** (coming soon) covers the newest and most mechanistically specific evidence. Two independent research groups have converged on PFDA as the single most harmful PFAS compound, from an adult fertility angle and a fetal craniofacial development angle. If you or a partner is thinking about conceiving, this is the post that matters most.
+**[Part 5: Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB](/blog/pfas-fertility-fetal-development)** covers the newest and most mechanistically specific evidence. Two independent research groups have converged on PFDA as the single most harmful PFAS compound, from an adult fertility angle and a fetal craniofacial development angle. If you or a partner is thinking about conceiving, this is the post that matters most.
 
 For a shorter, practice-voice treatment of the same material, the <a href="https://www.globalapheresis.com/blog/pfas-forever-chemicals-plasma-exchange" target="_blank" rel="noopener">companion post on Global Apheresis</a> covers the clinical case with the Gasiorowski RCT as the central evidence.
 

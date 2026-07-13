@@ -166,11 +166,11 @@ If you're dealing with PFAS contamination — whether in Jersey or elsewhere —
 <span class="post-series-title">The Hidden Risk of Weight Loss</span>
 <span class="post-series-desc">Fat loss mobilizes stored persistent pollutants. What to do about it.</span>
 </a>
-<span class="post-series-card coming-soon">
-<span class="post-series-part">Part 5 · Coming Soon</span>
+<a href="/blog/pfas-fertility-fetal-development" class="post-series-card">
+<span class="post-series-part">Part 5</span>
 <span class="post-series-title">Fertility, Fetal Development, and the Conversation You Haven't Had With Your OB</span>
 <span class="post-series-desc">Two research groups, one PFAS compound. The human stakes.</span>
-</span>
+</a>
 </div>
 
 <p class="post-series-nav-footer"><a href="/pfas-series">View the full PFAS Series &rarr;</a></p>
