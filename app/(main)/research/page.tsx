@@ -30,6 +30,31 @@ export const metadata: Metadata = {
 /* ── Peer-Reviewed Publications ── */
 const publications = [
   {
+    year: "2026",
+    authors: "Kiprov DD,",
+    greenName: "Green AP,",
+    authorsTail: "Boyinapalli P.",
+    title:
+      "Technological advances in selective plasma adsorption: The MTx.100 column and the emergence of subtractive precision medicine.",
+    journal: "Transfusion and Apheresis Science",
+    journalYear: "2026;65(4):104484",
+    desc: "Reviews the MTx.100 selective adsorption column as a shift beyond non-selective plasma exchange toward subtractive precision medicine, targeting pathogenic cytokines and protein-bound toxins while sparing protective immunoglobulins, coagulation factors, and albumin.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00116-3/abstract",
+  },
+  {
+    year: "2026",
+    type: "Editorial",
+    authors: "",
+    greenName: "Green A,",
+    authorsTail: "Kiprov D.",
+    title:
+      "Therapeutic apheresis in transition: New indications and the emergence of precision apheresis.",
+    journal: "Transfusion and Apheresis Science",
+    journalYear: "2026;65:104480",
+    desc: "Opening editorial for the guest-edited theme issue, framing the field's shift from non-selective plasma exchange toward precision apheresis and introducing the four contributions that map that transition.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00112-6/abstract",
+  },
+  {
     year: "2024",
     citation:
       'Yates SG, Hofmann SL, Ibrahim IF, Shen YMP, **Green AP**, Sarode R. Tailoring caplacizumab administration using ADAMTS13 activity for immune-mediated thrombotic thrombocytopenic purpura. *Blood Vessels, Thrombosis & Hemostasis.* 2024.',
@@ -106,6 +131,45 @@ const publications = [
     journalYear: "2021",
     desc: "Demonstrates the application of TPE for hyperviscosity syndrome in the context of juvenile rheumatoid arthritis \u2014 directly relevant to the autoimmune applications of apheresis.",
     link: "https://pubmed.ncbi.nlm.nih.gov/33945169/",
+  },
+]
+
+/* ── 2026 Theme Issue (Co-Guest Editor) ── */
+const themeIssue = [
+  {
+    type: "Editorial",
+    title:
+      "Therapeutic apheresis in transition: New indications and the emergence of precision apheresis.",
+    authors: "Green A, Kiprov D.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00112-6/abstract",
+  },
+  {
+    type: "Review",
+    title:
+      "Therapeutic plasma exchange in Alzheimer's disease: From clinical trial to real-world evidence.",
+    authors: "Khatri BO.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00113-8/abstract",
+  },
+  {
+    type: "Review",
+    title:
+      "Therapeutic plasma exchange and immunomodulatory strategies in post-infectious syndromes: A review of immune dysregulation in PTLDS, long COVID, ME/CFS, and PANS/PANDAS.",
+    authors: "Kaplan G.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00114-X/fulltext",
+  },
+  {
+    type: "Review",
+    title:
+      "Lipoprotein apheresis: From familial hypercholesterolemia and elevated lipoprotein(a) to emerging roles in peripheral arterial and renal disease.",
+    authors: "Nadim M, Akgun Y.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00115-1/abstract",
+  },
+  {
+    type: "Review",
+    title:
+      "Technological advances in selective plasma adsorption: The MTx.100 column and the emergence of subtractive precision medicine.",
+    authors: "Kiprov DD, Green AP, Boyinapalli P.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00116-3/abstract",
   },
 ]
 
@@ -251,7 +315,9 @@ export default function ResearchPage() {
 
             {/* Publication count summary */}
             <div className="tpe-hero-badges reveal" style={{ borderTop: "1px solid var(--border)", marginTop: "2.5rem", paddingTop: "2rem", display: "flex", alignItems: "center", gap: "0.6rem", flexWrap: "wrap" }}>
-              <span className="tpe-badge">6 Peer-Reviewed Publications</span>
+              <span className="tpe-badge">8 Publications</span>
+              <span className="tpe-badge-divider">&middot;</span>
+              <span className="tpe-badge">Guest Editor, 2026 Theme Issue</span>
               <span className="tpe-badge-divider">&middot;</span>
               <span className="tpe-badge">3 Conference Abstracts</span>
               <span className="tpe-badge-divider">&middot;</span>
@@ -283,7 +349,9 @@ export default function ResearchPage() {
                 >
                   <div className="research-pub-year">{p.year}</div>
                   <div className="research-pub-body">
-                    <div className="research-pub-type">Journal Article</div>
+                    <div className="research-pub-type">
+                      {"type" in p && p.type ? p.type : "Journal Article"}
+                    </div>
                     <h3 className="research-pub-title">{p.title}</h3>
                     <p className="research-pub-authors">
                       {p.authors}{p.authors ? " " : ""}
@@ -316,6 +384,73 @@ export default function ResearchPage() {
                         </svg>
                       </a>
                     )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== SECTION 2B: EDITORIAL & THEME ISSUE ===== */}
+        <section className="site-section" id="editorial">
+          <div className="site-container">
+            <div className="section-label-line reveal">
+              <span className="label-text">Editorial</span>
+            </div>
+            <h2 className="h-lg reveal" style={{ marginBottom: "1.25rem" }}>
+              Guest-Edited{" "}
+              <span className="serif-italic accent-text">Theme Issue</span>
+            </h2>
+
+            <div
+              className="alz-evidence-intro reveal"
+              style={{ maxWidth: 820, marginBottom: "2.5rem" }}
+            >
+              <p className="body-lg">
+                Dr. Green served as co-guest editor of a 2026 theme issue of{" "}
+                <em>Transfusion and Apheresis Science</em>,{" "}
+                &ldquo;Therapeutic Apheresis: Novel Indications and Emerging
+                Technologies,&rdquo; convened with Dr. Dobri Kiprov. The issue
+                maps the field&apos;s shift from non-selective plasma exchange
+                toward selective, component-targeted apheresis across
+                neurodegeneration, post-infectious immune dysregulation,
+                cardiovascular and renal disease, and emerging column
+                technology. Dr. Green co-authored the opening editorial and a
+                review of selective adsorption technology.
+              </p>
+            </div>
+
+            <div className="research-pub-list">
+              {themeIssue.map((a, i) => (
+                <div
+                  key={i}
+                  className={`research-pub-item research-pub-item--light reveal reveal-d${Math.min((i % 3) + 1, 3)}`}
+                >
+                  <div className="research-pub-body">
+                    <div className="research-pub-type">{a.type}</div>
+                    <h3 className="research-pub-title">{a.title}</h3>
+                    <p className="research-pub-authors">{a.authors}</p>
+                    <a
+                      href={a.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="research-pub-link"
+                    >
+                      View Paper
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M7 17L17 7" />
+                        <path d="M7 7h10v10" />
+                      </svg>
+                    </a>
                   </div>
                 </div>
               ))}
