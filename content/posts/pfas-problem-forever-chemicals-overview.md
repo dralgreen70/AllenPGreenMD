@@ -92,7 +92,7 @@ The clinical conversation I want patients to have with their physicians starts h
 
 3. Hvizdak M, Kandel SE, Lampe JN. New Mechanistic Evidence for Perfluorodecanoic Acid (PFDA) Teratogenicity via CYP26A1-Mediated Retinoic Acid Metabolism and Signaling. *Chemical Research in Toxicology.* 2026. doi:10.1021/acs.chemrestox.5c00468
 
-4. Savage P. Can serial therapeutic plasma exchange remove synthetic chemicals from humans? *Medical Hypotheses.* 2025;198:111630. doi:10.1016/j.mehy.2025.111630
+4. Savage P, Anderson PS, She JX, Smith PW, Hanaway P, Basiorka R. Can serial therapeutic plasma exchange remove synthetic chemicals from humans? *Medical Hypotheses.* 2025;198:111630. doi:10.1016/j.mehy.2025.111630
 
 5. C8 Science Panel. Probable Link Evaluations. C8 Science Panel, 2012. Available at c8sciencepanel.org.
 

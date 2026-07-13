@@ -167,6 +167,6 @@ If you're dealing with unexplained health issues, high environmental exposures, 
 ## References
 
 1. Gasiorowski R, Forbes MK, Silver G, et al. Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia: A Randomized Clinical Trial. JAMA Netw Open. 2022;5(4):e226257. doi:10.1001/jamanetworkopen.2022.6257
-2. Savage P. Can serial therapeutic plasma exchange remove synthetic chemicals from humans? Medical Hypotheses. 2025;198:111630. doi:10.1016/j.mehy.2025.111630
+2. Savage P, Anderson PS, She JX, Smith PW, Hanaway P, Basiorka R. Can serial therapeutic plasma exchange remove synthetic chemicals from humans? Medical Hypotheses. 2025;198:111630. doi:10.1016/j.mehy.2025.111630
 3. Sunderland EM, Hu XC, Dassuncao C, Tokranov AK, Wagner CC, Allen JG. A review of the pathways of human exposure to poly- and perfluoroalkyl substances (PFASs) and present understanding of health effects. J Expo Sci Environ Epidemiol. 2019;29(2):131–147.
 4. Trasande L, Shaffer RM, Sathyanarayana S. Food additives and child health. Pediatrics. 2018;142(2):e20181408.
