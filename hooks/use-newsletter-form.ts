@@ -5,11 +5,16 @@ import { useState } from "react"
 type Status = "idle" | "loading" | "success" | "already-subscribed" | "error"
 
 interface UseNewsletterFormOptions {
-  downloadPdfOnSuccess?: boolean
+  /** Path to a lead-magnet PDF to download on success, or null for no download. */
+  magnetPath?: string | null
+  /** Where this signup happened, e.g. "footer", "sitewide", "blog:slug". */
+  source?: string
 }
 
 export function useNewsletterForm(options: UseNewsletterFormOptions = {}) {
   const [email, setEmail] = useState("")
+  const [name, setName] = useState("")
+  const [hp, setHp] = useState("") // honeypot: must stay empty for humans
   const [status, setStatus] = useState<Status>("idle")
   const [errorMessage, setErrorMessage] = useState("")
 
@@ -29,7 +34,12 @@ export function useNewsletterForm(options: UseNewsletterFormOptions = {}) {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({
+          email,
+          name: name || undefined,
+          source: options.source,
+          hp: hp || undefined,
+        }),
       })
 
       const data = await res.json()
@@ -44,10 +54,10 @@ export function useNewsletterForm(options: UseNewsletterFormOptions = {}) {
         setStatus("already-subscribed")
       } else {
         setStatus("success")
-        if (options.downloadPdfOnSuccess) {
+        if (options.magnetPath) {
           const link = document.createElement("a")
-          link.href = "/downloads/AMBAR_Evidence_Guide.pdf"
-          link.download = "AMBAR_Evidence_Guide.pdf"
+          link.href = options.magnetPath
+          link.download = options.magnetPath.split("/").pop() || "guide.pdf"
           document.body.appendChild(link)
           link.click()
           document.body.removeChild(link)
@@ -59,5 +69,15 @@ export function useNewsletterForm(options: UseNewsletterFormOptions = {}) {
     }
   }
 
-  return { email, setEmail, status, errorMessage, handleSubmit }
+  return {
+    email,
+    setEmail,
+    name,
+    setName,
+    hp,
+    setHp,
+    status,
+    errorMessage,
+    handleSubmit,
+  }
 }

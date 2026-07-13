@@ -3,15 +3,15 @@
 import { useNewsletterForm } from "@/hooks/use-newsletter-form"
 
 export function FooterNewsletter() {
-  const { email, setEmail, status, errorMessage, handleSubmit } =
-    useNewsletterForm({ downloadPdfOnSuccess: false })
+  const { email, setEmail, hp, setHp, status, errorMessage, handleSubmit } =
+    useNewsletterForm({ source: "footer" })
 
   if (status === "success" || status === "already-subscribed") {
     return (
       <p className="footer-newsletter-success">
         {status === "success"
-          ? "Subscribed! Check your email to confirm."
-          : "You\u2019re already subscribed!"}
+          ? "You’re subscribed to the Apheresis Journal."
+          : "You’re already subscribed!"}
       </p>
     )
   }
@@ -19,7 +19,7 @@ export function FooterNewsletter() {
   return (
     <>
       <p className="footer-newsletter-tagline">
-        Evidence-based insights on TPE and longevity &mdash; monthly.
+        Evidence-based insights on TPE and longevity, monthly.
       </p>
       <form onSubmit={handleSubmit} className="footer-newsletter-form">
         <input
@@ -31,6 +31,22 @@ export function FooterNewsletter() {
           required
           disabled={status === "loading"}
           aria-label="Email address"
+        />
+        <input
+          type="text"
+          name="company"
+          value={hp}
+          onChange={(e) => setHp(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            left: "-9999px",
+            width: "1px",
+            height: "1px",
+            opacity: 0,
+          }}
         />
         <button
           type="submit"
