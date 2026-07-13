@@ -186,11 +186,11 @@ const abstracts = [
     year: "2023",
     conference:
       "American Society for Apheresis (ASFA) Annual Meeting, Minneapolis, MN",
-    type: "Poster Presentation",
+    type: "Poster Abstract (Co-Author)",
     title:
       "Response to therapeutic plasma exchange in two patients with systemic sclerosis",
     authors: "Webb CB, Green A, Wodajo A, et al.",
-    desc: "Poster examining TPE outcomes in systemic sclerosis patients \u2014 contributing to the evidence base for apheresis in autoimmune fibrotic conditions.",
+    desc: "Co-authored abstract examining TPE outcomes in systemic sclerosis patients \u2014 contributing to the evidence base for apheresis in autoimmune fibrotic conditions.",
   },
   {
     year: "2022",
@@ -217,10 +217,10 @@ const presentations = [
     year: "2024",
     venue:
       "UT Southwestern Medical Center, Department of Pathology \u2014 Update in Pathophysiology lecture series",
-    type: "Invited Lecture",
+    type: "Oral Presentation",
     title:
       "Therapeutic Plasma Exchange: A Deep Dive into Mechanisms and Therapeutic Potential",
-    desc: "Comprehensive invited lecture covering the mechanistic basis of TPE and its expanding therapeutic applications \u2014 delivered to the department where Dr. Green completed his residency training.",
+    desc: "Presentation covering the mechanistic basis of TPE and its expanding therapeutic applications, delivered to the department where Dr. Green completed his residency training.",
   },
 ]
 
@@ -321,7 +321,7 @@ export default function ResearchPage() {
               <span className="tpe-badge-divider">&middot;</span>
               <span className="tpe-badge">3 Conference Abstracts</span>
               <span className="tpe-badge-divider">&middot;</span>
-              <span className="tpe-badge">2 Invited Presentations</span>
+              <span className="tpe-badge">2 Oral Presentations</span>
             </div>
           </div>
         </section>
@@ -424,7 +424,7 @@ export default function ResearchPage() {
               {themeIssue.map((a, i) => (
                 <div
                   key={i}
-                  className={`research-pub-item research-pub-item--light reveal reveal-d${Math.min((i % 3) + 1, 3)}`}
+                  className={`research-pub-item research-pub-item--light research-pub-item--noyear reveal reveal-d${Math.min((i % 3) + 1, 3)}`}
                 >
                   <div className="research-pub-body">
                     <div className="research-pub-type">{a.type}</div>
@@ -504,7 +504,7 @@ export default function ResearchPage() {
               <span className="label-text">Presentations</span>
             </div>
             <h2 className="h-lg reveal" style={{ marginBottom: "2rem" }}>
-              Invited Lectures &amp; Oral{" "}
+              Oral{" "}
               <span className="serif-italic accent-text">Presentations</span>
             </h2>
 

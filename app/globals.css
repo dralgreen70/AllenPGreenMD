@@ -517,6 +517,7 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .research-pub-item { display: grid; grid-template-columns: 80px 1fr; gap: 1.5rem; padding: 2rem 0; border-bottom: 1px solid var(--border); }
 .research-pub-item:first-child { padding-top: 0; }
 .research-pub-item:last-child { border-bottom: none; }
+.research-pub-item--noyear { grid-template-columns: 1fr; }
 .research-pub-item--light .research-pub-year { background: transparent; color: var(--accent); }
 .research-pub-year { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; color: var(--accent); padding-top: 0.2rem; }
 .research-pub-body { display: flex; flex-direction: column; gap: 0.3rem; }
