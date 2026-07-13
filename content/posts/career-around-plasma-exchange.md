@@ -8,6 +8,7 @@ excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov
 description: "How following the science of aging in blood led me to Global Apheresis -- and why I chose to treat patients rather than wait for academia to catch up."
 image: "/images/dobri-and-i-ga.jpg"
 tags: "personal, tpe"
+keywords: "therapeutic plasma exchange, dobri kiprov, global apheresis, transfusion medicine, therapeutic apheresis, parabiosis research"
 ---
 
 I have notebooks from medical school with the words "It's in the blood" written in them.

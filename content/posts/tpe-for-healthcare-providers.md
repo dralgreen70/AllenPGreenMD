@@ -7,6 +7,7 @@ excerpt: "What it actually takes to bring therapeutic plasma exchange into an ou
 description: "A clinical guide to offering TPE in your practice: equipment requirements, staffing, reimbursement, and lessons from clinics already running the procedure."
 image: "/images/blog/GA_clinic.jpg"
 tags: "clinical, tpe"
+keywords: "therapeutic plasma exchange, apheresis, outpatient clinic implementation, tpe equipment costs, clinical staffing, patient selection, procedure reimbursement"
 ---
 
 Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available, and one of the most operationally demanding. This guide covers what the decision actually involves.

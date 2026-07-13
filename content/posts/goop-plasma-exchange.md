@@ -8,6 +8,7 @@ excerpt: "Gwyneth Paltrow's recent piece on therapeutic plasma exchange put a le
 description: "The Goop feature on TPE reached millions of readers. A physician who has supervised 500+ procedures provides the clinical context you need before you book."
 image: "/images/blog/GA_clinic.jpg"
 tags: "tpe, longevity"
+keywords: "therapeutic plasma exchange, goop, gwyneth paltrow, environmental toxins, albumin replacement, biological age, longevity medicine"
 ---
 
 When Gwyneth Paltrow writes about a medical procedure, search engines notice. So do patients. And in this case, that's not a bad thing.

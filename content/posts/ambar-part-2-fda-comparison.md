@@ -7,6 +7,7 @@ excerpt: "In Part 1, we explored the AMBAR study design and clinical results. No
 description: "Independent validation from Argentina and how plasma exchange compares to FDA-approved monoclonal antibodies for Alzheimer's. AMBAR Part 2."
 image: "/images/blog/AMBAR_Part2.jpg"
 tags: "ambar, alzheimers, research"
+keywords: "therapeutic plasma exchange, alzheimer's disease, csf biomarkers, monoclonal antibodies, lecanemab, aria risk"
 ---
 
 ## Previously in Part 1

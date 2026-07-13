@@ -9,6 +9,7 @@ description: 'Inuspheresis is not available in the US. Here is how it compares t
 image: "/images/blog/optia.jpg"
 imageAlt: 'The Spectra Optia apheresis system at Global Apheresis in Mill Valley, California'
 tags: "tpe, longevity"
+keywords: "inuspheresis, double filtration plasmapheresis, therapeutic plasma exchange, selective filtration, albumin replacement, neutral blood exchange, biological aging"
 ---
 
 If you've been researching apheresis therapy online, you've probably encountered the term "inuspheresis." It comes up frequently in patient forums and longevity circles, particularly among people exploring options for Long COVID, autoimmune conditions, and biological aging. I get asked about it regularly.

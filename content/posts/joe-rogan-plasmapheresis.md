@@ -8,6 +8,7 @@ description: "A physician who performs TPE weekly answers the questions Joe Roga
 image: "/images/blog/me-receiving-plex.webp"
 imageAlt: "Dr. Allen Green receiving therapeutic plasma exchange at Global Apheresis"
 tags: "tpe, plasmapheresis, longevity, detoxification"
+keywords: "plasmapheresis, therapeutic plasma exchange, joe rogan, albumin replacement, apheresis safety, pfas removal, biological aging"
 ---
 
 Joe Rogan recently posted about receiving plasmapheresis at a clinic in Texas, holding up bags of his removed plasma and describing the procedure as "changing the oil in your body."

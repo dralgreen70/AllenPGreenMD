@@ -7,6 +7,7 @@ excerpt: "The finding that changed how we think about what plasma exchange is ac
 image: "/images/blog/AMBAR_Part_3.jpg"
 description: "AMBAR patients improved regardless of amyloid plaque levels, suggesting plasma exchange works by removing harmful blood factors, not just clearing amyloid."
 tags: "ambar, alzheimers, research"
+keywords: "amyloid-negative alzheimer's, therapeutic plasma exchange, mechanism of action, monoclonal antibodies, off-label treatment, neurodegeneration"
 ---
 
 ## Previously in Parts 1 and 2

@@ -7,6 +7,7 @@ author: "Dr. Allen P. Green"
 excerpt: "How therapeutic plasma exchange directly removes PFAS, heavy metals, and synthetic chemicals that conventional detox approaches cannot reach."
 image: "/images/blog/tpe_detox.jpg"
 tags: "pfas, detox"
+keywords: "therapeutic plasma exchange detoxification, protein-bound environmental toxins, heavy metal removal, glyphosate and phthalate reduction, serial plasma exchange protocol, firefighter pfas trial"
 ---
 
 Modern life exposes us to an unprecedented toxic burden. From [PFAS](/tpe-detox) "forever chemicals" in our water supply to microplastics in our food, heavy metals in our air, and industrial compounds in everyday products, our bodies accumulate harmful substances faster than our natural detoxification systems can eliminate them.

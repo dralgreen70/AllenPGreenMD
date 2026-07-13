@@ -9,6 +9,7 @@ author: "Dr. Allen P. Green"
 image: "/images/blog/albumin.jpg"
 imageAlt: "Albuked 5 albumin (human) 5% USP bottle and packaging used as replacement fluid during therapeutic plasma exchange"
 readTime: "5 min read"
+keywords: "albumin safety, therapeutic plasma exchange, replacement fluid, cold ethanol fractionation, pasteurization, plasma-derived product, viral inactivation"
 ---
 
 One of the most common questions I receive from patients concerns the 5% albumin we use as a replacement fluid during therapeutic plasma exchange. Being a human-derived product raises several questions for people. They want to know where it comes from, how it's processed, and whether it carries any risk of infectious disease. Some ask specifically about spike protein or vaccine-related contaminants.

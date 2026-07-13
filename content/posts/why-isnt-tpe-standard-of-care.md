@@ -7,6 +7,7 @@ excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's
 description: "52–71% effect sizes, a fraction of the side effects of FDA-approved drugs, and most neurologists have never heard of it. Seven reasons TPE isn't mainstream."
 image: "/images/blog/why-tpe-not-standard.jpg"
 tags: "ambar, alzheimers"
+keywords: "therapeutic plasma exchange, ambar trial, alzheimer's disease, lecanemab, donanemab, standard of care, off-label treatment"
 ---
 
 A patient asked me this question last week, and it's the right question to ask. The [AMBAR trial](/blog/ambar-study-part-1) demonstrated that plasma exchange with albumin replacement slowed Alzheimer's progression by [52–71% across multiple outcome measures](/blog/ambar-study-part-3), effect sizes larger than lecanemab or donanemab, with essentially zero risk of brain swelling. Those results were [independently replicated](/blog/ambar-part-2-fda-comparison) in a 2025 real-world study from Argentina. So why isn't this conversation happening in every neurology office in the country?

@@ -7,6 +7,7 @@ author: "Dr. Allen P. Green"
 excerpt: "How two decades of parabiosis research led to a medical procedure that can reduce biological age — and what it means for the future of medicine."
 image: "/images/blog/blood_revolution.webp"
 tags: "research, longevity"
+keywords: "parabiosis, therapeutic plasma exchange, blood plasma dilution, biological age reversal, aging factors, neutral blood exchange"
 ---
 
 In 2005, a team of scientists at Stanford performed an experiment that sounds like science fiction. They surgically connected a young mouse to an old mouse, allowing them to share the same bloodstream. What happened next would change everything we thought we knew about aging.

@@ -8,6 +8,7 @@ excerpt: "Beyond biological clocks and blood panels — a physician's guide to t
 description: "Beyond biological clocks and blood panels -- a physician's guide to tracking what plasma exchange actually changes in your body."
 image: "/images/blog/The_biomarker_question.webp"
 tags: "research, biomarkers"
+keywords: "therapeutic plasma exchange, biological aging clocks, longevity biomarkers, proteome remodeling, pfas removal, clinical outcomes"
 ---
 
 ## Introduction: The Question Everyone Asks

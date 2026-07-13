@@ -7,6 +7,7 @@ excerpt: "The AMBAR trial showed effect sizes of 52–71% in slowing Alzheimer's
 description: "The AMBAR trial showed 52-71% slowing of Alzheimer's progression -- and most neurologists have never heard of it. Here's what the data actually shows."
 image: "/images/blog/Ambar_part_1.jpg"
 tags: "ambar, alzheimers, research"
+keywords: "ambar study, plasma exchange, albumin replacement, alzheimer's disease, adas-cog, cdr-sum of boxes"
 ---
 
 ## Introduction
