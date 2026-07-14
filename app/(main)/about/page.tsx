@@ -526,7 +526,7 @@ export default function AboutPage() {
             </h2>
             <div className="research-summary reveal">
               <p className="body-lg">
-                Dr. Green has authored six peer-reviewed publications in journals
+                Dr. Green has authored eight peer-reviewed publications in journals
                 including the Journal of Clinical Apheresis, Annals of
                 Hematology, Transfusion and Apheresis Science, and Blood
                 Vessels, Thrombosis &amp; Hemostasis. His research spans{" "}
