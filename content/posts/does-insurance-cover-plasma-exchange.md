@@ -13,12 +13,7 @@ keywords: "therapeutic plasma exchange, insurance coverage, medical necessity, a
 
 It is one of the first questions patients ask me, and it deserves a straight answer: does insurance cover [therapeutic plasma exchange](/tpe) (TPE)? The honest reply is that it depends, mostly on why you need it, what kind of plan you have, and where you are treated. For some conditions, coverage is routine. For others, it takes good documentation and some persistence. And at most outpatient apheresis centers, including the one I work with, the billing itself works differently than you might expect. Here is how I walk patients through all of it.
 
-## The short version
-
-- **Usually covered:** when TPE is an accepted treatment for your diagnosis and your physician documents that it is medically necessary.
-- **Case by case:** conditions where the evidence is still developing. Approval is possible but not automatic, and sometimes only partial.
-- **Generally not covered:** elective, wellness, or longevity use.
-- **A separate question entirely:** how you are billed, which depends on whether your center is in-network or cash-pay.
+**In short:** insurance usually covers therapeutic plasma exchange (TPE) when it treats an accepted medical diagnosis and your physician documents it as medically necessary. Coverage is routine for well-established (ASFA Category I and II) conditions, case by case for Category III, and essentially never for elective, wellness, or longevity use.
 
 ## How insurers actually decide: medical necessity and the ASFA categories
 
