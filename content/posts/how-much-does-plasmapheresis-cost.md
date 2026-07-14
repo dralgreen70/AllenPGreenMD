@@ -15,11 +15,13 @@ Fair questions. Plasmapheresis, more precisely called [therapeutic plasma exchan
 
 So here's the straightforward breakdown I'd want if I were in your position.
 
+**In short:** a single therapeutic plasma exchange (TPE) session in the U.S. typically costs **$6,000 to $15,000**. The price depends on how much albumin is used, the level of physician oversight, geography, and whether lab work is included. TPE for longevity or detoxification is rarely covered by insurance, so most patients pay out of pocket.
+
 ## What TPE Actually Costs
 
-A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. currently runs between **$6,000 and $15,000**, depending on where you go, what's included, and who's overseeing the procedure.
+A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. runs between **$6,000 and $15,000**. It is tempting to read the high end as better care, but in this space price and quality do not reliably track together. The machine and the disposables are much the same everywhere, and a good part of what separates a $6,000 clinic from a $15,000 one is non-clinical: expensive real estate, a premium brand, and what a clinic assumes its patients are willing to pay. What actually determines the quality of your treatment is clinical, and none of it depends on being at the top of the range: whether the physician accountable for your care is genuinely experienced in apheresis, and whether you receive a full albumin exchange rather than a trimmed-down one. A well-run program delivers both, and can do it at the lower end of the price range.
 
-That range is wide, and it should make you ask questions. The core procedure is largely the same across clinics: your blood goes through an apheresis machine, your plasma is separated and replaced with albumin, and your blood cells are returned. The equipment is similar. The consumables are similar. So when one clinic charges two or three times what another charges for the same procedure, it's worth understanding exactly what you're paying extra for, and whether the answer is clinical or just cosmetic.
+That range is wide, and it should make you ask questions. The core procedure is largely the same across clinics: your blood goes through an apheresis machine, your plasma is separated and replaced with albumin, and your blood cells are returned. What you are really paying for sits around that procedure, not in it.
 
 ## What You're Actually Paying For
 
@@ -27,7 +29,7 @@ That range is wide, and it should make you ask questions. The core procedure is 
 
 **Albumin.** When your plasma is removed, the albumin in it has to be replaced to maintain oncotic pressure, which is what keeps fluid in your blood vessels and supports stable blood pressure. The volume of replacement albumin used directly affects the clinical value of the procedure and the cost. Some clinics use less albumin to reduce expenses. That matters.
 
-**Physician oversight.** TPE is performed by a trained nurse or technician at every clinic. The real question is what kind of physician oversight exists around that procedure. At some clinics, the physician on call has no specific training in apheresis at all. At others, a physician is available by phone but isn't on site. At a smaller number of clinics, a physician experienced in apheresis medicine is actually present in the clinic during your procedure. If something needs to be adjusted mid-procedure, whether it's flow rates or managing a citrate reaction, you want a physician who has managed it before and who is in the building. These are meaningfully different levels of care.
+**Physician oversight.** The procedure itself is run by a trained nurse or technician, and they are the first line of your care: a skilled apheresis nurse is every bit as important to a safe treatment as the physician. What differs between clinics is the depth of apheresis expertise backing that nurse up. At some clinics, the covering physician has no specific training in apheresis at all. At others, an apheresis-experienced physician is directly accountable for your procedure, whether at the bedside or immediately reachable in real time. That backing matters most when something has to be adjusted mid-procedure, like flow rates or a citrate reaction: you want a team that has managed it before, and a physician genuinely available the moment it happens rather than a name on the schedule. These are meaningfully different levels of care.
 
 > *"The question isn't just what TPE costs. It's what you're getting for that cost, and who's in the room when your blood is outside your body."*
 
@@ -60,7 +62,7 @@ If your primary interest is TPE for longevity, cognitive health, or [detoxificat
 
 ## Pricing at Global Apheresis
 
-At Global Apheresis in Mill Valley, California, a single TPE session is **$8,000**. Because TPE is most effective as a series of treatments rather than a one-off session, we also offer multi-session protocols with per-session pricing starting as low as **$6,000** depending on the treatment plan.
+At Global Apheresis in Mill Valley, California, a single TPE session is **$8,000**. Because TPE is most effective as a series of treatments rather than a one-off session, we also offer multi-session protocols with per-session pricing as low as **$6,000** depending on the treatment plan.
 
 That includes the procedure itself and physician supervision by a team that has collectively overseen more than 15,000 TPE treatments. Lab work is billed separately so patients only pay for the panels that are clinically relevant to their situation.
 
