@@ -15,11 +15,11 @@ Fair questions. Plasmapheresis, more precisely called [therapeutic plasma exchan
 
 So here's the straightforward breakdown I'd want if I were in your position.
 
-**In short:** a single therapeutic plasma exchange (TPE) session in the U.S. typically costs **$6,000 to $15,000**. The price depends on how much albumin is used, the level of physician oversight, geography, and whether lab work is included. TPE for longevity or detoxification is rarely covered by insurance, so most patients pay out of pocket.
+**In short:** a single therapeutic plasma exchange (TPE) session in the U.S. typically costs **$6,000 to $15,000**. The price depends on the level of physician oversight, geography, and whether lab work is included. TPE for longevity or detoxification is rarely covered by insurance, so most patients pay out of pocket.
 
 ## What TPE Actually Costs
 
-A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. runs between **$6,000 and $15,000**. It is tempting to read the high end as better care, but in this space price and quality do not reliably track together. The machine and the disposables are much the same everywhere, and a good part of what separates a $6,000 clinic from a $15,000 one is non-clinical: expensive real estate, a premium brand, and what a clinic assumes its patients are willing to pay. What actually determines the quality of your treatment is clinical, and none of it depends on being at the top of the range: whether the physician accountable for your care is genuinely experienced in apheresis, and whether you receive a full albumin exchange rather than a trimmed-down one. A well-run program delivers both, and can do it at the lower end of the price range.
+A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. runs between **$6,000 and $15,000**. It is tempting to read the high end as better care, but in this space price and quality do not reliably track together. The machine and the disposables are much the same everywhere, and a good part of what separates a $6,000 clinic from a $15,000 one is non-clinical: overhead, real estate, and how much a clinic bundles into the price. What actually determines the quality of your treatment is clinical, and it does not depend on being at the top of the range: above all, whether the physician accountable for your care has genuine depth in apheresis, someone who has personally run many of these procedures. That kind of expertise is available at the lower end of the price range.
 
 That range is wide, and it should make you ask questions. The core procedure is largely the same across clinics: your blood goes through an apheresis machine, your plasma is separated and replaced with albumin, and your blood cells are returned. What you are really paying for sits around that procedure, not in it.
 
@@ -27,7 +27,7 @@ That range is wide, and it should make you ask questions. The core procedure is 
 
 **The apheresis machine and disposables.** TPE requires a medical-grade apheresis device, the same class of machine used in hospital blood banks and transplant centers. The tubing kits, filters, and collection sets are single-use and must be replaced for every patient.
 
-**Albumin.** When your plasma is removed, the albumin in it has to be replaced to maintain oncotic pressure, which is what keeps fluid in your blood vessels and supports stable blood pressure. The volume of replacement albumin used directly affects the clinical value of the procedure and the cost. Some clinics use less albumin to reduce expenses. That matters.
+**Albumin.** When your plasma is removed, the albumin in it has to be replaced to maintain oncotic pressure, which is what keeps fluid in your blood vessels and supports stable blood pressure. It is a real, per-session consumable, and a genuine part of what each session costs.
 
 **Physician oversight.** The procedure itself is run by a trained nurse or technician, and they are the first line of your care: a skilled apheresis nurse is every bit as important to a safe treatment as the physician. What differs between clinics is the depth of apheresis expertise backing that nurse up. At some clinics, the covering physician has no specific training in apheresis at all. At others, an apheresis-experienced physician is directly accountable for your procedure, whether at the bedside or immediately reachable in real time. That backing matters most when something has to be adjusted mid-procedure, like flow rates or a citrate reaction: you want a team that has managed it before, and a physician genuinely available the moment it happens rather than a name on the schedule. These are meaningfully different levels of care.
 
@@ -41,7 +41,7 @@ That range is wide, and it should make you ask questions. The core procedure is 
 
 **Geography.** A clinic in Manhattan or Beverly Hills has different overhead than one in Nashville or Mill Valley. This is real, but it only explains part of the spread.
 
-**Physician credentials.** TPE is a blood-based medical procedure. It was developed in transfusion medicine and clinical pathology, not wellness or functional medicine. A clinic where the supervising physician is board-certified in a blood-related specialty and has performed hundreds or thousands of apheresis procedures is offering something different than one where TPE was recently added to an existing menu of IV drips and peptide therapies.
+**Physician credentials.** TPE is a blood-based medical procedure, developed in transfusion medicine and clinical pathology. A supervising physician who is board-certified in a blood-related specialty and has personally performed hundreds or thousands of apheresis procedures brings a depth of experience that directly shapes the safety and quality of your treatment, and that experience is worth weighing when you compare programs.
 
 **Protocol design.** A maintenance exchange for a healthy longevity patient is a different undertaking than a multi-session intensive protocol for someone with an autoimmune condition or elevated toxic burden. Clinics that tailor protocols to each patient are doing more complex work than those running the same session for everyone.
 
