@@ -19,6 +19,8 @@ Before I take it apart, I want to be clear about something. The people who look 
 
 I perform therapeutic plasma exchange (TPE) for a living, and extracorporeal therapies, treatments that run your blood through a machine outside the body and return it, are my area of expertise. EBOO is one of them. Of all the claims made for EBOO, the word filtration is the one that does not survive contact with the actual machine. Once you understand how the device is plumbed, the rest of the story follows. So let me walk through exactly what it is.
 
+**In short:** no. Despite the marketing, EBOO is not blood filtration. It runs a hemodialysis cartridge backwards with no dialysate, so its membrane holds back everything from albumin upward: antibodies, lipoproteins, heavy metals, and microplastics all return to you. What it actually does is ozonate your blood, an oxidizing process, not remove toxins.
+
 ## What EBOO actually is
 
 The heart of an EBOO rig is a standard hollow-fiber hemodialyzer, usually a cellulose triacetate (CTA) cartridge bought off the shelf, mounted on a pole and driven by a general-purpose laboratory peristaltic pump. Blood is drawn from one arm and returned to the other.
