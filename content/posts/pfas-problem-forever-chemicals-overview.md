@@ -1,6 +1,6 @@
 ---
 title: 'The PFAS Problem: What Forever Chemicals Are, Why They Persist, and What We Can Actually Do About Them'
-metaTitle: "The PFAS Problem"
+metaTitle: "The PFAS Problem: What Forever Chemicals Are"
 date: "2026-04-20"
 author: "Dr. Allen P. Green"
 excerpt: "An overview of PFAS forever chemicals for readers new to the topic. What they are, why they persist, what the evidence of harm shows, and the honest intervention landscape in 2026."

@@ -528,8 +528,9 @@ export default function AboutPage() {
               <p className="body-lg">
                 Dr. Green has authored eight peer-reviewed publications in journals
                 including the Journal of Clinical Apheresis, Annals of
-                Hematology, Transfusion and Apheresis Science, and Blood
-                Vessels, Thrombosis &amp; Hemostasis. His research spans{" "}
+                Hematology, Transfusion and Apheresis Science, Computers in
+                Biology and Medicine, the Journal of Clinical Microbiology, and
+                Blood Vessels, Thrombosis &amp; Hemostasis. His research spans{" "}
                 <Link href="/tpe" style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                   therapeutic plasma exchange
                 </Link>{" "}
