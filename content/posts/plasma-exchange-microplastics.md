@@ -19,6 +19,8 @@ A new study in the [*Journal of Clinical Apheresis*](https://doi.org/10.1002/jca
 
 Let me walk through what the study found, why it matters, and what I'm changing in my own practice as a result.
 
+**In short:** yes. A new study in the Journal of Clinical Apheresis found that a single therapeutic plasma exchange cut circulating microplastics by roughly 60% in patients who started with a high burden, the first evidence these particles can be deliberately removed from the body. Patients with very low starting levels saw no drop.
+
 ## What plasma exchange is, briefly
 
 TPE is a mechanical procedure, not a drug. A machine separates the plasma (the liquid part of your blood that carries dissolved proteins, hormones, and, it turns out, a lot of unwanted passengers) from your blood cells. That plasma is discarded and replaced with clean medical-grade albumin, and your cells are returned to you. We have used it in hospitals for decades to treat serious autoimmune and neurological diseases by physically removing the harmful antibodies and inflammatory molecules driving them.

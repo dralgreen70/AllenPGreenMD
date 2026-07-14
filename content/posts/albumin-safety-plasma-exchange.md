@@ -18,6 +18,8 @@ These are reasonable questions. Here is what you need to know.
 
 While albumin is human-derived, it is processed and manufactured in such a way that we tend to think of it more as a pharmaceutical product than a blood product. By the time it reaches your IV line, it has been through a transformation that is unrecognizable from the original donation.
 
+**In short:** yes. The 5% albumin used in plasma exchange is considered very safe. It comes from screened, tested donor plasma and is then purified through cold ethanol fractionation, ion-exchange chromatography, terminal pasteurization, and nanofiltration, redundant steps that each remove pathogens. Every FDA-licensed lot is tested before release.
+
 ## Where Albumin Comes From
 
 Most albumin is derived from donor plasma collected in the United States, which is the world's largest source of plasma.
