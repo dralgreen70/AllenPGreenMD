@@ -62,6 +62,16 @@ TPE does not have this problem. It removes plasma comprehensively. Whatever is p
 
 > "A selective filter can only remove what it is designed to catch. TPE removes plasma comprehensively. The therapeutic benefit does not depend on our current understanding of which molecules are responsible."
 
+## What Passes Back Through the Filter
+
+A selective filter has a floor, and that floor is albumin. Everything albumin-sized or smaller passes back to the patient, and so does anything bound to albumin, whatever its size. Two groups of molecules you would most want to clear fall into exactly that gap.
+
+The first is the small inflammatory signals. The soluble cytokines that sustain chronic, low-grade inflammation, TNF-alpha, IL-6, IL-1beta, and IL-8, are all smaller than albumin. Inuspheresis removes the large immune components, the autoantibodies and immune complexes, but these small messengers slip below the cutoff and return with the albumin. The line is not even clean among the antibodies: IgM is large and comes out efficiently, but IgG, though still larger than albumin, sits closer to the fractionator's cutoff and is cleared far less completely, so a portion of pathogenic IgG autoantibodies can be left behind. Therapeutic plasma exchange draws off the plasma whole and makes none of these distinctions.
+
+The second group is anything that travels bound to albumin. Preserving albumin is the entire design goal of DFPP, so any toxin riding on that albumin is preserved along with it. The clearest example is PFAS, the "forever chemicals," which are small and bind tightly to albumin: an apheresis built to return your albumin returns your PFAS with it. The same holds for other albumin-bound environmental compounds and protein-bound metabolic toxins.
+
+This is not to say selective filtration removes nothing. It efficiently clears the large fraction it is tuned for, including LDL, fibrinogen, immune complexes, and even large particulates such as microplastics. The point is narrower: its selectivity is built around sparing albumin, and in sparing albumin it spares an entire class of things you would want gone. TPE has no floor and no albumin to protect. It removes the plasma comprehensively and returns fresh albumin in its place.
+
 ## Albumin Replacement Is Therapeutic, Not Just Functional
 
 DFPP's preservation of the patient's own albumin is frequently presented as an advantage over TPE. The picture is more nuanced than that.
@@ -89,6 +99,7 @@ This is a point I find myself making often in consultations. Patients hear "you 
 <tr><td>Replacement fluid</td><td>Yes, therapeutic albumin</td><td>Generally not required</td></tr>
 <tr><td>Albumin returned</td><td>Fresh, functional</td><td>Patient's own (potentially modified)</td></tr>
 <tr><td>Unknown pathogens removed</td><td>Yes</td><td>Not reliably</td></tr>
+<tr><td>Albumin-bound toxins (e.g., PFAS)</td><td>Removed</td><td>Returned with albumin</td></tr>
 <tr><td>US availability</td><td>Yes, FDA-cleared</td><td>Not currently available</td></tr>
 <tr><td>Research base</td><td>Extensive, decades of published data</td><td>Limited, primarily European</td></tr>
 <tr><td>Aging/longevity evidence</td><td><em>Aging</em> 2020, <em>GeroScience</em> 2022, <em>Aging Cell</em> 2025</td><td>Not established</td></tr>
