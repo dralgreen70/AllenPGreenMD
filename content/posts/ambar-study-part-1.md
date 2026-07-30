@@ -114,7 +114,7 @@ The ADCS-ADL is a 23-item questionnaire scored 0–78, with higher scores indica
 
 **2. ADAS-Cog (Alzheimer's Disease Assessment Scale, Cognitive Subscale)**
 
-The ADAS-Cog is an 11-item test administered directly to patients, scored 0–70 with higher scores indicating worse cognition. It assesses memory, language, orientation, and praxis, and has been the gold-standard cognitive endpoint in Alzheimer's trials for decades.
+The ADAS-Cog is a standardized cognitive test administered directly to patients, where higher scores indicate worse cognition. It assesses memory, language, orientation, and praxis, and has been the gold-standard cognitive endpoint in Alzheimer's trials for decades.
 
 Secondary endpoints included:
 
@@ -256,7 +256,7 @@ The fact that this global clinical assessment showed such strong effects (p<0.00
 
 ## The Subgroup Analysis: Disease Severity Matters
 
-The treatment worked differently in mild vs. moderate Alzheimer's: moderate patients showed 61% less decline across all measures, while mild patients actually improved on some tests.
+The treatment worked differently in mild vs. moderate Alzheimer's: moderate patients showed roughly 50–71% less decline across measures (61% on the co-primary endpoints), while mild patients actually improved on some tests.
 
 One of the most important findings from AMBAR came from pre-specified subgroup analyses based on baseline disease severity. Patients were divided into two groups based on their baseline MMSE scores:
 

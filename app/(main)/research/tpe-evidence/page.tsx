@@ -139,7 +139,7 @@ const papers = [
     authors: "Kim, Kiprov et al.",
     journal: "GeroScience",
     summary:
-      "The first clinical study demonstrating that TPE reduces human biological age. Repeated TPE treatments (5+ sessions) in older adults decreased biological age by 1\u20132 years as measured by epigenetic clocks and proteomic markers. The study defined \u201Cbiological noise\u201D (deregulation of key protein biomarkers — as a metric of aging). TPE restored youthful immune profiles, reduced cellular senescence and DNA damage markers, and normalized key signaling pathways (JAK-STAT, MAPK, TGF-beta, NF-\u03BAB), with TLR4 identified as a nodal point of molecular rejuvenation.",
+      "The first clinical study demonstrating that TPE reduces human biological age, measured through a novel panel of protein biomarkers rather than epigenetic clocks. The study defined \u201Cbiological noise\u201D (deregulation of key protein biomarkers — as a metric of aging). TPE restored youthful immune profiles, reduced cellular senescence and DNA damage markers, and normalized key signaling pathways (JAK-STAT, MAPK, TGF-beta, NF-\u03BAB), with TLR4 identified as a nodal point of molecular rejuvenation.",
   },
   {
     number: 11,
@@ -150,7 +150,7 @@ const papers = [
     authors: "Fuentealba, Kiprov et al.",
     journal: "Aging Cell",
     summary:
-      "This comprehensive multi-omics clinical trial compared different TPE regimens across 30 participants. Biweekly TPE supplemented with IVIG produced the strongest biological age rejuvenation, decreasing biological age by 2.61 years after 3 sessions. The intervention reversed immune aging, reduced senescence-associated proteins, and improved multiple molecular profiles across epigenomics, proteomics, metabolomics, cytomics, and glycomics. Baseline health status predicted response magnitude, with individuals in poorer health showing the greatest benefit.",
+      "This comprehensive multi-omics clinical trial compared different TPE regimens across 42 participants over age 50. Biweekly TPE supplemented with IVIG produced the strongest biological age rejuvenation, decreasing biological age by 2.61 years after 3 sessions. The intervention reversed immune aging, reduced senescence-associated proteins, and improved multiple molecular profiles across epigenomics, proteomics, metabolomics, cytomics, and glycomics. Baseline health status predicted response magnitude, with individuals in poorer health showing the greatest benefit.",
   },
   {
     number: 12,

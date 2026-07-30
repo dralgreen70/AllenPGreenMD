@@ -25,7 +25,7 @@ Helen Blau's group first showed this in muscle, reporting in 2021 that the enzym
 
 Two findings make this more than another mouse study. First, it held up in human tissue: cartilage taken from patients undergoing knee replacement showed fewer aging, cartilage-degrading cells and the early signature of regeneration after a week of treatment. Second, and more surprising, the regeneration [did not come from stem cells](/blog/tpe-before-stem-cell-therapy). Cartilage has famously few of them, which is the textbook reason joints do not heal. Instead, the chondrocytes already living in the tissue reset their gene expression and returned to a younger, matrix-building state. As Bhutani put it, "a large pool of already existing cells in cartilage are changing their gene expression patterns." The cells did not multiply. They changed their minds.
 
-This matters because osteoarthritis affects roughly one in five American adults, and no approved drug slows or reverses it; the toolkit is pain control and, eventually, joint replacement. An oral 15-PGDH inhibitor has already cleared Phase 1 safety trials for muscle weakness, and the Stanford group hopes a cartilage trial will follow.
+This matters because osteoarthritis affects more than 32 million American adults, roughly one in eight, and no approved drug slows or reverses it; the toolkit is pain control and, eventually, joint replacement. An oral 15-PGDH inhibitor has already cleared Phase 1 safety trials for muscle weakness, and the Stanford group hopes a cartilage trial will follow.
 
 ## Aging as an accumulation problem
 

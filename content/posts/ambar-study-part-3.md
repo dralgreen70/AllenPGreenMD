@@ -72,7 +72,7 @@ Study size and replication lag also matter. While AMBAR was well-designed and ad
 
 The complexity of mechanism works against adoption as well. Monoclonal antibodies have a simple, compelling narrative: "Remove the toxic plaques that cause Alzheimer's." Plasma exchange has a more complex story: it reduces damaged proteins, lowers inflammation, restores antioxidant capacity, improves vascular function, and clears various toxic factors through multiple mechanisms that we don't fully understand yet. The first story is easier to communicate, even if the second might be more accurate and effective.
 
-Finally, there's an uncomfortable economic reality. The monoclonal antibodies cost around $26,000–28,000 per year for the drug alone, plus PET scans, MRI monitoring, and infusion services, generating significant revenue for healthcare systems. Plasma exchange with albumin replacement is also expensive, but the reimbursement structure is different and potentially less favorable to hospitals in some settings.
+Finally, there's an uncomfortable economic reality. The monoclonal antibodies cost around $26,000–32,000 per year for the drug alone, plus PET scans, MRI monitoring, and infusion services, generating significant revenue for healthcare systems. Plasma exchange with albumin replacement is also expensive, but the reimbursement structure is different and potentially less favorable to hospitals in some settings.
 
 > **"AMBAR's effect sizes of 52–71% exceed those of FDA-approved monoclonal antibodies at 26–40%, with a fraction of the safety risk. The question isn't whether the evidence supports plasma exchange. It's why the medical establishment hasn't caught up."**
 

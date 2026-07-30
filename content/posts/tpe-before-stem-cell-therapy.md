@@ -25,7 +25,7 @@ That's a reasonable model for what happens when we introduce regenerative therap
 
 When we talk about an "aged" or "inflammatory" environment, we're talking about something measurable and specific, not a vague sense of being run-down.
 
-As we age, plasma accumulates proteins that actively suppress the body's ability to repair and regenerate. Two of the most well-studied are TGF-β1 and GDF11, proteins that, at elevated levels, tell stem cells to stay dormant rather than activate. Alongside these, aging cells throughout the body release a steady stream of inflammatory signals into the bloodstream: a mix of cytokines, enzymes, and growth-inhibiting factors that build up over time.
+As we age, plasma accumulates proteins that actively suppress the body's ability to repair and regenerate. One of the most well-studied is TGF-β1, a protein that, at elevated levels, tells stem cells to stay dormant rather than activate. Alongside these, aging cells throughout the body release a steady stream of inflammatory signals into the bloodstream: a mix of cytokines, enzymes, and growth-inhibiting factors that build up over time.
 
 The important distinction is this: aged plasma isn't simply missing the good stuff. It is actively carrying molecules that work against regeneration. These aren't the same problem, and they don't have the same solution.
 
@@ -68,7 +68,7 @@ This is where the sequencing argument becomes particularly direct for PRP patien
 
 This is where therapeutic plasma exchange enters the picture. Not as a regenerative therapy itself, but as a preparation step that changes the conditions under which regenerative therapies operate.
 
-TPE removes a large portion of the aged plasma proteins circulating in your blood, including the inflammatory cytokines, TGF-β1, GDF11, and other factors that actively suppress regenerative signaling, and replaces them with albumin and saline. But the effect isn't only subtractive.
+TPE removes a large portion of the aged plasma proteins circulating in your blood, including the inflammatory cytokines, TGF-β1, and other factors that actively suppress regenerative signaling, and replaces them with albumin and saline. But the effect isn't only subtractive.
 
 A 2022 clinical study in *GeroScience* by Kiprov and colleagues measured this directly in humans, and the findings went beyond simply reducing harmful proteins. Patients showed significant reductions in p16 (a marker of cellular aging) and decreases in DNA damage markers. Critically, the study also documented meaningful changes at the proteomics level: inflammatory proteins decreased while regenerative ones increased. TPE doesn't just quiet the noise. It shifts the balance of the environment toward less suppression and more of the signals that support repair and renewal.
 

@@ -20,7 +20,7 @@ The answer isn't scientific. The evidence is there. The answer is structural: a 
 <div class="post-callout-stat"><strong>AMBAR effect size:</strong> 52–71% slowing of decline</div>
 <div class="post-callout-stat"><strong>Lecanemab / Donanemab effect size:</strong> 26–40% slowing of decline</div>
 <div class="post-callout-stat"><strong>ARIA risk with antibody drugs:</strong> 12–40%</div>
-<div class="post-callout-stat"><strong>ARIA risk with plasma exchange:</strong> 0%</div>
+<div class="post-callout-stat"><strong>ARIA risk with plasma exchange:</strong> under 1%</div>
 </div>
 </div>
 

@@ -41,7 +41,7 @@ This flipped the entire premise on its head. Everyone had been thinking about yo
 
 ## A Major Finding: Removal and Dilution, Not Addition
 
-In 2020, the same Stanford-Berkeley team published a study that would transform the field. They asked a simple question: What if we don't need young blood at all? What if we just need to get rid of the bad stuff in old blood?
+In 2020, the same UC Berkeley team published a study that would transform the field. They asked a simple question: What if we don't need young blood at all? What if we just need to get rid of the bad stuff in old blood?
 
 They took old mice and performed a "neutral blood exchange," replacing half their blood plasma with saline and albumin (a basic protein). No young blood. No fancy factors. Just dilution.
 
@@ -73,7 +73,7 @@ But TPE doesn't just remove the harmful. When pro-aging molecules are cleared, t
 
 ## Where We Stand Today
 
-TPE for aging is no longer experimental. It's being performed in clinics today. The safety record is excellent: over 5,000 procedures in aging studies with adverse reactions in only 10% of cases, mostly mild.
+TPE for aging is no longer experimental. It's being performed in clinics today, and it draws on a safety record built over decades of therapeutic use. Adverse reactions are uncommon and usually mild, and serious complications are rare.
 
 The procedure takes 2-3 hours in an outpatient setting. Most people tolerate it well and resume normal activities immediately. Current protocols involve 3-6 initial sessions, followed by periodic maintenance.
 
@@ -100,7 +100,7 @@ Twenty years ago, those Stanford scientists connected two mice and changed our u
 ## References
 
 1. Conboy IM, Conboy MJ, Wagers AJ, Girma ER, Weissman IL, Rando TA. Rejuvenation of aged progenitor cells by exposure to a young systemic environment. Nature. 2005;433(7027):760–764.
-2. Villeda SA, Plambeck KE, Bhakta S, et al. Young blood reverses age-related impairments in cognitive function and synaptic plasticity in mice. Nat Med. 2014;20(6):659–663.
+2. Villeda SA, Plambeck KE, Middeldorp J, et al. Young blood reverses age-related impairments in cognitive function and synaptic plasticity in mice. Nat Med. 2014;20(6):659–663.
 3. Mehdipour M, Skinner C, Wong N, et al. Rejuvenation of three germ layers tissues by exchanging old blood plasma with saline-albumin. Aging (Albany NY). 2020;12(10):8790–8819.
 4. Boada M, Lopez OL, Olazaran J, et al. A randomized, controlled clinical trial of plasma exchange with albumin replacement for Alzheimer's disease: Primary results of the AMBAR Study. Alzheimer's & Dementia. 2020;16:1412–1425.
 5. Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. GeroScience. 2022;44(6):2701–2720. https://doi.org/10.1007/s11357-022-00645-w

@@ -4,7 +4,7 @@ date: "2026-03-31"
 author: "Dr. Allen P. Green"
 excerpt: "The honest pricing breakdown most clinics won't give you. What TPE actually costs, what you're paying for, and why the range is so wide."
 image: "/images/blog/GA_clinic.jpg"
-description: "TPE costs $6,000–$15,000+ per session. What drives the price, what's included, why insurance rarely covers it, and what to ask before booking."
+description: "TPE costs $6,000–$12,000 per session. What drives the price, what's included, why insurance rarely covers it, and what to ask before booking."
 tags: "tpe, longevity"
 keywords: "therapeutic plasma exchange cost, plasmapheresis pricing, apheresis machine, albumin replacement, physician oversight, longevity medicine, out-of-pocket treatment"
 ---
@@ -15,11 +15,11 @@ Fair questions. Plasmapheresis, more precisely called [therapeutic plasma exchan
 
 So here's the straightforward breakdown I'd want if I were in your position.
 
-**In short:** a single therapeutic plasma exchange (TPE) session in the U.S. typically costs **$6,000 to $15,000**. The price depends on the level of physician oversight, geography, and whether lab work is included. TPE for longevity or detoxification is rarely covered by insurance, so most patients pay out of pocket.
+**In short:** a single therapeutic plasma exchange (TPE) session in the U.S. typically costs **$6,000 to $12,000**. The price depends on the level of physician oversight, geography, and whether lab work is included. TPE for longevity or detoxification is rarely covered by insurance, so most patients pay out of pocket.
 
 ## What TPE Actually Costs
 
-A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. runs between **$6,000 and $15,000**. It is tempting to read the high end as better care, but in this space price and quality do not reliably track together. The machine and the disposables are much the same everywhere, and a good part of what separates a $6,000 clinic from a $15,000 one is non-clinical: overhead, real estate, and how much a clinic bundles into the price. What actually determines the quality of your treatment is clinical, and it does not depend on being at the top of the range: above all, whether the physician accountable for your care has genuine depth in apheresis, someone who has personally run many of these procedures. That kind of expertise is available at the lower end of the price range.
+A single therapeutic plasma exchange session at a private outpatient clinic in the U.S. runs between **$6,000 and $12,000**. It is tempting to read the high end as better care, but in this space price and quality do not reliably track together. The machine and the disposables are much the same everywhere, and a good part of what separates a $6,000 clinic from a $12,000 one is non-clinical: overhead, real estate, and how much a clinic bundles into the price. What actually determines the quality of your treatment is clinical, and it does not depend on being at the top of the range: above all, whether the physician accountable for your care has genuine depth in apheresis, someone who has personally run many of these procedures. That kind of expertise is available at the lower end of the price range.
 
 That range is wide, and it should make you ask questions. The core procedure is largely the same across clinics: your blood goes through an apheresis machine, your plasma is separated and replaced with albumin, and your blood cells are returned. What you are really paying for sits around that procedure, not in it.
 
@@ -64,7 +64,7 @@ If your primary interest is TPE for longevity, cognitive health, or [detoxificat
 
 At Global Apheresis in Mill Valley, California, a single TPE session is **$8,000**. Because TPE is most effective as a series of treatments rather than a one-off session, we also offer multi-session protocols with per-session pricing as low as **$6,000** depending on the treatment plan.
 
-That includes the procedure itself and physician supervision by a team that has collectively overseen more than 15,000 TPE treatments. Lab work is billed separately so patients only pay for the panels that are clinically relevant to their situation.
+That includes the procedure itself and physician supervision from a team led by Dr. Dobri Kiprov, who has personally overseen more than 15,000 TPE treatments over his career. Lab work is billed separately so patients only pay for the panels that are clinically relevant to their situation.
 
 Every patient starts with [a discovery call](/contact). Not a sales pitch, but a clinical conversation about your health history, your goals, and whether TPE is appropriate for you. If it is, we build a personalized protocol and walk through the pricing before anything is scheduled. No surprises.
 

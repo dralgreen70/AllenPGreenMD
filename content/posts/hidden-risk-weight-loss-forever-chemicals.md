@@ -23,7 +23,7 @@ This article isn't meant to discourage weight loss: the benefits far outweigh th
 
 Most persistent organic pollutants are **lipophilic** (fat-loving), meaning they preferentially accumulate and store in adipose tissue. While this storage mechanism actually protects us by keeping these toxins out of active circulation, it creates a significant challenge during weight loss efforts.
 
-**The alarming research:** Scientific studies demonstrate that POP levels in blood plasma can increase by approximately **1% per pound of weight loss** (2-4% per kilogram of fat loss). With significant weight reduction of 40 pounds, absolute increases of **150-400%** in circulating toxin levels have been documented in clinical studies.
+**The alarming research:** Scientific studies demonstrate that POP levels in blood plasma can increase by approximately **1% per pound of weight loss** (2-4% per kilogram). A significant reduction of 40 pounds can therefore raise circulating toxin levels by roughly **40%**, and studies of major weight loss such as after bariatric surgery have documented increases well over 100%.
 
 > **"When fat cells shrink, they don't just release stored energy. They release everything they were holding onto, including years of accumulated environmental toxins."**
 
@@ -39,7 +39,7 @@ Despite being labeled "forever chemicals," POPs don't have to be permanent resid
 
 The process involves donating plasma at commercial plasma centers (available in most major cities), removing approximately 500mL of plasma per session, and donating up to twice weekly following FDA guidelines. An additional benefit is that donors receive compensation for each donation.
 
-**The documented results:** A 2022 randomized clinical trial of Australian firefighters, a population with high forever chemical exposure, found that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, which lead author Gasiorowski characterized as approximately a 30% decrease, roughly 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Whole blood donation had a marginal effect on PFOS and no significant effect on PFHxS, confirming that plasma removal is the key mechanism for PFAS elimination.
+**The documented results:** A 2022 randomized clinical trial of Australian firefighters, a population with high forever chemical exposure, found that plasma donation reduced PFOS levels by 2.9 ng/mL over 12 months, which lead author Gasiorowski characterized as approximately a 30% decrease, roughly 2.6 times more effective than whole blood donation's 1.1 ng/mL reduction. Whole blood donation produced a smaller but still significant reduction in PFOS and no significant effect on PFHxS, confirming that plasma removal is the more effective mechanism for PFAS elimination.
 
 > **"The mechanism isn't complicated. You're physically removing the compounds that your body cannot eliminate on its own."**
 

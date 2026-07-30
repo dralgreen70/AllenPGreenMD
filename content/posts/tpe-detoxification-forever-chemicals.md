@@ -50,13 +50,13 @@ Plasma donation results showed meaningful reductions across all measured PFAS co
 
 Plasma donation reduced PFOS levels by 2.9 ng/mL, which lead author Gasiorowski characterized as approximately a 30% decrease, along with PFHxS reductions of 1.1 ng/mL and PFOA reductions of 0.5 ng/mL. All three were significant decreases.
 
-By contrast, whole blood donation is not a meaningful intervention for PFAS reduction. The same trial showed a marginal PFOS reduction of 1.1 ng/mL, no significant change in PFHxS levels, and no significant reduction in PFOA.
+By contrast, whole blood donation was less efficient. The same trial showed a smaller PFOS reduction of 1.1 ng/mL, still statistically significant but roughly a third of the plasma effect, with no significant change in PFHxS or PFOA.
 
 The study clearly demonstrated that **plasma removal is superior to whole blood removal** for eliminating PFAS chemicals, likely because these compounds concentrate in plasma rather than blood cells.
 
 ### Broader Synthetic Chemical Removal
 
-A 2025 study published in *Medical Hypotheses* extended the question to a broader range of synthetic chemicals in healthy adults. Across 38 compounds tested, including pesticides, herbicides, phenols, volatile organics, parabens, and phthalates, serial plasma exchange produced substantial reductions across the panel after six weeks of treatment, including approximately 71.5% median reduction in bisphenol A, 68% in glyphosate, and 75.7% for phthalates. *Medical Hypotheses* publishes hypothesis-generating work, and these findings await replication in larger trials. The direction of effect is consistent with what the underlying mechanism predicts and with the Gasiorowski RCT data.
+A 2025 study published in *Medical Hypotheses* extended the question to a broader range of synthetic chemicals in healthy adults. Across 38 compounds tested, including pesticides, herbicides, phenols, volatile organics, parabens, and phthalates, a series of 3 to 5 plasma exchange sessions, combined with nutritional supplementation, produced substantial reductions across the panel, measured six weeks after the final session, including approximately 71.5% median reduction in bisphenol A, 68% in glyphosate, and 75.7% for phthalates (the authors note they could not separate the effect of plasma exchange from the supplementation). *Medical Hypotheses* publishes hypothesis-generating work, and these findings await replication in larger trials. The direction of effect is consistent with what the underlying mechanism predicts and with the Gasiorowski RCT data.
 
 ### Additional Medical Applications
 

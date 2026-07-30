@@ -294,7 +294,7 @@ export default function TpeDetoxPage() {
                     lipophilic compounds like POPs and PFAS, as seen in{" "}
                     <Link href="/blog/jersey-pfas-crisis"
                       style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
-                      the New Jersey PFAS crisis
+                      the Jersey PFAS crisis
                     </Link>, are also
                     stored in adipose tissue and other organs. These
                     tissue-stored toxins can gradually re-enter circulation after
@@ -397,12 +397,12 @@ export default function TpeDetoxPage() {
                   <p className="body-lg">
                     A 2025 study published in <em>Medical Hypotheses</em>{" "}
                     evaluated whether serial TPE sessions could reduce levels of
-                    synthetic chemicals in healthy adults. Researchers tested 91
-                    adults for 38 synthetic chemicals, including
+                    synthetic chemicals in healthy adults. Researchers screened
+                    91 adults for 38 synthetic chemicals, including
                     pesticides, herbicides, phenols, volatile organics, parabens,
-                    acrylamides, and phthalates. Participants who underwent
+                    acrylamides, and phthalates. A subset of 11 then underwent
                     3&ndash;5 TPE sessions combined with nutritional
-                    supplementation showed significant reductions in synthetic
+                    supplementation, showing significant reductions in synthetic
                     chemical levels, with reductions sustained at six-month
                     follow-up.
                   </p>

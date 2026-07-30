@@ -36,7 +36,7 @@ As resident Graeme Farmer asked, "Why did they allow us to keep drinking the wel
 
 ## The Human Cost
 
-The health impacts are already becoming evident. Farmer has multiple myeloma, a type of leukaemia linked to PFAS exposure in some studies, and his father developed kidney and bladder cancer around the same time. Testing revealed PFOS levels in potatoes from the plume area were ten times higher than European Commission recommendations, indicating the contamination extends throughout the food chain.
+The health impacts are already becoming evident. Farmer has multiple myeloma, a blood cancer of plasma cells that has been linked to PFAS exposure in some studies, and his father developed kidney and bladder cancer around the same time. Testing revealed PFOS levels in potatoes from the plume area were ten times higher than European Commission recommendations, indicating the contamination extends throughout the food chain.
 
 The blood testing results are alarming: of 88 individuals tested, 70% had levels of PFHxS above safe thresholds, while significant percentages had elevated levels of other PFAS chemicals known to be carcinogenic or harmful to thyroid function and brain development.
 

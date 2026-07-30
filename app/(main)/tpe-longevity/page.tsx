@@ -378,7 +378,7 @@ export default function TpeLongevityPage() {
               analysis reveals biomarkers that contribute to biological age
               rejuvenation in response to single-blinded randomized
               placebo-controlled therapeutic plasma exchange.&rdquo;{" "}
-              <em>Aging Cell.</em> 2025;(8):e70103.
+              <em>Aging Cell.</em> 2025;24(8):e70103.
             </div>
           </div>
         </section>

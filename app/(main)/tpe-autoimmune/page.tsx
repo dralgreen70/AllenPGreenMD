@@ -72,12 +72,17 @@ const categoryII = [
   },
   {
     name: "Systemic Lupus Erythematosus (SLE)",
-    desc: "In severe lupus, particularly with renal involvement (lupus nephritis) or catastrophic presentations, TPE removes autoantibodies (including anti-dsDNA), immune complexes, and complement-activating factors.",
-    category: "ASFA Category II for severe manifestations",
+    desc: "In severe lupus, particularly non-renal manifestations such as CNS/neuropsychiatric involvement, diffuse alveolar hemorrhage, or catastrophic presentations, TPE removes autoantibodies (including anti-dsDNA), immune complexes, and complement-activating factors.",
+    category: "ASFA Category II for severe non-renal manifestations",
   },
+]
+
+/* ── Category III Conditions ── */
+const categoryIII = [
   {
     name: "Systemic Sclerosis (Scleroderma)",
     desc: "An autoimmune condition causing fibrosis of the skin and internal organs. TPE removes circulating autoantibodies and inflammatory mediators that drive the fibrotic process.",
+    category: "ASFA Category III",
     note: "Dr. Green presented research on TPE response in systemic sclerosis at the ASFA 2023 Annual Meeting, a poster examining outcomes in two patients.",
   },
 ]
@@ -347,6 +352,34 @@ export default function TpeAutoimmunePage() {
             </div>
             <div className="auto-conditions-grid reveal">
               {categoryII.map((c, i) => (
+                <div
+                  key={i}
+                  className={`auto-condition-card reveal reveal-d${Math.min(i + 1, 5)}`}
+                >
+                  <h3>{c.name}</h3>
+                  <p>{c.desc}</p>
+                  {"category" in c && c.category && (
+                    <div className="auto-condition-category">{c.category}</div>
+                  )}
+                  {c.note && (
+                    <div className="auto-condition-note">{c.note}</div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Category III */}
+            <div
+              className="auto-category-label reveal"
+              style={{ marginTop: "3rem" }}
+            >
+              <span className="auto-category-badge">Category III</span>
+              <span className="auto-category-desc">
+                Role Not Established / Individualized
+              </span>
+            </div>
+            <div className="auto-conditions-grid reveal">
+              {categoryIII.map((c, i) => (
                 <div
                   key={i}
                   className={`auto-condition-card reveal reveal-d${Math.min(i + 1, 5)}`}

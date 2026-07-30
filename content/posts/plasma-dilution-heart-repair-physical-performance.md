@@ -112,4 +112,4 @@ Cruz JMC, Alzalzalee R, Yeung H, Mahmood Z, Yang Q, Morshedian N, Robinson ZR, M
 
 Mehdipour M, Skinner C, Wong N, Lieb M, Liu C, Etienne J, Kato C, Kiprov D, Conboy MJ, Conboy IM. Rejuvenation of three germ layers' tissues by exchanging old blood plasma with saline-albumin. *Aging (Albany NY).* 2020;12(10):8790-8819.
 
-Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience.* 2022;44(5):2701-2720.
+Kim D, Kiprov DD, Luellen C, et al. Old plasma dilution reduces human biological age: a clinical study. *GeroScience.* 2022;44(6):2701-2720.

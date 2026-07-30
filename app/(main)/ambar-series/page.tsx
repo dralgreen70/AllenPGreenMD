@@ -155,8 +155,8 @@ export default function AmbarSeriesPage() {
             <p className="body-lg" style={{ marginTop: "1rem" }}>
               The results showed that plasma exchange with albumin
               replacement slowed cognitive and functional decline by
-              52&ndash;71% compared to placebo in patients with moderate
-              Alzheimer&apos;s disease. Despite these findings, most
+              52&ndash;71% compared to placebo, with the strongest effects
+              in moderate-stage patients. Despite these findings, most
               neurologists remain unaware of the trial. This series
               examines the data, the independent validation, and the
               systemic factors behind the disconnect.

@@ -73,7 +73,7 @@ const seriesCards: SeriesCard[] = [
     href: "/blog/jersey-pfas-crisis",
     thumbnail: "/images/blog/Jersey_Pfas.jpg",
     summary:
-      "Geography as exposure. The public health case of one of the most contaminated populations in the United States, and the anti-bloodletting argument for why targeting plasma matters more than targeting blood.",
+      "Geography as exposure. The public health case of one of the most heavily contaminated communities in the British Isles, and the anti-bloodletting argument for why targeting plasma matters more than targeting blood.",
   },
   {
     num: 4,

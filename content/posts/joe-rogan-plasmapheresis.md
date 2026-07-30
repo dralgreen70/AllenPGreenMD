@@ -73,7 +73,7 @@ The cost question is real, and it deserves a straight answer.
 
 Therapeutic plasma exchange for longevity, cognitive optimization, and detoxification is typically not covered by insurance. These are considered elective applications, even as the evidence base grows. TPE is covered by insurance for many of its established autoimmune and neurological indications, but for the applications that are driving most of the current interest (aging, Alzheimer's prevention, PFAS removal), you should expect to pay out of pocket.
 
-The cost of a single TPE procedure varies significantly depending on where in the country you look, ranging from approximately $5,000 to $17,500 per session.
+The cost of a single TPE procedure varies significantly depending on where in the country you look, ranging from approximately $6,000 to $12,000 per session.
 
 Most patients pursuing longevity or detoxification applications will need a series of treatments, not just one session. So the total investment depends on the protocol recommended for your specific situation. If you want to understand what a protocol would look like and what it would cost in your case, that's exactly what our [discovery call](https://globalapheresis.com/free-consultation) is for. No pressure, no commitment: just an honest conversation about whether this makes sense for you.
 
@@ -102,5 +102,5 @@ These aren't trick questions. Any qualified provider will welcome them.
 1. Kim D, Kiprov DD, Luellen C, et al. Old Plasma Dilution Reduces Human Biological Age: A Clinical Study. *GeroScience.* 2022;44:2701–2720.
 2. Fuentealba M, Kiprov D, et al. Multi-Omics Analysis Reveals Biomarkers That Contribute to Biological Age Rejuvenation... *Aging Cell.* 2025.
 3. Boada M, et al. Plasma Exchange for Alzheimer's Disease Management by Albumin Replacement (AMBAR) Trial. *Alzheimer's & Dementia.* 2020.
-4. Taragano FE, et al. Therapeutic Plasma Exchange in Alzheimer's Disease: A Real-World Argentine Cohort Study. *J Alzheimers Dis.* 2025.
+4. Taragano F, Seinhart D, Epstein P, et al. A real-world study on the safety and efficacy of therapeutic plasma exchange in patients with Alzheimer's disease. *J Alzheimers Dis.* 2025;108(1):129-141.
 5. Gasiorowski R, Forbes MK, Silver G, et al. Effect of Plasma and Blood Donations on Levels of Perfluoroalkyl and Polyfluoroalkyl Substances in Firefighters in Australia. *JAMA Netw Open.* 2022;5(4):e226257.

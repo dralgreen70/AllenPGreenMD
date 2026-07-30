@@ -12,7 +12,7 @@ keywords: "therapeutic plasma exchange, alzheimer's disease, csf biomarkers, mon
 
 ## Previously in Part 1
 
-In [AMBAR Part 1](/blog/ambar-study-part-1), we explored the study design and primary clinical results. The trial demonstrated 52% less functional decline (ADCS-ADL, p=0.03) and 66% less cognitive decline (ADAS-Cog, p=0.06) over 14 months, with even stronger effects on global measures: 71% less decline on CDR-Sum of Boxes (p=0.002) and near-stabilization on clinical impression (p<0.0001). Moderate AD patients showed 61% less decline across all measures, while mild AD patients actually improved on global functional assessments. Benefits emerged gradually over 6–9 months and continued diverging through month 14. The clinical effects were clear and consistent. But as we'll see in this post, the mechanism of how plasma exchange works is far more complex, and potentially more interesting, than originally hypothesized.
+In [AMBAR Part 1](/blog/ambar-study-part-1), we explored the study design and primary clinical results. The trial demonstrated 52% less functional decline (ADCS-ADL, p=0.03) and 66% less cognitive decline (ADAS-Cog, p=0.06) over 14 months, with even stronger effects on global measures: 71% less decline on CDR-Sum of Boxes (p=0.002) and near-stabilization on clinical impression (p<0.0001). Moderate AD patients showed roughly 50–71% less decline across measures (61% on the co-primary endpoints), while mild AD patients actually improved on global functional assessments. Benefits emerged gradually over 6–9 months and continued diverging through month 14. The clinical effects were clear and consistent. But as we'll see in this post, the mechanism of how plasma exchange works is far more complex, and potentially more interesting, than originally hypothesized.
 
 ---
 
@@ -70,7 +70,7 @@ In 2025, that replication arrived.
 
 ### Real-World Evidence from Buenos Aires
 
-A team in Argentina published results from a real-world cohort study comparing 32 patients who received plasma exchange to 194 historical controls from the same memory clinic. The study was published in the Journal of Alzheimer's Disease in January 2025.
+A team in Argentina published results from a real-world cohort study comparing 32 patients who received plasma exchange to 194 historical controls from the same memory clinic. The study was published in the Journal of Alzheimer's Disease in 2025.
 
 **Key differences from AMBAR:**
 
@@ -85,7 +85,7 @@ A team in Argentina published results from a real-world cohort study comparing 3
 
 The cognitive results were striking across every domain tested. On the MMSE, the treatment group declined 2.2 points less than controls over approximately 11 months, a 45% reduction in decline (p<0.001), nearly identical to AMBAR's effect size. Memory preservation was even more pronounced: 88% less decline in immediate recall (p<0.001), 74% less decline in delayed recall (p=0.04), and 69% less decline in recognition memory (p<0.001) on the RAVLT. Language and executive function followed the same pattern: 37% less decline in semantic fluency (p<0.001), 35% less decline in naming (p=0.03), and 49% less decline in phonemic fluency (p<0.001).
 
-The safety profile was equally reassuring. 81.5% of 514 procedures were uneventful, there were no severe adverse events, no ARIA, and all procedures were completed via peripheral venous access, with no central lines required. This last point is significant: AMBAR had shown higher adverse event rates with central venous catheters. The Argentina study demonstrated that excellent results are achievable with peripheral access alone, making the procedure less invasive and more broadly implementable.
+The safety profile was equally reassuring. 81.5% of 514 procedures were uneventful, there were no severe adverse events, no ARIA was observed (though the study performed no MRI surveillance and was not designed to detect it), and all procedures were completed via peripheral venous access, with no central lines required. This last point is significant: AMBAR had shown higher adverse event rates with central venous catheters. The Argentina study demonstrated that excellent results are achievable with peripheral access alone, making the procedure less invasive and more broadly implementable.
 
 ### Why This Matters
 
@@ -153,7 +153,7 @@ The following efficacy comparison draws on data presented at the ASFA 2024 confe
 <td class="post-ct-effect-yellow">37%</td>
 <td class="post-ct-effect-yellow">26%</td>
 <td class="post-ct-effect-yellow">27%</td>
-<td class="post-ct-aria-risk">12.6% / 14%</td>
+<td class="post-ct-aria-risk">12.6% / 17%</td>
 </tr>
 <tr>
 <td>Donanemab</td>
