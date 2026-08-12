@@ -35,3 +35,13 @@ this repo.
 See the user's memory note "Blog post conventions" for the full workflow
 (custom frontmatter parser, raw `<figure>` for images, dynamic Article JSON-LD,
 non-www URLs).
+
+## Editorial and strategy docs (outside this repo)
+
+Two reference docs govern content work and live in the business folder, not here:
+
+- `~/Desktop/AllenPGreen-Business/site/SITE_CONVENTIONS.md` — house style, frontmatter,
+  schema, image paths, internal links, canonical facts. Read before drafting or
+  editing any post.
+- `~/Desktop/AllenPGreen-Business/marketing/GROWTH_SYSTEM.md` — positioning, reader,
+  funnel stage, handoff. Read before deciding a post should exist.
