@@ -9,6 +9,7 @@ description: "The Goop feature on TPE reached millions of readers. A physician w
 image: "/images/blog/GA_clinic.jpg"
 tags: "tpe, longevity"
 keywords: "therapeutic plasma exchange, goop, gwyneth paltrow, environmental toxins, albumin replacement, biological age, longevity medicine"
+pillar: "longevity"
 ---
 
 When Gwyneth Paltrow writes about a medical procedure, search engines notice. So do patients. And in this case, that's not a bad thing.

@@ -16,6 +16,7 @@ citationAuthors: "Cohen NJ, Yao M, Midya V, et al."
 citationJournal: "Science of the Total Environment"
 citationYear: "2023"
 citationUrl: "https://doi.org/10.1016/j.scitotenv.2023.162267"
+pillar: "detox"
 ---
 
 When a patient tells me she is trying to conceive, the checklist she has already been given is familiar. Start folate. Stop drinking. Keep caffeine within reason. Update the vaccines. What almost never appears on that list is the class of synthetic compounds circulating in the blood of more than 98% of Americans, including hers, including mine. [PFAS](/tpe-detox) are not on the standard preconception handout. The evidence that they belong there has been quietly accumulating, and in the last three years it has sharpened to a point.

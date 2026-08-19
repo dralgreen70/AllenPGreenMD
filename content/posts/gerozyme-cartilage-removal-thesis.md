@@ -9,6 +9,7 @@ description: "Stanford blocked a 'gerozyme' to regrow cartilage in mice. The res
 image: "/images/blog/knee.jpg"
 imageAlt: "A person in athletic clothing outdoors holding their knee in pain."
 keywords: "gerozyme, 15-pgdh, cartilage regeneration, osteoarthritis, therapeutic plasma exchange, aging biology, parabiosis"
+pillar: "longevity"
 ---
 
 There is a word coming out of Stanford that deserves a place in how we think about aging: *gerozyme*.

@@ -9,6 +9,7 @@ image: "/images/blog/fibroblast.jpg"
 imageAlt: "Fluorescence microscopy image showing cellular structure and activity in human tissue"
 tags: "longevity, stem cell therapy, exosomes, PRP, plasma exchange, regenerative medicine"
 keywords: "therapeutic plasma exchange, regenerative medicine, mesenchymal stem cells, exosomes, platelet-rich plasma, aged plasma, inflammatory environment"
+pillar: "longevity"
 ---
 
 Every week I speak with patients who are building out longevity protocols. Many of them are already doing, or planning to do, some form of regenerative therapy: mesenchymal stem cells, exosomes, or PRP. They've done the research. They understand the science. They're making thoughtful investments in their health.

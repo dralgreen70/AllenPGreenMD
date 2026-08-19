@@ -16,6 +16,7 @@ citationAuthors: "Cruz JMC, Alzalzalee R, Yeung H, et al."
 citationJournal: "Aging Cell"
 citationYear: "2026"
 citationUrl: "https://doi.org/10.1111/acel.70525"
+pillar: "longevity"
 ---
 
 A new paper from the Conboy lab at UC Berkeley, first-authored by Joana Marie C. Cruz and [published in *Aging Cell*](https://onlinelibrary.wiley.com/doi/10.1111/acel.70525), deserves the attention of anyone who works with [therapeutic plasma exchange](/tpe). Before anything else, the vocabulary. What the researchers call plasma dilution, or neutral blood exchange (NBE), is therapeutic plasma exchange (TPE). It is the same procedure we perform at Global Apheresis, written in the language of a research lab: replace roughly half of the plasma with a saline and albumin solution, and you have reset the fluid every cell in the body is bathed in.

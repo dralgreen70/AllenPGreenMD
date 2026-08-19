@@ -8,6 +8,7 @@ description: "Independent validation from Argentina and how plasma exchange comp
 image: "/images/blog/AMBAR_Part2.jpg"
 tags: "ambar, alzheimers, research"
 keywords: "therapeutic plasma exchange, alzheimer's disease, csf biomarkers, monoclonal antibodies, lecanemab, aria risk"
+pillar: "alzheimers"
 ---
 
 ## Previously in Part 1

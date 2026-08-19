@@ -7,6 +7,7 @@ excerpt: "A physician's overview of what TPE is, what the evidence shows, and th
 image: "/images/blog/GA_clinic.jpg"
 tags: "longevity, tpe"
 keywords: "therapeutic plasma exchange, apheresis, longevity, alzheimer's disease, ambar trial, autoimmune conditions, environmental detoxification, biological age"
+pillar: "longevity"
 ---
 
 [Therapeutic plasma exchange](/tpe) has been used in hospitals for decades to treat life-threatening conditions, removing pathological proteins, autoantibodies, and toxic substances from the blood when no other intervention could reach them. What's changed in recent years is our understanding of what else is circulating in plasma: pro-aging molecules, environmental toxins, inflammatory mediators, and proteins linked to neurodegenerative disease. That understanding has opened four distinct clinical applications that I work with every day.

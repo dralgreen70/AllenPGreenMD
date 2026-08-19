@@ -10,6 +10,7 @@ imagePosition: "center 55%"
 imageAlt: "A clinical overview of PFAS forever chemicals and the intervention landscape"
 tags: "pfas, detox"
 keywords: "per- and polyfluoroalkyl substances, carbon-fluorine bond, plasma compartment body burden, nhanes biomonitoring, c8 science panel, pfas drinking water limits"
+pillar: "detox"
 ---
 
 Almost everyone reading this has PFAS in their blood. So do I. The CDC has been documenting this through the NHANES biomonitoring program since 1999, and the most recent data show detectable levels in more than 98% of Americans tested. That number does not describe a contamination event. It describes the baseline.

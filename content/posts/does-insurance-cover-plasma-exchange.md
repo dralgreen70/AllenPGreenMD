@@ -9,6 +9,7 @@ image: "/images/blog/health_insurance.jpg"
 imageAlt: "Health insurance paperwork and a stethoscope, representing coverage questions for therapeutic plasma exchange"
 tags: "tpe, insurance, billing"
 keywords: "therapeutic plasma exchange, insurance coverage, medical necessity, asfa categories, superbill reimbursement, pandas and pans, out-of-network apheresis"
+pillar: "none"
 ---
 
 It is one of the first questions patients ask me, and it deserves a straight answer: does insurance cover [therapeutic plasma exchange](/tpe) (TPE)? The honest reply is that it depends, mostly on why you need it, what kind of plan you have, and where you are treated. For some conditions, coverage is routine. For others, it takes good documentation and some persistence. And at most outpatient apheresis centers, including the one I work with, the billing itself works differently than you might expect. Here is how I walk patients through all of it.

@@ -9,6 +9,7 @@ excerpt: "Why losing weight might temporarily increase your toxin exposure — a
 image: "/images/blog/weight_loss_pfas.jpg"
 tags: "pfas, detox, longevity"
 keywords: "persistent organic pollutants, forever chemicals released during weight loss, fat loss toxin mobilization, plasma donation, therapeutic plasma exchange, weight regain and toxic load"
+pillar: "detox"
 ---
 
 This article isn't meant to discourage weight loss: the benefits far outweigh the risks. Instead, it's about understanding what happens during fat loss and how therapeutic interventions can maximize benefits while minimizing potential downsides.

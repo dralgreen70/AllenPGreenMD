@@ -1,6 +1,25 @@
 import fs from "fs"
 import path from "path"
 
+export type Pillar =
+  | "alzheimers"
+  | "longevity"
+  | "autoimmune"
+  | "detox"
+  | "none"
+
+const PILLARS: Pillar[] = [
+  "alzheimers",
+  "longevity",
+  "autoimmune",
+  "detox",
+  "none",
+]
+
+function normalizePillar(value?: string): Pillar {
+  return PILLARS.includes(value as Pillar) ? (value as Pillar) : "none"
+}
+
 export interface PostFrontmatter {
   title: string
   date: string
@@ -23,6 +42,7 @@ export interface PostFrontmatter {
   citationJournal?: string
   citationYear?: string
   citationUrl?: string
+  pillar: Pillar
 }
 
 export function parseTags(tags?: string): string[] {
@@ -54,6 +74,7 @@ function parseFrontmatter(fileContent: string): {
         author: "Dr. Allen P. Green",
         excerpt: "",
         image: "",
+        pillar: "none",
       },
       content: fileContent,
     }
@@ -103,6 +124,7 @@ function parseFrontmatter(fileContent: string): {
       citationJournal: (frontmatter.citationJournal as string) || "",
       citationYear: (frontmatter.citationYear as string) || "",
       citationUrl: (frontmatter.citationUrl as string) || "",
+      pillar: normalizePillar(frontmatter.pillar as string),
     },
     content,
   }
@@ -154,11 +176,43 @@ export function getPostBySlug(slug: string): Post | null {
   return { slug, frontmatter, content, readTime }
 }
 
+export function getPostsByPillar(
+  pillar: Pillar,
+  options?: { limit?: number }
+): Post[] {
+  const posts = getAllPosts().filter((p) => p.frontmatter.pillar === pillar)
+  return options?.limit ? posts.slice(0, options.limit) : posts
+}
+
 export function getRelatedPosts(currentSlug: string, count = 3): Post[] {
-  const allPosts = getAllPosts()
-  return allPosts
-    .filter((p) => p.slug !== currentSlug && !p.frontmatter.external)
-    .slice(0, count)
+  const current = getPostBySlug(currentSlug)
+  const currentPillar = current?.frontmatter.pillar ?? "none"
+
+  const candidates = getAllPosts().filter(
+    (p) => p.slug !== currentSlug && !p.frontmatter.external
+  )
+
+  const selected: Post[] = []
+
+  // Topical siblings first: same pillar, date-sorted (inherited from getAllPosts).
+  // "none" has no topical siblings by design and falls straight to the fallback.
+  if (currentPillar !== "none") {
+    for (const p of candidates) {
+      if (p.frontmatter.pillar === currentPillar) selected.push(p)
+    }
+  }
+
+  // Fill remaining slots from the newest other posts, skipping any already chosen,
+  // so the block never renders short.
+  if (selected.length < count) {
+    const chosen = new Set(selected.map((p) => p.slug))
+    for (const p of candidates) {
+      if (selected.length >= count) break
+      if (!chosen.has(p.slug)) selected.push(p)
+    }
+  }
+
+  return selected.slice(0, count)
 }
 
 // Simple markdown to HTML converter

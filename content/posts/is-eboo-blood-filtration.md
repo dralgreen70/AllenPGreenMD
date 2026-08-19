@@ -11,6 +11,7 @@ imageAlt: "Schematic comparing a hemodialysis circuit with an EBOO circuit, a di
 imagePosition: "center"
 tags: "tpe, eboo, detox"
 keywords: "eboo, ozone therapy, hemodialyzer membrane, blood filtration, ultrafiltrate, albumin cutoff, therapeutic plasma exchange"
+pillar: "detox"
 ---
 
 If you have looked into blood detox treatments, you have probably run into EBOO, short for Extracorporeal Blood Oxygenation and Ozonation. It is marketed heavily as a blood filtration or blood cleansing therapy, often with a photo of a cup full of frothy material presented as the toxins it supposedly pulled out of you.

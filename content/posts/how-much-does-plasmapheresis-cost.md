@@ -7,6 +7,7 @@ image: "/images/blog/GA_clinic.jpg"
 description: "TPE costs $6,000–$12,000 per session. What drives the price, what's included, why insurance rarely covers it, and what to ask before booking."
 tags: "tpe, longevity"
 keywords: "therapeutic plasma exchange cost, plasmapheresis pricing, apheresis machine, albumin replacement, physician oversight, longevity medicine, out-of-pocket treatment"
+pillar: "none"
 ---
 
 Joe Rogan posted about getting plasmapheresis last week, and my phone hasn't stopped. The questions are always some version of the same thing: *How much does this cost? Is it covered by insurance? And is it worth it?*

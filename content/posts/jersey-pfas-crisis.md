@@ -11,6 +11,7 @@ image: "/images/blog/Jersey_Pfas.jpg"
 imagePosition: "center center"
 tags: "pfas, detox"
 keywords: "jersey pfas contamination, firefighting foam groundwater contamination, therapeutic phlebotomy bloodletting, pfhxs blood levels, 3m pfas cover-up, therapeutic plasma exchange"
+pillar: "detox"
 ---
 
 The small island of Jersey in the English Channel has become an unlikely poster child for PFAS contamination, and an even more unlikely advocate for medieval medical practices. After decades of firefighting foam contamination at Jersey Airport, residents are being advised to undergo bloodletting to lower dangerous PFAS levels in their blood, with 70% of tested residents having levels of PFHxS above safe thresholds.

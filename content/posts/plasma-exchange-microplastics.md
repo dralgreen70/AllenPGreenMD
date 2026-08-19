@@ -11,6 +11,7 @@ image: "/images/blog/me-receiving-plex.webp"
 imageAlt: "Dr. Allen Green receiving therapeutic plasma exchange at Global Apheresis"
 tags: "tpe, microplastics, detox, environmental toxins, plasmapheresis"
 keywords: "circulating microplastics removal, therapeutic plasma exchange, apheresis circuit contamination, microplastic body burden, spectra optia double priming, blood warmer particle shedding"
+pillar: "detox"
 ---
 
 For years, one of the most frustrating things about microplastics has been that we could measure them but couldn't do anything about them. They turn up in blood, in placentas, in arterial plaque, and the standard advice has been some version of "try to be exposed to less." For something already circulating in your body, there was no intervention. No off-ramp.

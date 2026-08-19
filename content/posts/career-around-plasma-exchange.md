@@ -9,6 +9,7 @@ description: "How following the science of aging in blood led me to Global Apher
 image: "/images/dobri-and-i-ga.jpg"
 tags: "personal, tpe"
 keywords: "therapeutic plasma exchange, dobri kiprov, global apheresis, transfusion medicine, therapeutic apheresis, parabiosis research"
+pillar: "none"
 ---
 
 I have notebooks from medical school with the words "It's in the blood" written in them.

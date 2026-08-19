@@ -8,6 +8,7 @@ description: "The AMBAR trial showed 52-71% slowing of Alzheimer's progression -
 image: "/images/blog/Ambar_part_1.jpg"
 tags: "ambar, alzheimers, research"
 keywords: "ambar study, plasma exchange, albumin replacement, alzheimer's disease, adas-cog, cdr-sum of boxes"
+pillar: "alzheimers"
 ---
 
 ## Introduction
