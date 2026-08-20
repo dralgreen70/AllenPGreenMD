@@ -83,7 +83,7 @@ const categoryIII = [
     name: "Systemic Sclerosis (Scleroderma)",
     desc: "An autoimmune condition causing fibrosis of the skin and internal organs. TPE removes circulating autoantibodies and inflammatory mediators that drive the fibrotic process.",
     category: "ASFA Category III",
-    note: "Dr. Green presented research on TPE response in systemic sclerosis at the ASFA 2023 Annual Meeting, a poster examining outcomes in two patients.",
+    note: "Dr. Green co-authored an ASFA 2023 poster on TPE response in systemic sclerosis, examining outcomes in two patients.",
   },
 ]
 
@@ -392,6 +392,14 @@ export default function TpeAutoimmunePage() {
                   {c.note && (
                     <div className="auto-condition-note">{c.note}</div>
                   )}
+                  <Link
+                    href="/blog/plasma-exchange-scleroderma"
+                    className="view-all-link"
+                    style={{ marginTop: "0.75rem" }}
+                  >
+                    Read: Pulsed Plasma Exchange for Scleroderma
+                    <span className="arrow">&rarr;</span>
+                  </Link>
                 </div>
               ))}
             </div>
