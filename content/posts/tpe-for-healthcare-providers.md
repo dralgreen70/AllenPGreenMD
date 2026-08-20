@@ -49,7 +49,7 @@ Patient safety protocols are crucial. You'll need comprehensive pre-procedure sc
 
 For longevity and wellness applications, patient selection becomes more nuanced than traditional medical indications. You'll want to establish clear protocols for evaluating candidates, including comprehensive health assessments, laboratory evaluations, and realistic expectation setting.
 
-Consider developing treatment protocols that specify exchange volumes, replacement fluids, and session frequency. Many clinics start with conservative approaches and adjust based on patient response and emerging research.
+Consider developing treatment protocols that specify exchange volumes, replacement fluids, and session frequency. Many clinics start with conservative approaches and adjust based on patient response and [emerging research](/blog/plasma-exchange-cancer).
 
 ## Implementation Timeline
 

@@ -391,6 +391,7 @@ export default async function BlogPostPage({
       </section>
 
       {/* 3. CTA */}
+      {!post.frontmatter.hideCta && (
       <section className="post-cta-section">
         <div className="post-cta-inner">
           {slug === "tpe-for-healthcare-providers" ? (
@@ -454,6 +455,7 @@ export default async function BlogPostPage({
           )}
         </div>
       </section>
+      )}
 
       {/* 3.5. Newsletter */}
       <NewsletterInline slug={slug} tags={post.frontmatter.tags} />
