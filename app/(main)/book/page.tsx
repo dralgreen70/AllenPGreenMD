@@ -102,6 +102,13 @@ export default function BookPage() {
                 <p className="book-hero-meta">
                   Paperback, $18.99. Available September 1, 2026.
                 </p>
+                {/*
+                  Launch day: set BUY_URL above to swap in the live buy link.
+                  Pre-launch: a live "Get notified" button scrolls to the signup.
+                  The static disabled chip is retained for launch-day use if a
+                  temporary date/out-of-stock state is ever needed:
+                    <span className="book-buy-disabled" aria-disabled="true">Available September 1</span>
+                */}
                 <div className="book-buy">
                   {BUY_URL ? (
                     <a
@@ -113,9 +120,9 @@ export default function BookPage() {
                       Buy the paperback
                     </a>
                   ) : (
-                    <span className="book-buy-disabled" aria-disabled="true">
-                      Available September 1
-                    </span>
+                    <a href="#notify" className="btn btn-accent">
+                      Get notified
+                    </a>
                   )}
                 </div>
               </div>
@@ -149,7 +156,11 @@ export default function BookPage() {
         </section>
 
         {/* ===== EMAIL CAPTURE ===== */}
-        <section className="site-section">
+        <section
+          className="site-section"
+          id="notify"
+          style={{ scrollMarginTop: "90px" }}
+        >
           <div className="site-container">
             <div className="book-signup">
               <h2 className="h-lg">Get an email when it&rsquo;s out</h2>

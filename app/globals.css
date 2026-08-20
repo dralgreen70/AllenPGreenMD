@@ -1170,6 +1170,8 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .book-buy-disabled { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.9rem 2.2rem; font-family: 'Outfit', sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.04em; border-radius: var(--radius); background: var(--bg-alt); color: var(--text-muted); border: 1.5px solid var(--border); cursor: not-allowed; }
 .book-prose p { margin-bottom: 1.25rem; }
 .book-prose p:last-child { margin-bottom: 0; }
+.book-prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; transition: color 0.25s; }
+.book-prose a:hover { color: var(--accent-dark); }
 .book-author-card { margin-bottom: 2rem; }
 .book-author-card:last-child { margin-bottom: 0; }
 .book-signup { max-width: 560px; margin: 0 auto; text-align: center; }
