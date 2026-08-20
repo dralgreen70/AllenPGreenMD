@@ -82,4 +82,28 @@ I write about [therapeutic plasma exchange](/tpe) because I perform it, and part
 
 If you are trying to make sense of what you have read about plasma exchange, in oncology or anywhere else, you are welcome to [get in touch](/contact). I am glad to help people understand what the evidence does and does not show, including when the answer is that we do not know yet.
 
-Neither Dr. Green nor Global Apheresis has any financial or professional affiliation with the investigators, institutions, or companies discussed in this article.
+## References
+
+1. Connelly-Smith L, Alquist CR, Aqui NA, et al. Guidelines on the Use of Therapeutic Apheresis in Clinical Practice: Evidence-Based Approach from the Writing Committee of the American Society for Apheresis, Ninth Special Issue. *Journal of Clinical Apheresis.* 2023;38(2):77-278.
+
+2. Chen G, Huang AC, Zhang W, et al. Exosomal PD-L1 contributes to immunosuppression and is associated with anti-PD-1 response. *Nature.* 2018;560:382-386.
+
+3. Poggio M, Hu T, Pai CC, et al. Suppression of Exosomal PD-L1 Induces Systemic Anti-tumor Immunity and Memory. *Cell.* 2019;177:414-427.
+
+4. Lentz MR. Continuous whole blood UltraPheresis procedure in patients with metastatic cancer. *Journal of Biological Response Modifiers.* 1989;8:511-527.
+
+5. Lentz MR. The role of therapeutic apheresis in the treatment of cancer: a review. *Therapeutic Apheresis.* 1999;3(1):40-49.
+
+6. Gatanaga T, Hwang C, Kohr W, et al. Purification and characterization of an inhibitor (soluble tumor necrosis factor receptor) for tumor necrosis factor and lymphotoxin obtained from the serum ultrafiltrates of human cancer patients. *Proceedings of the National Academy of Sciences.* 1990;87:8781-8784.
+
+7. Schall TJ, Lewis M, Koller KJ, et al. Molecular cloning and expression of a receptor for human tumor necrosis factor. *Cell.* 1990;61:361-370.
+
+8. Aderka D, Engelmann H, Hornik V, et al. Increased serum levels of soluble receptors for tumor necrosis factor in cancer patients. *Cancer Research.* 1991;51:5602-5607.
+
+9. Selinsky CL, Howell MD. Soluble tumor necrosis factor receptor type I enhances tumor development and persistence in vivo. *Cellular Immunology.* 2000;200:81-87.
+
+10. Orme JJ, Enninga EAL, Lucien F, et al. Therapeutic plasma exchange clears circulating soluble PD-L1 and PD-L1-positive extracellular vesicles. *Journal for ImmunoTherapy of Cancer.* 2020;8(2):e001113.
+
+11. Orme JJ, et al. Plasma exchange and radiation resensitize immunotherapy-refractory melanoma: a phase I trial. *Nature Communications.* 2025. Trial registration: NCT04581382.
+
+12. Testing Plasma Exchange with Enfortumab Vedotin and Pembrolizumab in Advanced Urothelial Carcinoma (ReCIPE-B1). Trial registration: NCT07087860.
