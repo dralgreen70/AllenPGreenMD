@@ -401,7 +401,13 @@ export default function AboutPage() {
                   (Dr. Kiprov&apos;s pioneering legacy and Dr.
                   Green&apos;s hands-on procedural volume) makes Global
                   Apheresis one of the most experienced therapeutic apheresis
-                  practices in the country.
+                  practices in the country. Dr. Green and Dr. Kiprov are the
+                  authors of{" "}
+                  <Link href="/book" style={{ color: "var(--accent)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                    Old Blood, New Life
+                  </Link>
+                  , a history of therapeutic plasma exchange and where it goes
+                  next.
                 </p>
               </div>
             </div>

@@ -149,6 +149,11 @@ export function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/book" onClick={closeNav}>
+              The Book
+            </Link>
+          </li>
+          <li>
             <a
               href="https://www.globalapheresis.com/free-consultation"
               target="_blank"
