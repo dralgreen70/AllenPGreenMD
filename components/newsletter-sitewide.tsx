@@ -1,13 +1,19 @@
 "use client"
 
+import { usePathname } from "next/navigation"
 import { useNewsletterForm } from "@/hooks/use-newsletter-form"
 
 export function NewsletterSitewide() {
+  const pathname = usePathname()
   const { email, setEmail, hp, setHp, status, errorMessage, handleSubmit } =
     useNewsletterForm({
       magnetPath: "/downloads/AMBAR_Evidence_Guide.pdf",
       source: "sitewide",
     })
+
+  // The /book page has its own book-launch email capture. Rendering the global
+  // Apheresis Report signup there too would stack two identical asks, so suppress it.
+  if (pathname === "/book") return null
 
   return (
     <section className="newsletter-sitewide">
