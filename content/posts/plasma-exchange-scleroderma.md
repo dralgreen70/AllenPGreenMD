@@ -1,7 +1,7 @@
 ---
-title: "Pulsed Plasma Exchange for Scleroderma: What One Patient's 25-Year Experiment Taught the Field"
-metaTitle: "Pulsed Plasma Exchange for Scleroderma"
-ogTitle: "Pulsed Plasma Exchange for Scleroderma | Dr. Green"
+title: "Plasma Exchange for Scleroderma: What One Patient's Experiment Taught the Field"
+metaTitle: "Plasma Exchange for Scleroderma"
+ogTitle: "Plasma Exchange for Scleroderma | Dr. Green"
 date: "2026-08-20"
 author: "Dr. Allen P. Green"
 excerpt: "Edward Harris designed his own therapeutic plasma exchange protocol for scleroderma and reached remission. What Pulsed Plasma Exchange is, the blood rheology idea behind it, and the honest state of the evidence."
@@ -19,9 +19,9 @@ pillar: "autoimmune"
 
 Most medical protocols are written by physicians. This one was written by the patient.
 
-Edward Harris was diagnosed with limited cutaneous systemic sclerosis, a form of scleroderma, and by 1996 he had reached full clinical remission. Not with a new drug, but with therapeutic plasma exchange, on a schedule he designed himself. More than twenty-two years later he remains in remission, with only very mild residual Raynaud's, still on the maintenance protocol he built.
+Edward Harris was diagnosed with limited cutaneous systemic sclerosis, a form of scleroderma, and by 1996 he had reached full clinical remission. Not with a new drug, but with therapeutic plasma exchange, on a schedule he designed himself. His 2017 case report documented 22 years of treatment and sustained remission, leaving only very mild residual Raynaud's, and he has stayed on the maintenance protocol he built.
 
-It is worth being precise about what "self-treated" means here, because it is easy to hear it wrong. Harris did not operate an apheresis machine on himself, and he is not a physician performing his own procedures. What he did was design a protocol, persuade physicians to administer it, document his own case with the rigor of a researcher, and then build a research program around it. He founded the [Scleroderma Education Project](https://www.sclerodermainfo.org), holds an honorary appointment in rheumatology at the University of Wisconsin, Madison, and wrote standardized guidelines so that other physicians could run individual one-year TPE trials and pool their data toward a possible randomized study. That is a patient who engineered and championed his own care in partnership with clinicians. It is the opposite of going it alone.
+It is worth being precise about what "self-treated" means here, because it is easy to hear it wrong. Harris did not operate an apheresis machine on himself, and he is not a physician performing his own procedures. What he did was design a protocol, persuade physicians to administer it, document his own case with the rigor of a researcher, and then build a research program around it. He founded the [Scleroderma Education Project](https://www.sclerodermainfo.org), held an honorary associate appointment in rheumatology at the University of Wisconsin, Madison, and wrote standardized guidelines so that other physicians could run individual one-year TPE trials and pool their data toward a possible randomized study. That is a patient who engineered and championed his own care in partnership with clinicians. It is the opposite of going it alone.
 
 ## The protocol: Pulsed Plasma Exchange
 
@@ -41,7 +41,7 @@ Patients with systemic sclerosis have documented hyperviscosity and abnormal red
 
 This is the part that matters most, so I want to be honest about it.
 
-Harris did not only treat himself. In 2018 he published a comprehensive review that analyzed 572 patients with systemic sclerosis reported in the literature, 455 of whom had received TPE. Across that body of work, most TPE-treated patients improved after just three to four weekly treatments, particularly in their Raynaud's symptoms and digital ulceration. His own 22-year case report had appeared in the hemorheology literature the year before.
+Harris did not only treat himself. In 2018 he published a comprehensive review that analyzed 572 patients with systemic sclerosis reported in the literature, 455 of whom had received TPE. Across that body of work, most TPE-treated patients improved after just three to four weekly treatments, particularly in their Raynaud's symptoms and digital ulceration. His own case report of that long-term treatment had appeared in the hemorheology literature the year before.
 
 The governing guidelines have taken note. The American Society for Apheresis, in its 2023 guidelines, lists systemic sclerosis as a Category III indication. Category III means the optimum role of apheresis is not established and the decision should be individualized, patient by patient. It is the same honest category the evidence places TPE for Alzheimer's disease in. Within that fact sheet, extracorporeal photopheresis carries a Grade 2A recommendation and TPE a Grade 2C. And the ASFA fact sheet cites Harris's 2018 review directly, quoting exactly that finding about improvement after three to four weekly treatments. A patient-advocate's analysis is referenced in the evidence-based guidelines that physicians actually use. That is unusual, and it is a measure of how seriously his work has been taken.
 
