@@ -67,10 +67,16 @@ export default function Home() {
               name: "Global Apheresis",
               url: "https://www.globalapheresis.com",
             },
-            alumniOf: {
-              "@type": "EducationalOrganization",
-              name: "Medical University of South Carolina",
-            },
+            alumniOf: [
+              {
+                "@type": "EducationalOrganization",
+                name: "Medical University of South Carolina",
+              },
+              {
+                "@type": "EducationalOrganization",
+                name: "UT Southwestern Medical Center",
+              },
+            ],
           }),
         }}
       />

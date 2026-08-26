@@ -8,6 +8,7 @@ node_modules/
 .next/
 .env*.local
 .DS_Store
+tsconfig.tsbuildinfo
 # Local-only audit notes and Claude Code worktrees
 SITE_AUDIT_*.md
 .claude/worktrees/
