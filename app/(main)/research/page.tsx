@@ -233,7 +233,7 @@ export default function ResearchPage() {
       "@id": "https://allenpgreenmd.com/#physician",
       name: "Allen P. Green, M.D.",
       url: "https://allenpgreenmd.com/about",
-      medicalSpecialty: "Clinical Pathology",
+      medicalSpecialty: "Pathology",
       hasCredential: {
         "@type": "EducationalOccupationalCredential",
         credentialCategory: "Board Certification",

@@ -28,8 +28,15 @@ export const metadata: Metadata = {
   },
 }
 
+type Condition = {
+  name: string
+  desc: string
+  category: string
+  note?: string
+}
+
 /* ── Category I Conditions ── */
-const categoryI = [
+const categoryI: Condition[] = [
   {
     name: "Myasthenia Gravis (MG)",
     desc: "An autoimmune condition in which antibodies attack acetylcholine receptors at the neuromuscular junction, causing muscle weakness and fatigue. TPE removes anti-AChR antibodies from circulation, providing rapid improvement, particularly critical during myasthenic crisis, where respiratory muscles are affected.",
@@ -64,7 +71,7 @@ const categoryI = [
 ]
 
 /* ── Category II Conditions ── */
-const categoryII = [
+const categoryII: Condition[] = [
   {
     name: "Multiple Sclerosis (MS) — Acute Attacks",
     desc: "For acute MS relapses that do not respond adequately to high-dose corticosteroids, TPE is an established second-line treatment. It removes inflammatory mediators and autoantibodies contributing to the acute demyelinating attack.",
@@ -78,7 +85,7 @@ const categoryII = [
 ]
 
 /* ── Category III Conditions ── */
-const categoryIII = [
+const categoryIII: Condition[] = [
   {
     name: "Systemic Sclerosis (Scleroderma)",
     desc: "An autoimmune condition causing fibrosis of the skin and internal organs. TPE removes circulating autoantibodies and inflammatory mediators that drive the fibrotic process.",
@@ -358,7 +365,7 @@ export default function TpeAutoimmunePage() {
                 >
                   <h3>{c.name}</h3>
                   <p>{c.desc}</p>
-                  {"category" in c && c.category && (
+                  {c.category && (
                     <div className="auto-condition-category">{c.category}</div>
                   )}
                   {c.note && (
@@ -386,7 +393,7 @@ export default function TpeAutoimmunePage() {
                 >
                   <h3>{c.name}</h3>
                   <p>{c.desc}</p>
-                  {"category" in c && c.category && (
+                  {c.category && (
                     <div className="auto-condition-category">{c.category}</div>
                   )}
                   {c.note && (

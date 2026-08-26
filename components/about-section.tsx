@@ -127,8 +127,9 @@ export function AboutSection() {
 
             <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7 }}>
               Board-certified in Clinical Pathology. Associate Medical Director
-              at Global Apheresis. Trained under Dr. Dobri Kiprov, one of the
-              physicians who established TPE as a clinical discipline.
+              at Global Apheresis. Trained in therapeutic apheresis at UT
+              Southwestern, and now practicing alongside Dr. Dobri Kiprov, one
+              of the physicians who established TPE as a clinical discipline.
             </p>
 
             <a

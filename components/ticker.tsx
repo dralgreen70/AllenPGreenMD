@@ -3,7 +3,7 @@ const defaultItems = [
   { label: "BOARD CERTIFIED", value: "Clinical Pathologist" },
   { label: "SPECIALTY", value: "Apheresis" },
   { label: "TRAINING", value: "UT Southwestern" },
-  { label: "RESEARCH", value: "6+ Published Papers" },
+  { label: "RESEARCH", value: "8 Published Papers" },
 ]
 
 function TickerItems({ items }: { items: { label: string; value: string }[] }) {

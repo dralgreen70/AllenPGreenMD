@@ -83,7 +83,7 @@ export default function Home() {
             "@type": "MedicalClinic",
             "@id": "https://allenpgreenmd.com/#clinic",
             name: "Global Apheresis",
-            url: "https://globalapheresis.com",
+            url: "https://www.globalapheresis.com",
             telephone: "+14154486839",
             email: "DrGreen@allenpgreenmd.com",
             address: {
@@ -107,7 +107,7 @@ export default function Home() {
                 closes: "17:00",
               },
             ],
-            medicalSpecialty: "Hematology",
+            medicalSpecialty: "Hematologic",
             priceRange: "$$$",
             description:
               "Global Apheresis specializes in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification.",

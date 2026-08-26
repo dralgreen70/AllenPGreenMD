@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://allenpgreenmd.com/media",
   },
+  // Placeholder page — keep it out of the index until there is real content here.
+  robots: { index: false, follow: true },
 }
 
 export default function MediaPage() {

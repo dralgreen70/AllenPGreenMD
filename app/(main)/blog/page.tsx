@@ -204,6 +204,7 @@ export default function BlogPage() {
                 title="What is Therapeutic Plasma Exchange – Global Apheresis"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                loading="lazy"
               />
             </div>
             <div className="blog-video-embed">
@@ -212,6 +213,7 @@ export default function BlogPage() {
                 title="Patient Testimonial – Global Apheresis"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                loading="lazy"
               />
             </div>
           </div>

@@ -133,7 +133,7 @@ export default function AboutPage() {
     "@type": "MedicalClinic",
     "@id": "https://allenpgreenmd.com/#clinic",
     name: "Global Apheresis",
-    url: "https://globalapheresis.com",
+    url: "https://www.globalapheresis.com",
     telephone: "+14154486839",
     email: "DrGreen@allenpgreenmd.com",
     address: {
@@ -144,7 +144,7 @@ export default function AboutPage() {
       postalCode: "94941",
       addressCountry: "US",
     },
-    medicalSpecialty: "Therapeutic Plasma Exchange",
+    medicalSpecialty: "Hematologic",
     physician: {
       "@type": "Person",
       "@id": "https://allenpgreenmd.com/#physician",
@@ -349,14 +349,14 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* ===== SECTION 4: MENTORSHIP & GLOBAL APHERESIS ===== */}
+        {/* ===== SECTION 4: GLOBAL APHERESIS ===== */}
         <section className="site-section" style={{ background: "var(--bg)" }}>
           <div className="site-container">
             <div className="section-label-line reveal">
-              <span className="label-text">Mentorship</span>
+              <span className="label-text">Global Apheresis</span>
             </div>
             <h2 className="h-lg reveal" style={{ marginBottom: "3rem" }}>
-              Trained by a{" "}
+              Practicing Beside a{" "}
               <span className="serif-italic accent-text">Pioneer</span>
             </h2>
             <div className="mentorship-grid">
@@ -379,15 +379,15 @@ export default function AboutPage() {
                   <span style={{ fontWeight: 600, color: "var(--text)" }}>
                     With Dr. Dobri Kiprov
                   </span>{" "}
-                  at Global Apheresis, a pioneer in therapeutic plasma
-                  exchange and key mentor in Dr. Green&apos;s career.
+                  at Global Apheresis, a pioneer in therapeutic plasma exchange
+                  and Dr. Green&apos;s colleague in practice.
                 </p>
               </div>
               <div className="mentorship-text reveal-right">
                 <p className="body-lg">
-                  Dr. Green trained under and now works alongside Dr. Dobri
-                  Kiprov, M.D., one of the physicians who established
-                  therapeutic plasma exchange as a clinical discipline. Dr.
+                  Dr. Green practices alongside Dr. Dobri Kiprov, M.D., one of
+                  the physicians who established therapeutic plasma exchange as
+                  a clinical discipline. Dr.
                   Kiprov was the first U.S. physician to pass the Hemapheresis
                   Practitioner Exam, a founding member of the American Society
                   for Apheresis (ASFA) and The Journal of Clinical Apheresis,

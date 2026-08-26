@@ -87,12 +87,12 @@ export function Navbar() {
             </Link>
           </li>
           <li className={`nav-dropdown${dropdownOpen ? " open" : ""}`}>
-            <a href="#" className="nav-dropdown-trigger" onClick={toggleDropdown}>
+            <button type="button" className="nav-dropdown-trigger" aria-haspopup="true" onClick={toggleDropdown}>
               Applications
               <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M1 1l4 4 4-4" />
               </svg>
-            </a>
+            </button>
             <div className="nav-dropdown-menu">
               <Link href="/tpe-alzheimers" onClick={closeNav}>
                 Alzheimer&apos;s &amp; Cognitive Decline
@@ -109,12 +109,12 @@ export function Navbar() {
             </div>
           </li>
           <li className={`nav-dropdown${researchDropdownOpen ? " open" : ""}`}>
-            <a href="#" className="nav-dropdown-trigger" onClick={toggleResearchDropdown}>
+            <button type="button" className="nav-dropdown-trigger" aria-haspopup="true" onClick={toggleResearchDropdown}>
               Research
               <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M1 1l4 4 4-4" />
               </svg>
-            </a>
+            </button>
             <div className="nav-dropdown-menu">
               <Link href="/research" onClick={closeNav}>
                 My Publications
@@ -125,12 +125,12 @@ export function Navbar() {
             </div>
           </li>
           <li className={`nav-dropdown${journalDropdownOpen ? " open" : ""}`}>
-            <a href="#" className="nav-dropdown-trigger" onClick={toggleJournalDropdown}>
+            <button type="button" className="nav-dropdown-trigger" aria-haspopup="true" onClick={toggleJournalDropdown}>
               Report
               <svg className="nav-dropdown-arrow" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M1 1l4 4 4-4" />
               </svg>
-            </a>
+            </button>
             <div className="nav-dropdown-menu">
               <Link href="/blog" onClick={closeNav}>
                 All Posts
