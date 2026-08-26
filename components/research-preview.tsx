@@ -2,6 +2,26 @@ import Link from "next/link"
 
 const featured = [
   {
+    type: "Editorial",
+    year: "2026",
+    title:
+      "Therapeutic Apheresis in Transition: New Indications and the Emergence of Precision Apheresis",
+    authors: "Green A, Kiprov D",
+    journal: "Transfusion and Apheresis Science",
+    desc: "Opening editorial for the guest-edited theme issue, framing the field's shift from non-selective plasma exchange toward precision apheresis.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00112-6/abstract",
+  },
+  {
+    type: "Review Article",
+    year: "2026",
+    title:
+      "Technological Advances in Selective Plasma Adsorption: The MTx.100 Column and the Emergence of Subtractive Precision Medicine",
+    authors: "Kiprov DD, Green AP, Boyinapalli P",
+    journal: "Transfusion and Apheresis Science",
+    desc: "Reviews selective adsorption as a move beyond non-selective exchange — targeting pathogenic cytokines and protein-bound toxins while sparing immunoglobulins, coagulation factors, and albumin.",
+    link: "https://www.trasci.com/article/S1473-0502(26)00116-3/abstract",
+  },
+  {
     type: "Journal Article",
     year: "2024",
     title:
@@ -10,26 +30,6 @@ const featured = [
     journal: "Blood Vessels, Thrombosis & Hemostasis",
     desc: "Demonstrates a personalized approach to caplacizumab dosing guided by ADAMTS13 activity monitoring, optimizing treatment outcomes in iTTP.",
     link: "https://doi.org/10.1016/j.bvth.2024.100010",
-  },
-  {
-    type: "Journal Article",
-    year: "2021",
-    title:
-      "The Utility of Therapeutic Plasma Exchange in Hyperviscosity Syndrome Associated with Juvenile Rheumatoid Arthritis",
-    authors: "Green A, Gonzalez A, Alperin J, Burner J, Yates S",
-    journal: "Journal of Clinical Apheresis",
-    desc: "Case report demonstrating successful use of therapeutic plasma exchange for managing hyperviscosity syndrome in juvenile rheumatoid arthritis.",
-    link: "https://pubmed.ncbi.nlm.nih.gov/33945169/",
-  },
-  {
-    type: "Journal Article",
-    year: "2022",
-    title:
-      "Successful Use of Lenalidomide to Treat Refractory Acquired von Willebrand Disease Associated with Monoclonal Gammopathy",
-    authors: "Green A, Shen YP, Nelson AT, Sarode R, et al.",
-    journal: "Annals of Hematology",
-    desc: "First reported use of lenalidomide for refractory acquired von Willebrand disease in the setting of monoclonal gammopathy.",
-    link: "https://link.springer.com/article/10.1007/s00277-022-04991-9",
   },
 ]
 
