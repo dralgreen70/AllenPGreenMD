@@ -27,6 +27,9 @@ const nextConfig = {
 
       // 3. Wildcard fallback: every /journal/<slug> where the slug stayed the same → /blog/<slug>
       { source: "/journal/:slug*", destination: "/blog/:slug*", permanent: true },
+
+      // --- Placeholder /media folded into the book press kit (added 2026-08-28) ---
+      { source: "/media", destination: "/media-kit", permanent: true },
     ]
   },
   async headers() {

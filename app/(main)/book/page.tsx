@@ -212,6 +212,9 @@ export default function BookPage() {
                   Lecturer&rsquo;s, and Francis Morrison Memorial Awards.
                 </p>
               </div>
+              <p className="body-lg">
+                Press and podcast inquiries: <Link href="/media-kit">press kit</Link>.
+              </p>
             </div>
           </div>
         </section>
