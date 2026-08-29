@@ -37,7 +37,9 @@ export const metadata: Metadata = {
 
 const FACTS: { label: string; value: string }[] = [
   { label: "Title", value: "Old Blood, New Life" },
-  { label: "Authors", value: "Dobri Kiprov, MD, and Allen P. Green, MD" },
+  // Byline order matches the printed cover, the title page, /book, and the
+  // Book JSON-LD. Journalists copy this line, so it has to agree with the book.
+  { label: "Authors", value: "Allen P. Green, MD, and Dobri Kiprov, MD" },
   { label: "Publisher", value: "Sanguine House" },
   { label: "Format", value: "Paperback" },
   { label: "Price", value: "$18.99" },
