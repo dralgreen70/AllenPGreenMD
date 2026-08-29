@@ -90,10 +90,10 @@ const ASSETS: {
   {
     href: "/images/press/dr-kiprov-headshot.jpg",
     name: "Dr. Kiprov, headshot",
-    detail: "JPG, 238 x 320, web resolution",
+    detail: "JPG, 1168 x 1366, 300 dpi",
     thumb: "/images/press/dr-kiprov-headshot.jpg",
     alt: "Headshot of Dobri Kiprov, MD",
-    ratio: 3 / 4,
+    ratio: 1168 / 1366,
   },
 ]
 
