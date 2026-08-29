@@ -95,6 +95,14 @@ const ASSETS: {
     alt: "Headshot of Dobri Kiprov, MD",
     ratio: 1168 / 1366,
   },
+  {
+    href: "/downloads/OldBloodNewLife_SampleChapter_Ch3.pdf",
+    name: "Sample chapter: Chapter 3, Bleed to Heal",
+    detail: "PDF, 12 pages",
+    thumb: "/images/press/sample-chapter-thumb.jpg",
+    alt: "Title page of the Old Blood, New Life sample chapter",
+    ratio: 2 / 3,
+  },
 ]
 
 const QUESTIONS: string[] = [
@@ -263,57 +271,6 @@ export default function MediaKitPage() {
                 </div>
               </li>
             ))}
-            <li
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "1.25rem",
-                paddingBottom: "1.25rem",
-                borderBottom: "1px solid var(--border)",
-              }}
-            >
-              <div
-                style={{
-                  width: 72,
-                  height: 96,
-                  flexShrink: 0,
-                  border: "1px solid var(--border)",
-                  borderRadius: "4px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  background: "var(--card)",
-                  ...labelStyle,
-                }}
-              >
-                PDF
-              </div>
-              <div style={{ minWidth: 0 }}>
-                <a
-                  href="/downloads/OldBloodNewLife_SampleChapter_Ch3.pdf"
-                  download
-                  style={{
-                    fontFamily: "'Instrument Serif', serif",
-                    fontSize: "1.2rem",
-                    color: "var(--text)",
-                    textDecoration: "none",
-                    lineHeight: 1.3,
-                  }}
-                >
-                  Sample chapter: Chapter 3, Bleed to Heal{" "}
-                  <span className="arrow">&rarr;</span>
-                </a>
-                <div
-                  style={{
-                    fontSize: "0.85rem",
-                    color: "var(--text-secondary)",
-                    marginTop: "0.3rem",
-                  }}
-                >
-                  PDF, 12 pages
-                </div>
-              </div>
-            </li>
           </ul>
           <p
             style={{
