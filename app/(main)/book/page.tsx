@@ -1,10 +1,9 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { BookEmailForm } from "@/components/book-email-form"
 
 const DESCRIPTION =
-  "A new book on the history and science of therapeutic plasma exchange, by Allen P. Green, MD and Dobri Kiprov, MD. Paperback available September 1, 2026."
+  "A new book on the history and science of therapeutic plasma exchange, by Allen P. Green, MD and Dobri Kiprov, MD. Paperback, $18.99, out now."
 
 export const metadata: Metadata = {
   title: "Old Blood, New Life | Dr. Green",
@@ -34,8 +33,10 @@ export const metadata: Metadata = {
   },
 }
 
-// Set this to the retail listing URL to activate the buy button at launch.
-const BUY_URL: string | null = null
+// The retail listing. Set on launch day, which activates the buy button.
+const BUY_URL: string | null = "https://www.amazon.com/dp/B0HH86RWKJ"
+
+const REVIEW_URL = "https://www.amazon.com/review/create-review?asin=B0HH86RWKJ"
 
 export default function BookPage() {
   const bookSchema = {
@@ -58,7 +59,7 @@ export default function BookPage() {
       name: "Sanguine House",
     },
     bookFormat: "https://schema.org/Paperback",
-    datePublished: "2026-09-01",
+    datePublished: "2026-08-28",
     inLanguage: "en",
     numberOfPages: 293,
     isbn: "979-8-9970143-1-5",
@@ -68,7 +69,8 @@ export default function BookPage() {
       "@type": "Offer",
       price: "18.99",
       priceCurrency: "USD",
-      availability: "https://schema.org/PreOrder",
+      availability: "https://schema.org/InStock",
+      url: "https://www.amazon.com/dp/B0HH86RWKJ",
     },
   }
 
@@ -100,14 +102,12 @@ export default function BookPage() {
                   Allen P. Green, MD and Dobri Kiprov, MD
                 </p>
                 <p className="book-hero-meta">
-                  Paperback, $18.99. Available September 1, 2026.
+                  Paperback, $18.99. Available now.
                 </p>
                 {/*
-                  Launch day: set BUY_URL above to swap in the live buy link.
-                  Pre-launch: a live "Get notified" button scrolls to the signup.
-                  The static disabled chip is retained for launch-day use if a
-                  temporary date/out-of-stock state is ever needed:
-                    <span className="book-buy-disabled" aria-disabled="true">Available September 1</span>
+                  Launched 2026-08-28; BUY_URL is set, so the buy button is live.
+                  The pre-launch signup that the old fallback scrolled to is gone,
+                  so clearing BUY_URL now shows an unavailable chip instead.
                 */}
                 <div className="book-buy">
                   {BUY_URL ? (
@@ -120,9 +120,9 @@ export default function BookPage() {
                       Buy the paperback
                     </a>
                   ) : (
-                    <a href="#notify" className="btn btn-accent">
-                      Get notified
-                    </a>
+                    <span className="book-buy-disabled" aria-disabled="true">
+                      Temporarily unavailable
+                    </span>
                   )}
                 </div>
               </div>
@@ -155,20 +155,26 @@ export default function BookPage() {
           </div>
         </section>
 
-        {/* ===== EMAIL CAPTURE ===== */}
-        <section
-          className="site-section"
-          id="notify"
-          style={{ scrollMarginTop: "90px" }}
-        >
+        {/* ===== REVIEW ASK ===== */}
+        <section className="site-section">
           <div className="site-container">
             <div className="book-signup">
-              <h2 className="h-lg">Get an email when it&rsquo;s out</h2>
+              <h2 className="h-lg">Read it already?</h2>
               <p className="body-lg" style={{ marginTop: "0.75rem" }}>
-                One message when the book is available, and nothing else unless
-                you want it.
+                Honest reviews are the single biggest thing that helps a new book
+                find readers. If it was worth your time, leaving one takes two
+                minutes.
               </p>
-              <BookEmailForm />
+              <div className="book-buy" style={{ marginTop: "1.5rem" }}>
+                <a
+                  href={REVIEW_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-accent"
+                >
+                  Leave a review <span className="arrow">&rarr;</span>
+                </a>
+              </div>
             </div>
           </div>
         </section>

@@ -44,7 +44,7 @@ const FACTS: { label: string; value: string }[] = [
   { label: "Format", value: "Paperback" },
   { label: "Price", value: "$18.99" },
   { label: "ISBN", value: "979-8-9970143-1-5" },
-  { label: "Publication date", value: "September 1, 2026" },
+  { label: "Publication date", value: "August 28, 2026" },
 ]
 
 // Every asset below is self-hosted under /public. Dimensions are stated so a
