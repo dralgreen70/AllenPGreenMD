@@ -76,7 +76,7 @@ Two things to understand before reading any of these numbers.
 
 Most apheresis safety data come from very sick patients. TPE has been used in hospitals for decades for conditions including TTP, Guillain-Barré syndrome, myasthenic crisis, vasculitis with renal failure, and hepatic failure. Some of these patients are in intensive care. When one of them arrests, the illness is usually the reason.
 
-The replacement fluid changes the risk substantially. Hospital TPE often uses donor plasma, which is required for conditions like TTP and carries the risks of any transfusion. Longevity and wellness protocols use albumin, which has a different risk profile entirely. Studies that pool both overstate the risk of albumin-based exchange.
+The replacement fluid changes the risk substantially. Hospital TPE often uses donor plasma, which is required for conditions like TTP and carries the risks of any transfusion. Longevity and wellness protocols use [albumin](/blog/albumin-safety-plasma-exchange), which has a different risk profile entirely. Studies that pool both overstate the risk of albumin-based exchange.
 
 With that framing:
 

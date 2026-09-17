@@ -17,6 +17,8 @@ If you've been researching apheresis therapy online, you've probably encountered
 
 This post explains what inuspheresis actually is, where it's available, and how it compares, both technically and clinically, to [therapeutic plasma exchange](/tpe) (TPE).
 
+If you have arrived here because of the death of Giorgos Mazonakis in Athens, which involved an inuspheresis device, I have written separately about [what the published safety data show and what that case does and does not tell us](/blog/athens-plasma-exchange-safety). This post is about the technology itself.
+
 ## What Is Inuspheresis?
 
 Inuspheresis is a proprietary form of double filtration plasmapheresis (DFPP), developed in Germany and Switzerland. Like TPE, it is an extracorporeal blood purification procedure: blood is drawn from the patient, processed outside the body, and returned. It is used primarily in Europe for chronic inflammatory conditions, environmental toxicity, post-viral syndromes, and cardiovascular risk reduction.

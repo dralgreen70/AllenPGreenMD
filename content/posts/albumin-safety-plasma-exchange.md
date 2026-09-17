@@ -71,6 +71,8 @@ The manufacturing process today is more rigorous than it has ever been. Modern a
 
 If you have specific questions about the albumin used in your treatment, including the manufacturer, the lot number, or the country of fractionation, those are reasonable questions. Any reputable clinic should be able to answer them.
 
+The same holds for the procedure itself. I have written separately about [the safety data on plasma exchange and the questions worth asking any apheresis program](/blog/athens-plasma-exchange-safety).
+
 ---
 
 *If you are considering therapeutic plasma exchange and have questions about the procedure, the replacement fluids, or whether you may be a candidate, the best next step is [a consultation](/contact).*
