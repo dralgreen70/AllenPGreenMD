@@ -38,6 +38,8 @@ But they have specific capabilities and specific limits. Your liver and kidneys 
 
 TPE doesn't replace your organs. It does something your organs were never designed to do: remove the plasma itself and replace it with something clean.
 
+<!--book-callout: Chapter 12 is the plain-language tour of the machine, including the section people ask for most: why this is not dialysis.-->
+
 ## "Is this the same thing as donating plasma?"
 
 The first step is similar: your blood is drawn, run through an apheresis machine, and separated into cells and plasma. But that's where the overlap ends.

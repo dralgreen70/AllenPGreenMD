@@ -41,6 +41,8 @@ There's an important wrinkle, and I want to be upfront about it because it actua
 
 In other words: the therapy works, and the equipment introduces a measurable but manageable amount of contamination. That's an engineering problem, and engineering problems have solutions.
 
+<!--book-callout: Chapter 11 works through this study in detail, contamination wrinkle included, under a heading that states the position: microplastics are present, plausibly harmful, not yet proven guilty.-->
+
 ## Microplastics aren't the only passenger
 
 Here's the part that makes this bigger than any single particle. Microplastics are one of several things plasma exchange clears, and the case for the procedure rests on all of them together.

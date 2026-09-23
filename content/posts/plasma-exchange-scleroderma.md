@@ -37,6 +37,8 @@ The obvious assumption is that plasma exchange helps autoimmune disease by remov
 
 Patients with systemic sclerosis have documented hyperviscosity and abnormal red blood cell aggregation. Their blood does not move through the smallest vessels the way healthy blood does. Removing a volume of plasma and replacing it with albumin reduces that aggregation and improves the microcirculation. That mechanism would help explain a clinical observation that antibody removal alone does not: why Raynaud's phenomenon and digital ulcers, both problems of small-vessel blood flow, tend to respond strongly, often after just three or four weekly treatments. A single-volume exchange removes only about 30 percent of circulating IgG, which is not a large amount of antibody clearance. The rheology effect is Harris's proposed key differentiator.
 
+<!--book-callout: Chapter 13 covers the indications where the reasoning is cleanest, including the conditions treated because the blood is simply too thick. That is the rheology argument Harris was working from.-->
+
 ## Where the evidence actually sits
 
 This is the part that matters most, so I want to be honest about it.

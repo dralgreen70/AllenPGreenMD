@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { BOOK, BOOK_COVER_LARGE, RETAIL_URL, REVIEW_URL } from "@/lib/book"
+import { BookBuyLink } from "@/components/book-buy-link"
 
 const DESCRIPTION =
   "A new book on the history and science of therapeutic plasma exchange, by Allen P. Green, MD and Dobri Kiprov, MD. Paperback, $18.99, out now."
@@ -33,16 +35,15 @@ export const metadata: Metadata = {
   },
 }
 
-// The retail listing. Set on launch day, which activates the buy button.
-const BUY_URL: string | null = "https://www.amazon.com/dp/B0HH86RWKJ"
-
-const REVIEW_URL = "https://www.amazon.com/review/create-review?asin=B0HH86RWKJ"
+// Launched 2026-08-28. The buy button routes through /book/buy, which holds the
+// destination and its attribution tagging; BOOK/RETAIL_URL/REVIEW_URL all derive
+// from the ASIN in lib/book.ts.
 
 export default function BookPage() {
   const bookSchema = {
     "@context": "https://schema.org",
     "@type": "Book",
-    name: "Old Blood, New Life",
+    name: BOOK.title,
     author: [
       {
         "@type": "Person",
@@ -59,19 +60,22 @@ export default function BookPage() {
       name: "Sanguine House",
     },
     bookFormat: "https://schema.org/Paperback",
-    datePublished: "2026-08-28",
+    datePublished: BOOK.datePublished,
     inLanguage: "en",
-    numberOfPages: 293,
-    isbn: "979-8-9970143-1-5",
-    image: "https://allenpgreenmd.com/images/book/old-blood-new-life-cover.jpg",
+    numberOfPages: BOOK.pages,
+    isbn: BOOK.isbn,
+    image: `https://allenpgreenmd.com${BOOK_COVER_LARGE.src}`,
     url: "https://allenpgreenmd.com/book",
     offers: {
       "@type": "Offer",
-      price: "18.99",
-      priceCurrency: "USD",
+      price: BOOK.price,
+      priceCurrency: BOOK.priceCurrency,
       availability: "https://schema.org/InStock",
-      url: "https://www.amazon.com/dp/B0HH86RWKJ",
+      // Structured data should name the actual retailer, not the redirect.
+      url: RETAIL_URL,
     },
+    // No aggregateRating: the book has no ratings yet, and inventing or
+    // emitting an empty one is a structured-data violation.
   }
 
   return (
@@ -86,44 +90,28 @@ export default function BookPage() {
           <div className="site-container">
             <div className="book-hero">
               <Image
-                src="/images/book/old-blood-new-life-cover.jpg"
-                alt="Cover of Old Blood, New Life by Allen P. Green, MD and Dobri Kiprov, MD"
-                width={1600}
-                height={2560}
+                src={BOOK_COVER_LARGE.src}
+                alt={BOOK_COVER_LARGE.alt}
+                width={BOOK_COVER_LARGE.width}
+                height={BOOK_COVER_LARGE.height}
+                // The grid caps this column at 320px (260px stacked), so state
+                // it: without sizes the srcset is built from the 1800px intrinsic
+                // width and ships an enormous file into a small slot.
+                sizes="(max-width: 768px) 260px, 320px"
                 className="book-hero-cover"
                 priority
               />
               <div className="book-hero-text">
-                <h1 className="h-display">Old Blood, New Life</h1>
-                <p className="book-hero-subtitle">
-                  How Cleaning the Blood Became Medicine, and Where It Goes Next
-                </p>
-                <p className="book-hero-authors">
-                  Allen P. Green, MD and Dobri Kiprov, MD
-                </p>
+                <h1 className="h-display">{BOOK.title}</h1>
+                <p className="book-hero-subtitle">{BOOK.subtitle}</p>
+                <p className="book-hero-authors">{BOOK.authors}</p>
                 <p className="book-hero-meta">
-                  Paperback, $18.99. Available now.
+                  {BOOK.format}, ${BOOK.price}. Available now.
                 </p>
-                {/*
-                  Launched 2026-08-28; BUY_URL is set, so the buy button is live.
-                  The pre-launch signup that the old fallback scrolled to is gone,
-                  so clearing BUY_URL now shows an unavailable chip instead.
-                */}
                 <div className="book-buy">
-                  {BUY_URL ? (
-                    <a
-                      href={BUY_URL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-accent"
-                    >
-                      Buy the paperback
-                    </a>
-                  ) : (
-                    <span className="book-buy-disabled" aria-disabled="true">
-                      Temporarily unavailable
-                    </span>
-                  )}
+                  <BookBuyLink placement="book-hero">
+                    Buy the paperback
+                  </BookBuyLink>
                 </div>
               </div>
             </div>

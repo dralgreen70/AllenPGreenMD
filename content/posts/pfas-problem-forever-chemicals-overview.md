@@ -39,6 +39,8 @@ Clinically, this matters because it determines what interventions can work. You 
 
 This is also the argument against whole blood donation as a PFAS intervention. Whole blood removal discards red cells along with plasma, which means you sacrifice iron and oxygen-carrying capacity to access the compartment where the toxins actually live. The Gasiorowski 2022 randomized trial confirmed this empirically. Over 12 months, plasma donation reduced PFOS by 2.9 ng/mL, which the study's lead author characterized as approximately a 30% decrease. Whole blood donation reduced PFOS by only 1.1 ng/mL, and had no significant effect on PFHxS at all. The difference is not small. It is the difference between a clinically meaningful intervention and an inefficient one.
 
+<!--book-callout: Chapter 11 takes up microplastics and PFAS together, and opens by explaining why those two and not the dozens of other contaminants people ask about.-->
+
 ## What the Evidence of Harm Actually Shows
 
 The evidence that PFAS exposure harms human health is no longer contested in the way it was a decade ago. The C8 Science Panel, convened as part of a West Virginia class-action settlement following DuPont's PFOA contamination of the Ohio River Valley, linked PFOA exposure to kidney cancer, testicular cancer, thyroid disease, ulcerative colitis, pregnancy-induced hypertension, and high cholesterol over eight years of epidemiological study of a large exposed population. Subsequent research has extended that list to include liver disease, cardiovascular disease, reduced vaccine response in children, endometriosis, polycystic ovary syndrome, and reduced fertility.

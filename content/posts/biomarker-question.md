@@ -34,6 +34,8 @@ Aging clocks show genuine promise, but they remain an emerging tool. The field i
 
 ---
 
+<!--book-callout: Chapter 17 is the book's catalogue of what we don't know, and it opens on this exact problem. Two of its sections are titled "Do the markers measure what we think they measure?" and "Does moving the marker change the life?"-->
+
 ## What the Research Does Show: Three Categories of Change
 
 Despite the biomarker limitations, extensive research has documented specific, measurable changes that occur with TPE.

@@ -34,6 +34,8 @@ The gerozyme concept is bigger than any one tissue. It belongs to a way of think
 
 That framework comes out of the parabiosis experiments, in which a young mouse and an old mouse are surgically joined to share one bloodstream. The old animal's tissues grow measurably younger, the young animal's grow older, and aging, it turns out, travels in the circulation. The field named the traffic: *anti-geronic* factors that keep tissue youthful, and *pro-geronic* factors that drive it toward decline. With age the balance tips, the pro-aging signals rise, and cells find themselves marinating in a chemistry that tells them to age. A gerozyme like 15-PGDH is a pro-aging actor of exactly this kind, just operating inside the tissue rather than circulating through it.
 
+<!--book-callout: Chapter 7 traces how this field turned from adding young factors to removing old ones, including the cautionary tale of GDF11 that forced the rethink.-->
+
 ## A removal story, not an addition story
 
 For years the longevity field chased *addition*: find the youthful ingredient in young blood, bottle it, and you would have a rejuvenation drug. The most famous candidate, a protein called GDF11, made magazine covers as the fountain-of-youth molecule, then fell apart under replication. The lesson the field absorbed was humility about magic ingredients.

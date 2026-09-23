@@ -28,6 +28,8 @@ Several paraneoplastic neurologic syndromes, where a cancer provokes antibodies 
 
 Both of these are established medicine. Neither is what people mean when they ask whether plasma exchange treats cancer.
 
+<!--book-callout: Chapter 9 is on the signalling cancer does through the blood: the circulating factors that prepare distant tissue, and whether the cloak is removable. None of it is established therapy.-->
+
 The part that is genuinely new
 
 For most of the history of oncology, the weapons pointed at the tumor. Surgery removed it, radiation burned it, chemotherapy poisoned it. Then checkpoint inhibitors arrived and changed the target: rather than attacking the tumor, they release the brakes the tumor had applied to the immune system.

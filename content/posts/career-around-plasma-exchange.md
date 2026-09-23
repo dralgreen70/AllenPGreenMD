@@ -26,6 +26,8 @@ The field that oversees plasma exchange is transfusion medicine, a subspecialty 
 
 ---
 
+<!--book-callout: Dobri Kiprov and I wrote Old Blood, New Life together. His own reflection closes the epilogue, and the disclosures page at the front names what each of us has at stake in the field.-->
+
 Here's what I didn't expect: when I brought these studies to my mentors during residency, they laughed.
 
 Not dismissively. Actually laughed.

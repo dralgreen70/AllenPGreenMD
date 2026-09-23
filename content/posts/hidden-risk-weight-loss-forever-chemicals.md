@@ -60,6 +60,8 @@ Plasma donation is well-suited to younger, healthy individuals whose primary goa
 
 [Therapeutic plasma exchange](/tpe) is the better choice for individuals over 40, those with additional health concerns or multiple wellness goals, or anyone seeking maximum detoxification efficiency in fewer sessions. For people pursuing comprehensive longevity optimization, not just toxin removal, TPE's additional regenerative benefits make it the more complete intervention.
 
+<!--book-callout: Chapter 11 covers PFAS at length: why these compounds don't leave the body, what removing them demonstrates, and what it does not yet prove about anyone's health.-->
+
 ## Environmental Toxin Sources During Weight Loss
 
 Understanding common sources of forever chemicals can help minimize ongoing exposure during your weight loss journey.

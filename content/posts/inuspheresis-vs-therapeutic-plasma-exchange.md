@@ -35,6 +35,8 @@ There are two distinct technologies used in plasmapheresis. The first, and the s
 
 The second technology is membrane filtration. A filter physically separates plasma from the cellular components of blood. In standard single-filtration plasmapheresis, the plasma is then discarded and replaced, functionally similar to centrifugal TPE in its outcome, if not its mechanism.
 
+<!--book-callout: Chapter 18 maps the whole landscape of blood-cleaning procedures, including the split between broad removal and the precise-filtration approaches that claim to improve on it. We disclose our own involvement with one of those devices.-->
+
 ## How Inuspheresis Works
 
 DFPP builds on the filtration-based approach by adding a second filter. After the plasma is separated from the blood cells, it passes through a fractionator: a secondary membrane with a specific pore size. This fractionator is calibrated to trap large molecules while allowing smaller ones, including albumin, to pass through and be returned to the patient. Because most of the patient's own albumin is preserved, replacement fluid is generally not required.

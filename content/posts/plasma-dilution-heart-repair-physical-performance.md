@@ -54,6 +54,8 @@ The tissue told the same story. At three months, the injured-plus-treated hearts
 
 One result deserves special mention because of how stubborn the underlying problem is. Adult heart-muscle cells are famously poor at dividing again after they are damaged, which is a large part of why the heart recovers so badly compared with, say, the liver. Yet the treated hearts carried significantly more Ki67-positive cardiomyocytes in and around the infarct, a marker of cells re-entering the cell cycle. That hints the plasma exchange did not just quiet the damage. It nudged the environment toward something closer to genuine repair.
 
+<!--book-callout: Chapter 14 covers the neutral-fluid dilution work under the heading "Subtract, don't add." The idea is a serious one and still investigational, and the chapter says so.-->
+
 ## The Part I Keep Coming Back To
 
 Now the finding that opened this piece. Grip strength and running distance both fell hard in the injured, untreated mice, each dropping by more than half from baseline over three months. The injured mice who received the plasma exchange largely held their baseline, reaching levels comparable to the uninjured shams. That contrast is impressive on its own.

@@ -797,6 +797,19 @@ details[open] .tpe-faq-chevron { transform: rotate(180deg); }
 .post-content .post-callout-light-links a::before { content: '\2192'; margin-right: 0.4rem; }
 .post-content .post-callout-light-links a:hover { color: var(--text); }
 
+/* Book Callout -- .post-callout-light chrome plus a cover column */
+.post-book-callout { display: flex; gap: 1.5rem; align-items: flex-start; }
+.post-book-callout-cover { width: 84px; height: auto; border: 1px solid var(--border); border-radius: 4px; flex-shrink: 0; }
+.post-book-callout-text { min-width: 0; }
+/* --text-secondary, not --text-muted: at 0.7rem, muted lands at 2.95:1 on
+   --bg-alt and fails AA. Secondary is 6.21:1 and is already the body colour. */
+.post-book-callout-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.08em; color: var(--text-secondary); line-height: 1.6; margin-top: 1rem; }
+/* Beside an 84px cover the text column is ~28 characters at 375px, so stack. */
+@media (max-width: 640px) {
+  .post-book-callout { flex-direction: column; gap: 1.25rem; }
+  .post-book-callout-cover { width: 96px; }
+}
+
 /* Comparison Table */
 .post-comparison-wrap { margin: 2.5rem 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
 .post-comparison-header { background: var(--bg-dark); padding: 1.5rem 2rem; }

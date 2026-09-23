@@ -38,6 +38,8 @@ That range is wide, and it should make you ask questions. The core procedure is 
 
 **Lab work.** Bloodwork before and after the procedure (inflammatory markers, metabolic panels, toxin panels, or biological age testing) is typically billed separately. This can add several hundred dollars to the total cost of a treatment cycle and is worth asking about upfront.
 
+<!--book-callout: The epilogue is honest about cost. Its section on access and the order of operations asks who should get this first when it prices out the way it does.-->
+
 ## Why Prices Vary
 
 **Geography.** A clinic in Manhattan or Beverly Hills has different overhead than one in Nashville or Mill Valley. This is real, but it only explains part of the spread.

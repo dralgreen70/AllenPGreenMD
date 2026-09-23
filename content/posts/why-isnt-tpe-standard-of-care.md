@@ -39,6 +39,8 @@ Lecanemab and donanemab went through the traditional FDA drug approval pathway. 
 
 Plasma exchange with albumin replacement is an off-label use of two products that are each individually FDA-approved. This creates real friction: some physicians are hesitant to use treatments off-label, insurance coverage is less predictable, reimbursement can be denied, and implementation requires more institutional coordination. None of this reflects on the evidence. It reflects on how medicine adopts new treatments.
 
+<!--book-callout: Chapter 4 has a section called "The baby and the bathwater." When medicine finally rejected bloodletting it threw out the whole idea of treating the blood, and the field is still paying for that.-->
+
 ## The Logistics Problem
 
 Prescribing lecanemab is straightforward: write a prescription, the patient goes to an infusion center every two weeks for a 30–60 minute infusion. Plasma exchange is more complex. It requires specialized apheresis equipment and trained staff, takes 2–3 hours per session, needs appropriate venous access, and requires coordination between neurology and apheresis services. Many medical centers don't have apheresis capabilities at all, though our [clinical implementation guide for providers](/blog/tpe-for-healthcare-providers) demonstrates that these barriers are surmountable. It is simply easier, institutionally, to prescribe a drug than to implement a procedural intervention, regardless of which produces better outcomes.

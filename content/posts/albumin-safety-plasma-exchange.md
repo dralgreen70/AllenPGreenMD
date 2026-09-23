@@ -59,6 +59,8 @@ After pasteurization, the albumin undergoes nanofiltration and a full battery of
 
 The FDA licenses albumin products and conducts facility inspections. This is not a lightly regulated space.
 
+<!--book-callout: Chapter 12 of Old Blood, New Life covers what actually goes back in when the plasma comes out, and why albumin rather than saline is the answer. The section on the citrate tingle deals with the side effect patients actually notice.-->
+
 ## Is Spike Protein Passed in the Albumin?
 
 I receive this question regularly, and I answer it directly. No. Spike protein is a large, fragile molecule that would be eliminated during fractionation and chromatography, well before it ever reached the pasteurization step. Pasteurization would denature any remaining protein contaminants regardless.

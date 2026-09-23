@@ -48,6 +48,8 @@ The only things small enough to make it through are gas, water, and the smallest
 
 Sit with what that means. A real detox filter would pull the toxins out and leave the useful small molecules in. EBOO does the reverse. The fine pores that keep your cells out of the waste keep every toxin in your body, and the only thing the device discards is a little of the harmless small-molecule fraction your body actually wants. It is not failing to filter toxins by accident. It is straining out the wrong end of the spectrum.
 
+<!--book-callout: Chapter 18 places the procedures marketed as blood filtration against the ones with trial evidence behind them, and says plainly which is which.-->
+
 ## What is actually in the waste cup
 
 EBOO providers often photograph the collection cup, a layer of pale yellow liquid under a head of white "pancake foam," and present it as toxins, uric acid, or microplastics pulled from the blood. Neither part is what it is claimed to be.

@@ -18,6 +18,8 @@ TPE is a procedure that removes blood plasma, the liquid portion of blood, repla
 
 The American Society for Apheresis recognizes more than 80 therapeutic indications for TPE across dozens of medical conditions. It is not experimental. It is not new. What is new is its application to longevity, Alzheimer's disease, and environmental detoxification: areas where the evidence has grown substantially in the last decade.
 
+<!--book-callout: Chapter 14 covers biological age as a measurable quantity and the trials testing whether plasma exchange moves it. The work is early, two of the studies are our own, and the chapter treats both facts as relevant.-->
+
 ## The Four Applications
 
 ### Alzheimer's Disease and Cognitive Decline

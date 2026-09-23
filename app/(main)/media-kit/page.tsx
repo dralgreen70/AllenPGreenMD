@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { BOOK } from "@/lib/book"
 
 const TITLE = "Press Kit | Old Blood, New Life | Dr. Green"
 
@@ -35,15 +36,19 @@ export const metadata: Metadata = {
   },
 }
 
+// Every value comes from lib/book.ts, the same source as /book and the Book
+// JSON-LD. Journalists copy this block verbatim, so it must not be able to
+// drift from the printed cover -- including the byline order and the em dash
+// in the subtitle.
 const FACTS: { label: string; value: string }[] = [
-  { label: "Title", value: "Old Blood, New Life" },
-  // Byline order matches the printed cover, the title page, /book, and the
-  // Book JSON-LD. Journalists copy this line, so it has to agree with the book.
-  { label: "Authors", value: "Allen P. Green, MD, and Dobri Kiprov, MD" },
-  { label: "Publisher", value: "Sanguine House" },
-  { label: "Format", value: "Paperback" },
-  { label: "Price", value: "$18.99" },
-  { label: "ISBN", value: "979-8-9970143-1-5" },
+  { label: "Title", value: BOOK.title },
+  { label: "Subtitle", value: BOOK.subtitle },
+  { label: "Authors", value: BOOK.authors },
+  { label: "Publisher", value: BOOK.publisher },
+  { label: "Format", value: `${BOOK.format} only (no ebook or hardcover)` },
+  { label: "Price", value: `$${BOOK.price}` },
+  { label: "Length", value: `${BOOK.pages} pages` },
+  { label: "ISBN", value: BOOK.isbn },
   { label: "Publication date", value: "August 28, 2026" },
 ]
 

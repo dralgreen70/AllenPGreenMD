@@ -63,6 +63,8 @@ This is where the sequencing argument becomes particularly direct for PRP patien
 
 ---
 
+<!--book-callout: Chapter 18 calls this the sequencing frontier: subtract first, then add. It is a plausible order of operations and an untested one, and the chapter keeps those two facts apart.-->
+
 ## Not Just Reducing the Noise: Improving the Signal
 
 > **"The question isn't just whether your regenerative therapy is high quality. It's whether the environment it's entering is capable of responding to it."**
