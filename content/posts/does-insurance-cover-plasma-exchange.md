@@ -35,6 +35,8 @@ Here is the part that surprises people. Hospital-based programs usually bill ins
 
 This is standard for outpatient apheresis, and it is not a signal that a treatment lacks legitimacy. It reflects how these centers are structured and the decision to remain out-of-network. The practical upshot is that, in most cases, getting reimbursed is something you pursue with your plan after the fact, rather than something the center handles before you are treated.
 
+<!--book-callout: The epilogue takes up coverage directly, in sections on the regulatory problem and on access and the order of operations: what has to change before insurers treat a procedure as ordinary, and who waits while it does.-->
+
 ## How to seek reimbursement
 
 This is the part worth getting right, because it is where most of the money is won or lost.

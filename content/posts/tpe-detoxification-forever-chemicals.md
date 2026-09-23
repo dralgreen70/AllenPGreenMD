@@ -41,6 +41,8 @@ Most environmental toxins don't behave like the substances our ancestors faced. 
 
 > **"Most environmental toxins don't behave like substances our ancestors faced. They bind to blood proteins and resist every conventional elimination pathway."**
 
+<!--book-callout: Chapter 11 draws the same line this post draws, in a section on what removal actually proves and what it doesn't.-->
+
 ## The Science Behind Plasma-Based Detoxification
 
 ### The Firefighter Study: PFAS Elimination Evidence

@@ -53,6 +53,8 @@ The intensive phase ran for the first six weeks, with weekly conventional plasma
 
 The maintenance phase continued monthly for the remaining 12 months, using lower-volume plasma exchange with 20% albumin solution, alternating in some arms with intravenous immunoglobulin (IVIG) to counteract decreases in endogenous immunoglobulins from repeated plasma removal. The 2025 Argentina real-world study used a similar protocol, achieving an average of 88.2% plasma volume exchange during intensive sessions and 49.8% during maintenance, all via peripheral access, no central lines required.
 
+<!--book-callout: AMBAR anchors a full chapter of Old Blood, New Life. Chapter 15 works through the trial design, the albumin question underneath it, and discloses that the study was sponsored by the company that makes the replacement fluid.-->
+
 ## The Study Design: Why This Was Serious Science
 
 The AMBAR trial was a phase 2b/3, multicenter, randomized, blinded, placebo-controlled clinical trial. Let me break down what each of those terms means and why they matter.

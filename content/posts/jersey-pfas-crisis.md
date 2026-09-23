@@ -41,6 +41,8 @@ The health impacts are already becoming evident. Farmer has multiple myeloma, a 
 
 The blood testing results are alarming: of 88 individuals tested, 70% had levels of PFHxS above safe thresholds, while significant percentages had elevated levels of other PFAS chemicals known to be carcinogenic or harmful to thyroid function and brain development.
 
+<!--book-callout: Chapter 11 is about foreign bodies in the bloodstream, PFAS above all: why they persist, and the limits of what any clean-the-blood intervention can be expected to fix.-->
+
 ## The Government's Medieval Solution: Bloodletting
 
 Faced with this crisis, Jersey's government turned to an approach that would be familiar to medieval physicians: bloodletting. Their PFAS Scientific Advisory Panel recommended "therapeutic phlebotomy service", with the therapy costing about £100,000 upfront and then as much as £200,000 a year to treat 50 people.

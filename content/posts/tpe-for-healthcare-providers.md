@@ -21,6 +21,8 @@ In the outpatient world, most clinics are looking at serving those interested in
 
 Most outpatient TPE programs price procedures in the range of $6,000–$12,000 per session depending on clinic location, overhead structure, and protocol design. Insurance typically does not cover longevity or wellness indications, so patients pay out of pocket.
 
+<!--book-callout: Appendix B is a working guide to the ASFA guidelines for clinicians who have to read them: how the Category axis and the recommendation-grade axis combine, and what each one is really claiming.-->
+
 ## Why Is It So Expensive?
 
 Once you've determined if your patient mix will be able to benefit and afford the procedure, you will need to decide whether or not you can afford to offer it.

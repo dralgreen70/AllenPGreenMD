@@ -37,6 +37,8 @@ The pattern was consistent. Each step up in exposure to individual PFAS was asso
 
 An epidemiologist reading this study would file it as a well-conducted human association with PFDA at the center. It cannot, on its own, establish that PFDA causes reduced fertility. That is exactly what makes the second study matter.
 
+<!--book-callout: Chapter 11 is careful to separate what is established about PFAS exposure from what is still inference, a distinction that matters most in exactly the populations this post is about.-->
+
 ## The Mechanism: How PFDA Could Reach the Fetus
 
 In 2026, a group at the University of Colorado Anschutz published a mechanism paper that never set out to study fertility outcomes at all. The Colorado group was asking a chemistry question: could PFAS interfere with the enzymes that regulate retinoic acid, the vitamin A derivative that orchestrates fetal development?

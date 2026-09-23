@@ -26,6 +26,8 @@ The environmental toxin angle the article focuses on is clinically sound. Compou
 
 The coverage of the Fuentealba et al. study published in Aging Cell in 2025 is also accurate. That trial, involving researchers and physicians in the longevity medicine space, offered some of the first human data suggesting that plasma exchange shifts epigenetic markers of biological age. It's early. It's meaningful. And it's part of why this field is moving quickly.
 
+<!--book-callout: Chapter 10 has a section called "The marketplace of hope," on how a real mechanism gets sold well past the point the evidence supports it. It was not an enjoyable section to write.-->
+
 ## What the clinical picture adds
 
 The Goop piece was honest that this is off-label for wellness use. That's an important disclosure. TPE has been an established, guideline-supported treatment for autoimmune disease, neurological conditions, and blood disorders for decades. That's the backbone of the procedure's safety record. Its use in longevity and environmental detoxification is newer territory, supported by emerging evidence but not yet reflected in most insurance coverage.

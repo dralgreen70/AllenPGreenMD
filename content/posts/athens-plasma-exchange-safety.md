@@ -48,6 +48,8 @@ More granular timeline details are circulating from the case file, including cla
 
 There is also a body of leaked material about his condition on the day, drawn largely from the accused physician's own statement and disputed by his family. I am leaving that alone as well. He is not here to consent to its publication, his family has objected to the characterization, and the clinical point I want to make does not require his medical details.
 
+<!--book-callout: Chapter 12 covers the safety of the procedure as it is actually run: vascular access, anticoagulation, and the difference between a rare adverse event and an acceptable one.-->
+
 ## Sometimes the right call is not to treat
 
 The point holds regardless of what toxicology eventually shows, and it is the one I would want a patient to take away from this.

@@ -63,6 +63,8 @@ The authors acknowledge this: "Our CSF biomarker results overall suggest that mo
 
 ---
 
+<!--book-callout: Chapter 15 sets AMBAR beside the anti-amyloid antibody drugs and their troubles. That comparison is the one that tells you what a modest effect size is really worth.-->
+
 ## Independent Validation: The Argentina Study
 
 One of the most common criticisms of AMBAR was that it was a single study sponsored by Grifols, the manufacturer of therapeutic albumin. Fair point: replication in independent populations is critical for confirming any medical finding.

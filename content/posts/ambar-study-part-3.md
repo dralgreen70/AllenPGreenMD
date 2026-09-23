@@ -57,6 +57,8 @@ This discovery has profound implications for how we understand and treat Alzheim
 
 ---
 
+<!--book-callout: Chapter 15 spends as much room on what AMBAR did not show as on what it did. Leaving that part in is what makes the rest of the case worth trusting.-->
+
 ## Why Haven't You Heard About This?
 
 If plasma exchange showed effect sizes of 52–71% with minimal safety concerns, and these findings have been independently replicated, why isn't this the standard of care for Alzheimer's disease? That's a reasonable question with several answers.

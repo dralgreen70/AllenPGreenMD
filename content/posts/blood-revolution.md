@@ -40,6 +40,8 @@ This flipped the entire premise on its head. Everyone had been thinking about yo
 <figcaption>The Stanford parabiosis experiments used laboratory mice to demonstrate that aging factors circulate in blood, a finding that would transform the science of longevity.</figcaption>
 </figure>
 
+<!--book-callout: This is the argument the whole book builds toward. Chapter 19 makes the case that the humoralists were asking a reasonable question with hopeless instruments, and that removal is what their idea looks like once the chemistry is resolved.-->
+
 ## A Major Finding: Removal and Dilution, Not Addition
 
 In 2020, the same UC Berkeley team published a study that would transform the field. They asked a simple question: What if we don't need young blood at all? What if we just need to get rid of the bad stuff in old blood?
