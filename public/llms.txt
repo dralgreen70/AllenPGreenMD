@@ -11,6 +11,18 @@ at Global Apheresis in Mill Valley, California, specializing in therapeutic plas
 - Associate Medical Director, Global Apheresis (2026-present)
 - Previously: TPE protocol development at a leading longevity clinic in Dallas (2025)
 
+## Book: Old Blood, New Life
+"Old Blood, New Life: How Cleaning the Blood Became Medicine — and Where It Goes Next"
+by Allen P. Green, MD, and Dobri Kiprov, MD. Sanguine House, published August 28, 2026.
+Paperback only (no ebook, no hardcover), $18.99, 293 pages, ISBN 979-8-9970143-1-5.
+A history of what medicine has believed about blood, from the ancient world through
+bloodletting to therapeutic plasma exchange, and an account of where the evidence
+stands today. Nineteen chapters in four parts, plus a glossary, a guide to the ASFA
+guidelines, and a proposed research agenda. The authors disclose their financial and
+professional interests in the field in the book's front matter.
+Book page: https://allenpgreenmd.com/book
+Press kit: https://allenpgreenmd.com/media-kit
+
 ## Therapeutic Plasma Exchange (TPE)
 TPE removes and replaces a patient's plasma, clearing inflammatory proteins, pro-aging molecules,
 autoantibodies, and environmental toxins. Global Apheresis uses the Spectra Optia apheresis system.
@@ -37,6 +49,8 @@ Discovery call: https://globalapheresis.com/free-consultation
 
 ## Key pages
 - /about -- biography and credentials
+- /book -- Old Blood, New Life, the book
+- /media-kit -- press kit: cover art, author photos, bios, sample chapter
 - /tpe -- complete guide to therapeutic plasma exchange
 - /tpe-alzheimers -- AMBAR trial evidence and Alzheimer's application
 - /tpe-longevity -- longevity and biological age
