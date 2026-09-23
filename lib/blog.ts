@@ -217,6 +217,37 @@ export function getRelatedPosts(currentSlug: string, count = 3): Post[] {
   return selected.slice(0, count)
 }
 
+/**
+ * Pull the book-callout marker out of a post.
+ *
+ * Authors write `<!--book-callout: one sentence about this post-->` on its own
+ * line where the callout should appear, so position and copy live together in
+ * the file they belong to.
+ *
+ * The split happens on the MARKDOWN, before rendering, because the rendered
+ * post is injected as a single HTML string and a component cannot be placed
+ * inside it. Each half is rendered independently, so markers must sit at a
+ * blank-line boundary between blocks -- never inside a list or a table.
+ */
+export function splitBookCallout(content: string): {
+  before: string
+  note: string | null
+  after: string
+} {
+  const marker = /\n?[ \t]*<!--\s*book-callout:\s*([\s\S]*?)\s*-->[ \t]*\n?/
+  const match = content.match(marker)
+
+  if (!match || match.index === undefined) {
+    return { before: content, note: null, after: "" }
+  }
+
+  return {
+    before: content.slice(0, match.index),
+    note: match[1].trim(),
+    after: content.slice(match.index + match[0].length),
+  }
+}
+
 // Simple markdown to HTML converter
 export function markdownToHtml(markdown: string): string {
   let html = markdown

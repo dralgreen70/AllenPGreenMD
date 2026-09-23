@@ -1,10 +1,11 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
-import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml, parseTags } from "@/lib/blog"
+import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml, parseTags, splitBookCallout } from "@/lib/blog"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
 import { NewsletterInline } from "@/components/newsletter-inline"
+import { BookCallout } from "@/components/book-callout"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -82,12 +83,21 @@ export default async function BlogPostPage({
     notFound()
   }
 
-  const fullHtml = markdownToHtml(post.content)
+  // Split the markdown on the book-callout marker first, so the callout can be
+  // rendered as a component between the two halves. Posts without a marker come
+  // back with the whole body in `before` and behave exactly as they did.
+  const { before, note: bookNote, after } = splitBookCallout(post.content)
 
   // Split references out of the post body so they can be rendered separately
-  const refSplit = fullHtml.split(/<h2>References<\/h2>/)
-  const htmlContent = refSplit[0]
-  const referencesHtml = refSplit.length > 1 ? refSplit[1] : ""
+  const splitReferences = (html: string) => {
+    const parts = html.split(/<h2>References<\/h2>/)
+    return { body: parts[0], references: parts.length > 1 ? parts[1] : "" }
+  }
+  const beforeParts = splitReferences(markdownToHtml(before))
+  const afterParts = splitReferences(after ? markdownToHtml(after) : "")
+  const htmlContent = beforeParts.body
+  const afterHtmlContent = afterParts.body
+  const referencesHtml = beforeParts.references || afterParts.references
 
   const relatedPosts = getRelatedPosts(slug, 3)
 
@@ -332,6 +342,15 @@ export default async function BlogPostPage({
           className="post-content"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
+        {bookNote && (
+          <BookCallout note={bookNote} placement={`post-${slug}`} />
+        )}
+        {afterHtmlContent && (
+          <div
+            className="post-content"
+            dangerouslySetInnerHTML={{ __html: afterHtmlContent }}
+          />
+        )}
       </article>
 
       {/* 1. References (collapsible, if present) */}
