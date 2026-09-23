@@ -23,12 +23,25 @@ export const BOOK = {
   asin: "B0HH86RWKJ",
 } as const
 
-/** Cover thumbnail for in-body use. 1000x1500 on disk; 2:3, same as the print file. */
+/**
+ * Cover art. Both files are 2:3, the true proportion of a 6x9 trim.
+ *
+ * Note: old-blood-new-life-cover.jpg is 1600x2560 (1:1.6) and shows the book
+ * narrower than it is, so nothing should render it.
+ */
 export const BOOK_COVER = {
   src: "/images/book/old-blood-new-life-cover-web.jpg",
   width: 1000,
   height: 1500,
   alt: `Cover of ${BOOK.title} by ${BOOK.authors}`,
+} as const
+
+/** Full-resolution cover, for the /book hero and structured data. */
+export const BOOK_COVER_LARGE = {
+  src: "/images/book/old-blood-new-life-cover-print.jpg",
+  width: 1800,
+  height: 2700,
+  alt: BOOK_COVER.alt,
 } as const
 
 /**

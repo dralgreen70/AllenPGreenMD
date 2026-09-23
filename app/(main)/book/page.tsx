@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { BOOK, RETAIL_URL, REVIEW_URL } from "@/lib/book"
+import { BOOK, BOOK_COVER_LARGE, RETAIL_URL, REVIEW_URL } from "@/lib/book"
 import { BookBuyLink } from "@/components/book-buy-link"
 
 const DESCRIPTION =
@@ -64,7 +64,7 @@ export default function BookPage() {
     inLanguage: "en",
     numberOfPages: BOOK.pages,
     isbn: BOOK.isbn,
-    image: "https://allenpgreenmd.com/images/book/old-blood-new-life-cover.jpg",
+    image: `https://allenpgreenmd.com${BOOK_COVER_LARGE.src}`,
     url: "https://allenpgreenmd.com/book",
     offers: {
       "@type": "Offer",
@@ -90,10 +90,14 @@ export default function BookPage() {
           <div className="site-container">
             <div className="book-hero">
               <Image
-                src="/images/book/old-blood-new-life-cover.jpg"
-                alt="Cover of Old Blood, New Life by Allen P. Green, MD and Dobri Kiprov, MD"
-                width={1600}
-                height={2560}
+                src={BOOK_COVER_LARGE.src}
+                alt={BOOK_COVER_LARGE.alt}
+                width={BOOK_COVER_LARGE.width}
+                height={BOOK_COVER_LARGE.height}
+                // The grid caps this column at 320px (260px stacked), so state
+                // it: without sizes the srcset is built from the 1800px intrinsic
+                // width and ships an enormous file into a small slot.
+                sizes="(max-width: 768px) 260px, 320px"
                 className="book-hero-cover"
                 priority
               />
