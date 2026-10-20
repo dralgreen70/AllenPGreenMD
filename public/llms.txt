@@ -56,6 +56,7 @@ Discovery call: https://globalapheresis.com/free-consultation
 - /tpe-longevity -- longevity and biological age
 - /tpe-autoimmune -- autoimmune conditions
 - /tpe-detox -- environmental detoxification
+- /providers -- for practices: what offering TPE requires, costs, and the two routes
 - /research -- peer-reviewed publications and presentations
 - /blog -- clinical journal
 - /ambar-series -- four-part AMBAR trial analysis

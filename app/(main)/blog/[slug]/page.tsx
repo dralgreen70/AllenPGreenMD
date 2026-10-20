@@ -413,20 +413,21 @@ export default async function BlogPostPage({
       {!post.frontmatter.hideCta && (
       <section className="post-cta-section">
         <div className="post-cta-inner">
-          {slug === "tpe-for-healthcare-providers" ? (
+          {post.frontmatter.ctaVariant === "provider" ? (
             <>
               <h3 className="post-cta-heading">Considering TPE for your practice?</h3>
               <p className="post-cta-text">
-                Connect with the Global Apheresis team to discuss the affiliate
-                partnership program and whether your practice is a good fit.
+                Start with the provider guide for the full cost and staffing
+                picture, or go straight to a physician-to-physician call with
+                Global Apheresis about the affiliate partnership.
               </p>
               <a
-                href="https://www.globalapheresis.com/affiliate-partners"
+                href="https://www.globalapheresis.com/affiliates"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Contact Global Apheresis
+                Schedule a Physician Call
                 <svg
                   width="16"
                   height="16"

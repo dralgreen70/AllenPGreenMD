@@ -35,6 +35,7 @@ export interface PostFrontmatter {
   external?: boolean
   externalUrl?: string
   hideCta?: boolean
+  ctaVariant?: string
   tags?: string
   keywords?: string
   schemaImages?: string
@@ -118,6 +119,7 @@ function parseFrontmatter(fileContent: string): {
       external: frontmatter.external === true,
       externalUrl: (frontmatter.externalUrl as string) || "",
       hideCta: frontmatter.hideCta === true,
+      ctaVariant: (frontmatter.ctaVariant as string) || "",
       tags: (frontmatter.tags as string) || "",
       keywords: (frontmatter.keywords as string) || "",
       schemaImages: (frontmatter.schemaImages as string) || "",

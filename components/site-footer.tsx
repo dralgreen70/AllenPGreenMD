@@ -45,6 +45,9 @@ export function SiteFooter() {
                 <Link href="/media-kit">Press Kit</Link>
               </li>
               <li>
+                <Link href="/providers">For Providers</Link>
+              </li>
+              <li>
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>

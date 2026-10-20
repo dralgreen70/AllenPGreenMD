@@ -3,15 +3,16 @@ title: "Therapeutic Plasma Exchange for Healthcare Providers: A Clinical Impleme
 metaTitle: "TPE for Healthcare Providers"
 date: "2025-10-21"
 author: "Dr. Allen P. Green"
-excerpt: "What it actually takes to bring therapeutic plasma exchange into an outpatient practice — equipment, staffing, costs, and what experienced clinics have learned."
+excerpt: "What it actually takes to bring therapeutic plasma exchange into an outpatient practice: equipment, staffing, costs, and what experienced clinics have learned."
 description: "A clinical guide to offering TPE in your practice: equipment requirements, staffing, reimbursement, and lessons from clinics already running the procedure."
 image: "/images/blog/GA_clinic.jpg"
 tags: "clinical, tpe"
 keywords: "therapeutic plasma exchange, apheresis, outpatient clinic implementation, tpe equipment costs, clinical staffing, patient selection, procedure reimbursement"
 pillar: "none"
+ctaVariant: "provider"
 ---
 
-Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available, and one of the most operationally demanding. This guide covers what the decision actually involves.
+Therapeutic plasma exchange has moved steadily from hospital-based acute care into outpatient medicine over the past decade. For the short version of the requirements, costs, and the two routes into the procedure, start with the [provider guide](/providers). This is the long version. For regenerative medicine clinics, longevity practices, and functional medicine providers, it represents one of the most substantive procedural expansions available, and one of the most operationally demanding. This guide covers what the decision actually involves.
 
 ## Clinical Landscape
 
@@ -27,7 +28,7 @@ Most outpatient TPE programs price procedures in the range of $6,000–$12,000 p
 
 Once you've determined if your patient mix will be able to benefit and afford the procedure, you will need to decide whether or not you can afford to offer it.
 
-While I don't have exact figures I will provide a rough estimate of the costs. First, you'll need the machine. There are two FDA-approved machines available in the United States, the Fresenius Kabi Amicus and the Spectra Optia by Terumo. Each machine is over $100,000 brand new. They also require disposable kits that cost several hundred dollars a piece. You'll need tubing, IV sets, and needles/catheters. You'll also need albumin as the replacement fluid, which can run close to $1,000 per procedure depending on how much you wish to exchange. My rough estimate of per procedure costs, excluding nursing salaries, doctor salaries, and the cost of the machine is about $1,500 per procedure.
+While I don't have exact figures I will provide a rough estimate of the costs. First, you'll need the machine. There are two FDA-cleared machines available in the United States, the Fresenius Kabi Amicus and the Spectra Optia by Terumo. Each machine is over $100,000 brand new. They also require disposable kits that cost several hundred dollars a piece. You'll need tubing, IV sets, and needles/catheters. You'll also need albumin as the replacement fluid, which can run close to $1,000 per procedure depending on how much you wish to exchange. My rough estimate of per procedure costs, excluding nursing salaries, doctor salaries, and the cost of the machine is about $1,500 per procedure.
 
 If you're an already established clinic, you're already paying the overhead costs like rent and you can lower overall cost further by obtaining training for your own nurses to run the procedure. If you're looking to launch a clinic solely to offer PLEX, you'll need to consider all the additional costs.
 
@@ -89,11 +90,13 @@ The successful clinics I've observed typically have either extensive experience 
 
 Most practices benefit significantly from experienced consultation during the planning and early implementation phases. Whether it's navigating equipment selection, developing protocols, training staff, or troubleshooting operational challenges, having access to someone who's already solved these problems can save both time and money.
 
+I should disclose my interest before recommending anything: I am Associate Medical Director at Global Apheresis, so I have a commercial stake in what follows. Read it with that in mind, and note that the [provider guide](/providers) also sets out the reasons a practice should not do this.
+
 For providers seriously considering TPE implementation, Global Apheresis offers a formal affiliate partnership program. This includes clinical guidance, protocol development support, staff training resources, and access to the operational experience of one of the most established therapeutic apheresis programs in the country. Practices in this network benefit from a structured framework rather than building from scratch.
 
 If you're evaluating whether TPE is viable for your practice, the affiliate program is the right starting point.
 
-[Learn about the Global Apheresis affiliate program →](https://www.globalapheresis.com/affiliate-partners)
+[Learn about the Global Apheresis affiliate program →](https://www.globalapheresis.com/affiliates)
 
 ## References
 
