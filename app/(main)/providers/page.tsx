@@ -493,6 +493,15 @@ export default function ProvidersPage() {
                 Schedule a Physician Call <span className="arrow">&rarr;</span>
               </a>
             </div>
+            <div className="reveal" style={{ marginTop: "1rem" }}>
+              <p style={{ fontSize: "0.95rem", color: "rgba(255,255,255,0.75)" }}>
+                Or call Global Apheresis directly at{" "}
+                <a href="tel:+14159281352" style={{ color: "var(--accent-light)" }}>
+                  (415) 928-1352
+                </a>
+                .
+              </p>
+            </div>
             <div className="tpe-cta-links reveal">
               <div className="tpe-cta-link-row">
                 <Link href="/blog/tpe-for-healthcare-providers" className="tpe-cta-pillar-link">

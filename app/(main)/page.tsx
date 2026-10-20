@@ -90,7 +90,7 @@ export default function Home() {
             "@id": "https://allenpgreenmd.com/#clinic",
             name: "Global Apheresis",
             url: "https://www.globalapheresis.com",
-            telephone: "+14154486839",
+            telephone: "+14159281352",
             email: "DrGreen@allenpgreenmd.com",
             address: {
               "@type": "PostalAddress",
