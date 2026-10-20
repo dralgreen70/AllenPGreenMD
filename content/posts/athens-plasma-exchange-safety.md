@@ -19,6 +19,8 @@ In the days since, I have been asked the same question repeatedly, by patients, 
 
 It deserves a real answer rather than a defensive one. I am a clinical pathologist who has performed over 500 therapeutic plasma exchange procedures. Here is what the published safety data actually show, what this case appears to be about, and what I think it should change.
 
+**In short:** yes, for albumin-based exchange in people who are not acutely ill. In the World Apheresis Association registry of 50,846 procedures, 0.35% had a severe adverse event and no death was attributed to the treatment. The Athens case involved INUSpheresis, a different procedure with a much thinner evidence base.
+
 ## INUSpheresis is not plasma exchange
 
 Nearly every English-language report has used "plasmapheresis," "plasma exchange," and "blood cleansing" interchangeably. They are not the same thing, and the difference matters for reading the safety evidence.

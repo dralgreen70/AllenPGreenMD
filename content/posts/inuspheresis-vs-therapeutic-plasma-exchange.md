@@ -19,9 +19,11 @@ This post explains what inuspheresis actually is, where it's available, and how 
 
 If you have arrived here because of the death of Giorgos Mazonakis in Athens, which involved an inuspheresis device, I have written separately about [what the published safety data show and what that case does and does not tell us](/blog/athens-plasma-exchange-safety). This post is about the technology itself.
 
+**In short:** inuspheresis is a proprietary form of double filtration plasmapheresis, developed in Europe and not currently available in the United States. It returns your own albumin rather than replacing it, so anything albumin-sized or albumin-bound comes back with it. Therapeutic plasma exchange discards the plasma whole and replaces it with fresh albumin.
+
 ## What Is Inuspheresis?
 
-Inuspheresis is a proprietary form of double filtration plasmapheresis (DFPP), developed in Germany and Switzerland. Like TPE, it is an extracorporeal blood purification procedure: blood is drawn from the patient, processed outside the body, and returned. It is used primarily in Europe for chronic inflammatory conditions, environmental toxicity, post-viral syndromes, and cardiovascular risk reduction.
+The underlying technique is not new. Double filtration plasmapheresis has decades of use, particularly in Japan, for transplant preparation, autoimmune disease, and lipid disorders. What makes inuspheresis distinct is the branded protocol and proprietary filter set built on top of it, developed in Germany and Switzerland. Like TPE, it is an extracorporeal blood purification procedure: blood is drawn from the patient, processed outside the body, and returned. European clinics use it primarily for chronic inflammatory conditions, environmental toxicity, post-viral syndromes, and cardiovascular risk reduction.
 
 As of this writing, inuspheresis is not available as a standard clinical offering in the United States. Proxima Health, an Austin-based company, has signaled interest in bringing the technology to the American market, but it has not yet arrived. Patients searching for inuspheresis in California or elsewhere in the US will not currently find a provider.
 

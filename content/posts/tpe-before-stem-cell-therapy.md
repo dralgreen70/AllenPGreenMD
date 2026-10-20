@@ -20,6 +20,8 @@ Here's a way I frame it. Imagine a fish tank filled with cloudy, stagnant water,
 
 That's a reasonable model for what happens when we introduce regenerative therapies into an aged systemic environment. The therapies themselves may be excellent. But if the environment is working against them, you're not getting what you paid for.
 
+**In short:** there is a reasonable case for it, though it rests on mechanism rather than trial evidence. Aged plasma carries proteins such as TGF-β1 that keep stem cells dormant. In a 2020 experiment by Mehdipour and colleagues, serum drawn after a single plasma exchange activated cells that the same donors' pre-exchange serum had suppressed.
+
 ---
 
 ## What's Actually in Aged Plasma

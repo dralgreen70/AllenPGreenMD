@@ -20,6 +20,8 @@ Some messages were from friends who had never heard of the procedure. Some were 
 
 This is what happens when [therapeutic plasma exchange](/tpe) enters the mainstream. The interest arrives all at once, and the clinical context takes longer to catch up. So rather than writing another full explainer on what TPE is (I've done that elsewhere on this site, and I published a detailed response on the [Global Apheresis blog](https://www.globalapheresis.com/blog/joe-rogan-plasmapheresis) as well), I want to answer the questions I'm actually seeing.
 
+**In short:** what Rogan described is therapeutic plasma exchange. A machine separates your plasma from your blood cells, discards it, and returns the cells with 5% albumin in place of the plasma. It is an established procedure with decades of hospital use. For longevity purposes it is cash pay, roughly $6,000 to $12,000 a session.
+
 ## "Isn't this just dialysis?"
 
 No. They're fundamentally different procedures, even though both involve circulating blood through a machine.

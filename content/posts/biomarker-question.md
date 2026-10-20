@@ -20,6 +20,8 @@ It's a fair question. We live in an era of quantified health -- continuous gluco
 
 The answer is more nuanced than you might expect. And understanding why tells us something profound about aging itself.
 
+**In short:** there is no single validated biomarker that tells you plasma exchange worked. Biological age clocks are promising but unstandardized, and different clocks disagree. The practical approach is daily tracking of energy, clarity, sleep, and physical capacity, standard labs for safety, and biological age testing at baseline and after a series.
+
 ---
 
 ## The Current State of Longevity Biomarkers

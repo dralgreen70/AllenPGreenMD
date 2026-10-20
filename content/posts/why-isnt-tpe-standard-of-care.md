@@ -13,7 +13,9 @@ pillar: "alzheimers"
 
 A patient asked me this question last week, and it's the right question to ask. The [AMBAR trial](/blog/ambar-study-part-1) demonstrated that plasma exchange with albumin replacement slowed Alzheimer's progression by [52–71% across multiple outcome measures](/blog/ambar-study-part-3), effect sizes larger than lecanemab or donanemab, with essentially zero risk of brain swelling. Those results were [independently replicated](/blog/ambar-part-2-fda-comparison) in a 2025 real-world study from Argentina. So why isn't this conversation happening in every neurology office in the country?
 
-The answer isn't scientific. The evidence is there. The answer is structural: a convergence of industry economics, regulatory pathways, logistical barriers, and medical culture that makes it very difficult for a procedural intervention to compete with a pharmaceutical one, regardless of the data.
+**In short:** mostly because of how medicine adopts treatments, not because of the evidence. TPE for Alzheimer's is an off-label use of approved products, so no company promotes it to neurologists. It is ASFA Category III, it needs apheresis equipment most centers lack, and the trial that would change practice has no sponsor.
+
+Those barriers compound rather than add. An off-label designation makes coverage unpredictable, unpredictable coverage makes hospitals reluctant to build apheresis capacity, and a center without apheresis capacity gives a neurologist nothing to refer to even when they are convinced. Here is each piece of it, starting with who pays to put a treatment in front of a prescriber.
 
 <div class="post-callout-data">
 <div class="post-callout-label">AMBAR vs. FDA-Approved Drugs</div>

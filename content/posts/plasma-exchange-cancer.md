@@ -18,6 +18,8 @@ Therapeutic plasma exchange is not an approved treatment for cancer, and no one 
 
 The reason the question keeps coming up is that cancer defends itself partly by broadcasting molecules into the bloodstream, and those molecules are removable. Whether removing them helps patients is now being tested in controlled trials. The early results are interesting enough to be worth understanding.
 
+**In short:** no. Therapeutic plasma exchange is not a cancer treatment and should not be offered as one outside a trial. It has two narrow established roles: clearing the paraprotein in symptomatic hyperviscosity, an ASFA Category I indication, and some paraneoplastic neurologic syndromes. Whether it helps checkpoint immunotherapy work is in randomized testing now.
+
 Where plasma exchange is already established in cancer care
 
 There is a narrow set of situations where exchange has a defined role, and it has nothing to do with attacking the tumor.
