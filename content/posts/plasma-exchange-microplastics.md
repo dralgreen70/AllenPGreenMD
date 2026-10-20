@@ -4,7 +4,7 @@ metaTitle: "Can Plasma Exchange Remove Microplastics?"
 ogTitle: "Can Plasma Exchange Remove Microplastics? | Dr. Green"
 date: "2026-06-02"
 author: "Allen P. Green, M.D."
-excerpt: "The first evidence that we can deliberately remove microplastics from the human body — what the study found, the contamination wrinkle, and the practice changes I'm making."
+excerpt: "The first evidence that we can deliberately remove microplastics from the human body: what the study found, the contamination wrinkle, and the practice changes I'm making."
 description: "A new study shows therapeutic plasma exchange can lower circulating microplastics in the blood. A physician on the findings and what he changed in practice."
 # TODO swap hero/OG image to loaded-circuit photo (1200x630) on 2026-06-03
 image: "/images/blog/me-receiving-plex.webp"

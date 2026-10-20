@@ -2,7 +2,7 @@
 title: "Can Plasma Exchange Help Treat Cancer?"
 metaTitle: "Can Plasma Exchange Help Treat Cancer?"
 ogTitle: "Can Plasma Exchange Help Treat Cancer? | Dr. Green"
-description: "Plasma exchange is not a cancer treatment. But cancer broadcasts an immunosuppressive signal through the blood, and trials are now testing whether removing it helps immunotherapy work again."
+description: "Plasma exchange is not a cancer treatment. But trials are testing whether removing the immunosuppressive signal in blood helps immunotherapy work."
 date: "2026-08-19"
 author: "Allen P. Green, MD"
 excerpt: "Plasma exchange is not a cancer treatment. But cancer broadcasts an immunosuppressive signal through the blood, and trials are now testing whether removing it helps immunotherapy work again."

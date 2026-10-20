@@ -1,9 +1,9 @@
 ---
-title: "What Joe Rogan Got Right About Plasmapheresis — And What to Know Before You Pick Up the Phone"
+title: "What Joe Rogan Got Right About Plasmapheresis, and What to Know Before You Call"
 metaTitle: "Joe Rogan and Plasmapheresis"
 date: "2026-03-28"
 author: "Allen P. Green, M.D."
-excerpt: "Joe Rogan posted about receiving plasmapheresis. Here are the clinical answers to the questions everyone is asking — from a physician who supervises TPE every week."
+excerpt: "Joe Rogan posted about receiving plasmapheresis. Here are the clinical answers to the questions everyone is asking, from a physician who supervises TPE every week."
 description: "A physician who performs TPE weekly answers the questions Joe Rogan's post raised: what it costs, how it works, whether it's safe, and who it's for."
 image: "/images/blog/me-receiving-plex.webp"
 imageAlt: "Dr. Allen Green receiving therapeutic plasma exchange at Global Apheresis"
