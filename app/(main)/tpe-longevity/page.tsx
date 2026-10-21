@@ -370,6 +370,25 @@ export default function TpeLongevityPage() {
                 practices today. The longevity protocols used at Global
                 Apheresis are directly informed by this research.
               </p>
+              <p className="body-lg reveal" style={{ marginTop: "1rem" }}>
+                Trial averages are the right number for setting expectations, but
+                they are not what an individual patient sees. For one patient's
+                full before-and-after panel read against these figures, including
+                where her results sit above the range this trial reported and
+                where they do not, see{" "}
+                <Link
+                  href="/blog/tpe-epigenetic-age-case-study"
+                  style={{
+                    color: "var(--accent)",
+                    textDecoration: "underline",
+                    textUnderlineOffset: "3px",
+                  }}
+                >
+                  what four plasma exchanges did to one patient&apos;s epigenetic
+                  clocks
+                </Link>
+                .
+              </p>
             </div>
 
             <div className="alz-publication-cite reveal">
