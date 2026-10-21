@@ -98,7 +98,7 @@ I've written up [the Aging Cell trial itself](/blog/blood-revolution) elsewhere,
 
 The two exchange-only arms differ in spacing rather than dose, since every arm received six sessions, and the draws were taken before sessions 1, 4 and 6. So every figure in that table is measured after three sessions, and by the draw after five the advantage over placebo had gone.
 
-That fits something I'd already been working on. If the benefit peaks around the third or fourth session and then gives ground, four may be a better course than six, and her four land right at that peak with numbers that are consistent with it. Earlier proteomic work points toward six, so this is a live argument and not a settled one, but it's the question I most want answered and most of why I track this at all.
+That fits something I'd already been working on. If the benefit peaks around the third or fourth session and then gives ground, then for longevity indications four may be a better course than six, and her four land right at that peak with numbers that are consistent with it. Earlier proteomic work points toward six, so this is a live argument and not a settled one, but it's the question I most want answered and most of why I track this at all.
 
 Her immune estimate fell 8.2 years on albumin alone. In that trial the per-system drops ran 2.5 to 5.3 years without IVIG and reached 9.7 years for the immune system with it, and the immune cell composition changes showed up only in the IVIG arm, so hers sits high for the protocol she had. I don't have an explanation for it.
 
