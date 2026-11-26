@@ -1,3 +1,5 @@
+import { discoveryHref } from "@/lib/links"
+
 export function CTASection() {
   return (
     <section className="cta-section" id="contact">
@@ -25,7 +27,7 @@ export function CTASection() {
           in-person options available.
         </p>
         <div className="cta-actions reveal">
-          <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
+          <a href={discoveryHref("cta-section")} target="_blank" rel="noopener" className="btn btn-accent">
             Book a Discovery Call <span className="arrow">&rarr;</span>
           </a>
         </div>

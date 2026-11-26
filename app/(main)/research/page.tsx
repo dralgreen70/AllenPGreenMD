@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "Research & Publications | Allen P. Green, M.D.",
@@ -605,9 +606,9 @@ export default function ResearchPage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://www.globalapheresis.com/free-consultation"
+                href={discoveryHref("research")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book Discovery Call <span className="arrow">&rarr;</span>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import Link from "next/link"
+import { discoveryHref } from "@/lib/links"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -160,9 +161,9 @@ export function Navbar() {
           </li>
           <li>
             <a
-              href="https://www.globalapheresis.com/free-consultation"
+              href={discoveryHref("navbar")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="nav-cta-btn"
               onClick={closeNav}
             >

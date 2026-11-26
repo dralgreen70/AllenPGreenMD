@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
 import Image from "next/image"
+import { discoveryHref } from "@/lib/links"
 
 const SERIES_DESCRIPTION =
   "A physician's series on PFAS forever chemicals. Five parts covering the chemistry, the evidence of harm, geographic exposure, weight loss mobilization, and fertility. By Dr. Allen P. Green, Board-Certified Clinical Pathologist."
@@ -357,7 +358,7 @@ export default function PfasSeriesPage() {
           </p>
           <div className="cta-actions reveal">
             <a
-              href="https://globalapheresis.com/free-consultation"
+              href={discoveryHref("pfas-series")}
               className="btn btn-accent"
             >
               Book a Discovery Call <span className="arrow">&rarr;</span>

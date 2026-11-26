@@ -5,15 +5,13 @@ import { useNewsletterForm } from "@/hooks/use-newsletter-form"
 
 export function NewsletterSitewide() {
   const pathname = usePathname()
+  // Placement tag so Mailchimp shows which page the signup came from.
+  const source = pathname === "/book" ? "sitewide:book" : "sitewide"
   const { email, setEmail, hp, setHp, status, errorMessage, handleSubmit } =
     useNewsletterForm({
-      magnetPath: "/downloads/AMBAR_Evidence_Guide.pdf",
-      source: "sitewide",
+      magnetPath: "/downloads/OldBloodNewLife_FreeChapter_Ch14.pdf",
+      source,
     })
-
-  // The /book page has its own book-launch email capture. Rendering the global
-  // Apheresis Report signup there too would stack two identical asks, so suppress it.
-  if (pathname === "/book") return null
 
   return (
     <section className="newsletter-sitewide">
@@ -25,13 +23,13 @@ export function NewsletterSitewide() {
         </h2>
         <p className="newsletter-sitewide-sub">
           Evidence-based insights on plasma exchange, longevity medicine, and
-          healthy aging, from the clinic to your inbox. New subscribers receive
-          the AMBAR Evidence Guide.
+          healthy aging, from the clinic to your inbox. Subscribe and get
+          Chapter 14 of Old Blood, New Life free.
         </p>
 
         {status === "success" ? (
           <p className="newsletter-message newsletter-message--success">
-            Your guide is downloading. You&rsquo;re now subscribed to the
+            Your free chapter is downloading. You&rsquo;re now subscribed to the
             Apheresis Report.
           </p>
         ) : status === "already-subscribed" ? (
@@ -74,7 +72,7 @@ export function NewsletterSitewide() {
               >
                 {status === "loading"
                   ? "Sending..."
-                  : "Subscribe & Download the Guide"}
+                  : "Subscribe & Get the Free Chapter"}
               </button>
             </form>
             {status === "error" && (

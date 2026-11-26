@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
 import { Ticker } from "@/components/ticker"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
@@ -588,9 +589,9 @@ export default function AboutPage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://globalapheresis.com/free-consultation"
+                href={discoveryHref("about")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book a Discovery Call{" "}

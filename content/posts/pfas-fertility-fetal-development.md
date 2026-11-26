@@ -77,7 +77,7 @@ If you are thinking about reducing your environmental burden before starting a f
 
 <div class="post-cta">
 <p>Global Apheresis offers a Discovery Call to discuss therapeutic plasma exchange and whether it fits your situation.</p>
-<a href="https://www.globalapheresis.com/free-consultation" class="post-cta-button">Schedule a Discovery Call &rarr;</a>
+<a href="https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-pfas-fertility-fetal-development" class="post-cta-button">Schedule a Discovery Call &rarr;</a>
 </div>
 
 **The PFAS Series:**

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
 import { TrainingCallout } from "@/components/training-callout"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "Plasma Exchange for Alzheimer's Disease | Dr. Allen Green",
@@ -683,9 +684,9 @@ export default function TpeAlzheimersPage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://www.globalapheresis.com/free-consultation"
+                href={discoveryHref("tpe-alzheimers")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book Discovery Call <span className="arrow">&rarr;</span>

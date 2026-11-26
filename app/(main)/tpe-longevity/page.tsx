@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
 import { TrainingCallout } from "@/components/training-callout"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "TPE for Longevity & Biological Age | Allen P. Green, MD",
@@ -569,9 +570,9 @@ export default function TpeLongevityPage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://www.globalapheresis.com/free-consultation"
+                href={discoveryHref("tpe-longevity")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book Discovery Call <span className="arrow">&rarr;</span>

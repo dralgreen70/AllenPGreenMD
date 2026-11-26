@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "The AMBAR Series | Allen P. Green, M.D.",
@@ -299,9 +300,9 @@ export default function AmbarSeriesPage() {
           </p>
           <div className="cta-actions reveal">
             <a
-              href="https://www.globalapheresis.com/free-consultation"
+              href={discoveryHref("ambar-series")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="btn btn-accent"
             >
               Book Discovery Call <span className="arrow">&rarr;</span>

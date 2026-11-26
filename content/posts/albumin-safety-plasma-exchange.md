@@ -79,7 +79,7 @@ The same holds for the procedure itself. I have written separately about [the sa
 
 *If you are considering therapeutic plasma exchange and have questions about the procedure, the replacement fluids, or whether you may be a candidate, the best next step is [a consultation](/contact).*
 
-**[Schedule a Discovery Call →](https://globalapheresis.com/free-consultation)**
+**[Schedule a Discovery Call →](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-albumin-safety-plasma-exchange)**
 
 ---
 

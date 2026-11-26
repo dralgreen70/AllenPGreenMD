@@ -123,7 +123,7 @@ For patients who have read about inuspheresis and are wondering whether somethin
 
 If you are exploring whether TPE might be appropriate for your situation, I am happy to talk it through.
 
-[Schedule a Discovery Call](https://globalapheresis.com/free-consultation)
+[Schedule a Discovery Call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-inuspheresis-vs-therapeutic-plasma-exchange)
 
 ## References
 

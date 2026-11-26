@@ -30,7 +30,7 @@ export function NewsletterInline({ slug, tags }: NewsletterInlineProps) {
         {status === "success" ? (
           <p className="newsletter-message newsletter-message--success">
             {magnet.path
-              ? "Your guide is downloading. You’re now subscribed to the Apheresis Report."
+              ? "Your download is starting. You’re now subscribed to the Apheresis Report."
               : "You’re subscribed to the Apheresis Report. Watch for the next issue."}
           </p>
         ) : status === "already-subscribed" ? (

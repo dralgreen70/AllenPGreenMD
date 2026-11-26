@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { discoveryHref } from "@/lib/links"
 
 export function SiteFooter() {
   return (
@@ -82,9 +83,9 @@ export function SiteFooter() {
           <div className="footer-link-group">
             <h4 className="footer-group-label">Get Started</h4>
             <a
-              href="https://www.globalapheresis.com/free-consultation"
+              href={discoveryHref("footer")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="footer-cta-btn"
             >
               Book a Discovery Call <span className="arrow">&rarr;</span>

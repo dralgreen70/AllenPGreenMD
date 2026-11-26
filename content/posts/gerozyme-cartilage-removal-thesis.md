@@ -58,7 +58,7 @@ Two laboratories, two tools, one idea: that with age the body fills up with some
 
 *Dr. Allen P. Green is a Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange for longevity, Alzheimer's disease, autoimmune conditions, and environmental detoxification. Trained at UT Southwestern Medical Center under Dr. Ravi Sarode, Dr. Green has supervised over 500 TPE procedures and has published multiple peer-reviewed papers in apheresis and transfusion medicine. He serves as Associate Medical Director at Global Apheresis in Mill Valley, California.*
 
-*This article describes preclinical and early-stage research. A 15-PGDH inhibitor has not been approved for cartilage regeneration or any age-related indication, and therapeutic plasma exchange is not an approved treatment for aging. Nothing here is medical advice. If you are considering whether plasma exchange fits your situation, [schedule a discovery call](https://globalapheresis.com/free-consultation).*
+*This article describes preclinical and early-stage research. A 15-PGDH inhibitor has not been approved for cartilage regeneration or any age-related indication, and therapeutic plasma exchange is not an approved treatment for aging. Nothing here is medical advice. If you are considering whether plasma exchange fits your situation, [schedule a discovery call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-gerozyme-cartilage-removal-thesis).*
 
 ## References
 

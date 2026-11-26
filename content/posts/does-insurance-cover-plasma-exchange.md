@@ -77,4 +77,4 @@ I want to be candid about the other side of this. When TPE is sought for general
 
 *This article is general information, not a guarantee of coverage or financial or legal advice. Coverage depends on your individual diagnosis, your specific plan, and your state. Always verify benefits directly with your insurer before treatment.*
 
-*To discuss whether therapeutic plasma exchange is appropriate for your situation and how billing works, [reach out through Global Apheresis](https://www.globalapheresis.com/free-consultation).*
+*To discuss whether therapeutic plasma exchange is appropriate for your situation and how billing works, [reach out through Global Apheresis](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-does-insurance-cover-plasma-exchange).*

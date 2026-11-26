@@ -15,19 +15,20 @@ const AMBAR: LeadMagnet = {
   button: "Send Me the Guide",
 }
 
-// PFAS PDF not yet created: topic-matched copy, subscribe-only for now.
+// Chapter 11 of Old Blood, New Life, cut from the print interior.
 const PFAS: LeadMagnet = {
-  path: null,
-  headline: "Forever Chemicals and Your Blood",
-  sub: "What the PFAS research actually shows, and where plasma exchange fits, delivered with the monthly Apheresis Report.",
-  button: "Subscribe",
+  path: "/downloads/OldBloodNewLife_FreeChapter_Ch11.pdf",
+  headline: "Read Chapter 11 Free: Forever Chemicals and the Blood",
+  sub: "The full chapter on microplastics, PFAS, and what removing them from the blood can and cannot do, from Old Blood, New Life. Free with The Apheresis Report.",
+  button: "Send Me the Chapter",
 }
 
+// Default magnet: Chapter 14 of Old Blood, New Life (the longevity chapter).
 const GENERIC: LeadMagnet = {
-  path: null,
-  headline: "Stay Current on the Science",
-  sub: "New research, clinical insights, and updates on therapeutic plasma exchange, delivered monthly.",
-  button: "Subscribe",
+  path: "/downloads/OldBloodNewLife_FreeChapter_Ch14.pdf",
+  headline: "Read a Free Chapter of Old Blood, New Life",
+  sub: "Chapter 14, \"Running the Clock Backward,\" on whether plasma exchange can slow biological aging. Free with The Apheresis Report, a monthly email on the science of the blood.",
+  button: "Send Me the Chapter",
 }
 
 export function magnetForTags(tags: string[]): LeadMagnet {

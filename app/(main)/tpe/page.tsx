@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
 import { TrainingCallout } from "@/components/training-callout"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "What Is Therapeutic Plasma Exchange? | Allen P. Green, MD",
@@ -378,9 +379,9 @@ export default function TpePage() {
                 comfortable and well-tolerated.
               </p>
               <a
-                href="https://globalapheresis.com/free-consultation"
+                href={discoveryHref("tpe-top")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-light"
               >
                 Schedule a Call <span className="arrow">&rarr;</span>
@@ -640,9 +641,9 @@ export default function TpePage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://globalapheresis.com/free-consultation"
+                href={discoveryHref("tpe-bottom")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book Discovery Call <span className="arrow">&rarr;</span>

@@ -104,4 +104,4 @@ If you are weighing blood-based therapies, the questions to ask any provider are
 
 *This article is general educational information and not medical advice. Decisions about any treatment should be made with a qualified physician who knows your situation.*
 
-*If you have questions about therapeutic plasma exchange and whether it may be right for you, you can [schedule a free consultation through Global Apheresis](https://www.globalapheresis.com/free-consultation).*
+*If you have questions about therapeutic plasma exchange and whether it may be right for you, you can [schedule a free consultation through Global Apheresis](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-is-eboo-blood-filtration).*

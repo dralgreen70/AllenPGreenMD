@@ -71,7 +71,7 @@ That's what I'm here to say.
 
 ---
 
-**Ready to learn more?** [Book a discovery call](https://www.globalapheresis.com/free-consultation) to discuss whether therapeutic plasma exchange is right for you.
+**Ready to learn more?** [Book a discovery call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-career-around-plasma-exchange) to discuss whether therapeutic plasma exchange is right for you.
 
 ---
 

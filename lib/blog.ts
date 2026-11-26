@@ -271,7 +271,13 @@ export function markdownToHtml(markdown: string): string {
       if (url.startsWith("/")) {
         return `<a href="${url}">${text}</a>`
       }
-      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
+      // Discovery Call links need the Referer header so Global Apheresis can
+      // attribute the click to this site. See lib/links.ts. Every other
+      // external link keeps noreferrer.
+      const rel = url.includes("globalapheresis.com")
+        ? "noopener"
+        : "noopener noreferrer"
+      return `<a href="${url}" target="_blank" rel="${rel}">${text}</a>`
     }
   )
 

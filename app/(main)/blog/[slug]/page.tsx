@@ -6,6 +6,7 @@ import Link from "next/link"
 import Script from "next/script"
 import { NewsletterInline } from "@/components/newsletter-inline"
 import { BookCallout } from "@/components/book-callout"
+import { discoveryHref } from "@/lib/links"
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
@@ -451,9 +452,9 @@ export default async function BlogPostPage({
                 whether therapeutic plasma exchange may be appropriate for you.
               </p>
               <a
-                href="https://globalapheresis.com/free-consultation"
+                href={discoveryHref(`post-${slug}`)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-primary"
               >
                 Schedule a Discovery Call

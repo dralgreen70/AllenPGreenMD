@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { discoveryHref } from "@/lib/links"
 
 export function HeroSection() {
   return (
@@ -22,7 +23,7 @@ export function HeroSection() {
           inflammation, and autoimmune disorders.
         </p>
         <div className="hero-actions">
-          <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+          <a href={discoveryHref("home-hero")} target="_blank" rel="noopener" className="btn btn-primary">
             Book a Discovery Call <span className="arrow">&rarr;</span>
           </a>
           <a href="/tpe" className="btn btn-outline">

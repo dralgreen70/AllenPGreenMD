@@ -82,7 +82,7 @@ Therapeutic plasma exchange for longevity, cognitive optimization, and detoxific
 
 The cost of a single TPE procedure varies significantly depending on where in the country you look, ranging from approximately $6,000 to $12,000 per session.
 
-Most patients pursuing longevity or detoxification applications will need a series of treatments, not just one session. So the total investment depends on the protocol recommended for your specific situation. If you want to understand what a protocol would look like and what it would cost in your case, that's exactly what our [discovery call](https://globalapheresis.com/free-consultation) is for. No pressure, no commitment: just an honest conversation about whether this makes sense for you.
+Most patients pursuing longevity or detoxification applications will need a series of treatments, not just one session. So the total investment depends on the protocol recommended for your specific situation. If you want to understand what a protocol would look like and what it would cost in your case, that's exactly what our [discovery call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-joe-rogan-plasmapheresis) is for. No pressure, no commitment: just an honest conversation about whether this makes sense for you.
 
 > *"The best thing a viral moment can do is make people ask better questions."*
 

@@ -105,7 +105,7 @@ Dr. Dobri Kiprov, with whom I work at Global Apheresis, has co-authored plasma d
 
 *Allen P. Green, M.D., is Board-Certified in Clinical Pathology and serves as Associate Medical Director at Global Apheresis in Mill Valley, California. He writes on plasma exchange, environmental medicine, and longevity research.*
 
-*To discuss whether therapeutic plasma exchange is appropriate for your situation, [schedule a complimentary Discovery Call](https://globalapheresis.com/free-consultation). Most consultations are conducted via telehealth.*
+*To discuss whether therapeutic plasma exchange is appropriate for your situation, [schedule a complimentary Discovery Call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-plasma-dilution-heart-repair-physical-performance). Most consultations are conducted via telehealth.*
 
 ---
 

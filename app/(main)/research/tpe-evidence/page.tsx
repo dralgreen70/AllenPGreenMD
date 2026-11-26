@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "The Science of TPE: 12 Key Studies | Allen P. Green, M.D.",
@@ -347,9 +348,9 @@ export default function TpeEvidencePage() {
               <p className="body-md">
                 Have questions about the research behind TPE?{" "}
                 <a
-                  href="https://globalapheresis.com/free-consultation"
+                  href={discoveryHref("research-evidence")}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   style={{
                     color: "var(--accent)",
                     textDecoration: "underline",

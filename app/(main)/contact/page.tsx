@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Script from "next/script"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "Contact Dr. Allen P. Green | Therapeutic Plasma Exchange",
@@ -183,9 +184,9 @@ export default function ContactPage() {
             </p>
             <div className="cta-actions reveal">
               <a
-                href="https://www.globalapheresis.com/free-consultation"
+                href={discoveryHref("contact")}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="btn btn-accent"
               >
                 Book a Discovery Call <span className="arrow">&rarr;</span>

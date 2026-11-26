@@ -3,6 +3,7 @@ import { getAllPosts } from "@/lib/blog"
 import Link from "next/link"
 import Script from "next/script"
 import type { Metadata } from "next"
+import { discoveryHref } from "@/lib/links"
 
 export const metadata: Metadata = {
   title: "The Apheresis Report | Dr. Allen Green MD – Clinical Perspectives on TPE",
@@ -283,9 +284,9 @@ export default function BlogPage() {
           </p>
           <div className="cta-actions reveal">
             <a
-              href="https://globalapheresis.com/free-consultation"
+              href={discoveryHref("blog-index")}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="btn btn-white"
             >
               Book a Discovery Call

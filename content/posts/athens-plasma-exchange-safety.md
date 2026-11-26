@@ -139,7 +139,7 @@ What has been reported about that practice in Kolonaki, if it holds up in court,
 
 To learn more about the procedure itself, see [what therapeutic plasma exchange is and how it works](/tpe) and [the clinical evidence base](/research/tpe-evidence).
 
-I practice at [Global Apheresis](https://www.globalapheresis.com/free-consultation) in Mill Valley, California, where I serve as Associate Medical Director. If you have questions about whether TPE is appropriate for you, a discovery call is the place to start.
+I practice at [Global Apheresis](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-athens-plasma-exchange-safety) in Mill Valley, California, where I serve as Associate Medical Director. If you have questions about whether TPE is appropriate for you, a discovery call is the place to start.
 
 ## References
 

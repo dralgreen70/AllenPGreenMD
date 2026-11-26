@@ -71,7 +71,7 @@ That includes the procedure itself and physician supervision from a team led by 
 
 Every patient starts with [a discovery call](/contact). Not a sales pitch, but a clinical conversation about your health history, your goals, and whether TPE is appropriate for you. If it is, we build a personalized protocol and walk through the pricing before anything is scheduled. No surprises.
 
-**[Schedule a Discovery Call](https://globalapheresis.com/free-consultation)**
+**[Schedule a Discovery Call](https://www.globalapheresis.com/free-consultation?utm_source=allenpgreenmd&amp;utm_medium=referral&amp;utm_campaign=discovery-call&amp;utm_content=post-how-much-does-plasmapheresis-cost)**
 
 ## The Bottom Line
 
