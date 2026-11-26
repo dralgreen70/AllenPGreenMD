@@ -43,6 +43,16 @@ In other words: the therapy works, and the equipment introduces a measurable but
 
 <!--book-callout: Chapter 11 works through this study in detail, contamination wrinkle included, under a heading that states the position: microplastics are present, plausibly harmful, not yet proven guilty.-->
 
+## Does donating blood remove microplastics?
+
+This is one of the most common questions that brings people to this page, so here is the direct answer: probably a little, but nobody has measured it. No published study has tested whether blood or plasma donation lowers microplastic levels.
+
+There is a close analogue. In a randomized trial of 285 Australian firefighters, plasma donation every six weeks lowered PFOS, a forever chemical, by about 2.9 ng/mL over a year, and whole blood donation every twelve weeks lowered it by about 1.1 ng/mL. If microplastics behave like other circulating contaminants, donation would lower them in proportion to how much blood or plasma leaves the body.
+
+That proportion is the catch. A whole blood donation removes about 470 mL, and a plasma donation up to about 800 mL. A single therapeutic plasma exchange removes several times that much plasma and replaces it with albumin. That difference in volume is why the study above, which tested plasma exchange rather than donation, could measure a drop of around 60% in one session in people who started with a high burden.
+
+Donating is a good thing to do for other people, and it may lower your own burden slightly. If the goal is to meaningfully lower circulating microplastics, plasma exchange is the only intervention with data behind it.
+
 ## Microplastics aren't the only passenger
 
 Here's the part that makes this bigger than any single particle. Microplastics are one of several things plasma exchange clears, and the case for the procedure rests on all of them together.
