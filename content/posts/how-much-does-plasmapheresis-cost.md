@@ -4,7 +4,7 @@ date: "2026-03-31"
 author: "Dr. Allen P. Green"
 excerpt: "The honest pricing breakdown most clinics won't give you. What TPE actually costs, what you're paying for, and why the range is so wide."
 image: "/images/blog/GA_clinic.jpg"
-description: "TPE costs $6,000–$12,000 per session. What drives the price, what's included, why insurance rarely covers it, and what to ask before booking."
+description: "TPE costs $6,000 to $12,000 per session. What drives the price, what's included, why insurance rarely covers it, and what to ask before booking."
 tags: "tpe, longevity"
 keywords: "therapeutic plasma exchange cost, plasmapheresis pricing, apheresis machine, albumin replacement, physician oversight, longevity medicine, out-of-pocket treatment"
 pillar: "none"
@@ -47,6 +47,18 @@ That range is wide, and it should make you ask questions. The core procedure is 
 **Physician credentials.** TPE is a blood-based medical procedure, developed in transfusion medicine and clinical pathology. A supervising physician who is board-certified in a blood-related specialty and has personally performed hundreds or thousands of apheresis procedures brings a depth of experience that directly shapes the safety and quality of your treatment, and that experience is worth weighing when you compare programs.
 
 **Protocol design.** A maintenance exchange for a healthy longevity patient is a different undertaking than a multi-session intensive protocol for someone with an autoimmune condition or elevated toxic burden. Clinics that tailor protocols to each patient are doing more complex work than those running the same session for everyone.
+
+## What a Full Protocol Costs
+
+Most people search for a per-session price, but almost nobody has a single session. The number that matters is the per-session price times the number of sessions your protocol calls for, and that number depends on why you are doing it.
+
+**Alzheimer's disease.** The best-studied protocol, from the AMBAR trial, used six weekly full exchanges followed by twelve months of monthly low-volume exchanges. That is a long commitment, and it is the one situation where insurance has occasionally covered treatment with prior authorization. More on that below and on the [Alzheimer's page](/tpe-alzheimers).
+
+**Autoimmune and neurologic disease.** For the established indications, a typical course is about five exchanges over one to two weeks. These are also the cases most likely to be covered when the procedure is done in a hospital. See [TPE for autoimmune conditions](/tpe-autoimmune).
+
+**Longevity and biological age.** The published longevity studies used a series of exchanges, not a single session. One patient I wrote about completed [four exchanges and repeated her epigenetic testing](/blog/tpe-epigenetic-age-case-study) afterward, which is a reasonable picture of a first course.
+
+**Forever chemicals and microplastics.** Blood levels fall with each session, and tissue stores move back into the blood between sessions, which is why detox protocols are spaced series. See [TPE for detoxification](/tpe-detox).
 
 ## Insurance
 

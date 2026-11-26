@@ -1,11 +1,11 @@
 ---
 title: 'What Is Inuspheresis, and How Does It Compare to Therapeutic Plasma Exchange?'
-metaTitle: "Inuspheresis vs. Therapeutic Plasma Exchange"
-ogTitle: "Inuspheresis vs. Therapeutic Plasma Exchange | Dr. Green"
+metaTitle: "Inuspheresis vs. TPE: Cost, Safety, US Access"
+ogTitle: "Inuspheresis vs. TPE: Cost, Safety, US Access | Dr. Green"
 date: "2026-05-27"
 author: "Dr. Allen P. Green"
 excerpt: 'Inuspheresis is not available in the US. Here is how it compares to therapeutic plasma exchange and why broad removal may be the stronger approach.'
-description: 'Inuspheresis is not available in the US. Here is how it compares to therapeutic plasma exchange and why broad removal may be the stronger approach.'
+description: 'What inuspheresis is, what it costs in Europe, whether it is available in the US, and how it compares to therapeutic plasma exchange.'
 image: "/images/blog/optia.jpg"
 imageAlt: 'The Spectra Optia apheresis system at Global Apheresis in Mill Valley, California'
 tags: "tpe, longevity"
@@ -114,6 +114,18 @@ This is a point I find myself making often in consultations. Patients hear "you 
 </table>
 </div>
 </div>
+
+## How Much Does Inuspheresis Cost?
+
+Inuspheresis is sold privately in Europe, so prices come from clinic and retreat listings rather than published fee schedules. Listings put a single session at roughly 2,500 to 3,500 euros, with multi-session courses near 10,000 euros, and destination retreat packages that bundle it with lodging run higher still. Travel is on top of that. For comparison, [therapeutic plasma exchange in the US](/blog/how-much-does-plasmapheresis-cost) typically runs $6,000 to $12,000 per session and does not require leaving the country.
+
+## Is Inuspheresis Available in the USA?
+
+Not as of this writing. Inuspheresis is offered at a small number of private centers in Europe and is not available at clinics in the United States. If a US clinic tells you it offers inuspheresis, ask exactly which device it uses and whether that device is FDA-cleared. What is available in the US is therapeutic plasma exchange on FDA-cleared machines.
+
+## Is Inuspheresis Safe?
+
+Like any procedure that takes blood outside the body, it carries real risks: vascular access, anticoagulation, and shifts in blood pressure and fluid balance. The death in Athens that brought many readers to this topic involved an inuspheresis device, and I have written separately about [what that case does and does not tell us](/blog/athens-plasma-exchange-safety). The questions to ask are the same for any clinic and any device: who is supervising, what is their training in apheresis, and what is the plan if something goes wrong.
 
 ## What I Tell Patients
 
